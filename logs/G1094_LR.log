@@ -1,0 +1,1296 @@
+2018-12-02 16:30:04,867 check_required_field.py[line:647] INFO start to check username G1094_LR
+2018-12-02 16:30:04,875 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 16:30:04,878 check_required_field.py[line:46] INFO the post params is {u'jsu': u'G1094_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 16:30:04,882 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 16:30:08,427 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 16:30:08,427 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 16:30:08,427 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=IZVt_2zBpFcwR143PwjBNKDFqqPI_F9d21X0mTS8AlG1vO1JHJnq!962196520!1543738715329 for 221.226.253.51/>]>
+2018-12-02 16:30:08,687 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 16:30:08,687 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'G1094', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u6863\u6848\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 16:30:08,687 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=IZVt_2zBpFcwR143PwjBNKDFqqPI_F9d21X0mTS8AlG1vO1JHJnq!962196520!1543738715329 for 221.226.253.51/>]>
+2018-12-02 16:30:11,078 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:30:11,078 check_required_field.py[line:46] INFO the post params is {u'idt': u'69e0193439c042309155d1299895923e'}
+2018-12-02 16:30:11,078 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=IZVt_2zBpFcwR143PwjBNKDFqqPI_F9d21X0mTS8AlG1vO1JHJnq!962196520!1543738715329 for 221.226.253.51/>]>
+2018-12-02 16:30:11,369 check_required_field.py[line:564] INFO 检查服务名称[查阅档案利用服务]
+2018-12-02 16:30:11,369 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:30:11,371 check_required_field.py[line:105] INFO 服务内容 is 提供各类档案的查阅、复制、摘抄, type is text, value_range is 
+2018-12-02 16:30:11,371 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:30:11,371 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:30:11,371 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:30:11,371 check_required_field.py[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 16:30:11,371 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:30:11,371 check_required_field.py[line:105] INFO 服务依据 is 1、《中华人民共和国档案法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+    中华人民共和国公民和组织，持有介绍信或者工作证、身份证等合法证明，可以利用已开放的档案。
+    外国人或者外国组织利用中国已开放的档案，须经中国有关主管部门介绍以及保存该档案的档案馆同意。
+    机关、团体、企业事业单位和其他组织以及中国公民利用档案馆保存的未开放的档案，须经保存该档案的档案馆同意，必要时还须经有关的档案行政管理部门审查同意。
+    机关、团体、企业事业单位和其他组织的档案机构保存的尚未向档案馆移交的档案，其他机关、团体、企业事业单位和组织以及中国公民需要利用的，须经档案保存单位同意。
+3、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第二十七条  中华人民共和国公民和组织凡持合法有效证件或者证明的，可以利用档案馆已开放的档案；利用未开放的档案，应当按照国家有关规定履行审批手续；利用重要或者珍贵档案，档案馆应当将档案的复制件提供查阅。, type is text, value_range is 
+2018-12-02 16:30:11,371 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:30:11,371 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'69e0193439c042309155d1299895923e', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:30:11,371 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=IZVt_2zBpFcwR143PwjBNKDFqqPI_F9d21X0mTS8AlG1vO1JHJnq!962196520!1543738715329 for 221.226.253.51/>]>
+2018-12-02 16:30:11,671 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:30:11,671 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'70c8fbc80b6541818466d1321d84dad2', u'idtlog': u'702f5f6e86a74c7f83fdb96d1f32dccc'}
+2018-12-02 16:30:11,671 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=IZVt_2zBpFcwR143PwjBNKDFqqPI_F9d21X0mTS8AlG1vO1JHJnq!962196520!1543738715329 for 221.226.253.51/>]>
+2018-12-02 16:30:12,851 check_required_field.py[line:616] INFO 检查业务信息[查阅档案利用服务]
+2018-12-02 16:30:12,851 check_required_field.py[line:99] INFO 检查[办件类型]
+2018-12-02 16:30:12,851 check_required_field.py[line:105] INFO 办件类型 is 即办件, type is radio, value_range is 承诺件,即办件
+2018-12-02 16:30:12,851 check_required_field.py[line:99] INFO 检查[办理依据]
+2018-12-02 16:30:12,852 check_required_field.py[line:105] INFO 办理依据 is 1、《中华人民共和国档案法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+    中华人民共和国公民和组织，持有介绍信或者工作证、身份证等合法证明，可以利用已开放的档案。
+    外国人或者外国组织利用中国已开放的档案，须经中国有关主管部门介绍以及保存该档案的档案馆同意。
+    机关、团体、企业事业单位和其他组织以及中国公民利用档案馆保存的未开放的档案，须经保存该档案的档案馆同意，必要时还须经有关的档案行政管理部门审查同意。
+    机关、团体、企业事业单位和其他组织的档案机构保存的尚未向档案馆移交的档案，其他机关、团体、企业事业单位和组织以及中国公民需要利用的，须经档案保存单位同意。
+3、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第二十七条  中华人民共和国公民和组织凡持合法有效证件或者证明的，可以利用档案馆已开放的档案；利用未开放的档案，应当按照国家有关规定履行审批手续；利用重要或者珍贵档案，档案馆应当将档案的复制件提供查阅。, type is text, value_range is 
+2018-12-02 16:30:12,852 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:30:12,852 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 16:30:12,854 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:30:12,855 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 16:30:12,855 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:30:12,855 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：051186525064；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dydaj.gov.cn/, type is text, value_range is 
+2018-12-02 16:30:12,855 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:30:12,857 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局二楼查阅中心, type is text, value_range is 
+2018-12-02 16:30:12,857 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:30:12,857 check_required_field.py[line:105] INFO 工作时间 is 周一到周五上午8:30-11:30,下午14:0018:00（夏季上午8:30-11:30,下午15:00-18:00）, type is text, value_range is 
+2018-12-02 16:30:12,858 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:30:12,858 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:30:12,858 check_required_field.py[line:99] INFO 检查[是否收费]
+2018-12-02 16:30:12,858 check_required_field.py[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 16:30:12,858 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:30:12,858 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 16:30:12,858 check_required_field.py[line:99] INFO 检查[在线办理网址]
+2018-12-02 16:30:12,858 check_required_field.py[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 16:30:12,858 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:30:12,858 check_required_field.py[line:105] INFO 业务名称 is 查阅档案利用服务, type is text, value_range is 
+2018-12-02 16:30:12,858 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:30:12,858 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 16:30:12,858 check_required_field.py[line:99] INFO 检查[到现场次数]
+2018-12-02 16:30:12,858 check_required_field.py[line:105] INFO 到现场次数 is 1, type is radio, value_range is 0,1,2,99
+2018-12-02 16:30:12,859 check_required_field.py[line:99] INFO 检查[见面法律依据]
+2018-12-02 16:30:12,859 check_required_field.py[line:105] INFO 见面法律依据 is 1、《中华人民共和国档案法》
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》
+第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+   
+  
+    非开放档案（带密级、控制和涉及国家、社会和个人隐私）的都不能复制和邮寄, type is text, value_range is 
+2018-12-02 16:30:12,859 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:30:12,859 check_required_field.py[line:46] INFO the post params is {u'idt': u'0b7730d8a1ca49b5bd0131cb1fb73fce'}
+2018-12-02 16:30:12,859 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=IZVt_2zBpFcwR143PwjBNKDFqqPI_F9d21X0mTS8AlG1vO1JHJnq!962196520!1543738715329 for 221.226.253.51/>]>
+2018-12-02 16:30:13,219 check_required_field.py[line:564] INFO 检查服务名称[政府信息公开利用服务]
+2018-12-02 16:30:13,220 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:30:13,220 check_required_field.py[line:105] INFO 服务内容 is 政府公开信息的查阅、复制、摘抄, type is text, value_range is 
+2018-12-02 16:30:13,220 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:30:13,220 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:30:13,220 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:30:13,220 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:30:13,220 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:30:13,220 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国政府信息公开条例》（经2007年1月17日国务院第165次常务会议通过，自2008年5月1日起施行。）
+    第十六条 各级人民政府应当在国家档案馆、公共图书馆设置政府信息查阅场所，并配备相应的设施、设备，为公民、法人或者其他组织获取政府信息提供便利。……
+    行政机关应当及时向国家档案馆、公共图书馆提供主动公开的政府信息。, type is text, value_range is 
+2018-12-02 16:30:13,220 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:30:13,220 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'0b7730d8a1ca49b5bd0131cb1fb73fce', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:30:13,220 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=IZVt_2zBpFcwR143PwjBNKDFqqPI_F9d21X0mTS8AlG1vO1JHJnq!962196520!1543738715329 for 221.226.253.51/>]>
+2018-12-02 16:30:13,529 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:30:13,529 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ecc4ed92226c4355baa968669ee2f93a', u'idtlog': u'393e2339b9db4272b260d94eeb7c4887'}
+2018-12-02 16:30:13,529 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=IZVt_2zBpFcwR143PwjBNKDFqqPI_F9d21X0mTS8AlG1vO1JHJnq!962196520!1543738715329 for 221.226.253.51/>]>
+2018-12-02 16:30:14,523 check_required_field.py[line:616] INFO 检查业务信息[政府信息公开利用服务]
+2018-12-02 16:30:14,523 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:30:14,523 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 16:30:14,523 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:30:14,523 check_required_field.py[line:105] INFO 工作时间 is 周一到周五上午8:30~下午18:00, type is text, value_range is 
+2018-12-02 16:30:14,525 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:30:14,525 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 16:30:14,525 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:30:14,525 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:30:14,526 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:30:14,526 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 16:30:14,526 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:30:14,526 check_required_field.py[line:105] INFO 业务名称 is 政府信息公开利用服务, type is text, value_range is 
+2018-12-02 16:30:14,526 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:30:14,526 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 16:30:14,526 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:30:14,526 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：0511-86525064；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dydaj.gov.cn/, type is text, value_range is 
+2018-12-02 16:30:14,526 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:30:14,526 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 16:30:14,528 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:30:14,528 check_required_field.py[line:46] INFO the post params is {u'idt': u'fa3a0390841a426c894150a5ec5db365'}
+2018-12-02 16:30:14,528 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=IZVt_2zBpFcwR143PwjBNKDFqqPI_F9d21X0mTS8AlG1vO1JHJnq!962196520!1543738715329 for 221.226.253.51/>]>
+2018-12-02 16:30:14,719 check_required_field.py[line:564] INFO 检查服务名称[爱国主义教育基地]
+2018-12-02 16:30:14,719 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:30:14,720 check_required_field.py[line:105] INFO 服务内容 is 通过举办夏令营、组织参观档案馆藏等方式宣传教育, type is text, value_range is 
+2018-12-02 16:30:14,720 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:30:14,720 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:30:14,720 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:30:14,720 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:30:14,720 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:30:14,720 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第八条 县级以上地方各级人民政府档案行政管理部门依照《档案法》第六条第二款的规定，履行下列职责：……(四)组织、指导本行政区域内档案理论与科学技术研究、档案宣传与档案教育、档案工作人员培训。, type is text, value_range is 
+2018-12-02 16:30:14,720 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:30:14,720 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'fa3a0390841a426c894150a5ec5db365', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:30:14,721 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=IZVt_2zBpFcwR143PwjBNKDFqqPI_F9d21X0mTS8AlG1vO1JHJnq!962196520!1543738715329 for 221.226.253.51/>]>
+2018-12-02 16:30:14,928 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:30:14,930 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'93e19dab1cf64e0b81304c79e857cd88', u'idtlog': u'112bc5dd28a74b0492f3471bdfaab539'}
+2018-12-02 16:30:14,930 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=IZVt_2zBpFcwR143PwjBNKDFqqPI_F9d21X0mTS8AlG1vO1JHJnq!962196520!1543738715329 for 221.226.253.51/>]>
+2018-12-02 16:30:15,936 check_required_field.py[line:616] INFO 检查业务信息[爱国主义教育基地]
+2018-12-02 16:30:15,936 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:30:15,936 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 16:30:15,936 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:30:15,936 check_required_field.py[line:105] INFO 工作时间 is 夏令营及参观相关问题解答及咨询，周一至周五8:30-11:30，14：00-18:00（夏季15:00-18:00）, type is text, value_range is 
+2018-12-02 16:30:15,936 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:30:15,936 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 16:30:15,936 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:30:15,937 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:30:15,937 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:30:15,937 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:30:15,937 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:30:15,937 check_required_field.py[line:105] INFO 业务名称 is 爱国主义教育基地, type is text, value_range is 
+2018-12-02 16:30:15,937 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:30:15,937 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 16:30:15,937 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:30:15,937 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：0511-86524094；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dajs.gov.cn/, type is text, value_range is 
+2018-12-02 16:30:15,937 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:30:15,937 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 16:30:15,937 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:30:15,937 check_required_field.py[line:46] INFO the post params is {u'idt': u'dde46358da574f98a87454cdce538f38'}
+2018-12-02 16:30:15,937 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=IZVt_2zBpFcwR143PwjBNKDFqqPI_F9d21X0mTS8AlG1vO1JHJnq!962196520!1543738715329 for 221.226.253.51/>]>
+2018-12-02 16:30:16,178 check_required_field.py[line:564] INFO 检查服务名称[档案教育培训]
+2018-12-02 16:30:16,178 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:30:16,180 check_required_field.py[line:105] INFO 服务内容 is 组织实施各类档案教育培训, type is text, value_range is 
+2018-12-02 16:30:16,180 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:30:16,180 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:30:16,181 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:30:16,181 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:30:16,183 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:30:16,183 check_required_field.py[line:105] INFO 服务依据 is 1、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第八条 县级以上地方各级人民政府档案行政管理部门依照《档案法》第六条第二款的规定，履行下列职责：……(四)组织、指导本行政区域内档案理论与科学技术研究、档案宣传与档案教育、档案工作人员培训。
+2、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第六条 省档案管理部门主管全省档案事业，对全省档案工作实行统筹规划，组织协调，监督指导；市、县（市、区）档案管理部门主管本行政区域内的档案工作，并依法进行监督和指导。
+    县级以上档案管理部门行使行政管理职能，主要职责是：……（四）组织并指导档案理论与科学技术研究、档案专业教育、档案宣传以及档案干部的培训工作；……, type is text, value_range is 
+2018-12-02 16:30:16,183 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:30:16,184 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'dde46358da574f98a87454cdce538f38', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:30:16,184 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=IZVt_2zBpFcwR143PwjBNKDFqqPI_F9d21X0mTS8AlG1vO1JHJnq!962196520!1543738715329 for 221.226.253.51/>]>
+2018-12-02 16:30:16,494 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:30:16,496 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'30b29249c7324318a0aa72b093b278c9', u'idtlog': u'1a0c57d93b4d47c6a3bd79fdf4376b29'}
+2018-12-02 16:30:16,496 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=IZVt_2zBpFcwR143PwjBNKDFqqPI_F9d21X0mTS8AlG1vO1JHJnq!962196520!1543738715329 for 221.226.253.51/>]>
+2018-12-02 16:30:17,635 check_required_field.py[line:616] INFO 检查业务信息[档案教育培训]
+2018-12-02 16:30:17,635 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:30:17,635 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 16:30:17,635 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:30:17,637 check_required_field.py[line:105] INFO 工作时间 is 档案教育培训问题解答及咨询，周一至周五8:30-11:30，14：00-18:00夏季15:00-18:00）, type is text, value_range is 
+2018-12-02 16:30:17,637 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:30:17,637 check_required_field.py[line:105] INFO 经办机构（处室） is 办公室, type is text, value_range is 
+2018-12-02 16:30:17,637 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:30:17,637 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:30:17,637 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:30:17,638 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:30:17,638 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:30:17,638 check_required_field.py[line:105] INFO 业务名称 is 档案教育培训, type is text, value_range is 
+2018-12-02 16:30:17,638 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:30:17,638 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 16:30:17,638 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:30:17,638 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86525064, type is text, value_range is 
+2018-12-02 16:30:17,638 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:30:17,638 check_required_field.py[line:105] INFO 咨询方式 is 0511-86525064, type is text, value_range is 
+2018-12-02 16:30:17,638 check_required_field.py[line:643] INFO []
+2018-12-02 16:30:17,638 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 16:30:17,638 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=IZVt_2zBpFcwR143PwjBNKDFqqPI_F9d21X0mTS8AlG1vO1JHJnq!962196520!1543738715329 for 221.226.253.51/>]>
+2018-12-02 16:43:15,832 check_required_field.py[line:647] INFO start to check username G1094_LR
+2018-12-02 16:43:15,835 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 16:43:15,838 check_required_field.py[line:46] INFO the post params is {u'jsu': u'G1094_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 16:43:15,842 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 16:43:24,293 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 16:43:24,295 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 16:43:24,295 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=emluC35x4yi730O9BLSOygnrbRJ9Jn5KfFcBL9AkYpr7oYZsq0II!962196520!1543739506289 for 221.226.253.51/>]>
+2018-12-02 16:43:24,956 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 16:43:24,957 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'G1094', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u6863\u6848\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 16:43:24,960 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=emluC35x4yi730O9BLSOygnrbRJ9Jn5KfFcBL9AkYpr7oYZsq0II!962196520!1543739506289 for 221.226.253.51/>]>
+2018-12-02 16:43:28,033 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:43:28,033 check_required_field.py[line:46] INFO the post params is {u'idt': u'69e0193439c042309155d1299895923e'}
+2018-12-02 16:43:28,033 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=emluC35x4yi730O9BLSOygnrbRJ9Jn5KfFcBL9AkYpr7oYZsq0II!962196520!1543739506289 for 221.226.253.51/>]>
+2018-12-02 16:43:29,151 check_required_field.py[line:564] INFO 检查服务名称[查阅档案利用服务]
+2018-12-02 16:43:29,151 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:43:29,151 check_required_field.py[line:105] INFO 服务内容 is 提供各类档案的查阅、复制、摘抄, type is text, value_range is 
+2018-12-02 16:43:29,151 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:43:29,153 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:43:29,153 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:43:29,153 check_required_field.py[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 16:43:29,154 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:43:29,154 check_required_field.py[line:105] INFO 服务依据 is 1、《中华人民共和国档案法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+    中华人民共和国公民和组织，持有介绍信或者工作证、身份证等合法证明，可以利用已开放的档案。
+    外国人或者外国组织利用中国已开放的档案，须经中国有关主管部门介绍以及保存该档案的档案馆同意。
+    机关、团体、企业事业单位和其他组织以及中国公民利用档案馆保存的未开放的档案，须经保存该档案的档案馆同意，必要时还须经有关的档案行政管理部门审查同意。
+    机关、团体、企业事业单位和其他组织的档案机构保存的尚未向档案馆移交的档案，其他机关、团体、企业事业单位和组织以及中国公民需要利用的，须经档案保存单位同意。
+3、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第二十七条  中华人民共和国公民和组织凡持合法有效证件或者证明的，可以利用档案馆已开放的档案；利用未开放的档案，应当按照国家有关规定履行审批手续；利用重要或者珍贵档案，档案馆应当将档案的复制件提供查阅。, type is text, value_range is 
+2018-12-02 16:43:29,154 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:43:29,154 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'69e0193439c042309155d1299895923e', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:43:29,154 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=emluC35x4yi730O9BLSOygnrbRJ9Jn5KfFcBL9AkYpr7oYZsq0II!962196520!1543739506289 for 221.226.253.51/>]>
+2018-12-02 16:43:30,533 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:43:30,533 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'70c8fbc80b6541818466d1321d84dad2', u'idtlog': u'702f5f6e86a74c7f83fdb96d1f32dccc'}
+2018-12-02 16:43:30,533 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=emluC35x4yi730O9BLSOygnrbRJ9Jn5KfFcBL9AkYpr7oYZsq0II!962196520!1543739506289 for 221.226.253.51/>]>
+2018-12-02 16:43:32,716 check_required_field.py[line:616] INFO 检查业务信息[查阅档案利用服务]
+2018-12-02 16:43:32,717 check_required_field.py[line:99] INFO 检查[办件类型]
+2018-12-02 16:43:32,720 check_required_field.py[line:105] INFO 办件类型 is 即办件, type is radio, value_range is 承诺件,即办件
+2018-12-02 16:43:32,721 check_required_field.py[line:99] INFO 检查[办理依据]
+2018-12-02 16:43:32,724 check_required_field.py[line:105] INFO 办理依据 is 1、《中华人民共和国档案法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+    中华人民共和国公民和组织，持有介绍信或者工作证、身份证等合法证明，可以利用已开放的档案。
+    外国人或者外国组织利用中国已开放的档案，须经中国有关主管部门介绍以及保存该档案的档案馆同意。
+    机关、团体、企业事业单位和其他组织以及中国公民利用档案馆保存的未开放的档案，须经保存该档案的档案馆同意，必要时还须经有关的档案行政管理部门审查同意。
+    机关、团体、企业事业单位和其他组织的档案机构保存的尚未向档案馆移交的档案，其他机关、团体、企业事业单位和组织以及中国公民需要利用的，须经档案保存单位同意。
+3、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第二十七条  中华人民共和国公民和组织凡持合法有效证件或者证明的，可以利用档案馆已开放的档案；利用未开放的档案，应当按照国家有关规定履行审批手续；利用重要或者珍贵档案，档案馆应当将档案的复制件提供查阅。, type is text, value_range is 
+2018-12-02 16:43:32,726 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:43:32,729 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 16:43:32,730 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:43:32,733 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 16:43:32,734 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:43:32,736 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：051186525064；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dydaj.gov.cn/, type is text, value_range is 
+2018-12-02 16:43:32,737 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:43:32,739 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局二楼查阅中心, type is text, value_range is 
+2018-12-02 16:43:32,740 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:43:32,740 check_required_field.py[line:105] INFO 工作时间 is 周一到周五上午8:30-11:30,下午14:0018:00（夏季上午8:30-11:30,下午15:00-18:00）, type is text, value_range is 
+2018-12-02 16:43:32,742 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:43:32,743 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:43:32,744 check_required_field.py[line:99] INFO 检查[是否收费]
+2018-12-02 16:43:32,746 check_required_field.py[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 16:43:32,746 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:43:32,746 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 16:43:32,746 check_required_field.py[line:99] INFO 检查[在线办理网址]
+2018-12-02 16:43:32,749 check_required_field.py[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 16:43:32,750 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:43:32,752 check_required_field.py[line:105] INFO 业务名称 is 查阅档案利用服务, type is text, value_range is 
+2018-12-02 16:43:32,753 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:43:32,753 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 16:43:32,755 check_required_field.py[line:99] INFO 检查[到现场次数]
+2018-12-02 16:43:32,756 check_required_field.py[line:105] INFO 到现场次数 is 1, type is radio, value_range is 0,1,2,99
+2018-12-02 16:43:32,757 check_required_field.py[line:99] INFO 检查[见面法律依据]
+2018-12-02 16:43:32,759 check_required_field.py[line:105] INFO 见面法律依据 is 1、《中华人民共和国档案法》
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》
+第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+   
+  
+    非开放档案（带密级、控制和涉及国家、社会和个人隐私）的都不能复制和邮寄, type is text, value_range is 
+2018-12-02 16:43:32,760 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:43:32,760 check_required_field.py[line:46] INFO the post params is {u'idt': u'0b7730d8a1ca49b5bd0131cb1fb73fce'}
+2018-12-02 16:43:32,762 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=emluC35x4yi730O9BLSOygnrbRJ9Jn5KfFcBL9AkYpr7oYZsq0II!962196520!1543739506289 for 221.226.253.51/>]>
+2018-12-02 16:43:33,450 check_required_field.py[line:564] INFO 检查服务名称[政府信息公开利用服务]
+2018-12-02 16:43:33,451 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:43:33,454 check_required_field.py[line:105] INFO 服务内容 is 政府公开信息的查阅、复制、摘抄, type is text, value_range is 
+2018-12-02 16:43:33,456 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:43:33,459 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:43:33,460 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:43:33,463 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:43:33,467 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:43:33,467 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国政府信息公开条例》（经2007年1月17日国务院第165次常务会议通过，自2008年5月1日起施行。）
+    第十六条 各级人民政府应当在国家档案馆、公共图书馆设置政府信息查阅场所，并配备相应的设施、设备，为公民、法人或者其他组织获取政府信息提供便利。……
+    行政机关应当及时向国家档案馆、公共图书馆提供主动公开的政府信息。, type is text, value_range is 
+2018-12-02 16:43:33,470 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:43:33,470 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'0b7730d8a1ca49b5bd0131cb1fb73fce', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:43:33,471 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=emluC35x4yi730O9BLSOygnrbRJ9Jn5KfFcBL9AkYpr7oYZsq0II!962196520!1543739506289 for 221.226.253.51/>]>
+2018-12-02 16:43:34,035 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:43:34,035 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ecc4ed92226c4355baa968669ee2f93a', u'idtlog': u'393e2339b9db4272b260d94eeb7c4887'}
+2018-12-02 16:43:34,036 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=emluC35x4yi730O9BLSOygnrbRJ9Jn5KfFcBL9AkYpr7oYZsq0II!962196520!1543739506289 for 221.226.253.51/>]>
+2018-12-02 16:43:35,862 check_required_field.py[line:616] INFO 检查业务信息[政府信息公开利用服务]
+2018-12-02 16:43:35,864 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:43:35,864 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 16:43:35,864 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:43:35,865 check_required_field.py[line:105] INFO 工作时间 is 周一到周五上午8:30~下午18:00, type is text, value_range is 
+2018-12-02 16:43:35,865 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:43:35,865 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 16:43:35,865 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:43:35,865 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:43:35,865 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:43:35,867 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 16:43:35,867 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:43:35,867 check_required_field.py[line:105] INFO 业务名称 is 政府信息公开利用服务, type is text, value_range is 
+2018-12-02 16:43:35,867 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:43:35,868 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 16:43:35,868 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:43:35,868 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：0511-86525064；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dydaj.gov.cn/, type is text, value_range is 
+2018-12-02 16:43:35,868 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:43:35,868 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 16:43:35,869 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:43:35,869 check_required_field.py[line:46] INFO the post params is {u'idt': u'fa3a0390841a426c894150a5ec5db365'}
+2018-12-02 16:43:35,869 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=emluC35x4yi730O9BLSOygnrbRJ9Jn5KfFcBL9AkYpr7oYZsq0II!962196520!1543739506289 for 221.226.253.51/>]>
+2018-12-02 16:43:36,694 check_required_field.py[line:564] INFO 检查服务名称[爱国主义教育基地]
+2018-12-02 16:43:36,696 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:43:36,696 check_required_field.py[line:105] INFO 服务内容 is 通过举办夏令营、组织参观档案馆藏等方式宣传教育, type is text, value_range is 
+2018-12-02 16:43:36,697 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:43:36,697 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:43:36,697 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:43:36,697 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:43:36,697 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:43:36,698 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第八条 县级以上地方各级人民政府档案行政管理部门依照《档案法》第六条第二款的规定，履行下列职责：……(四)组织、指导本行政区域内档案理论与科学技术研究、档案宣传与档案教育、档案工作人员培训。, type is text, value_range is 
+2018-12-02 16:43:36,698 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:43:36,698 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'fa3a0390841a426c894150a5ec5db365', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:43:36,700 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=emluC35x4yi730O9BLSOygnrbRJ9Jn5KfFcBL9AkYpr7oYZsq0II!962196520!1543739506289 for 221.226.253.51/>]>
+2018-12-02 16:43:37,526 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:43:37,529 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'93e19dab1cf64e0b81304c79e857cd88', u'idtlog': u'112bc5dd28a74b0492f3471bdfaab539'}
+2018-12-02 16:43:37,532 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=emluC35x4yi730O9BLSOygnrbRJ9Jn5KfFcBL9AkYpr7oYZsq0II!962196520!1543739506289 for 221.226.253.51/>]>
+2018-12-02 16:43:39,561 check_required_field.py[line:616] INFO 检查业务信息[爱国主义教育基地]
+2018-12-02 16:43:39,562 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:43:39,562 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 16:43:39,562 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:43:39,562 check_required_field.py[line:105] INFO 工作时间 is 夏令营及参观相关问题解答及咨询，周一至周五8:30-11:30，14：00-18:00（夏季15:00-18:00）, type is text, value_range is 
+2018-12-02 16:43:39,562 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:43:39,563 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 16:43:39,563 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:43:39,563 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:43:39,565 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:43:39,565 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:43:39,565 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:43:39,566 check_required_field.py[line:105] INFO 业务名称 is 爱国主义教育基地, type is text, value_range is 
+2018-12-02 16:43:39,566 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:43:39,566 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 16:43:39,568 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:43:39,568 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：0511-86524094；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dajs.gov.cn/, type is text, value_range is 
+2018-12-02 16:43:39,568 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:43:39,569 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 16:43:39,569 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:43:39,569 check_required_field.py[line:46] INFO the post params is {u'idt': u'dde46358da574f98a87454cdce538f38'}
+2018-12-02 16:43:39,569 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=emluC35x4yi730O9BLSOygnrbRJ9Jn5KfFcBL9AkYpr7oYZsq0II!962196520!1543739506289 for 221.226.253.51/>]>
+2018-12-02 16:43:40,490 check_required_field.py[line:564] INFO 检查服务名称[档案教育培训]
+2018-12-02 16:43:40,492 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:43:40,494 check_required_field.py[line:105] INFO 服务内容 is 组织实施各类档案教育培训, type is text, value_range is 
+2018-12-02 16:43:40,496 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:43:40,499 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:43:40,500 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:43:40,503 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:43:40,505 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:43:40,509 check_required_field.py[line:105] INFO 服务依据 is 1、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第八条 县级以上地方各级人民政府档案行政管理部门依照《档案法》第六条第二款的规定，履行下列职责：……(四)组织、指导本行政区域内档案理论与科学技术研究、档案宣传与档案教育、档案工作人员培训。
+2、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第六条 省档案管理部门主管全省档案事业，对全省档案工作实行统筹规划，组织协调，监督指导；市、县（市、区）档案管理部门主管本行政区域内的档案工作，并依法进行监督和指导。
+    县级以上档案管理部门行使行政管理职能，主要职责是：……（四）组织并指导档案理论与科学技术研究、档案专业教育、档案宣传以及档案干部的培训工作；……, type is text, value_range is 
+2018-12-02 16:43:40,510 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:43:40,513 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'dde46358da574f98a87454cdce538f38', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:43:40,515 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=emluC35x4yi730O9BLSOygnrbRJ9Jn5KfFcBL9AkYpr7oYZsq0II!962196520!1543739506289 for 221.226.253.51/>]>
+2018-12-02 16:43:41,239 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:43:41,240 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'30b29249c7324318a0aa72b093b278c9', u'idtlog': u'1a0c57d93b4d47c6a3bd79fdf4376b29'}
+2018-12-02 16:43:41,243 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=emluC35x4yi730O9BLSOygnrbRJ9Jn5KfFcBL9AkYpr7oYZsq0II!962196520!1543739506289 for 221.226.253.51/>]>
+2018-12-02 16:43:43,092 check_required_field.py[line:616] INFO 检查业务信息[档案教育培训]
+2018-12-02 16:43:43,092 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:43:43,092 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 16:43:43,092 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:43:43,094 check_required_field.py[line:105] INFO 工作时间 is 档案教育培训问题解答及咨询，周一至周五8:30-11:30，14：00-18:00夏季15:00-18:00）, type is text, value_range is 
+2018-12-02 16:43:43,094 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:43:43,094 check_required_field.py[line:105] INFO 经办机构（处室） is 办公室, type is text, value_range is 
+2018-12-02 16:43:43,094 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:43:43,095 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:43:43,095 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:43:43,095 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:43:43,095 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:43:43,095 check_required_field.py[line:105] INFO 业务名称 is 档案教育培训, type is text, value_range is 
+2018-12-02 16:43:43,095 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:43:43,095 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 16:43:43,095 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:43:43,096 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86525064, type is text, value_range is 
+2018-12-02 16:43:43,096 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:43:43,096 check_required_field.py[line:105] INFO 咨询方式 is 0511-86525064, type is text, value_range is 
+2018-12-02 16:43:43,096 check_required_field.py[line:643] INFO []
+2018-12-02 16:43:43,098 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 16:43:43,098 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=emluC35x4yi730O9BLSOygnrbRJ9Jn5KfFcBL9AkYpr7oYZsq0II!962196520!1543739506289 for 221.226.253.51/>]>
+2018-12-02 19:40:19,121 check_required_field.py[line:647] INFO start to check username G1094_LR
+2018-12-02 19:40:19,121 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 19:40:19,121 check_required_field.py[line:46] INFO the post params is {u'jsu': u'G1094_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 19:40:19,121 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 19:40:20,542 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 19:40:20,542 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 19:40:20,542 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZOpurZdBpcuWLTmpp8Kz_iogRFrdtimOm2O9OkHwE4EZX1HIvqH9!962196520!1543750129473 for 221.226.253.51/>]>
+2018-12-02 19:40:20,788 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 19:40:20,789 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'G1094', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u6863\u6848\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 19:40:20,789 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZOpurZdBpcuWLTmpp8Kz_iogRFrdtimOm2O9OkHwE4EZX1HIvqH9!962196520!1543750129473 for 221.226.253.51/>]>
+2018-12-02 19:40:23,345 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:40:23,345 check_required_field.py[line:46] INFO the post params is {u'idt': u'69e0193439c042309155d1299895923e'}
+2018-12-02 19:40:23,345 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZOpurZdBpcuWLTmpp8Kz_iogRFrdtimOm2O9OkHwE4EZX1HIvqH9!962196520!1543750129473 for 221.226.253.51/>]>
+2018-12-02 19:40:23,607 check_required_field.py[line:564] INFO 检查服务名称[查阅档案利用服务]
+2018-12-02 19:40:23,607 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:40:23,608 check_required_field.py[line:105] INFO 服务内容 is 提供各类档案的查阅、复制、摘抄, type is text, value_range is 
+2018-12-02 19:40:23,608 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:40:23,608 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:40:23,608 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:40:23,608 check_required_field.py[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 19:40:23,608 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:40:23,608 check_required_field.py[line:105] INFO 服务依据 is 1、《中华人民共和国档案法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+    中华人民共和国公民和组织，持有介绍信或者工作证、身份证等合法证明，可以利用已开放的档案。
+    外国人或者外国组织利用中国已开放的档案，须经中国有关主管部门介绍以及保存该档案的档案馆同意。
+    机关、团体、企业事业单位和其他组织以及中国公民利用档案馆保存的未开放的档案，须经保存该档案的档案馆同意，必要时还须经有关的档案行政管理部门审查同意。
+    机关、团体、企业事业单位和其他组织的档案机构保存的尚未向档案馆移交的档案，其他机关、团体、企业事业单位和组织以及中国公民需要利用的，须经档案保存单位同意。
+3、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第二十七条  中华人民共和国公民和组织凡持合法有效证件或者证明的，可以利用档案馆已开放的档案；利用未开放的档案，应当按照国家有关规定履行审批手续；利用重要或者珍贵档案，档案馆应当将档案的复制件提供查阅。, type is text, value_range is 
+2018-12-02 19:40:23,608 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:40:23,608 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'69e0193439c042309155d1299895923e', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:40:23,608 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZOpurZdBpcuWLTmpp8Kz_iogRFrdtimOm2O9OkHwE4EZX1HIvqH9!962196520!1543750129473 for 221.226.253.51/>]>
+2018-12-02 19:40:23,903 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:40:23,904 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'70c8fbc80b6541818466d1321d84dad2', u'idtlog': u'702f5f6e86a74c7f83fdb96d1f32dccc'}
+2018-12-02 19:40:23,904 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZOpurZdBpcuWLTmpp8Kz_iogRFrdtimOm2O9OkHwE4EZX1HIvqH9!962196520!1543750129473 for 221.226.253.51/>]>
+2018-12-02 19:40:25,265 check_required_field.py[line:616] INFO 检查业务信息[查阅档案利用服务]
+2018-12-02 19:40:25,266 check_required_field.py[line:99] INFO 检查[办件类型]
+2018-12-02 19:40:25,266 check_required_field.py[line:105] INFO 办件类型 is 即办件, type is radio, value_range is 承诺件,即办件
+2018-12-02 19:40:25,266 check_required_field.py[line:99] INFO 检查[办理依据]
+2018-12-02 19:40:25,266 check_required_field.py[line:105] INFO 办理依据 is 1、《中华人民共和国档案法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+    中华人民共和国公民和组织，持有介绍信或者工作证、身份证等合法证明，可以利用已开放的档案。
+    外国人或者外国组织利用中国已开放的档案，须经中国有关主管部门介绍以及保存该档案的档案馆同意。
+    机关、团体、企业事业单位和其他组织以及中国公民利用档案馆保存的未开放的档案，须经保存该档案的档案馆同意，必要时还须经有关的档案行政管理部门审查同意。
+    机关、团体、企业事业单位和其他组织的档案机构保存的尚未向档案馆移交的档案，其他机关、团体、企业事业单位和组织以及中国公民需要利用的，须经档案保存单位同意。
+3、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第二十七条  中华人民共和国公民和组织凡持合法有效证件或者证明的，可以利用档案馆已开放的档案；利用未开放的档案，应当按照国家有关规定履行审批手续；利用重要或者珍贵档案，档案馆应当将档案的复制件提供查阅。, type is text, value_range is 
+2018-12-02 19:40:25,266 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:40:25,266 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 19:40:25,266 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:40:25,267 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 19:40:25,267 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:40:25,267 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：051186525064；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dydaj.gov.cn/, type is text, value_range is 
+2018-12-02 19:40:25,267 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:40:25,269 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局二楼查阅中心, type is text, value_range is 
+2018-12-02 19:40:25,269 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:40:25,269 check_required_field.py[line:105] INFO 工作时间 is 周一到周五上午8:30-11:30,下午14:0018:00（夏季上午8:30-11:30,下午15:00-18:00）, type is text, value_range is 
+2018-12-02 19:40:25,269 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:40:25,269 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:40:25,269 check_required_field.py[line:99] INFO 检查[是否收费]
+2018-12-02 19:40:25,270 check_required_field.py[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 19:40:25,270 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:40:25,270 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 19:40:25,272 check_required_field.py[line:99] INFO 检查[在线办理网址]
+2018-12-02 19:40:25,272 check_required_field.py[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 19:40:25,272 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:40:25,272 check_required_field.py[line:105] INFO 业务名称 is 查阅档案利用服务, type is text, value_range is 
+2018-12-02 19:40:25,273 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:40:25,273 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 19:40:25,273 check_required_field.py[line:99] INFO 检查[到现场次数]
+2018-12-02 19:40:25,273 check_required_field.py[line:105] INFO 到现场次数 is 1, type is radio, value_range is 0,1,2,99
+2018-12-02 19:40:25,273 check_required_field.py[line:99] INFO 检查[见面法律依据]
+2018-12-02 19:40:25,273 check_required_field.py[line:105] INFO 见面法律依据 is 1、《中华人民共和国档案法》
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》
+第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+   
+  
+    非开放档案（带密级、控制和涉及国家、社会和个人隐私）的都不能复制和邮寄, type is text, value_range is 
+2018-12-02 19:40:25,273 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:40:25,275 check_required_field.py[line:46] INFO the post params is {u'idt': u'0b7730d8a1ca49b5bd0131cb1fb73fce'}
+2018-12-02 19:40:25,275 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZOpurZdBpcuWLTmpp8Kz_iogRFrdtimOm2O9OkHwE4EZX1HIvqH9!962196520!1543750129473 for 221.226.253.51/>]>
+2018-12-02 19:40:25,516 check_required_field.py[line:564] INFO 检查服务名称[政府信息公开利用服务]
+2018-12-02 19:40:25,517 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:40:25,517 check_required_field.py[line:105] INFO 服务内容 is 政府公开信息的查阅、复制、摘抄, type is text, value_range is 
+2018-12-02 19:40:25,517 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:40:25,517 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:40:25,517 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:40:25,519 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:40:25,519 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:40:25,519 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国政府信息公开条例》（经2007年1月17日国务院第165次常务会议通过，自2008年5月1日起施行。）
+    第十六条 各级人民政府应当在国家档案馆、公共图书馆设置政府信息查阅场所，并配备相应的设施、设备，为公民、法人或者其他组织获取政府信息提供便利。……
+    行政机关应当及时向国家档案馆、公共图书馆提供主动公开的政府信息。, type is text, value_range is 
+2018-12-02 19:40:25,519 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:40:25,519 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'0b7730d8a1ca49b5bd0131cb1fb73fce', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:40:25,519 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZOpurZdBpcuWLTmpp8Kz_iogRFrdtimOm2O9OkHwE4EZX1HIvqH9!962196520!1543750129473 for 221.226.253.51/>]>
+2018-12-02 19:40:25,852 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:40:25,852 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ecc4ed92226c4355baa968669ee2f93a', u'idtlog': u'393e2339b9db4272b260d94eeb7c4887'}
+2018-12-02 19:40:25,854 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZOpurZdBpcuWLTmpp8Kz_iogRFrdtimOm2O9OkHwE4EZX1HIvqH9!962196520!1543750129473 for 221.226.253.51/>]>
+2018-12-02 19:40:26,984 check_required_field.py[line:616] INFO 检查业务信息[政府信息公开利用服务]
+2018-12-02 19:40:26,986 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:40:26,986 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 19:40:26,986 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:40:26,986 check_required_field.py[line:105] INFO 工作时间 is 周一到周五上午8:30~下午18:00, type is text, value_range is 
+2018-12-02 19:40:26,986 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:40:26,986 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 19:40:26,986 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:40:26,987 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:40:26,987 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:40:26,987 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 19:40:26,987 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:40:26,989 check_required_field.py[line:105] INFO 业务名称 is 政府信息公开利用服务, type is text, value_range is 
+2018-12-02 19:40:26,989 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:40:26,989 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 19:40:26,989 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:40:26,990 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：0511-86525064；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dydaj.gov.cn/, type is text, value_range is 
+2018-12-02 19:40:26,990 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:40:26,990 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 19:40:26,990 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:40:26,990 check_required_field.py[line:46] INFO the post params is {u'idt': u'fa3a0390841a426c894150a5ec5db365'}
+2018-12-02 19:40:26,990 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZOpurZdBpcuWLTmpp8Kz_iogRFrdtimOm2O9OkHwE4EZX1HIvqH9!962196520!1543750129473 for 221.226.253.51/>]>
+2018-12-02 19:40:27,104 check_required_field.py[line:564] INFO 检查服务名称[爱国主义教育基地]
+2018-12-02 19:40:27,105 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:40:27,105 check_required_field.py[line:105] INFO 服务内容 is 通过举办夏令营、组织参观档案馆藏等方式宣传教育, type is text, value_range is 
+2018-12-02 19:40:27,105 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:40:27,105 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:40:27,105 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:40:27,107 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:40:27,107 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:40:27,107 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第八条 县级以上地方各级人民政府档案行政管理部门依照《档案法》第六条第二款的规定，履行下列职责：……(四)组织、指导本行政区域内档案理论与科学技术研究、档案宣传与档案教育、档案工作人员培训。, type is text, value_range is 
+2018-12-02 19:40:27,108 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:40:27,108 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'fa3a0390841a426c894150a5ec5db365', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:40:27,108 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZOpurZdBpcuWLTmpp8Kz_iogRFrdtimOm2O9OkHwE4EZX1HIvqH9!962196520!1543750129473 for 221.226.253.51/>]>
+2018-12-02 19:40:27,971 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:40:27,971 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'93e19dab1cf64e0b81304c79e857cd88', u'idtlog': u'112bc5dd28a74b0492f3471bdfaab539'}
+2018-12-02 19:40:27,971 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZOpurZdBpcuWLTmpp8Kz_iogRFrdtimOm2O9OkHwE4EZX1HIvqH9!962196520!1543750129473 for 221.226.253.51/>]>
+2018-12-02 19:40:28,858 check_required_field.py[line:616] INFO 检查业务信息[爱国主义教育基地]
+2018-12-02 19:40:28,858 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:40:28,858 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 19:40:28,859 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:40:28,859 check_required_field.py[line:105] INFO 工作时间 is 夏令营及参观相关问题解答及咨询，周一至周五8:30-11:30，14：00-18:00（夏季15:00-18:00）, type is text, value_range is 
+2018-12-02 19:40:28,859 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:40:28,861 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 19:40:28,861 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:40:28,861 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:40:28,861 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:40:28,861 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:40:28,861 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:40:28,862 check_required_field.py[line:105] INFO 业务名称 is 爱国主义教育基地, type is text, value_range is 
+2018-12-02 19:40:28,862 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:40:28,862 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 19:40:28,862 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:40:28,864 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：0511-86524094；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dajs.gov.cn/, type is text, value_range is 
+2018-12-02 19:40:28,864 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:40:28,864 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 19:40:28,865 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:40:28,865 check_required_field.py[line:46] INFO the post params is {u'idt': u'dde46358da574f98a87454cdce538f38'}
+2018-12-02 19:40:28,865 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZOpurZdBpcuWLTmpp8Kz_iogRFrdtimOm2O9OkHwE4EZX1HIvqH9!962196520!1543750129473 for 221.226.253.51/>]>
+2018-12-02 19:40:28,996 check_required_field.py[line:564] INFO 检查服务名称[档案教育培训]
+2018-12-02 19:40:28,997 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:40:28,997 check_required_field.py[line:105] INFO 服务内容 is 组织实施各类档案教育培训, type is text, value_range is 
+2018-12-02 19:40:28,997 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:40:28,997 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:40:28,999 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:40:28,999 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:40:28,999 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:40:29,000 check_required_field.py[line:105] INFO 服务依据 is 1、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第八条 县级以上地方各级人民政府档案行政管理部门依照《档案法》第六条第二款的规定，履行下列职责：……(四)组织、指导本行政区域内档案理论与科学技术研究、档案宣传与档案教育、档案工作人员培训。
+2、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第六条 省档案管理部门主管全省档案事业，对全省档案工作实行统筹规划，组织协调，监督指导；市、县（市、区）档案管理部门主管本行政区域内的档案工作，并依法进行监督和指导。
+    县级以上档案管理部门行使行政管理职能，主要职责是：……（四）组织并指导档案理论与科学技术研究、档案专业教育、档案宣传以及档案干部的培训工作；……, type is text, value_range is 
+2018-12-02 19:40:29,000 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:40:29,000 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'dde46358da574f98a87454cdce538f38', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:40:29,000 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZOpurZdBpcuWLTmpp8Kz_iogRFrdtimOm2O9OkHwE4EZX1HIvqH9!962196520!1543750129473 for 221.226.253.51/>]>
+2018-12-02 19:40:29,209 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:40:29,209 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'30b29249c7324318a0aa72b093b278c9', u'idtlog': u'1a0c57d93b4d47c6a3bd79fdf4376b29'}
+2018-12-02 19:40:29,209 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZOpurZdBpcuWLTmpp8Kz_iogRFrdtimOm2O9OkHwE4EZX1HIvqH9!962196520!1543750129473 for 221.226.253.51/>]>
+2018-12-02 19:40:30,461 check_required_field.py[line:616] INFO 检查业务信息[档案教育培训]
+2018-12-02 19:40:30,461 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:40:30,461 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 19:40:30,461 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:40:30,463 check_required_field.py[line:105] INFO 工作时间 is 档案教育培训问题解答及咨询，周一至周五8:30-11:30，14：00-18:00夏季15:00-18:00）, type is text, value_range is 
+2018-12-02 19:40:30,463 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:40:30,463 check_required_field.py[line:105] INFO 经办机构（处室） is 办公室, type is text, value_range is 
+2018-12-02 19:40:30,463 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:40:30,463 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:40:30,463 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:40:30,464 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:40:30,464 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:40:30,464 check_required_field.py[line:105] INFO 业务名称 is 档案教育培训, type is text, value_range is 
+2018-12-02 19:40:30,466 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:40:30,466 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 19:40:30,466 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:40:30,467 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86525064, type is text, value_range is 
+2018-12-02 19:40:30,467 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:40:30,467 check_required_field.py[line:105] INFO 咨询方式 is 0511-86525064, type is text, value_range is 
+2018-12-02 19:40:30,467 check_required_field.py[line:643] INFO []
+2018-12-02 19:40:30,467 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 19:40:30,467 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZOpurZdBpcuWLTmpp8Kz_iogRFrdtimOm2O9OkHwE4EZX1HIvqH9!962196520!1543750129473 for 221.226.253.51/>]>
+2018-12-02 19:42:15,578 check_required_field.py[line:647] INFO start to check username G1094_LR
+2018-12-02 19:42:15,579 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 19:42:15,582 check_required_field.py[line:46] INFO the post params is {u'jsu': u'G1094_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 19:42:15,585 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 19:42:22,446 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 19:42:22,447 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 19:42:22,447 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=O8hur15svWqMx3qq98zRtgB8Q4WVLs5uClbUfavGeermBOh_2cz7!962196520!1543750245996 for 221.226.253.51/>]>
+2018-12-02 19:42:23,098 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 19:42:23,101 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'G1094', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u6863\u6848\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 19:42:23,104 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=O8hur15svWqMx3qq98zRtgB8Q4WVLs5uClbUfavGeermBOh_2cz7!962196520!1543750245996 for 221.226.253.51/>]>
+2018-12-02 19:42:26,052 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:42:26,055 check_required_field.py[line:46] INFO the post params is {u'idt': u'69e0193439c042309155d1299895923e'}
+2018-12-02 19:42:26,058 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=O8hur15svWqMx3qq98zRtgB8Q4WVLs5uClbUfavGeermBOh_2cz7!962196520!1543750245996 for 221.226.253.51/>]>
+2018-12-02 19:42:27,073 check_required_field.py[line:564] INFO 检查服务名称[查阅档案利用服务]
+2018-12-02 19:42:27,073 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:42:27,075 check_required_field.py[line:105] INFO 服务内容 is 提供各类档案的查阅、复制、摘抄, type is text, value_range is 
+2018-12-02 19:42:27,075 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:42:27,075 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:42:27,075 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:42:27,075 check_required_field.py[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 19:42:27,075 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:42:27,075 check_required_field.py[line:105] INFO 服务依据 is 1、《中华人民共和国档案法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+    中华人民共和国公民和组织，持有介绍信或者工作证、身份证等合法证明，可以利用已开放的档案。
+    外国人或者外国组织利用中国已开放的档案，须经中国有关主管部门介绍以及保存该档案的档案馆同意。
+    机关、团体、企业事业单位和其他组织以及中国公民利用档案馆保存的未开放的档案，须经保存该档案的档案馆同意，必要时还须经有关的档案行政管理部门审查同意。
+    机关、团体、企业事业单位和其他组织的档案机构保存的尚未向档案馆移交的档案，其他机关、团体、企业事业单位和组织以及中国公民需要利用的，须经档案保存单位同意。
+3、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第二十七条  中华人民共和国公民和组织凡持合法有效证件或者证明的，可以利用档案馆已开放的档案；利用未开放的档案，应当按照国家有关规定履行审批手续；利用重要或者珍贵档案，档案馆应当将档案的复制件提供查阅。, type is text, value_range is 
+2018-12-02 19:42:27,075 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:42:27,075 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'69e0193439c042309155d1299895923e', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:42:27,076 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=O8hur15svWqMx3qq98zRtgB8Q4WVLs5uClbUfavGeermBOh_2cz7!962196520!1543750245996 for 221.226.253.51/>]>
+2018-12-02 19:42:28,016 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:42:28,016 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'70c8fbc80b6541818466d1321d84dad2', u'idtlog': u'702f5f6e86a74c7f83fdb96d1f32dccc'}
+2018-12-02 19:42:28,017 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=O8hur15svWqMx3qq98zRtgB8Q4WVLs5uClbUfavGeermBOh_2cz7!962196520!1543750245996 for 221.226.253.51/>]>
+2018-12-02 19:42:30,460 check_required_field.py[line:616] INFO 检查业务信息[查阅档案利用服务]
+2018-12-02 19:42:30,460 check_required_field.py[line:99] INFO 检查[办件类型]
+2018-12-02 19:42:30,460 check_required_field.py[line:105] INFO 办件类型 is 即办件, type is radio, value_range is 承诺件,即办件
+2018-12-02 19:42:30,460 check_required_field.py[line:99] INFO 检查[办理依据]
+2018-12-02 19:42:30,461 check_required_field.py[line:105] INFO 办理依据 is 1、《中华人民共和国档案法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+    中华人民共和国公民和组织，持有介绍信或者工作证、身份证等合法证明，可以利用已开放的档案。
+    外国人或者外国组织利用中国已开放的档案，须经中国有关主管部门介绍以及保存该档案的档案馆同意。
+    机关、团体、企业事业单位和其他组织以及中国公民利用档案馆保存的未开放的档案，须经保存该档案的档案馆同意，必要时还须经有关的档案行政管理部门审查同意。
+    机关、团体、企业事业单位和其他组织的档案机构保存的尚未向档案馆移交的档案，其他机关、团体、企业事业单位和组织以及中国公民需要利用的，须经档案保存单位同意。
+3、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第二十七条  中华人民共和国公民和组织凡持合法有效证件或者证明的，可以利用档案馆已开放的档案；利用未开放的档案，应当按照国家有关规定履行审批手续；利用重要或者珍贵档案，档案馆应当将档案的复制件提供查阅。, type is text, value_range is 
+2018-12-02 19:42:30,461 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:42:30,461 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 19:42:30,461 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:42:30,463 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 19:42:30,463 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:42:30,463 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：051186525064；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dydaj.gov.cn/, type is text, value_range is 
+2018-12-02 19:42:30,463 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:42:30,463 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局二楼查阅中心, type is text, value_range is 
+2018-12-02 19:42:30,463 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:42:30,463 check_required_field.py[line:105] INFO 工作时间 is 周一到周五上午8:30-11:30,下午14:0018:00（夏季上午8:30-11:30,下午15:00-18:00）, type is text, value_range is 
+2018-12-02 19:42:30,463 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:42:30,463 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:42:30,463 check_required_field.py[line:99] INFO 检查[是否收费]
+2018-12-02 19:42:30,464 check_required_field.py[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 19:42:30,464 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:42:30,464 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 19:42:30,464 check_required_field.py[line:99] INFO 检查[在线办理网址]
+2018-12-02 19:42:30,464 check_required_field.py[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 19:42:30,464 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:42:30,466 check_required_field.py[line:105] INFO 业务名称 is 查阅档案利用服务, type is text, value_range is 
+2018-12-02 19:42:30,466 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:42:30,466 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 19:42:30,466 check_required_field.py[line:99] INFO 检查[到现场次数]
+2018-12-02 19:42:30,466 check_required_field.py[line:105] INFO 到现场次数 is 1, type is radio, value_range is 0,1,2,99
+2018-12-02 19:42:30,467 check_required_field.py[line:99] INFO 检查[见面法律依据]
+2018-12-02 19:42:30,467 check_required_field.py[line:105] INFO 见面法律依据 is 1、《中华人民共和国档案法》
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》
+第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+   
+  
+    非开放档案（带密级、控制和涉及国家、社会和个人隐私）的都不能复制和邮寄, type is text, value_range is 
+2018-12-02 19:42:30,467 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:42:30,467 check_required_field.py[line:46] INFO the post params is {u'idt': u'0b7730d8a1ca49b5bd0131cb1fb73fce'}
+2018-12-02 19:42:30,467 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=O8hur15svWqMx3qq98zRtgB8Q4WVLs5uClbUfavGeermBOh_2cz7!962196520!1543750245996 for 221.226.253.51/>]>
+2018-12-02 19:42:30,959 check_required_field.py[line:564] INFO 检查服务名称[政府信息公开利用服务]
+2018-12-02 19:42:30,959 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:42:30,959 check_required_field.py[line:105] INFO 服务内容 is 政府公开信息的查阅、复制、摘抄, type is text, value_range is 
+2018-12-02 19:42:30,959 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:42:30,959 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:42:30,959 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:42:30,960 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:42:30,960 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:42:30,960 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国政府信息公开条例》（经2007年1月17日国务院第165次常务会议通过，自2008年5月1日起施行。）
+    第十六条 各级人民政府应当在国家档案馆、公共图书馆设置政府信息查阅场所，并配备相应的设施、设备，为公民、法人或者其他组织获取政府信息提供便利。……
+    行政机关应当及时向国家档案馆、公共图书馆提供主动公开的政府信息。, type is text, value_range is 
+2018-12-02 19:42:30,960 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:42:30,960 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'0b7730d8a1ca49b5bd0131cb1fb73fce', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:42:30,960 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=O8hur15svWqMx3qq98zRtgB8Q4WVLs5uClbUfavGeermBOh_2cz7!962196520!1543750245996 for 221.226.253.51/>]>
+2018-12-02 19:42:31,480 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:42:31,480 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ecc4ed92226c4355baa968669ee2f93a', u'idtlog': u'393e2339b9db4272b260d94eeb7c4887'}
+2018-12-02 19:42:31,480 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=O8hur15svWqMx3qq98zRtgB8Q4WVLs5uClbUfavGeermBOh_2cz7!962196520!1543750245996 for 221.226.253.51/>]>
+2018-12-02 19:42:33,174 check_required_field.py[line:616] INFO 检查业务信息[政府信息公开利用服务]
+2018-12-02 19:42:33,176 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:42:33,178 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 19:42:33,180 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:42:33,181 check_required_field.py[line:105] INFO 工作时间 is 周一到周五上午8:30~下午18:00, type is text, value_range is 
+2018-12-02 19:42:33,184 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:42:33,186 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 19:42:33,187 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:42:33,187 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:42:33,190 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:42:33,191 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 19:42:33,193 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:42:33,194 check_required_field.py[line:105] INFO 业务名称 is 政府信息公开利用服务, type is text, value_range is 
+2018-12-02 19:42:33,196 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:42:33,197 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 19:42:33,197 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:42:33,198 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：0511-86525064；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dydaj.gov.cn/, type is text, value_range is 
+2018-12-02 19:42:33,198 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:42:33,200 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 19:42:33,203 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:42:33,204 check_required_field.py[line:46] INFO the post params is {u'idt': u'fa3a0390841a426c894150a5ec5db365'}
+2018-12-02 19:42:33,206 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=O8hur15svWqMx3qq98zRtgB8Q4WVLs5uClbUfavGeermBOh_2cz7!962196520!1543750245996 for 221.226.253.51/>]>
+2018-12-02 19:42:33,775 check_required_field.py[line:564] INFO 检查服务名称[爱国主义教育基地]
+2018-12-02 19:42:33,776 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:42:33,776 check_required_field.py[line:105] INFO 服务内容 is 通过举办夏令营、组织参观档案馆藏等方式宣传教育, type is text, value_range is 
+2018-12-02 19:42:33,776 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:42:33,776 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:42:33,776 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:42:33,776 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:42:33,776 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:42:33,776 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第八条 县级以上地方各级人民政府档案行政管理部门依照《档案法》第六条第二款的规定，履行下列职责：……(四)组织、指导本行政区域内档案理论与科学技术研究、档案宣传与档案教育、档案工作人员培训。, type is text, value_range is 
+2018-12-02 19:42:33,776 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:42:33,776 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'fa3a0390841a426c894150a5ec5db365', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:42:33,776 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=O8hur15svWqMx3qq98zRtgB8Q4WVLs5uClbUfavGeermBOh_2cz7!962196520!1543750245996 for 221.226.253.51/>]>
+2018-12-02 19:42:34,555 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:42:34,556 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'93e19dab1cf64e0b81304c79e857cd88', u'idtlog': u'112bc5dd28a74b0492f3471bdfaab539'}
+2018-12-02 19:42:34,556 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=O8hur15svWqMx3qq98zRtgB8Q4WVLs5uClbUfavGeermBOh_2cz7!962196520!1543750245996 for 221.226.253.51/>]>
+2018-12-02 19:42:36,263 check_required_field.py[line:616] INFO 检查业务信息[爱国主义教育基地]
+2018-12-02 19:42:36,265 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:42:36,266 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 19:42:36,267 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:42:36,269 check_required_field.py[line:105] INFO 工作时间 is 夏令营及参观相关问题解答及咨询，周一至周五8:30-11:30，14：00-18:00（夏季15:00-18:00）, type is text, value_range is 
+2018-12-02 19:42:36,269 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:42:36,270 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 19:42:36,272 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:42:36,272 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:42:36,273 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:42:36,273 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:42:36,273 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:42:36,275 check_required_field.py[line:105] INFO 业务名称 is 爱国主义教育基地, type is text, value_range is 
+2018-12-02 19:42:36,276 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:42:36,276 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 19:42:36,276 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:42:36,278 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：0511-86524094；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dajs.gov.cn/, type is text, value_range is 
+2018-12-02 19:42:36,279 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:42:36,279 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 19:42:36,280 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:42:36,280 check_required_field.py[line:46] INFO the post params is {u'idt': u'dde46358da574f98a87454cdce538f38'}
+2018-12-02 19:42:36,280 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=O8hur15svWqMx3qq98zRtgB8Q4WVLs5uClbUfavGeermBOh_2cz7!962196520!1543750245996 for 221.226.253.51/>]>
+2018-12-02 19:42:36,838 check_required_field.py[line:564] INFO 检查服务名称[档案教育培训]
+2018-12-02 19:42:36,838 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:42:36,838 check_required_field.py[line:105] INFO 服务内容 is 组织实施各类档案教育培训, type is text, value_range is 
+2018-12-02 19:42:36,838 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:42:36,839 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:42:36,839 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:42:36,841 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:42:36,841 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:42:36,841 check_required_field.py[line:105] INFO 服务依据 is 1、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第八条 县级以上地方各级人民政府档案行政管理部门依照《档案法》第六条第二款的规定，履行下列职责：……(四)组织、指导本行政区域内档案理论与科学技术研究、档案宣传与档案教育、档案工作人员培训。
+2、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第六条 省档案管理部门主管全省档案事业，对全省档案工作实行统筹规划，组织协调，监督指导；市、县（市、区）档案管理部门主管本行政区域内的档案工作，并依法进行监督和指导。
+    县级以上档案管理部门行使行政管理职能，主要职责是：……（四）组织并指导档案理论与科学技术研究、档案专业教育、档案宣传以及档案干部的培训工作；……, type is text, value_range is 
+2018-12-02 19:42:36,841 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:42:36,841 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'dde46358da574f98a87454cdce538f38', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:42:36,842 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=O8hur15svWqMx3qq98zRtgB8Q4WVLs5uClbUfavGeermBOh_2cz7!962196520!1543750245996 for 221.226.253.51/>]>
+2018-12-02 19:42:37,657 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:42:37,657 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'30b29249c7324318a0aa72b093b278c9', u'idtlog': u'1a0c57d93b4d47c6a3bd79fdf4376b29'}
+2018-12-02 19:42:37,657 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=O8hur15svWqMx3qq98zRtgB8Q4WVLs5uClbUfavGeermBOh_2cz7!962196520!1543750245996 for 221.226.253.51/>]>
+2018-12-02 19:42:39,305 check_required_field.py[line:616] INFO 检查业务信息[档案教育培训]
+2018-12-02 19:42:39,305 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:42:39,305 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 19:42:39,305 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:42:39,306 check_required_field.py[line:105] INFO 工作时间 is 档案教育培训问题解答及咨询，周一至周五8:30-11:30，14：00-18:00夏季15:00-18:00）, type is text, value_range is 
+2018-12-02 19:42:39,306 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:42:39,306 check_required_field.py[line:105] INFO 经办机构（处室） is 办公室, type is text, value_range is 
+2018-12-02 19:42:39,306 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:42:39,306 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:42:39,308 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:42:39,308 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:42:39,308 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:42:39,308 check_required_field.py[line:105] INFO 业务名称 is 档案教育培训, type is text, value_range is 
+2018-12-02 19:42:39,308 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:42:39,309 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 19:42:39,309 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:42:39,309 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86525064, type is text, value_range is 
+2018-12-02 19:42:39,309 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:42:39,309 check_required_field.py[line:105] INFO 咨询方式 is 0511-86525064, type is text, value_range is 
+2018-12-02 19:42:39,309 check_required_field.py[line:643] INFO []
+2018-12-02 19:42:39,309 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 19:42:39,309 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=O8hur15svWqMx3qq98zRtgB8Q4WVLs5uClbUfavGeermBOh_2cz7!962196520!1543750245996 for 221.226.253.51/>]>
+2018-12-02 19:48:13,029 check_required_field.py[line:647] INFO start to check username G1094_LR
+2018-12-02 19:48:13,036 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 19:48:13,045 check_required_field.py[line:46] INFO the post params is {u'jsu': u'G1094_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 19:48:13,052 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 19:48:18,331 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 19:48:18,331 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 19:48:18,331 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=LYputNLgsA7Ojxr94dCzOD06EoOvZvascBVIdsRpGiu_-646PdwC!962196520!1543750603488 for 221.226.253.51/>]>
+2018-12-02 19:48:18,684 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 19:48:18,684 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'G1094', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u6863\u6848\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 19:48:18,684 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=LYputNLgsA7Ojxr94dCzOD06EoOvZvascBVIdsRpGiu_-646PdwC!962196520!1543750603488 for 221.226.253.51/>]>
+2018-12-02 19:48:21,344 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:48:21,345 check_required_field.py[line:46] INFO the post params is {u'idt': u'69e0193439c042309155d1299895923e'}
+2018-12-02 19:48:21,351 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=LYputNLgsA7Ojxr94dCzOD06EoOvZvascBVIdsRpGiu_-646PdwC!962196520!1543750603488 for 221.226.253.51/>]>
+2018-12-02 19:48:21,644 check_required_field.py[line:564] INFO 检查服务名称[查阅档案利用服务]
+2018-12-02 19:48:21,644 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:48:21,644 check_required_field.py[line:105] INFO 服务内容 is 提供各类档案的查阅、复制、摘抄, type is text, value_range is 
+2018-12-02 19:48:21,644 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:48:21,644 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:48:21,644 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:48:21,644 check_required_field.py[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 19:48:21,644 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:48:21,644 check_required_field.py[line:105] INFO 服务依据 is 1、《中华人民共和国档案法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+    中华人民共和国公民和组织，持有介绍信或者工作证、身份证等合法证明，可以利用已开放的档案。
+    外国人或者外国组织利用中国已开放的档案，须经中国有关主管部门介绍以及保存该档案的档案馆同意。
+    机关、团体、企业事业单位和其他组织以及中国公民利用档案馆保存的未开放的档案，须经保存该档案的档案馆同意，必要时还须经有关的档案行政管理部门审查同意。
+    机关、团体、企业事业单位和其他组织的档案机构保存的尚未向档案馆移交的档案，其他机关、团体、企业事业单位和组织以及中国公民需要利用的，须经档案保存单位同意。
+3、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第二十七条  中华人民共和国公民和组织凡持合法有效证件或者证明的，可以利用档案馆已开放的档案；利用未开放的档案，应当按照国家有关规定履行审批手续；利用重要或者珍贵档案，档案馆应当将档案的复制件提供查阅。, type is text, value_range is 
+2018-12-02 19:48:21,644 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:48:21,644 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'69e0193439c042309155d1299895923e', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:48:21,644 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=LYputNLgsA7Ojxr94dCzOD06EoOvZvascBVIdsRpGiu_-646PdwC!962196520!1543750603488 for 221.226.253.51/>]>
+2018-12-02 19:48:21,973 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:48:21,973 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'70c8fbc80b6541818466d1321d84dad2', u'idtlog': u'702f5f6e86a74c7f83fdb96d1f32dccc'}
+2018-12-02 19:48:21,974 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=LYputNLgsA7Ojxr94dCzOD06EoOvZvascBVIdsRpGiu_-646PdwC!962196520!1543750603488 for 221.226.253.51/>]>
+2018-12-02 19:48:23,473 check_required_field.py[line:616] INFO 检查业务信息[查阅档案利用服务]
+2018-12-02 19:48:23,473 check_required_field.py[line:99] INFO 检查[办件类型]
+2018-12-02 19:48:23,473 check_required_field.py[line:105] INFO 办件类型 is 即办件, type is radio, value_range is 承诺件,即办件
+2018-12-02 19:48:23,473 check_required_field.py[line:99] INFO 检查[办理依据]
+2018-12-02 19:48:23,474 check_required_field.py[line:105] INFO 办理依据 is 1、《中华人民共和国档案法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+    中华人民共和国公民和组织，持有介绍信或者工作证、身份证等合法证明，可以利用已开放的档案。
+    外国人或者外国组织利用中国已开放的档案，须经中国有关主管部门介绍以及保存该档案的档案馆同意。
+    机关、团体、企业事业单位和其他组织以及中国公民利用档案馆保存的未开放的档案，须经保存该档案的档案馆同意，必要时还须经有关的档案行政管理部门审查同意。
+    机关、团体、企业事业单位和其他组织的档案机构保存的尚未向档案馆移交的档案，其他机关、团体、企业事业单位和组织以及中国公民需要利用的，须经档案保存单位同意。
+3、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第二十七条  中华人民共和国公民和组织凡持合法有效证件或者证明的，可以利用档案馆已开放的档案；利用未开放的档案，应当按照国家有关规定履行审批手续；利用重要或者珍贵档案，档案馆应当将档案的复制件提供查阅。, type is text, value_range is 
+2018-12-02 19:48:23,474 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:48:23,474 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 19:48:23,474 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:48:23,474 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 19:48:23,474 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:48:23,474 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：051186525064；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dydaj.gov.cn/, type is text, value_range is 
+2018-12-02 19:48:23,474 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:48:23,476 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局二楼查阅中心, type is text, value_range is 
+2018-12-02 19:48:23,476 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:48:23,479 check_required_field.py[line:105] INFO 工作时间 is 周一到周五上午8:30-11:30,下午14:0018:00（夏季上午8:30-11:30,下午15:00-18:00）, type is text, value_range is 
+2018-12-02 19:48:23,480 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:48:23,482 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:48:23,484 check_required_field.py[line:99] INFO 检查[是否收费]
+2018-12-02 19:48:23,487 check_required_field.py[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 19:48:23,490 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:48:23,493 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 19:48:23,496 check_required_field.py[line:99] INFO 检查[在线办理网址]
+2018-12-02 19:48:23,499 check_required_field.py[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 19:48:23,500 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:48:23,503 check_required_field.py[line:105] INFO 业务名称 is 查阅档案利用服务, type is text, value_range is 
+2018-12-02 19:48:23,506 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:48:23,509 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 19:48:23,510 check_required_field.py[line:99] INFO 检查[到现场次数]
+2018-12-02 19:48:23,515 check_required_field.py[line:105] INFO 到现场次数 is 1, type is radio, value_range is 0,1,2,99
+2018-12-02 19:48:23,516 check_required_field.py[line:99] INFO 检查[见面法律依据]
+2018-12-02 19:48:23,516 check_required_field.py[line:105] INFO 见面法律依据 is 1、《中华人民共和国档案法》
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》
+第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+   
+  
+    非开放档案（带密级、控制和涉及国家、社会和个人隐私）的都不能复制和邮寄, type is text, value_range is 
+2018-12-02 19:48:23,517 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:48:23,519 check_required_field.py[line:46] INFO the post params is {u'idt': u'0b7730d8a1ca49b5bd0131cb1fb73fce'}
+2018-12-02 19:48:23,519 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=LYputNLgsA7Ojxr94dCzOD06EoOvZvascBVIdsRpGiu_-646PdwC!962196520!1543750603488 for 221.226.253.51/>]>
+2018-12-02 19:48:23,782 check_required_field.py[line:564] INFO 检查服务名称[政府信息公开利用服务]
+2018-12-02 19:48:23,782 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:48:23,782 check_required_field.py[line:105] INFO 服务内容 is 政府公开信息的查阅、复制、摘抄, type is text, value_range is 
+2018-12-02 19:48:23,782 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:48:23,783 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:48:23,783 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:48:23,783 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:48:23,783 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:48:23,783 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国政府信息公开条例》（经2007年1月17日国务院第165次常务会议通过，自2008年5月1日起施行。）
+    第十六条 各级人民政府应当在国家档案馆、公共图书馆设置政府信息查阅场所，并配备相应的设施、设备，为公民、法人或者其他组织获取政府信息提供便利。……
+    行政机关应当及时向国家档案馆、公共图书馆提供主动公开的政府信息。, type is text, value_range is 
+2018-12-02 19:48:23,785 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:48:23,785 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'0b7730d8a1ca49b5bd0131cb1fb73fce', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:48:23,785 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=LYputNLgsA7Ojxr94dCzOD06EoOvZvascBVIdsRpGiu_-646PdwC!962196520!1543750603488 for 221.226.253.51/>]>
+2018-12-02 19:48:24,637 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:48:24,637 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ecc4ed92226c4355baa968669ee2f93a', u'idtlog': u'393e2339b9db4272b260d94eeb7c4887'}
+2018-12-02 19:48:24,637 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=LYputNLgsA7Ojxr94dCzOD06EoOvZvascBVIdsRpGiu_-646PdwC!962196520!1543750603488 for 221.226.253.51/>]>
+2018-12-02 19:48:26,063 check_required_field.py[line:616] INFO 检查业务信息[政府信息公开利用服务]
+2018-12-02 19:48:26,063 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:48:26,065 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 19:48:26,065 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:48:26,065 check_required_field.py[line:105] INFO 工作时间 is 周一到周五上午8:30~下午18:00, type is text, value_range is 
+2018-12-02 19:48:26,065 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:48:26,065 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 19:48:26,065 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:48:26,065 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:48:26,065 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:48:26,065 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 19:48:26,065 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:48:26,065 check_required_field.py[line:105] INFO 业务名称 is 政府信息公开利用服务, type is text, value_range is 
+2018-12-02 19:48:26,065 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:48:26,065 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 19:48:26,065 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:48:26,065 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：0511-86525064；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dydaj.gov.cn/, type is text, value_range is 
+2018-12-02 19:48:26,065 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:48:26,066 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 19:48:26,066 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:48:26,066 check_required_field.py[line:46] INFO the post params is {u'idt': u'fa3a0390841a426c894150a5ec5db365'}
+2018-12-02 19:48:26,066 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=LYputNLgsA7Ojxr94dCzOD06EoOvZvascBVIdsRpGiu_-646PdwC!962196520!1543750603488 for 221.226.253.51/>]>
+2018-12-02 19:48:26,315 check_required_field.py[line:564] INFO 检查服务名称[爱国主义教育基地]
+2018-12-02 19:48:26,316 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:48:26,316 check_required_field.py[line:105] INFO 服务内容 is 通过举办夏令营、组织参观档案馆藏等方式宣传教育, type is text, value_range is 
+2018-12-02 19:48:26,316 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:48:26,316 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:48:26,316 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:48:26,316 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:48:26,316 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:48:26,318 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第八条 县级以上地方各级人民政府档案行政管理部门依照《档案法》第六条第二款的规定，履行下列职责：……(四)组织、指导本行政区域内档案理论与科学技术研究、档案宣传与档案教育、档案工作人员培训。, type is text, value_range is 
+2018-12-02 19:48:26,318 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:48:26,318 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'fa3a0390841a426c894150a5ec5db365', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:48:26,318 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=LYputNLgsA7Ojxr94dCzOD06EoOvZvascBVIdsRpGiu_-646PdwC!962196520!1543750603488 for 221.226.253.51/>]>
+2018-12-02 19:48:26,631 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:48:26,632 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'93e19dab1cf64e0b81304c79e857cd88', u'idtlog': u'112bc5dd28a74b0492f3471bdfaab539'}
+2018-12-02 19:48:26,632 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=LYputNLgsA7Ojxr94dCzOD06EoOvZvascBVIdsRpGiu_-646PdwC!962196520!1543750603488 for 221.226.253.51/>]>
+2018-12-02 19:48:27,937 check_required_field.py[line:616] INFO 检查业务信息[爱国主义教育基地]
+2018-12-02 19:48:27,937 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:48:27,937 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 19:48:27,937 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:48:27,937 check_required_field.py[line:105] INFO 工作时间 is 夏令营及参观相关问题解答及咨询，周一至周五8:30-11:30，14：00-18:00（夏季15:00-18:00）, type is text, value_range is 
+2018-12-02 19:48:27,937 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:48:27,937 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 19:48:27,937 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:48:27,937 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:48:27,937 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:48:27,937 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:48:27,938 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:48:27,938 check_required_field.py[line:105] INFO 业务名称 is 爱国主义教育基地, type is text, value_range is 
+2018-12-02 19:48:27,938 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:48:27,938 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 19:48:27,938 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:48:27,938 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：0511-86524094；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dajs.gov.cn/, type is text, value_range is 
+2018-12-02 19:48:27,938 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:48:27,938 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 19:48:27,938 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:48:27,940 check_required_field.py[line:46] INFO the post params is {u'idt': u'dde46358da574f98a87454cdce538f38'}
+2018-12-02 19:48:27,940 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=LYputNLgsA7Ojxr94dCzOD06EoOvZvascBVIdsRpGiu_-646PdwC!962196520!1543750603488 for 221.226.253.51/>]>
+2018-12-02 19:48:28,177 check_required_field.py[line:564] INFO 检查服务名称[档案教育培训]
+2018-12-02 19:48:28,177 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:48:28,177 check_required_field.py[line:105] INFO 服务内容 is 组织实施各类档案教育培训, type is text, value_range is 
+2018-12-02 19:48:28,177 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:48:28,178 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:48:28,178 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:48:28,178 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:48:28,178 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:48:28,180 check_required_field.py[line:105] INFO 服务依据 is 1、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第八条 县级以上地方各级人民政府档案行政管理部门依照《档案法》第六条第二款的规定，履行下列职责：……(四)组织、指导本行政区域内档案理论与科学技术研究、档案宣传与档案教育、档案工作人员培训。
+2、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第六条 省档案管理部门主管全省档案事业，对全省档案工作实行统筹规划，组织协调，监督指导；市、县（市、区）档案管理部门主管本行政区域内的档案工作，并依法进行监督和指导。
+    县级以上档案管理部门行使行政管理职能，主要职责是：……（四）组织并指导档案理论与科学技术研究、档案专业教育、档案宣传以及档案干部的培训工作；……, type is text, value_range is 
+2018-12-02 19:48:28,180 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:48:28,180 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'dde46358da574f98a87454cdce538f38', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:48:28,180 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=LYputNLgsA7Ojxr94dCzOD06EoOvZvascBVIdsRpGiu_-646PdwC!962196520!1543750603488 for 221.226.253.51/>]>
+2018-12-02 19:48:28,486 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:48:28,487 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'30b29249c7324318a0aa72b093b278c9', u'idtlog': u'1a0c57d93b4d47c6a3bd79fdf4376b29'}
+2018-12-02 19:48:28,487 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=LYputNLgsA7Ojxr94dCzOD06EoOvZvascBVIdsRpGiu_-646PdwC!962196520!1543750603488 for 221.226.253.51/>]>
+2018-12-02 19:48:29,756 check_required_field.py[line:616] INFO 检查业务信息[档案教育培训]
+2018-12-02 19:48:29,759 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:48:29,759 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 19:48:29,762 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:48:29,763 check_required_field.py[line:105] INFO 工作时间 is 档案教育培训问题解答及咨询，周一至周五8:30-11:30，14：00-18:00夏季15:00-18:00）, type is text, value_range is 
+2018-12-02 19:48:29,765 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:48:29,766 check_required_field.py[line:105] INFO 经办机构（处室） is 办公室, type is text, value_range is 
+2018-12-02 19:48:29,766 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:48:29,767 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:48:29,767 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:48:29,769 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:48:29,769 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:48:29,770 check_required_field.py[line:105] INFO 业务名称 is 档案教育培训, type is text, value_range is 
+2018-12-02 19:48:29,772 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:48:29,773 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 19:48:29,773 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:48:29,775 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86525064, type is text, value_range is 
+2018-12-02 19:48:29,776 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:48:29,776 check_required_field.py[line:105] INFO 咨询方式 is 0511-86525064, type is text, value_range is 
+2018-12-02 19:48:29,778 check_required_field.py[line:643] INFO []
+2018-12-02 19:48:29,778 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 19:48:29,778 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=LYputNLgsA7Ojxr94dCzOD06EoOvZvascBVIdsRpGiu_-646PdwC!962196520!1543750603488 for 221.226.253.51/>]>
+2018-12-02 21:27:01,443 check_required_field.py[line:647] INFO start to check username G1094_LR
+2018-12-02 21:27:01,457 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 21:27:01,467 check_required_field.py[line:46] INFO the post params is {u'jsu': u'G1094_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 21:27:01,480 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 21:27:08,042 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 21:27:08,043 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 21:27:08,046 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RCtvD0906ORCkj1XuqS9uj8M_ArG7OeNTPr4oPtbR3SbhOW_xL84!962196520!1543756533620 for 221.226.253.51/>]>
+2018-12-02 21:27:08,423 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 21:27:08,423 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'G1094', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u6863\u6848\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 21:27:08,424 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RCtvD0906ORCkj1XuqS9uj8M_ArG7OeNTPr4oPtbR3SbhOW_xL84!962196520!1543756533620 for 221.226.253.51/>]>
+2018-12-02 21:27:11,141 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 21:27:11,142 check_required_field.py[line:46] INFO the post params is {u'idt': u'69e0193439c042309155d1299895923e'}
+2018-12-02 21:27:11,144 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RCtvD0906ORCkj1XuqS9uj8M_ArG7OeNTPr4oPtbR3SbhOW_xL84!962196520!1543756533620 for 221.226.253.51/>]>
+2018-12-02 21:27:11,484 check_required_field.py[line:564] INFO 检查服务名称[查阅档案利用服务]
+2018-12-02 21:27:11,484 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 21:27:11,484 check_required_field.py[line:105] INFO 服务内容 is 提供各类档案的查阅、复制、摘抄, type is text, value_range is 
+2018-12-02 21:27:11,484 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 21:27:11,486 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 21:27:11,486 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 21:27:11,486 check_required_field.py[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 21:27:11,486 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 21:27:11,486 check_required_field.py[line:105] INFO 服务依据 is 1、《中华人民共和国档案法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+    中华人民共和国公民和组织，持有介绍信或者工作证、身份证等合法证明，可以利用已开放的档案。
+    外国人或者外国组织利用中国已开放的档案，须经中国有关主管部门介绍以及保存该档案的档案馆同意。
+    机关、团体、企业事业单位和其他组织以及中国公民利用档案馆保存的未开放的档案，须经保存该档案的档案馆同意，必要时还须经有关的档案行政管理部门审查同意。
+    机关、团体、企业事业单位和其他组织的档案机构保存的尚未向档案馆移交的档案，其他机关、团体、企业事业单位和组织以及中国公民需要利用的，须经档案保存单位同意。
+3、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第二十七条  中华人民共和国公民和组织凡持合法有效证件或者证明的，可以利用档案馆已开放的档案；利用未开放的档案，应当按照国家有关规定履行审批手续；利用重要或者珍贵档案，档案馆应当将档案的复制件提供查阅。, type is text, value_range is 
+2018-12-02 21:27:11,486 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 21:27:11,486 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'69e0193439c042309155d1299895923e', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 21:27:11,487 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RCtvD0906ORCkj1XuqS9uj8M_ArG7OeNTPr4oPtbR3SbhOW_xL84!962196520!1543756533620 for 221.226.253.51/>]>
+2018-12-02 21:27:11,877 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 21:27:11,877 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'70c8fbc80b6541818466d1321d84dad2', u'idtlog': u'702f5f6e86a74c7f83fdb96d1f32dccc'}
+2018-12-02 21:27:11,877 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RCtvD0906ORCkj1XuqS9uj8M_ArG7OeNTPr4oPtbR3SbhOW_xL84!962196520!1543756533620 for 221.226.253.51/>]>
+2018-12-02 21:27:13,552 check_required_field.py[line:616] INFO 检查业务信息[查阅档案利用服务]
+2018-12-02 21:27:13,553 check_required_field.py[line:99] INFO 检查[办件类型]
+2018-12-02 21:27:13,553 check_required_field.py[line:105] INFO 办件类型 is 即办件, type is radio, value_range is 承诺件,即办件
+2018-12-02 21:27:13,553 check_required_field.py[line:99] INFO 检查[办理依据]
+2018-12-02 21:27:13,555 check_required_field.py[line:105] INFO 办理依据 is 1、《中华人民共和国档案法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+    中华人民共和国公民和组织，持有介绍信或者工作证、身份证等合法证明，可以利用已开放的档案。
+    外国人或者外国组织利用中国已开放的档案，须经中国有关主管部门介绍以及保存该档案的档案馆同意。
+    机关、团体、企业事业单位和其他组织以及中国公民利用档案馆保存的未开放的档案，须经保存该档案的档案馆同意，必要时还须经有关的档案行政管理部门审查同意。
+    机关、团体、企业事业单位和其他组织的档案机构保存的尚未向档案馆移交的档案，其他机关、团体、企业事业单位和组织以及中国公民需要利用的，须经档案保存单位同意。
+3、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第二十七条  中华人民共和国公民和组织凡持合法有效证件或者证明的，可以利用档案馆已开放的档案；利用未开放的档案，应当按照国家有关规定履行审批手续；利用重要或者珍贵档案，档案馆应当将档案的复制件提供查阅。, type is text, value_range is 
+2018-12-02 21:27:13,555 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 21:27:13,555 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 21:27:13,555 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 21:27:13,556 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 21:27:13,556 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 21:27:13,556 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：051186525064；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dydaj.gov.cn/, type is text, value_range is 
+2018-12-02 21:27:13,558 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 21:27:13,558 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局二楼查阅中心, type is text, value_range is 
+2018-12-02 21:27:13,558 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 21:27:13,559 check_required_field.py[line:105] INFO 工作时间 is 周一到周五上午8:30-11:30,下午14:0018:00（夏季上午8:30-11:30,下午15:00-18:00）, type is text, value_range is 
+2018-12-02 21:27:13,559 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 21:27:13,559 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 21:27:13,559 check_required_field.py[line:99] INFO 检查[是否收费]
+2018-12-02 21:27:13,559 check_required_field.py[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 21:27:13,559 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 21:27:13,561 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 21:27:13,561 check_required_field.py[line:99] INFO 检查[在线办理网址]
+2018-12-02 21:27:13,561 check_required_field.py[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 21:27:13,562 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 21:27:13,562 check_required_field.py[line:105] INFO 业务名称 is 查阅档案利用服务, type is text, value_range is 
+2018-12-02 21:27:13,562 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 21:27:13,562 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 21:27:13,562 check_required_field.py[line:99] INFO 检查[到现场次数]
+2018-12-02 21:27:13,562 check_required_field.py[line:105] INFO 到现场次数 is 1, type is radio, value_range is 0,1,2,99
+2018-12-02 21:27:13,562 check_required_field.py[line:99] INFO 检查[见面法律依据]
+2018-12-02 21:27:13,563 check_required_field.py[line:105] INFO 见面法律依据 is 1、《中华人民共和国档案法》
+    第十九条  国家档案馆保管的档案，一般应当自形成之日起满30年向社会开放。经济、科学、技术、文化等类档案社会开放的期限，可以少于30年，涉及国家安全或者重大利益以及其他到期不宜开放的档案向社会开放的期限，可以多于30年，具体期限由国家档案行政管理部门制订，报国务院批准施行。
+    档案馆应当定期公布开放档案的目录，并为档案的利用创造条件，简化手续，提供方便。
+    中华人民共和国公民和组织持有合法证明，可以利用已经开放的档案。
+    第二十条  机关、团体、企业事业单位和其他组织以及公民根据经济建设、国防建设、教学科研和其他各项工作的需要，可以按照有关规定，利用档案馆未开放的档案以及有关机关、团体、企业事业单位和其他组织保存的档案。
+    利用未开放档案的办法，由国家档案行政管理部门和有关主管部门规定。
+2、《中华人民共和国档案法实施办法》
+第二十一条  《档案法》所称档案的利用，是指对档案的阅览、复制和摘录。
+   
+  
+    非开放档案（带密级、控制和涉及国家、社会和个人隐私）的都不能复制和邮寄, type is text, value_range is 
+2018-12-02 21:27:13,563 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 21:27:13,563 check_required_field.py[line:46] INFO the post params is {u'idt': u'0b7730d8a1ca49b5bd0131cb1fb73fce'}
+2018-12-02 21:27:13,565 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RCtvD0906ORCkj1XuqS9uj8M_ArG7OeNTPr4oPtbR3SbhOW_xL84!962196520!1543756533620 for 221.226.253.51/>]>
+2018-12-02 21:27:14,130 check_required_field.py[line:564] INFO 检查服务名称[政府信息公开利用服务]
+2018-12-02 21:27:14,130 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 21:27:14,131 check_required_field.py[line:105] INFO 服务内容 is 政府公开信息的查阅、复制、摘抄, type is text, value_range is 
+2018-12-02 21:27:14,131 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 21:27:14,131 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 21:27:14,131 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 21:27:14,131 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 21:27:14,131 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 21:27:14,131 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国政府信息公开条例》（经2007年1月17日国务院第165次常务会议通过，自2008年5月1日起施行。）
+    第十六条 各级人民政府应当在国家档案馆、公共图书馆设置政府信息查阅场所，并配备相应的设施、设备，为公民、法人或者其他组织获取政府信息提供便利。……
+    行政机关应当及时向国家档案馆、公共图书馆提供主动公开的政府信息。, type is text, value_range is 
+2018-12-02 21:27:14,132 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 21:27:14,132 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'0b7730d8a1ca49b5bd0131cb1fb73fce', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 21:27:14,132 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RCtvD0906ORCkj1XuqS9uj8M_ArG7OeNTPr4oPtbR3SbhOW_xL84!962196520!1543756533620 for 221.226.253.51/>]>
+2018-12-02 21:27:14,538 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 21:27:14,538 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ecc4ed92226c4355baa968669ee2f93a', u'idtlog': u'393e2339b9db4272b260d94eeb7c4887'}
+2018-12-02 21:27:14,538 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RCtvD0906ORCkj1XuqS9uj8M_ArG7OeNTPr4oPtbR3SbhOW_xL84!962196520!1543756533620 for 221.226.253.51/>]>
+2018-12-02 21:27:16,017 check_required_field.py[line:616] INFO 检查业务信息[政府信息公开利用服务]
+2018-12-02 21:27:16,019 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 21:27:16,019 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 21:27:16,019 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 21:27:16,019 check_required_field.py[line:105] INFO 工作时间 is 周一到周五上午8:30~下午18:00, type is text, value_range is 
+2018-12-02 21:27:16,019 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 21:27:16,019 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 21:27:16,020 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 21:27:16,020 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 21:27:16,022 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 21:27:16,022 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 21:27:16,022 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 21:27:16,023 check_required_field.py[line:105] INFO 业务名称 is 政府信息公开利用服务, type is text, value_range is 
+2018-12-02 21:27:16,023 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 21:27:16,023 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 21:27:16,023 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 21:27:16,023 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：0511-86525064；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dydaj.gov.cn/, type is text, value_range is 
+2018-12-02 21:27:16,023 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 21:27:16,025 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 21:27:16,025 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 21:27:16,025 check_required_field.py[line:46] INFO the post params is {u'idt': u'fa3a0390841a426c894150a5ec5db365'}
+2018-12-02 21:27:16,026 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RCtvD0906ORCkj1XuqS9uj8M_ArG7OeNTPr4oPtbR3SbhOW_xL84!962196520!1543756533620 for 221.226.253.51/>]>
+2018-12-02 21:27:16,309 check_required_field.py[line:564] INFO 检查服务名称[爱国主义教育基地]
+2018-12-02 21:27:16,309 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 21:27:16,309 check_required_field.py[line:105] INFO 服务内容 is 通过举办夏令营、组织参观档案馆藏等方式宣传教育, type is text, value_range is 
+2018-12-02 21:27:16,309 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 21:27:16,309 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 21:27:16,311 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 21:27:16,311 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 21:27:16,311 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 21:27:16,311 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第八条 县级以上地方各级人民政府档案行政管理部门依照《档案法》第六条第二款的规定，履行下列职责：……(四)组织、指导本行政区域内档案理论与科学技术研究、档案宣传与档案教育、档案工作人员培训。, type is text, value_range is 
+2018-12-02 21:27:16,311 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 21:27:16,311 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'fa3a0390841a426c894150a5ec5db365', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 21:27:16,312 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RCtvD0906ORCkj1XuqS9uj8M_ArG7OeNTPr4oPtbR3SbhOW_xL84!962196520!1543756533620 for 221.226.253.51/>]>
+2018-12-02 21:27:16,677 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 21:27:16,677 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'93e19dab1cf64e0b81304c79e857cd88', u'idtlog': u'112bc5dd28a74b0492f3471bdfaab539'}
+2018-12-02 21:27:16,677 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RCtvD0906ORCkj1XuqS9uj8M_ArG7OeNTPr4oPtbR3SbhOW_xL84!962196520!1543756533620 for 221.226.253.51/>]>
+2018-12-02 21:27:18,115 check_required_field.py[line:616] INFO 检查业务信息[爱国主义教育基地]
+2018-12-02 21:27:18,115 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 21:27:18,115 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 21:27:18,117 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 21:27:18,117 check_required_field.py[line:105] INFO 工作时间 is 夏令营及参观相关问题解答及咨询，周一至周五8:30-11:30，14：00-18:00（夏季15:00-18:00）, type is text, value_range is 
+2018-12-02 21:27:18,117 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 21:27:18,118 check_required_field.py[line:105] INFO 经办机构（处室） is 保管利用科, type is text, value_range is 
+2018-12-02 21:27:18,118 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 21:27:18,118 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 21:27:18,118 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 21:27:18,118 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 21:27:18,118 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 21:27:18,119 check_required_field.py[line:105] INFO 业务名称 is 爱国主义教育基地, type is text, value_range is 
+2018-12-02 21:27:18,119 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 21:27:18,119 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 21:27:18,121 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 21:27:18,121 check_required_field.py[line:105] INFO 监督投诉方式 is 投诉电话：0511-86524094；投诉信件邮寄地址：丹阳市开发区兰陵路8号丹阳市档案局；网上投诉网址：http://www.dajs.gov.cn/, type is text, value_range is 
+2018-12-02 21:27:18,121 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 21:27:18,121 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524094, type is text, value_range is 
+2018-12-02 21:27:18,122 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 21:27:18,122 check_required_field.py[line:46] INFO the post params is {u'idt': u'dde46358da574f98a87454cdce538f38'}
+2018-12-02 21:27:18,122 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RCtvD0906ORCkj1XuqS9uj8M_ArG7OeNTPr4oPtbR3SbhOW_xL84!962196520!1543756533620 for 221.226.253.51/>]>
+2018-12-02 21:27:18,401 check_required_field.py[line:564] INFO 检查服务名称[档案教育培训]
+2018-12-02 21:27:18,401 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 21:27:18,403 check_required_field.py[line:105] INFO 服务内容 is 组织实施各类档案教育培训, type is text, value_range is 
+2018-12-02 21:27:18,403 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 21:27:18,403 check_required_field.py[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 21:27:18,404 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 21:27:18,404 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 21:27:18,404 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 21:27:18,404 check_required_field.py[line:105] INFO 服务依据 is 1、《中华人民共和国档案法实施办法》(1987年9月5日第六届全国人民代表大会常务委员会第二十二次会议通过  根据1996年7月5日第八届全国人民代表大会常务委员会第二十次会议《关于修改〈中华人民共和国档案法〉的决定》、2016年11月7日全国人民代表大会常务委员会第二十四次会议《关于修改<中华人民共和国对外贸易法>等十二部法律的决定》修正)
+    第八条 县级以上地方各级人民政府档案行政管理部门依照《档案法》第六条第二款的规定，履行下列职责：……(四)组织、指导本行政区域内档案理论与科学技术研究、档案宣传与档案教育、档案工作人员培训。
+2、《江苏省档案管理条例》（1998年8月28日江苏省第九届人民代表大会常务委员会第四次会议通过根据2003年4月21日江苏省第十届人民代表大会常务委员会第二次会议《关于修改〈江苏省档案管理条例〉的决定》第一次修正根据2017年6月3日江苏省第十二届人民代表大会常务委员会第三十次会议《关于修改〈江苏省固体废物污染环境防治条例〉等二十六件地方性法规的决定》第二次修正）
+    第六条 省档案管理部门主管全省档案事业，对全省档案工作实行统筹规划，组织协调，监督指导；市、县（市、区）档案管理部门主管本行政区域内的档案工作，并依法进行监督和指导。
+    县级以上档案管理部门行使行政管理职能，主要职责是：……（四）组织并指导档案理论与科学技术研究、档案专业教育、档案宣传以及档案干部的培训工作；……, type is text, value_range is 
+2018-12-02 21:27:18,404 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 21:27:18,404 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'dde46358da574f98a87454cdce538f38', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 21:27:18,405 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RCtvD0906ORCkj1XuqS9uj8M_ArG7OeNTPr4oPtbR3SbhOW_xL84!962196520!1543756533620 for 221.226.253.51/>]>
+2018-12-02 21:27:18,785 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 21:27:18,785 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'30b29249c7324318a0aa72b093b278c9', u'idtlog': u'1a0c57d93b4d47c6a3bd79fdf4376b29'}
+2018-12-02 21:27:18,786 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RCtvD0906ORCkj1XuqS9uj8M_ArG7OeNTPr4oPtbR3SbhOW_xL84!962196520!1543756533620 for 221.226.253.51/>]>
+2018-12-02 21:27:20,220 check_required_field.py[line:616] INFO 检查业务信息[档案教育培训]
+2018-12-02 21:27:20,220 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 21:27:20,220 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路8号丹阳市档案局, type is text, value_range is 
+2018-12-02 21:27:20,220 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 21:27:20,221 check_required_field.py[line:105] INFO 工作时间 is 档案教育培训问题解答及咨询，周一至周五8:30-11:30，14：00-18:00夏季15:00-18:00）, type is text, value_range is 
+2018-12-02 21:27:20,221 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 21:27:20,221 check_required_field.py[line:105] INFO 经办机构（处室） is 办公室, type is text, value_range is 
+2018-12-02 21:27:20,221 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 21:27:20,221 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 21:27:20,221 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 21:27:20,223 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 21:27:20,223 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 21:27:20,223 check_required_field.py[line:105] INFO 业务名称 is 档案教育培训, type is text, value_range is 
+2018-12-02 21:27:20,223 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 21:27:20,223 check_required_field.py[line:105] INFO 承办机构 is 丹阳市档案局, type is text, value_range is 
+2018-12-02 21:27:20,223 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 21:27:20,223 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86525064, type is text, value_range is 
+2018-12-02 21:27:20,223 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 21:27:20,223 check_required_field.py[line:105] INFO 咨询方式 is 0511-86525064, type is text, value_range is 
+2018-12-02 21:27:20,223 check_required_field.py[line:643] INFO []
+2018-12-02 21:27:20,223 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 21:27:20,224 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RCtvD0906ORCkj1XuqS9uj8M_ArG7OeNTPr4oPtbR3SbhOW_xL84!962196520!1543756533620 for 221.226.253.51/>]>

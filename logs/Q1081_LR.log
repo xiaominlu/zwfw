@@ -1,0 +1,15 @@
+2018-12-02 16:30:11,716 check_required_field.py[line:647] INFO start to check username Q1081_LR
+2018-12-02 16:30:11,716 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 16:30:11,716 check_required_field.py[line:46] INFO the post params is {u'jsu': u'Q1081_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 16:30:11,716 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 16:30:12,826 check_required_field.py[line:145] ERROR login Q1081_LR fail
+2018-12-02 16:43:27,838 check_required_field.py[line:647] INFO start to check username Q1081_LR
+2018-12-02 16:43:27,838 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 16:43:27,838 check_required_field.py[line:46] INFO the post params is {u'jsu': u'Q1081_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 16:43:27,838 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 16:43:31,417 check_required_field.py[line:145] ERROR login Q1081_LR fail
+2018-12-02 19:42:26,145 check_required_field.py[line:647] INFO start to check username Q1081_LR
+2018-12-02 19:42:26,147 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 19:42:26,148 check_required_field.py[line:46] INFO the post params is {u'jsu': u'Q1081_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 19:42:26,148 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 19:42:29,618 check_required_field.py[line:145] ERROR login Q1081_LR fail

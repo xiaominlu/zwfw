@@ -1,0 +1,599 @@
+2018-12-02 16:30:10,997 check_required_field.py[line:647] INFO start to check username LS1074_LR
+2018-12-02 16:30:10,999 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 16:30:10,999 check_required_field.py[line:46] INFO the post params is {u'jsu': u'LS1074_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 16:30:10,999 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 16:30:12,801 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 16:30:12,801 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 16:30:12,802 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=I4Vt_4RmUykDu2Ewxll8-kHhO9Hx4RcXNm2PGfdsGScdhcZR1gVS!962196520!1543738721382 for 221.226.253.51/>]>
+2018-12-02 16:30:13,154 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 16:30:13,154 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'LS1074', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u7cae\u98df\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 16:30:13,154 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=I4Vt_4RmUykDu2Ewxll8-kHhO9Hx4RcXNm2PGfdsGScdhcZR1gVS!962196520!1543738721382 for 221.226.253.51/>]>
+2018-12-02 16:30:15,384 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:30:15,385 check_required_field.py[line:46] INFO the post params is {u'idt': u'2cab1207002c47b6af57e7ecf8869ca5'}
+2018-12-02 16:30:15,388 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=I4Vt_4RmUykDu2Ewxll8-kHhO9Hx4RcXNm2PGfdsGScdhcZR1gVS!962196520!1543738721382 for 221.226.253.51/>]>
+2018-12-02 16:30:15,700 check_required_field.py[line:564] INFO 检查服务名称[粮食供求形势的监测和预警分析]
+2018-12-02 16:30:15,701 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:30:15,703 check_required_field.py[line:105] INFO 服务内容 is 提供市内主要粮油品种供求关系以及政策措施等行情分析与预测预警。, type is text, value_range is 
+2018-12-02 16:30:15,704 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:30:15,707 check_required_field.py[line:105] INFO 服务领域 is 16, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:30:15,707 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:30:15,707 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:30:15,707 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:30:15,709 check_required_field.py[line:105] INFO 服务依据 is 《粮食流通管理条例》（2016年2月6日国务院令第666号《国务院关于修改部分行政法规的决定》）第二十八条“国务院发展改革部门及国家粮食行政管理部门会同农业、统计、产品质量监督等部门负责粮食市场供求形势的监测和预警分析，建立粮食供需抽查制度，发布粮食生产、消费、价格、质量等信息”。, type is text, value_range is 
+2018-12-02 16:30:15,710 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:30:15,710 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'2cab1207002c47b6af57e7ecf8869ca5', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:30:15,711 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=I4Vt_4RmUykDu2Ewxll8-kHhO9Hx4RcXNm2PGfdsGScdhcZR1gVS!962196520!1543738721382 for 221.226.253.51/>]>
+2018-12-02 16:30:16,026 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:30:16,028 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'93836ba7a2234c65b75c52d82ec27edd', u'idtlog': u'a08525743b234a1dab1f26aea0123e37'}
+2018-12-02 16:30:16,029 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=I4Vt_4RmUykDu2Ewxll8-kHhO9Hx4RcXNm2PGfdsGScdhcZR1gVS!962196520!1543738721382 for 221.226.253.51/>]>
+2018-12-02 16:30:17,052 check_required_field.py[line:616] INFO 检查业务信息[粮食供求形势的监测和预警分析]
+2018-12-02 16:30:17,055 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:30:17,056 check_required_field.py[line:105] INFO 办理地点 is 丹阳市云阳路4号。, type is text, value_range is 
+2018-12-02 16:30:17,059 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:30:17,059 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午15:00-18:00；冬季：上午8:30-11:30，下午14:00-18:00。法定节假日除外, type is text, value_range is 
+2018-12-02 16:30:17,061 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:30:17,062 check_required_field.py[line:105] INFO 经办机构（处室） is 购销调控科, type is text, value_range is 
+2018-12-02 16:30:17,062 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:30:17,063 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:30:17,063 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:30:17,065 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:30:17,065 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:30:17,065 check_required_field.py[line:105] INFO 业务名称 is 粮食供求形势的监测和预警分析, type is text, value_range is 
+2018-12-02 16:30:17,066 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:30:17,066 check_required_field.py[line:105] INFO 承办机构 is 丹阳市粮食局, type is text, value_range is 
+2018-12-02 16:30:17,068 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:30:17,069 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86529726, type is text, value_range is 
+2018-12-02 16:30:17,069 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:30:17,069 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524872, type is text, value_range is 
+2018-12-02 16:30:17,069 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:30:17,069 check_required_field.py[line:46] INFO the post params is {u'idt': u'f73f7051d6e14b09ae33c2218d3cf89d'}
+2018-12-02 16:30:17,069 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=I4Vt_4RmUykDu2Ewxll8-kHhO9Hx4RcXNm2PGfdsGScdhcZR1gVS!962196520!1543738721382 for 221.226.253.51/>]>
+2018-12-02 16:30:17,259 check_required_field.py[line:564] INFO 检查服务名称[粮食价格信息发布]
+2018-12-02 16:30:17,259 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:30:17,262 check_required_field.py[line:105] INFO 服务内容 is 监测发布市内粮食收购价格信息、省内主要粮食批发市场批发价格信息和零售价格信息。, type is text, value_range is 
+2018-12-02 16:30:17,263 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:30:17,265 check_required_field.py[line:105] INFO 服务领域 is 16, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:30:17,266 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:30:17,267 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:30:17,269 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:30:17,270 check_required_field.py[line:105] INFO 服务依据 is 《粮食流通管理条例》（2016年2月6日国务院令第666号《国务院关于修改部分行政法规的决定》）第二十八条“国务院发展改革部门及国家粮食行政管理部门会同农业、统计、产品质量监督等部门负责粮食市场供求形势的监测和预警分析，建立粮食供需抽查制度，发布粮食生产、消费、价格、质量等信息”。, type is text, value_range is 
+2018-12-02 16:30:17,273 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:30:17,275 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'f73f7051d6e14b09ae33c2218d3cf89d', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:30:17,275 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=I4Vt_4RmUykDu2Ewxll8-kHhO9Hx4RcXNm2PGfdsGScdhcZR1gVS!962196520!1543738721382 for 221.226.253.51/>]>
+2018-12-02 16:30:17,517 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:30:17,519 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'4e6b7ae633c94b82a27a46a222412714', u'idtlog': u'a4bd7f2a1d084ed5815ba01802eef666'}
+2018-12-02 16:30:17,519 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=I4Vt_4RmUykDu2Ewxll8-kHhO9Hx4RcXNm2PGfdsGScdhcZR1gVS!962196520!1543738721382 for 221.226.253.51/>]>
+2018-12-02 16:30:18,611 check_required_field.py[line:616] INFO 检查业务信息[粮食价格信息发布]
+2018-12-02 16:30:18,611 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:30:18,612 check_required_field.py[line:105] INFO 办理地点 is 丹阳市云阳路4号。, type is text, value_range is 
+2018-12-02 16:30:18,612 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:30:18,612 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午15:00-18:00；冬季：上午8:30-11:30，下午14:00-18:00。法定节假日除外, type is text, value_range is 
+2018-12-02 16:30:18,612 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:30:18,612 check_required_field.py[line:105] INFO 经办机构（处室） is 购销调控科, type is text, value_range is 
+2018-12-02 16:30:18,612 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:30:18,614 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:30:18,614 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:30:18,614 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:30:18,614 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:30:18,614 check_required_field.py[line:105] INFO 业务名称 is 粮食价格信息发布, type is text, value_range is 
+2018-12-02 16:30:18,614 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:30:18,614 check_required_field.py[line:105] INFO 承办机构 is 丹阳市粮食局, type is text, value_range is 
+2018-12-02 16:30:18,614 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:30:18,615 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86529726, type is text, value_range is 
+2018-12-02 16:30:18,615 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:30:18,615 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524872, type is text, value_range is 
+2018-12-02 16:30:18,615 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:30:18,615 check_required_field.py[line:46] INFO the post params is {u'idt': u'6fa3a44418c24eae8130dcadd7309795'}
+2018-12-02 16:30:18,615 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=I4Vt_4RmUykDu2Ewxll8-kHhO9Hx4RcXNm2PGfdsGScdhcZR1gVS!962196520!1543738721382 for 221.226.253.51/>]>
+2018-12-02 16:30:18,786 check_required_field.py[line:564] INFO 检查服务名称[节粮减损宣传与技术推广]
+2018-12-02 16:30:18,786 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:30:18,788 check_required_field.py[line:105] INFO 服务内容 is 指导农户和粮食仓储企业积极推广应用先进适用、绿色生态、低碳节能的科学储粮新技术。, type is text, value_range is 
+2018-12-02 16:30:18,789 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:30:18,790 check_required_field.py[line:105] INFO 服务领域 is 12, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:30:18,792 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:30:18,792 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:30:18,793 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:30:18,795 check_required_field.py[line:105] INFO 服务依据 is 《粮食流通管理条例》（2016年2月6日国务院令第666号《国务院关于修改部分行政法规的决定》）第六条“国务院发展改革部门及国家粮食行政管理部门负责全国粮食的总量平衡、宏观调控和重要粮食品种的结构调整以及粮食流通的中长期规划；国家粮食行政管理部门负责粮食流通的行政管理、行业指导，监督有关粮食流通的法律、法规、政策及各项规章制度的执行。
+国务院工商行政管理、产品质量监督、卫生、价格等部门在各自的职责范围内负责与粮食流通有关的工作。省、自治区、直辖市人民政府在国家宏观调控下，按照粮食省长负责制的要求，负责本地区粮食的总量平衡和地方储备粮的管理。县级以上地方人民政府粮食行政管理部门负责本地区粮食流通的行政管理、行业指导；县级以上地方人民政府工商行政管理、产品质量监督、卫生、价格等部门在各自的职责范围内负责与粮食流通有关的工作”。
+《江苏省地方储备粮管理办法》(省政府令第106号)第十七条“承储企业储存地方储备粮，应当按照国家和省有关规定，对地方储备粮实行专仓储存、专人保管，保证地方储备粮数量真实、质量良好、储存安全；建立地方储备粮台账，及时反映分品种、分库点、分仓位、分年限的地方储备粮数量和成本，做到账账相符、账实相符”。, type is text, value_range is 
+2018-12-02 16:30:18,795 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:30:18,796 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'6fa3a44418c24eae8130dcadd7309795', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:30:18,796 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=I4Vt_4RmUykDu2Ewxll8-kHhO9Hx4RcXNm2PGfdsGScdhcZR1gVS!962196520!1543738721382 for 221.226.253.51/>]>
+2018-12-02 16:30:19,025 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:30:19,026 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'6e20aab459534ffbbbd0f687c26bb3a3', u'idtlog': u'a0057e87746a4c349d0f68f1da07b240'}
+2018-12-02 16:30:19,028 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=I4Vt_4RmUykDu2Ewxll8-kHhO9Hx4RcXNm2PGfdsGScdhcZR1gVS!962196520!1543738721382 for 221.226.253.51/>]>
+2018-12-02 16:30:20,450 check_required_field.py[line:616] INFO 检查业务信息[节粮减损宣传与技术推广]
+2018-12-02 16:30:20,453 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:30:20,454 check_required_field.py[line:105] INFO 办理地点 is 江苏省丹阳市云阳路4号丹阳市粮食局。, type is text, value_range is 
+2018-12-02 16:30:20,457 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:30:20,459 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午13:30-17:00；冬季：上午8:30-11:00，下午13:00-17:00。, type is text, value_range is 
+2018-12-02 16:30:20,460 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:30:20,460 check_required_field.py[line:105] INFO 经办机构（处室） is 产业发展科, type is text, value_range is 
+2018-12-02 16:30:20,460 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:30:20,461 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:30:20,461 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:30:20,461 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:30:20,461 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:30:20,463 check_required_field.py[line:105] INFO 业务名称 is 节粮减损宣传与技术推广, type is text, value_range is 
+2018-12-02 16:30:20,463 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:30:20,463 check_required_field.py[line:105] INFO 承办机构 is 丹阳市粮食局, type is text, value_range is 
+2018-12-02 16:30:20,463 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:30:20,463 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86529726, type is text, value_range is 
+2018-12-02 16:30:20,463 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:30:20,463 check_required_field.py[line:105] INFO 咨询方式 is 0511-86563218, type is text, value_range is 
+2018-12-02 16:30:20,463 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:30:20,463 check_required_field.py[line:46] INFO the post params is {u'idt': u'08004a0d1e76410984bc5239ddb4e4db'}
+2018-12-02 16:30:20,463 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=I4Vt_4RmUykDu2Ewxll8-kHhO9Hx4RcXNm2PGfdsGScdhcZR1gVS!962196520!1543738721382 for 221.226.253.51/>]>
+2018-12-02 16:30:20,667 check_required_field.py[line:564] INFO 检查服务名称[粮油食品安全科普宣传]
+2018-12-02 16:30:20,667 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:30:20,667 check_required_field.py[line:105] INFO 服务内容 is 结合粮食部门的特点，组织开展群众性宣传活动,因地制宜、重点突出、讲求实效、通俗易懂、形式多样，引导民众重视粮油食品质量安全，树立安全、健康、营养、节约的理念，共同营造良好的社会舆论氛围。, type is text, value_range is 
+2018-12-02 16:30:20,668 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:30:20,668 check_required_field.py[line:105] INFO 服务领域 is 6, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:30:20,668 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:30:20,670 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:30:20,670 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:30:20,670 check_required_field.py[line:105] INFO 服务依据 is 《粮食流通管理条例》（2016年2月6日国务院令第666号《国务院关于修改部分行政法规的决定》）第六条“国务院发展改革部门及国家粮食行政管理部门负责全国粮食的总量平衡、宏观调控和重要粮食品种的结构调整以及粮食流通的中长期规划；国家粮食行政管理部门负责粮食流通的行政管理、行业指导，监督有关粮食流通的法律、法规、政策及各项规章制度的执行。
+国务院工商行政管理、产品质量监督、卫生、价格等部门在各自的职责范围内负责与粮食流通有关的工作。
+省、自治区、直辖市人民政府在国家宏观调控下，按照粮食省长负责制的要求，负责本地区粮食的总量平衡和地方储备粮的管理。县级以上地方人民政府粮食行政管理部门负责本地区粮食流通的行政管理、行业指导；县级以上地方人民政府工商行政管理、产品质量监督、卫生、价格等部门在各自的职责范围内负责与粮食流通有关的工作”。, type is text, value_range is 
+2018-12-02 16:30:20,670 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:30:20,670 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'08004a0d1e76410984bc5239ddb4e4db', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:30:20,671 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=I4Vt_4RmUykDu2Ewxll8-kHhO9Hx4RcXNm2PGfdsGScdhcZR1gVS!962196520!1543738721382 for 221.226.253.51/>]>
+2018-12-02 16:30:21,028 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:30:21,030 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'903383211a004bfe9dd180491c516f2b', u'idtlog': u'cfacb87409394160bc7f3937b277db8d'}
+2018-12-02 16:30:21,032 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=I4Vt_4RmUykDu2Ewxll8-kHhO9Hx4RcXNm2PGfdsGScdhcZR1gVS!962196520!1543738721382 for 221.226.253.51/>]>
+2018-12-02 16:30:22,039 check_required_field.py[line:616] INFO 检查业务信息[粮油食品安全科普宣传]
+2018-12-02 16:30:22,040 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:30:22,042 check_required_field.py[line:105] INFO 办理地点 is 丹阳市云阳路4号。, type is text, value_range is 
+2018-12-02 16:30:22,043 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:30:22,045 check_required_field.py[line:105] INFO 工作时间 is 按照市食安办统一部署, type is text, value_range is 
+2018-12-02 16:30:22,045 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:30:22,046 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市粮食局监督检查科, type is text, value_range is 
+2018-12-02 16:30:22,046 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:30:22,046 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:30:22,046 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:30:22,048 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:30:22,048 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:30:22,049 check_required_field.py[line:105] INFO 业务名称 is 粮油食品安全科普宣传, type is text, value_range is 
+2018-12-02 16:30:22,049 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:30:22,049 check_required_field.py[line:105] INFO 承办机构 is 丹阳市粮食局, type is text, value_range is 
+2018-12-02 16:30:22,049 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:30:22,049 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86529726, type is text, value_range is 
+2018-12-02 16:30:22,049 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:30:22,051 check_required_field.py[line:105] INFO 咨询方式 is 0511-86526425, type is text, value_range is 
+2018-12-02 16:30:22,051 check_required_field.py[line:643] INFO []
+2018-12-02 16:30:22,052 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 16:30:22,052 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=I4Vt_4RmUykDu2Ewxll8-kHhO9Hx4RcXNm2PGfdsGScdhcZR1gVS!962196520!1543738721382 for 221.226.253.51/>]>
+2018-12-02 16:43:27,476 check_required_field.py[line:647] INFO start to check username LS1074_LR
+2018-12-02 16:43:27,476 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 16:43:27,476 check_required_field.py[line:46] INFO the post params is {u'jsu': u'LS1074_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 16:43:27,476 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 16:43:32,306 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 16:43:32,309 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 16:43:32,312 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=FSBuC6uyr2XF2EnkRLjPexFkQeiwfcFnXMYbe2Mm8NLmmqLEv3it!962196520!1543739517874 for 221.226.253.51/>]>
+2018-12-02 16:43:33,066 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 16:43:33,072 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'LS1074', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u7cae\u98df\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 16:43:33,075 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=FSBuC6uyr2XF2EnkRLjPexFkQeiwfcFnXMYbe2Mm8NLmmqLEv3it!962196520!1543739517874 for 221.226.253.51/>]>
+2018-12-02 16:43:36,171 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:43:36,176 check_required_field.py[line:46] INFO the post params is {u'idt': u'2cab1207002c47b6af57e7ecf8869ca5'}
+2018-12-02 16:43:36,180 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=FSBuC6uyr2XF2EnkRLjPexFkQeiwfcFnXMYbe2Mm8NLmmqLEv3it!962196520!1543739517874 for 221.226.253.51/>]>
+2018-12-02 16:43:36,891 check_required_field.py[line:564] INFO 检查服务名称[粮食供求形势的监测和预警分析]
+2018-12-02 16:43:36,891 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:43:36,894 check_required_field.py[line:105] INFO 服务内容 is 提供市内主要粮油品种供求关系以及政策措施等行情分析与预测预警。, type is text, value_range is 
+2018-12-02 16:43:36,894 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:43:36,895 check_required_field.py[line:105] INFO 服务领域 is 16, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:43:36,897 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:43:36,898 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:43:36,898 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:43:36,900 check_required_field.py[line:105] INFO 服务依据 is 《粮食流通管理条例》（2016年2月6日国务院令第666号《国务院关于修改部分行政法规的决定》）第二十八条“国务院发展改革部门及国家粮食行政管理部门会同农业、统计、产品质量监督等部门负责粮食市场供求形势的监测和预警分析，建立粮食供需抽查制度，发布粮食生产、消费、价格、质量等信息”。, type is text, value_range is 
+2018-12-02 16:43:36,901 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:43:36,901 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'2cab1207002c47b6af57e7ecf8869ca5', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:43:36,901 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=FSBuC6uyr2XF2EnkRLjPexFkQeiwfcFnXMYbe2Mm8NLmmqLEv3it!962196520!1543739517874 for 221.226.253.51/>]>
+2018-12-02 16:43:37,782 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:43:37,782 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'93836ba7a2234c65b75c52d82ec27edd', u'idtlog': u'a08525743b234a1dab1f26aea0123e37'}
+2018-12-02 16:43:37,782 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=FSBuC6uyr2XF2EnkRLjPexFkQeiwfcFnXMYbe2Mm8NLmmqLEv3it!962196520!1543739517874 for 221.226.253.51/>]>
+2018-12-02 16:43:39,997 check_required_field.py[line:616] INFO 检查业务信息[粮食供求形势的监测和预警分析]
+2018-12-02 16:43:40,002 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:43:40,007 check_required_field.py[line:105] INFO 办理地点 is 丹阳市云阳路4号。, type is text, value_range is 
+2018-12-02 16:43:40,010 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:43:40,016 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午15:00-18:00；冬季：上午8:30-11:30，下午14:00-18:00。法定节假日除外, type is text, value_range is 
+2018-12-02 16:43:40,019 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:43:40,023 check_required_field.py[line:105] INFO 经办机构（处室） is 购销调控科, type is text, value_range is 
+2018-12-02 16:43:40,025 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:43:40,029 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:43:40,030 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:43:40,035 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:43:40,038 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:43:40,040 check_required_field.py[line:105] INFO 业务名称 is 粮食供求形势的监测和预警分析, type is text, value_range is 
+2018-12-02 16:43:40,043 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:43:40,048 check_required_field.py[line:105] INFO 承办机构 is 丹阳市粮食局, type is text, value_range is 
+2018-12-02 16:43:40,049 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:43:40,052 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86529726, type is text, value_range is 
+2018-12-02 16:43:40,053 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:43:40,055 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524872, type is text, value_range is 
+2018-12-02 16:43:40,058 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:43:40,059 check_required_field.py[line:46] INFO the post params is {u'idt': u'f73f7051d6e14b09ae33c2218d3cf89d'}
+2018-12-02 16:43:40,059 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=FSBuC6uyr2XF2EnkRLjPexFkQeiwfcFnXMYbe2Mm8NLmmqLEv3it!962196520!1543739517874 for 221.226.253.51/>]>
+2018-12-02 16:43:41,105 check_required_field.py[line:564] INFO 检查服务名称[粮食价格信息发布]
+2018-12-02 16:43:41,108 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:43:41,109 check_required_field.py[line:105] INFO 服务内容 is 监测发布市内粮食收购价格信息、省内主要粮食批发市场批发价格信息和零售价格信息。, type is text, value_range is 
+2018-12-02 16:43:41,111 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:43:41,114 check_required_field.py[line:105] INFO 服务领域 is 16, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:43:41,114 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:43:41,115 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:43:41,117 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:43:41,118 check_required_field.py[line:105] INFO 服务依据 is 《粮食流通管理条例》（2016年2月6日国务院令第666号《国务院关于修改部分行政法规的决定》）第二十八条“国务院发展改革部门及国家粮食行政管理部门会同农业、统计、产品质量监督等部门负责粮食市场供求形势的监测和预警分析，建立粮食供需抽查制度，发布粮食生产、消费、价格、质量等信息”。, type is text, value_range is 
+2018-12-02 16:43:41,121 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:43:41,121 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'f73f7051d6e14b09ae33c2218d3cf89d', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:43:41,124 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=FSBuC6uyr2XF2EnkRLjPexFkQeiwfcFnXMYbe2Mm8NLmmqLEv3it!962196520!1543739517874 for 221.226.253.51/>]>
+2018-12-02 16:43:41,723 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:43:41,723 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'4e6b7ae633c94b82a27a46a222412714', u'idtlog': u'a4bd7f2a1d084ed5815ba01802eef666'}
+2018-12-02 16:43:41,723 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=FSBuC6uyr2XF2EnkRLjPexFkQeiwfcFnXMYbe2Mm8NLmmqLEv3it!962196520!1543739517874 for 221.226.253.51/>]>
+2018-12-02 16:43:43,467 check_required_field.py[line:616] INFO 检查业务信息[粮食价格信息发布]
+2018-12-02 16:43:43,469 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:43:43,469 check_required_field.py[line:105] INFO 办理地点 is 丹阳市云阳路4号。, type is text, value_range is 
+2018-12-02 16:43:43,469 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:43:43,470 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午15:00-18:00；冬季：上午8:30-11:30，下午14:00-18:00。法定节假日除外, type is text, value_range is 
+2018-12-02 16:43:43,470 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:43:43,470 check_required_field.py[line:105] INFO 经办机构（处室） is 购销调控科, type is text, value_range is 
+2018-12-02 16:43:43,470 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:43:43,470 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:43:43,470 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:43:43,471 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:43:43,471 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:43:43,473 check_required_field.py[line:105] INFO 业务名称 is 粮食价格信息发布, type is text, value_range is 
+2018-12-02 16:43:43,473 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:43:43,473 check_required_field.py[line:105] INFO 承办机构 is 丹阳市粮食局, type is text, value_range is 
+2018-12-02 16:43:43,473 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:43:43,473 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86529726, type is text, value_range is 
+2018-12-02 16:43:43,473 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:43:43,473 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524872, type is text, value_range is 
+2018-12-02 16:43:43,473 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:43:43,474 check_required_field.py[line:46] INFO the post params is {u'idt': u'6fa3a44418c24eae8130dcadd7309795'}
+2018-12-02 16:43:43,474 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=FSBuC6uyr2XF2EnkRLjPexFkQeiwfcFnXMYbe2Mm8NLmmqLEv3it!962196520!1543739517874 for 221.226.253.51/>]>
+2018-12-02 16:43:43,980 check_required_field.py[line:564] INFO 检查服务名称[节粮减损宣传与技术推广]
+2018-12-02 16:43:43,983 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:43:43,986 check_required_field.py[line:105] INFO 服务内容 is 指导农户和粮食仓储企业积极推广应用先进适用、绿色生态、低碳节能的科学储粮新技术。, type is text, value_range is 
+2018-12-02 16:43:43,989 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:43:43,993 check_required_field.py[line:105] INFO 服务领域 is 12, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:43:43,996 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:43:43,999 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:43:44,000 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:43:44,005 check_required_field.py[line:105] INFO 服务依据 is 《粮食流通管理条例》（2016年2月6日国务院令第666号《国务院关于修改部分行政法规的决定》）第六条“国务院发展改革部门及国家粮食行政管理部门负责全国粮食的总量平衡、宏观调控和重要粮食品种的结构调整以及粮食流通的中长期规划；国家粮食行政管理部门负责粮食流通的行政管理、行业指导，监督有关粮食流通的法律、法规、政策及各项规章制度的执行。
+国务院工商行政管理、产品质量监督、卫生、价格等部门在各自的职责范围内负责与粮食流通有关的工作。省、自治区、直辖市人民政府在国家宏观调控下，按照粮食省长负责制的要求，负责本地区粮食的总量平衡和地方储备粮的管理。县级以上地方人民政府粮食行政管理部门负责本地区粮食流通的行政管理、行业指导；县级以上地方人民政府工商行政管理、产品质量监督、卫生、价格等部门在各自的职责范围内负责与粮食流通有关的工作”。
+《江苏省地方储备粮管理办法》(省政府令第106号)第十七条“承储企业储存地方储备粮，应当按照国家和省有关规定，对地方储备粮实行专仓储存、专人保管，保证地方储备粮数量真实、质量良好、储存安全；建立地方储备粮台账，及时反映分品种、分库点、分仓位、分年限的地方储备粮数量和成本，做到账账相符、账实相符”。, type is text, value_range is 
+2018-12-02 16:43:44,009 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:43:44,010 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'6fa3a44418c24eae8130dcadd7309795', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:43:44,013 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=FSBuC6uyr2XF2EnkRLjPexFkQeiwfcFnXMYbe2Mm8NLmmqLEv3it!962196520!1543739517874 for 221.226.253.51/>]>
+2018-12-02 16:43:44,700 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:43:44,701 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'6e20aab459534ffbbbd0f687c26bb3a3', u'idtlog': u'a0057e87746a4c349d0f68f1da07b240'}
+2018-12-02 16:43:44,704 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=FSBuC6uyr2XF2EnkRLjPexFkQeiwfcFnXMYbe2Mm8NLmmqLEv3it!962196520!1543739517874 for 221.226.253.51/>]>
+2018-12-02 16:43:46,776 check_required_field.py[line:616] INFO 检查业务信息[节粮减损宣传与技术推广]
+2018-12-02 16:43:46,778 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:43:46,778 check_required_field.py[line:105] INFO 办理地点 is 江苏省丹阳市云阳路4号丹阳市粮食局。, type is text, value_range is 
+2018-12-02 16:43:46,778 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:43:46,779 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午13:30-17:00；冬季：上午8:30-11:00，下午13:00-17:00。, type is text, value_range is 
+2018-12-02 16:43:46,779 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:43:46,779 check_required_field.py[line:105] INFO 经办机构（处室） is 产业发展科, type is text, value_range is 
+2018-12-02 16:43:46,779 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:43:46,779 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:43:46,779 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:43:46,780 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:43:46,780 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:43:46,780 check_required_field.py[line:105] INFO 业务名称 is 节粮减损宣传与技术推广, type is text, value_range is 
+2018-12-02 16:43:46,782 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:43:46,782 check_required_field.py[line:105] INFO 承办机构 is 丹阳市粮食局, type is text, value_range is 
+2018-12-02 16:43:46,782 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:43:46,782 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86529726, type is text, value_range is 
+2018-12-02 16:43:46,782 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:43:46,782 check_required_field.py[line:105] INFO 咨询方式 is 0511-86563218, type is text, value_range is 
+2018-12-02 16:43:46,783 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:43:46,783 check_required_field.py[line:46] INFO the post params is {u'idt': u'08004a0d1e76410984bc5239ddb4e4db'}
+2018-12-02 16:43:46,783 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=FSBuC6uyr2XF2EnkRLjPexFkQeiwfcFnXMYbe2Mm8NLmmqLEv3it!962196520!1543739517874 for 221.226.253.51/>]>
+2018-12-02 16:43:47,588 check_required_field.py[line:564] INFO 检查服务名称[粮油食品安全科普宣传]
+2018-12-02 16:43:47,591 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:43:47,595 check_required_field.py[line:105] INFO 服务内容 is 结合粮食部门的特点，组织开展群众性宣传活动,因地制宜、重点突出、讲求实效、通俗易懂、形式多样，引导民众重视粮油食品质量安全，树立安全、健康、营养、节约的理念，共同营造良好的社会舆论氛围。, type is text, value_range is 
+2018-12-02 16:43:47,596 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:43:47,599 check_required_field.py[line:105] INFO 服务领域 is 6, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:43:47,602 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:43:47,605 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:43:47,608 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:43:47,612 check_required_field.py[line:105] INFO 服务依据 is 《粮食流通管理条例》（2016年2月6日国务院令第666号《国务院关于修改部分行政法规的决定》）第六条“国务院发展改革部门及国家粮食行政管理部门负责全国粮食的总量平衡、宏观调控和重要粮食品种的结构调整以及粮食流通的中长期规划；国家粮食行政管理部门负责粮食流通的行政管理、行业指导，监督有关粮食流通的法律、法规、政策及各项规章制度的执行。
+国务院工商行政管理、产品质量监督、卫生、价格等部门在各自的职责范围内负责与粮食流通有关的工作。
+省、自治区、直辖市人民政府在国家宏观调控下，按照粮食省长负责制的要求，负责本地区粮食的总量平衡和地方储备粮的管理。县级以上地方人民政府粮食行政管理部门负责本地区粮食流通的行政管理、行业指导；县级以上地方人民政府工商行政管理、产品质量监督、卫生、价格等部门在各自的职责范围内负责与粮食流通有关的工作”。, type is text, value_range is 
+2018-12-02 16:43:47,615 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:43:47,617 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'08004a0d1e76410984bc5239ddb4e4db', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:43:47,619 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=FSBuC6uyr2XF2EnkRLjPexFkQeiwfcFnXMYbe2Mm8NLmmqLEv3it!962196520!1543739517874 for 221.226.253.51/>]>
+2018-12-02 16:43:48,535 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:43:48,536 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'903383211a004bfe9dd180491c516f2b', u'idtlog': u'cfacb87409394160bc7f3937b277db8d'}
+2018-12-02 16:43:48,539 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=FSBuC6uyr2XF2EnkRLjPexFkQeiwfcFnXMYbe2Mm8NLmmqLEv3it!962196520!1543739517874 for 221.226.253.51/>]>
+2018-12-02 16:43:50,417 check_required_field.py[line:616] INFO 检查业务信息[粮油食品安全科普宣传]
+2018-12-02 16:43:50,417 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:43:50,417 check_required_field.py[line:105] INFO 办理地点 is 丹阳市云阳路4号。, type is text, value_range is 
+2018-12-02 16:43:50,418 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:43:50,418 check_required_field.py[line:105] INFO 工作时间 is 按照市食安办统一部署, type is text, value_range is 
+2018-12-02 16:43:50,418 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:43:50,420 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市粮食局监督检查科, type is text, value_range is 
+2018-12-02 16:43:50,420 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:43:50,420 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:43:50,421 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:43:50,421 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:43:50,421 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:43:50,423 check_required_field.py[line:105] INFO 业务名称 is 粮油食品安全科普宣传, type is text, value_range is 
+2018-12-02 16:43:50,423 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:43:50,423 check_required_field.py[line:105] INFO 承办机构 is 丹阳市粮食局, type is text, value_range is 
+2018-12-02 16:43:50,424 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:43:50,424 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86529726, type is text, value_range is 
+2018-12-02 16:43:50,424 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:43:50,424 check_required_field.py[line:105] INFO 咨询方式 is 0511-86526425, type is text, value_range is 
+2018-12-02 16:43:50,424 check_required_field.py[line:643] INFO []
+2018-12-02 16:43:50,424 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 16:43:50,426 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=FSBuC6uyr2XF2EnkRLjPexFkQeiwfcFnXMYbe2Mm8NLmmqLEv3it!962196520!1543739517874 for 221.226.253.51/>]>
+2018-12-02 19:41:30,119 check_required_field.py[line:647] INFO start to check username LS1074_LR
+2018-12-02 19:41:30,121 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 19:41:30,121 check_required_field.py[line:46] INFO the post params is {u'jsu': u'LS1074_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 19:41:30,121 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 19:41:31,573 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 19:41:31,573 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 19:41:31,573 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=t65urqyZvJvq8vHK_OSOvIhhJ8WMY3_F6FS5EwaEyKMoawsdTXHJ!962196520!1543750200473 for 221.226.253.51/>]>
+2018-12-02 19:41:31,884 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 19:41:31,884 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'LS1074', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u7cae\u98df\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 19:41:31,884 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=t65urqyZvJvq8vHK_OSOvIhhJ8WMY3_F6FS5EwaEyKMoawsdTXHJ!962196520!1543750200473 for 221.226.253.51/>]>
+2018-12-02 19:41:34,401 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:41:34,401 check_required_field.py[line:46] INFO the post params is {u'idt': u'2cab1207002c47b6af57e7ecf8869ca5'}
+2018-12-02 19:41:34,401 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=t65urqyZvJvq8vHK_OSOvIhhJ8WMY3_F6FS5EwaEyKMoawsdTXHJ!962196520!1543750200473 for 221.226.253.51/>]>
+2018-12-02 19:41:34,681 check_required_field.py[line:564] INFO 检查服务名称[粮食供求形势的监测和预警分析]
+2018-12-02 19:41:34,681 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:41:34,681 check_required_field.py[line:105] INFO 服务内容 is 提供市内主要粮油品种供求关系以及政策措施等行情分析与预测预警。, type is text, value_range is 
+2018-12-02 19:41:34,683 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:41:34,683 check_required_field.py[line:105] INFO 服务领域 is 16, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:41:34,683 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:41:34,684 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:41:34,684 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:41:34,684 check_required_field.py[line:105] INFO 服务依据 is 《粮食流通管理条例》（2016年2月6日国务院令第666号《国务院关于修改部分行政法规的决定》）第二十八条“国务院发展改革部门及国家粮食行政管理部门会同农业、统计、产品质量监督等部门负责粮食市场供求形势的监测和预警分析，建立粮食供需抽查制度，发布粮食生产、消费、价格、质量等信息”。, type is text, value_range is 
+2018-12-02 19:41:34,684 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:41:34,684 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'2cab1207002c47b6af57e7ecf8869ca5', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:41:34,686 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=t65urqyZvJvq8vHK_OSOvIhhJ8WMY3_F6FS5EwaEyKMoawsdTXHJ!962196520!1543750200473 for 221.226.253.51/>]>
+2018-12-02 19:41:35,030 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:41:35,030 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'93836ba7a2234c65b75c52d82ec27edd', u'idtlog': u'a08525743b234a1dab1f26aea0123e37'}
+2018-12-02 19:41:35,032 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=t65urqyZvJvq8vHK_OSOvIhhJ8WMY3_F6FS5EwaEyKMoawsdTXHJ!962196520!1543750200473 for 221.226.253.51/>]>
+2018-12-02 19:41:36,392 check_required_field.py[line:616] INFO 检查业务信息[粮食供求形势的监测和预警分析]
+2018-12-02 19:41:36,394 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:41:36,394 check_required_field.py[line:105] INFO 办理地点 is 丹阳市云阳路4号。, type is text, value_range is 
+2018-12-02 19:41:36,394 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:41:36,394 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午15:00-18:00；冬季：上午8:30-11:30，下午14:00-18:00。法定节假日除外, type is text, value_range is 
+2018-12-02 19:41:36,394 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:41:36,395 check_required_field.py[line:105] INFO 经办机构（处室） is 购销调控科, type is text, value_range is 
+2018-12-02 19:41:36,395 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:41:36,395 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:41:36,395 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:41:36,397 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:41:36,397 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:41:36,397 check_required_field.py[line:105] INFO 业务名称 is 粮食供求形势的监测和预警分析, type is text, value_range is 
+2018-12-02 19:41:36,398 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:41:36,398 check_required_field.py[line:105] INFO 承办机构 is 丹阳市粮食局, type is text, value_range is 
+2018-12-02 19:41:36,398 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:41:36,398 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86529726, type is text, value_range is 
+2018-12-02 19:41:36,398 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:41:36,398 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524872, type is text, value_range is 
+2018-12-02 19:41:36,400 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:41:36,400 check_required_field.py[line:46] INFO the post params is {u'idt': u'f73f7051d6e14b09ae33c2218d3cf89d'}
+2018-12-02 19:41:36,400 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=t65urqyZvJvq8vHK_OSOvIhhJ8WMY3_F6FS5EwaEyKMoawsdTXHJ!962196520!1543750200473 for 221.226.253.51/>]>
+2018-12-02 19:41:36,673 check_required_field.py[line:564] INFO 检查服务名称[粮食价格信息发布]
+2018-12-02 19:41:36,673 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:41:36,673 check_required_field.py[line:105] INFO 服务内容 is 监测发布市内粮食收购价格信息、省内主要粮食批发市场批发价格信息和零售价格信息。, type is text, value_range is 
+2018-12-02 19:41:36,674 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:41:36,674 check_required_field.py[line:105] INFO 服务领域 is 16, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:41:36,674 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:41:36,674 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:41:36,674 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:41:36,676 check_required_field.py[line:105] INFO 服务依据 is 《粮食流通管理条例》（2016年2月6日国务院令第666号《国务院关于修改部分行政法规的决定》）第二十八条“国务院发展改革部门及国家粮食行政管理部门会同农业、统计、产品质量监督等部门负责粮食市场供求形势的监测和预警分析，建立粮食供需抽查制度，发布粮食生产、消费、价格、质量等信息”。, type is text, value_range is 
+2018-12-02 19:41:36,676 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:41:36,676 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'f73f7051d6e14b09ae33c2218d3cf89d', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:41:36,676 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=t65urqyZvJvq8vHK_OSOvIhhJ8WMY3_F6FS5EwaEyKMoawsdTXHJ!962196520!1543750200473 for 221.226.253.51/>]>
+2018-12-02 19:41:37,023 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:41:37,023 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'4e6b7ae633c94b82a27a46a222412714', u'idtlog': u'a4bd7f2a1d084ed5815ba01802eef666'}
+2018-12-02 19:41:37,023 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=t65urqyZvJvq8vHK_OSOvIhhJ8WMY3_F6FS5EwaEyKMoawsdTXHJ!962196520!1543750200473 for 221.226.253.51/>]>
+2018-12-02 19:41:38,457 check_required_field.py[line:616] INFO 检查业务信息[粮食价格信息发布]
+2018-12-02 19:41:38,457 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:41:38,457 check_required_field.py[line:105] INFO 办理地点 is 丹阳市云阳路4号。, type is text, value_range is 
+2018-12-02 19:41:38,457 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:41:38,459 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午15:00-18:00；冬季：上午8:30-11:30，下午14:00-18:00。法定节假日除外, type is text, value_range is 
+2018-12-02 19:41:38,459 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:41:38,459 check_required_field.py[line:105] INFO 经办机构（处室） is 购销调控科, type is text, value_range is 
+2018-12-02 19:41:38,460 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:41:38,460 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:41:38,460 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:41:38,460 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:41:38,461 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:41:38,461 check_required_field.py[line:105] INFO 业务名称 is 粮食价格信息发布, type is text, value_range is 
+2018-12-02 19:41:38,461 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:41:38,463 check_required_field.py[line:105] INFO 承办机构 is 丹阳市粮食局, type is text, value_range is 
+2018-12-02 19:41:38,463 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:41:38,463 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86529726, type is text, value_range is 
+2018-12-02 19:41:38,463 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:41:38,463 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524872, type is text, value_range is 
+2018-12-02 19:41:38,463 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:41:38,463 check_required_field.py[line:46] INFO the post params is {u'idt': u'6fa3a44418c24eae8130dcadd7309795'}
+2018-12-02 19:41:38,464 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=t65urqyZvJvq8vHK_OSOvIhhJ8WMY3_F6FS5EwaEyKMoawsdTXHJ!962196520!1543750200473 for 221.226.253.51/>]>
+2018-12-02 19:41:39,069 check_required_field.py[line:564] INFO 检查服务名称[节粮减损宣传与技术推广]
+2018-12-02 19:41:39,069 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:41:39,069 check_required_field.py[line:105] INFO 服务内容 is 指导农户和粮食仓储企业积极推广应用先进适用、绿色生态、低碳节能的科学储粮新技术。, type is text, value_range is 
+2018-12-02 19:41:39,071 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:41:39,071 check_required_field.py[line:105] INFO 服务领域 is 12, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:41:39,072 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:41:39,072 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:41:39,072 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:41:39,072 check_required_field.py[line:105] INFO 服务依据 is 《粮食流通管理条例》（2016年2月6日国务院令第666号《国务院关于修改部分行政法规的决定》）第六条“国务院发展改革部门及国家粮食行政管理部门负责全国粮食的总量平衡、宏观调控和重要粮食品种的结构调整以及粮食流通的中长期规划；国家粮食行政管理部门负责粮食流通的行政管理、行业指导，监督有关粮食流通的法律、法规、政策及各项规章制度的执行。
+国务院工商行政管理、产品质量监督、卫生、价格等部门在各自的职责范围内负责与粮食流通有关的工作。省、自治区、直辖市人民政府在国家宏观调控下，按照粮食省长负责制的要求，负责本地区粮食的总量平衡和地方储备粮的管理。县级以上地方人民政府粮食行政管理部门负责本地区粮食流通的行政管理、行业指导；县级以上地方人民政府工商行政管理、产品质量监督、卫生、价格等部门在各自的职责范围内负责与粮食流通有关的工作”。
+《江苏省地方储备粮管理办法》(省政府令第106号)第十七条“承储企业储存地方储备粮，应当按照国家和省有关规定，对地方储备粮实行专仓储存、专人保管，保证地方储备粮数量真实、质量良好、储存安全；建立地方储备粮台账，及时反映分品种、分库点、分仓位、分年限的地方储备粮数量和成本，做到账账相符、账实相符”。, type is text, value_range is 
+2018-12-02 19:41:39,072 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:41:39,072 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'6fa3a44418c24eae8130dcadd7309795', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:41:39,073 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=t65urqyZvJvq8vHK_OSOvIhhJ8WMY3_F6FS5EwaEyKMoawsdTXHJ!962196520!1543750200473 for 221.226.253.51/>]>
+2018-12-02 19:41:39,548 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:41:39,548 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'6e20aab459534ffbbbd0f687c26bb3a3', u'idtlog': u'a0057e87746a4c349d0f68f1da07b240'}
+2018-12-02 19:41:39,549 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=t65urqyZvJvq8vHK_OSOvIhhJ8WMY3_F6FS5EwaEyKMoawsdTXHJ!962196520!1543750200473 for 221.226.253.51/>]>
+2018-12-02 19:42:25,536 check_required_field.py[line:647] INFO start to check username LS1074_LR
+2018-12-02 19:42:25,536 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 19:42:25,536 check_required_field.py[line:46] INFO the post params is {u'jsu': u'LS1074_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 19:42:25,536 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 19:42:29,907 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 19:42:29,907 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 19:42:29,908 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=aYZur4UaG9YTjxHx059TrwOrXrfExo_2_jFLVemSfGXQB3byBPGp!962196520!1543750255898 for 221.226.253.51/>]>
+2018-12-02 19:42:30,456 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 19:42:30,456 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'LS1074', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u7cae\u98df\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 19:42:30,456 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=aYZur4UaG9YTjxHx059TrwOrXrfExo_2_jFLVemSfGXQB3byBPGp!962196520!1543750255898 for 221.226.253.51/>]>
+2018-12-02 19:42:33,292 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:42:33,293 check_required_field.py[line:46] INFO the post params is {u'idt': u'2cab1207002c47b6af57e7ecf8869ca5'}
+2018-12-02 19:42:33,296 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=aYZur4UaG9YTjxHx059TrwOrXrfExo_2_jFLVemSfGXQB3byBPGp!962196520!1543750255898 for 221.226.253.51/>]>
+2018-12-02 19:42:33,984 check_required_field.py[line:564] INFO 检查服务名称[粮食供求形势的监测和预警分析]
+2018-12-02 19:42:33,986 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:42:33,987 check_required_field.py[line:105] INFO 服务内容 is 提供市内主要粮油品种供求关系以及政策措施等行情分析与预测预警。, type is text, value_range is 
+2018-12-02 19:42:33,989 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:42:33,990 check_required_field.py[line:105] INFO 服务领域 is 16, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:42:33,992 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:42:33,993 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:42:33,996 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:42:33,999 check_required_field.py[line:105] INFO 服务依据 is 《粮食流通管理条例》（2016年2月6日国务院令第666号《国务院关于修改部分行政法规的决定》）第二十八条“国务院发展改革部门及国家粮食行政管理部门会同农业、统计、产品质量监督等部门负责粮食市场供求形势的监测和预警分析，建立粮食供需抽查制度，发布粮食生产、消费、价格、质量等信息”。, type is text, value_range is 
+2018-12-02 19:42:34,000 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:42:34,002 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'2cab1207002c47b6af57e7ecf8869ca5', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:42:34,003 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=aYZur4UaG9YTjxHx059TrwOrXrfExo_2_jFLVemSfGXQB3byBPGp!962196520!1543750255898 for 221.226.253.51/>]>
+2018-12-02 19:42:34,678 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:42:34,680 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'93836ba7a2234c65b75c52d82ec27edd', u'idtlog': u'a08525743b234a1dab1f26aea0123e37'}
+2018-12-02 19:42:34,683 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=aYZur4UaG9YTjxHx059TrwOrXrfExo_2_jFLVemSfGXQB3byBPGp!962196520!1543750255898 for 221.226.253.51/>]>
+2018-12-02 19:42:36,532 check_required_field.py[line:616] INFO 检查业务信息[粮食供求形势的监测和预警分析]
+2018-12-02 19:42:36,536 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:42:36,539 check_required_field.py[line:105] INFO 办理地点 is 丹阳市云阳路4号。, type is text, value_range is 
+2018-12-02 19:42:36,542 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:42:36,546 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午15:00-18:00；冬季：上午8:30-11:30，下午14:00-18:00。法定节假日除外, type is text, value_range is 
+2018-12-02 19:42:36,548 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:42:36,551 check_required_field.py[line:105] INFO 经办机构（处室） is 购销调控科, type is text, value_range is 
+2018-12-02 19:42:36,553 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:42:36,556 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:42:36,559 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:42:36,562 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:42:36,565 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:42:36,569 check_required_field.py[line:105] INFO 业务名称 is 粮食供求形势的监测和预警分析, type is text, value_range is 
+2018-12-02 19:42:36,571 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:42:36,573 check_required_field.py[line:105] INFO 承办机构 is 丹阳市粮食局, type is text, value_range is 
+2018-12-02 19:42:36,575 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:42:36,578 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86529726, type is text, value_range is 
+2018-12-02 19:42:36,581 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:42:36,584 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524872, type is text, value_range is 
+2018-12-02 19:42:36,585 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:42:36,588 check_required_field.py[line:46] INFO the post params is {u'idt': u'f73f7051d6e14b09ae33c2218d3cf89d'}
+2018-12-02 19:42:36,589 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=aYZur4UaG9YTjxHx059TrwOrXrfExo_2_jFLVemSfGXQB3byBPGp!962196520!1543750255898 for 221.226.253.51/>]>
+2018-12-02 19:42:37,321 check_required_field.py[line:564] INFO 检查服务名称[粮食价格信息发布]
+2018-12-02 19:42:37,322 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:42:37,322 check_required_field.py[line:105] INFO 服务内容 is 监测发布市内粮食收购价格信息、省内主要粮食批发市场批发价格信息和零售价格信息。, type is text, value_range is 
+2018-12-02 19:42:37,322 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:42:37,322 check_required_field.py[line:105] INFO 服务领域 is 16, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:42:37,322 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:42:37,323 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:42:37,323 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:42:37,323 check_required_field.py[line:105] INFO 服务依据 is 《粮食流通管理条例》（2016年2月6日国务院令第666号《国务院关于修改部分行政法规的决定》）第二十八条“国务院发展改革部门及国家粮食行政管理部门会同农业、统计、产品质量监督等部门负责粮食市场供求形势的监测和预警分析，建立粮食供需抽查制度，发布粮食生产、消费、价格、质量等信息”。, type is text, value_range is 
+2018-12-02 19:42:37,325 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:42:37,325 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'f73f7051d6e14b09ae33c2218d3cf89d', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:42:37,325 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=aYZur4UaG9YTjxHx059TrwOrXrfExo_2_jFLVemSfGXQB3byBPGp!962196520!1543750255898 for 221.226.253.51/>]>
+2018-12-02 19:42:37,930 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:42:37,930 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'4e6b7ae633c94b82a27a46a222412714', u'idtlog': u'a4bd7f2a1d084ed5815ba01802eef666'}
+2018-12-02 19:42:37,930 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=aYZur4UaG9YTjxHx059TrwOrXrfExo_2_jFLVemSfGXQB3byBPGp!962196520!1543750255898 for 221.226.253.51/>]>
+2018-12-02 19:42:39,690 check_required_field.py[line:616] INFO 检查业务信息[粮食价格信息发布]
+2018-12-02 19:42:39,690 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:42:39,690 check_required_field.py[line:105] INFO 办理地点 is 丹阳市云阳路4号。, type is text, value_range is 
+2018-12-02 19:42:39,690 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:42:39,690 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午15:00-18:00；冬季：上午8:30-11:30，下午14:00-18:00。法定节假日除外, type is text, value_range is 
+2018-12-02 19:42:39,690 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:42:39,690 check_required_field.py[line:105] INFO 经办机构（处室） is 购销调控科, type is text, value_range is 
+2018-12-02 19:42:39,690 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:42:39,691 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:42:39,691 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:42:39,691 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:42:39,691 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:42:39,691 check_required_field.py[line:105] INFO 业务名称 is 粮食价格信息发布, type is text, value_range is 
+2018-12-02 19:42:39,691 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:42:39,693 check_required_field.py[line:105] INFO 承办机构 is 丹阳市粮食局, type is text, value_range is 
+2018-12-02 19:42:39,693 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:42:39,693 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86529726, type is text, value_range is 
+2018-12-02 19:42:39,693 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:42:39,693 check_required_field.py[line:105] INFO 咨询方式 is 0511-86524872, type is text, value_range is 
+2018-12-02 19:42:39,693 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:42:39,693 check_required_field.py[line:46] INFO the post params is {u'idt': u'6fa3a44418c24eae8130dcadd7309795'}
+2018-12-02 19:42:39,693 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=aYZur4UaG9YTjxHx059TrwOrXrfExo_2_jFLVemSfGXQB3byBPGp!962196520!1543750255898 for 221.226.253.51/>]>
+2018-12-02 19:42:40,289 check_required_field.py[line:564] INFO 检查服务名称[节粮减损宣传与技术推广]
+2018-12-02 19:42:40,289 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:42:40,290 check_required_field.py[line:105] INFO 服务内容 is 指导农户和粮食仓储企业积极推广应用先进适用、绿色生态、低碳节能的科学储粮新技术。, type is text, value_range is 
+2018-12-02 19:42:40,290 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:42:40,290 check_required_field.py[line:105] INFO 服务领域 is 12, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:42:40,292 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:42:40,292 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:42:40,292 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:42:40,292 check_required_field.py[line:105] INFO 服务依据 is 《粮食流通管理条例》（2016年2月6日国务院令第666号《国务院关于修改部分行政法规的决定》）第六条“国务院发展改革部门及国家粮食行政管理部门负责全国粮食的总量平衡、宏观调控和重要粮食品种的结构调整以及粮食流通的中长期规划；国家粮食行政管理部门负责粮食流通的行政管理、行业指导，监督有关粮食流通的法律、法规、政策及各项规章制度的执行。
+国务院工商行政管理、产品质量监督、卫生、价格等部门在各自的职责范围内负责与粮食流通有关的工作。省、自治区、直辖市人民政府在国家宏观调控下，按照粮食省长负责制的要求，负责本地区粮食的总量平衡和地方储备粮的管理。县级以上地方人民政府粮食行政管理部门负责本地区粮食流通的行政管理、行业指导；县级以上地方人民政府工商行政管理、产品质量监督、卫生、价格等部门在各自的职责范围内负责与粮食流通有关的工作”。
+《江苏省地方储备粮管理办法》(省政府令第106号)第十七条“承储企业储存地方储备粮，应当按照国家和省有关规定，对地方储备粮实行专仓储存、专人保管，保证地方储备粮数量真实、质量良好、储存安全；建立地方储备粮台账，及时反映分品种、分库点、分仓位、分年限的地方储备粮数量和成本，做到账账相符、账实相符”。, type is text, value_range is 
+2018-12-02 19:42:40,292 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:42:40,292 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'6fa3a44418c24eae8130dcadd7309795', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:42:40,293 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=aYZur4UaG9YTjxHx059TrwOrXrfExo_2_jFLVemSfGXQB3byBPGp!962196520!1543750255898 for 221.226.253.51/>]>
+2018-12-02 19:42:40,792 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:42:40,793 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'6e20aab459534ffbbbd0f687c26bb3a3', u'idtlog': u'a0057e87746a4c349d0f68f1da07b240'}
+2018-12-02 19:42:40,796 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=aYZur4UaG9YTjxHx059TrwOrXrfExo_2_jFLVemSfGXQB3byBPGp!962196520!1543750255898 for 221.226.253.51/>]>
+2018-12-02 19:42:42,582 check_required_field.py[line:616] INFO 检查业务信息[节粮减损宣传与技术推广]
+2018-12-02 19:42:42,582 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:42:42,582 check_required_field.py[line:105] INFO 办理地点 is 江苏省丹阳市云阳路4号丹阳市粮食局。, type is text, value_range is 
+2018-12-02 19:42:42,582 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:42:42,584 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午13:30-17:00；冬季：上午8:30-11:00，下午13:00-17:00。, type is text, value_range is 
+2018-12-02 19:42:42,584 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:42:42,584 check_required_field.py[line:105] INFO 经办机构（处室） is 产业发展科, type is text, value_range is 
+2018-12-02 19:42:42,585 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:42:42,585 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:42:42,585 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:42:42,585 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:42:42,585 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:42:42,585 check_required_field.py[line:105] INFO 业务名称 is 节粮减损宣传与技术推广, type is text, value_range is 
+2018-12-02 19:42:42,585 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:42:42,586 check_required_field.py[line:105] INFO 承办机构 is 丹阳市粮食局, type is text, value_range is 
+2018-12-02 19:42:42,586 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:42:42,586 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86529726, type is text, value_range is 
+2018-12-02 19:42:42,588 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:42:42,588 check_required_field.py[line:105] INFO 咨询方式 is 0511-86563218, type is text, value_range is 
+2018-12-02 19:42:42,588 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:42:42,588 check_required_field.py[line:46] INFO the post params is {u'idt': u'08004a0d1e76410984bc5239ddb4e4db'}
+2018-12-02 19:42:42,589 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=aYZur4UaG9YTjxHx059TrwOrXrfExo_2_jFLVemSfGXQB3byBPGp!962196520!1543750255898 for 221.226.253.51/>]>
+2018-12-02 19:42:43,153 check_required_field.py[line:564] INFO 检查服务名称[粮油食品安全科普宣传]
+2018-12-02 19:42:43,154 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:42:43,155 check_required_field.py[line:105] INFO 服务内容 is 结合粮食部门的特点，组织开展群众性宣传活动,因地制宜、重点突出、讲求实效、通俗易懂、形式多样，引导民众重视粮油食品质量安全，树立安全、健康、营养、节约的理念，共同营造良好的社会舆论氛围。, type is text, value_range is 
+2018-12-02 19:42:43,157 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:42:43,158 check_required_field.py[line:105] INFO 服务领域 is 6, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:42:43,158 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:42:43,160 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:42:43,160 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:42:43,161 check_required_field.py[line:105] INFO 服务依据 is 《粮食流通管理条例》（2016年2月6日国务院令第666号《国务院关于修改部分行政法规的决定》）第六条“国务院发展改革部门及国家粮食行政管理部门负责全国粮食的总量平衡、宏观调控和重要粮食品种的结构调整以及粮食流通的中长期规划；国家粮食行政管理部门负责粮食流通的行政管理、行业指导，监督有关粮食流通的法律、法规、政策及各项规章制度的执行。
+国务院工商行政管理、产品质量监督、卫生、价格等部门在各自的职责范围内负责与粮食流通有关的工作。
+省、自治区、直辖市人民政府在国家宏观调控下，按照粮食省长负责制的要求，负责本地区粮食的总量平衡和地方储备粮的管理。县级以上地方人民政府粮食行政管理部门负责本地区粮食流通的行政管理、行业指导；县级以上地方人民政府工商行政管理、产品质量监督、卫生、价格等部门在各自的职责范围内负责与粮食流通有关的工作”。, type is text, value_range is 
+2018-12-02 19:42:43,163 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:42:43,164 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'08004a0d1e76410984bc5239ddb4e4db', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:42:43,164 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=aYZur4UaG9YTjxHx059TrwOrXrfExo_2_jFLVemSfGXQB3byBPGp!962196520!1543750255898 for 221.226.253.51/>]>
+2018-12-02 19:42:44,036 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:42:44,036 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'903383211a004bfe9dd180491c516f2b', u'idtlog': u'cfacb87409394160bc7f3937b277db8d'}
+2018-12-02 19:42:44,036 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=aYZur4UaG9YTjxHx059TrwOrXrfExo_2_jFLVemSfGXQB3byBPGp!962196520!1543750255898 for 221.226.253.51/>]>
+2018-12-02 19:42:45,815 check_required_field.py[line:616] INFO 检查业务信息[粮油食品安全科普宣传]
+2018-12-02 19:42:45,815 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:42:45,816 check_required_field.py[line:105] INFO 办理地点 is 丹阳市云阳路4号。, type is text, value_range is 
+2018-12-02 19:42:45,818 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:42:45,819 check_required_field.py[line:105] INFO 工作时间 is 按照市食安办统一部署, type is text, value_range is 
+2018-12-02 19:42:45,819 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:42:45,819 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市粮食局监督检查科, type is text, value_range is 
+2018-12-02 19:42:45,821 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:42:45,822 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:42:45,822 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:42:45,822 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:42:45,823 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:42:45,825 check_required_field.py[line:105] INFO 业务名称 is 粮油食品安全科普宣传, type is text, value_range is 
+2018-12-02 19:42:45,825 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:42:45,825 check_required_field.py[line:105] INFO 承办机构 is 丹阳市粮食局, type is text, value_range is 
+2018-12-02 19:42:45,825 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:42:45,825 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86529726, type is text, value_range is 
+2018-12-02 19:42:45,825 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:42:45,825 check_required_field.py[line:105] INFO 咨询方式 is 0511-86526425, type is text, value_range is 
+2018-12-02 19:42:45,825 check_required_field.py[line:643] INFO []
+2018-12-02 19:42:45,825 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 19:42:45,826 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=aYZur4UaG9YTjxHx059TrwOrXrfExo_2_jFLVemSfGXQB3byBPGp!962196520!1543750255898 for 221.226.253.51/>]>

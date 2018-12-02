@@ -1,0 +1,360 @@
+2018-12-02 16:30:04,845 check_required_field.py[line:647] INFO start to check username C1084_LR
+2018-12-02 16:30:04,849 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 16:30:04,858 check_required_field.py[line:46] INFO the post params is {u'jsu': u'C1084_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 16:30:04,864 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 16:30:08,236 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 16:30:08,236 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 16:30:08,236 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=uP5t_2yysr8IPqzNpGYIExTZ3fhJ523eHQdJA6iq-1DSE6XW8rXk!962196520!1543738715314 for 221.226.253.51/>]>
+2018-12-02 16:30:08,510 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 16:30:08,510 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'C1084', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u56fd\u571f\u8d44\u6e90\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 16:30:08,512 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=uP5t_2yysr8IPqzNpGYIExTZ3fhJ523eHQdJA6iq-1DSE6XW8rXk!962196520!1543738715314 for 221.226.253.51/>]>
+2018-12-02 16:30:10,569 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:30:10,569 check_required_field.py[line:46] INFO the post params is {u'idt': u'8306b4b4db984090a64f7c29cbf1950e'}
+2018-12-02 16:30:10,572 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=uP5t_2yysr8IPqzNpGYIExTZ3fhJ523eHQdJA6iq-1DSE6XW8rXk!962196520!1543738715314 for 221.226.253.51/>]>
+2018-12-02 16:30:10,790 check_required_field.py[line:564] INFO 检查服务名称[测绘地理信息宣传]
+2018-12-02 16:30:10,790 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:30:10,792 check_required_field.py[line:105] INFO 服务内容 is 宣传测绘重大工程开展情况；宣传测绘成果为经济社会建设提供服务保障情况；宣传测绘统一监管、测绘科技创新和人才队伍建设等情况。, type is text, value_range is 
+2018-12-02 16:30:10,792 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:30:10,792 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:30:10,792 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:30:10,793 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:30:10,793 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:30:10,793 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国测绘法》, type is text, value_range is 
+2018-12-02 16:30:10,793 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:30:10,793 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'8306b4b4db984090a64f7c29cbf1950e', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:30:10,795 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=uP5t_2yysr8IPqzNpGYIExTZ3fhJ523eHQdJA6iq-1DSE6XW8rXk!962196520!1543738715314 for 221.226.253.51/>]>
+2018-12-02 16:30:11,130 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:30:11,130 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ba9b5cd87a654776b6ba7e2ab4f756cf', u'idtlog': u'a1257cd06fa54951b8adea830d225236'}
+2018-12-02 16:30:11,130 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=uP5t_2yysr8IPqzNpGYIExTZ3fhJ523eHQdJA6iq-1DSE6XW8rXk!962196520!1543738715314 for 221.226.253.51/>]>
+2018-12-02 16:30:12,221 check_required_field.py[line:616] INFO 检查业务信息[测绘地理信息宣传]
+2018-12-02 16:30:12,221 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:30:12,221 check_required_field.py[line:105] INFO 办理地点 is 江苏省丹阳市丹桂路, type is text, value_range is 
+2018-12-02 16:30:12,223 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:30:12,223 check_required_field.py[line:105] INFO 工作时间 is 工作日上午9:00-11:30，下午14：00-18:00, type is text, value_range is 
+2018-12-02 16:30:12,223 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:30:12,223 check_required_field.py[line:105] INFO 经办机构（处室） is 测管科, type is text, value_range is 
+2018-12-02 16:30:12,223 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:30:12,223 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:30:12,223 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:30:12,223 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 16:30:12,223 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:30:12,223 check_required_field.py[line:105] INFO 业务名称 is 测绘地理信息宣传, type is text, value_range is 
+2018-12-02 16:30:12,224 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:30:12,224 check_required_field.py[line:105] INFO 承办机构 is 丹阳市国土资源局, type is text, value_range is 
+2018-12-02 16:30:12,224 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:30:12,224 check_required_field.py[line:105] INFO 监督投诉方式 is 80759300, type is text, value_range is 
+2018-12-02 16:30:12,224 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:30:12,226 check_required_field.py[line:105] INFO 咨询方式 is 86920635, type is text, value_range is 
+2018-12-02 16:30:12,226 check_required_field.py[line:643] INFO []
+2018-12-02 16:30:12,226 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 16:30:12,226 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=uP5t_2yysr8IPqzNpGYIExTZ3fhJ523eHQdJA6iq-1DSE6XW8rXk!962196520!1543738715314 for 221.226.253.51/>]>
+2018-12-02 16:43:15,799 check_required_field.py[line:647] INFO start to check username C1084_LR
+2018-12-02 16:43:15,803 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 16:43:15,808 check_required_field.py[line:46] INFO the post params is {u'jsu': u'C1084_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 16:43:15,819 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 16:43:24,221 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 16:43:24,221 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 16:43:24,223 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=jQ1uC35yfV4p07x-OGLtJHU86GkA8kJBaOCeysmTyUPMJSlkadQ8!962196520!1543739506290 for 221.226.253.51/>]>
+2018-12-02 16:43:24,914 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 16:43:24,915 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'C1084', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u56fd\u571f\u8d44\u6e90\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 16:43:24,917 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=jQ1uC35yfV4p07x-OGLtJHU86GkA8kJBaOCeysmTyUPMJSlkadQ8!962196520!1543739506290 for 221.226.253.51/>]>
+2018-12-02 16:43:27,357 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:43:27,359 check_required_field.py[line:46] INFO the post params is {u'idt': u'8306b4b4db984090a64f7c29cbf1950e'}
+2018-12-02 16:43:27,361 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=jQ1uC35yfV4p07x-OGLtJHU86GkA8kJBaOCeysmTyUPMJSlkadQ8!962196520!1543739506290 for 221.226.253.51/>]>
+2018-12-02 16:43:27,986 check_required_field.py[line:564] INFO 检查服务名称[测绘地理信息宣传]
+2018-12-02 16:43:27,986 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:43:27,999 check_required_field.py[line:105] INFO 服务内容 is 宣传测绘重大工程开展情况；宣传测绘成果为经济社会建设提供服务保障情况；宣传测绘统一监管、测绘科技创新和人才队伍建设等情况。, type is text, value_range is 
+2018-12-02 16:43:27,999 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:43:28,002 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:43:28,003 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:43:28,006 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:43:28,006 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:43:28,009 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国测绘法》, type is text, value_range is 
+2018-12-02 16:43:28,009 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:43:28,012 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'8306b4b4db984090a64f7c29cbf1950e', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:43:28,012 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=jQ1uC35yfV4p07x-OGLtJHU86GkA8kJBaOCeysmTyUPMJSlkadQ8!962196520!1543739506290 for 221.226.253.51/>]>
+2018-12-02 16:43:29,058 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:43:29,058 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ba9b5cd87a654776b6ba7e2ab4f756cf', u'idtlog': u'a1257cd06fa54951b8adea830d225236'}
+2018-12-02 16:43:29,059 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=jQ1uC35yfV4p07x-OGLtJHU86GkA8kJBaOCeysmTyUPMJSlkadQ8!962196520!1543739506290 for 221.226.253.51/>]>
+2018-12-02 16:43:31,183 check_required_field.py[line:616] INFO 检查业务信息[测绘地理信息宣传]
+2018-12-02 16:43:31,184 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:43:31,187 check_required_field.py[line:105] INFO 办理地点 is 江苏省丹阳市丹桂路, type is text, value_range is 
+2018-12-02 16:43:31,188 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:43:31,191 check_required_field.py[line:105] INFO 工作时间 is 工作日上午9:00-11:30，下午14：00-18:00, type is text, value_range is 
+2018-12-02 16:43:31,194 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:43:31,197 check_required_field.py[line:105] INFO 经办机构（处室） is 测管科, type is text, value_range is 
+2018-12-02 16:43:31,198 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:43:31,198 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:43:31,200 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:43:31,200 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 16:43:31,200 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:43:31,200 check_required_field.py[line:105] INFO 业务名称 is 测绘地理信息宣传, type is text, value_range is 
+2018-12-02 16:43:31,200 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:43:31,200 check_required_field.py[line:105] INFO 承办机构 is 丹阳市国土资源局, type is text, value_range is 
+2018-12-02 16:43:31,201 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:43:31,201 check_required_field.py[line:105] INFO 监督投诉方式 is 80759300, type is text, value_range is 
+2018-12-02 16:43:31,201 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:43:31,201 check_required_field.py[line:105] INFO 咨询方式 is 86920635, type is text, value_range is 
+2018-12-02 16:43:31,203 check_required_field.py[line:643] INFO []
+2018-12-02 16:43:31,203 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 16:43:31,203 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=jQ1uC35yfV4p07x-OGLtJHU86GkA8kJBaOCeysmTyUPMJSlkadQ8!962196520!1543739506290 for 221.226.253.51/>]>
+2018-12-02 18:54:25,980 check_required_field.py[line:647] INFO start to check username C1084_LR
+2018-12-02 18:54:25,980 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 18:54:25,980 check_required_field.py[line:46] INFO the post params is {u'jsu': u'C1084_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 18:54:25,980 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 18:54:27,696 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 18:54:27,696 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 18:54:27,696 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=M5Nug5TVO4qbVJnoUuFLIZaws8D6WD_951TNYbfdz9ZN8n0LF-FD!962196520!1543747376341 for 221.226.253.51/>]>
+2018-12-02 18:54:28,040 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 18:54:28,040 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'C1084', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u56fd\u571f\u8d44\u6e90\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 18:54:28,042 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=M5Nug5TVO4qbVJnoUuFLIZaws8D6WD_951TNYbfdz9ZN8n0LF-FD!962196520!1543747376341 for 221.226.253.51/>]>
+2018-12-02 18:54:30,256 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 18:54:30,256 check_required_field.py[line:46] INFO the post params is {u'idt': u'8306b4b4db984090a64f7c29cbf1950e'}
+2018-12-02 18:54:30,256 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=M5Nug5TVO4qbVJnoUuFLIZaws8D6WD_951TNYbfdz9ZN8n0LF-FD!962196520!1543747376341 for 221.226.253.51/>]>
+2018-12-02 18:54:30,568 check_required_field.py[line:564] INFO 检查服务名称[测绘地理信息宣传]
+2018-12-02 18:54:30,568 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 18:54:30,569 check_required_field.py[line:105] INFO 服务内容 is 宣传测绘重大工程开展情况；宣传测绘成果为经济社会建设提供服务保障情况；宣传测绘统一监管、测绘科技创新和人才队伍建设等情况。, type is text, value_range is 
+2018-12-02 18:54:30,569 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 18:54:30,569 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 18:54:30,569 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 18:54:30,569 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 18:54:30,569 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 18:54:30,571 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国测绘法》, type is text, value_range is 
+2018-12-02 18:54:30,571 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 18:54:30,571 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'8306b4b4db984090a64f7c29cbf1950e', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 18:54:30,572 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=M5Nug5TVO4qbVJnoUuFLIZaws8D6WD_951TNYbfdz9ZN8n0LF-FD!962196520!1543747376341 for 221.226.253.51/>]>
+2018-12-02 18:54:30,951 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 18:54:30,951 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ba9b5cd87a654776b6ba7e2ab4f756cf', u'idtlog': u'a1257cd06fa54951b8adea830d225236'}
+2018-12-02 18:54:30,951 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=M5Nug5TVO4qbVJnoUuFLIZaws8D6WD_951TNYbfdz9ZN8n0LF-FD!962196520!1543747376341 for 221.226.253.51/>]>
+2018-12-02 18:54:32,430 check_required_field.py[line:616] INFO 检查业务信息[测绘地理信息宣传]
+2018-12-02 18:54:32,431 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 18:54:32,431 check_required_field.py[line:105] INFO 办理地点 is 江苏省丹阳市丹桂路, type is text, value_range is 
+2018-12-02 18:54:32,433 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 18:54:32,433 check_required_field.py[line:105] INFO 工作时间 is 工作日上午9:00-11:30，下午14：00-18:00, type is text, value_range is 
+2018-12-02 18:54:32,433 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 18:54:32,434 check_required_field.py[line:105] INFO 经办机构（处室） is 测管科, type is text, value_range is 
+2018-12-02 18:54:32,434 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 18:54:32,434 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 18:54:32,434 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 18:54:32,434 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 18:54:32,434 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 18:54:32,436 check_required_field.py[line:105] INFO 业务名称 is 测绘地理信息宣传, type is text, value_range is 
+2018-12-02 18:54:32,436 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 18:54:32,436 check_required_field.py[line:105] INFO 承办机构 is 丹阳市国土资源局, type is text, value_range is 
+2018-12-02 18:54:32,437 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 18:54:32,437 check_required_field.py[line:105] INFO 监督投诉方式 is 80759300, type is text, value_range is 
+2018-12-02 18:54:32,437 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 18:54:32,437 check_required_field.py[line:105] INFO 咨询方式 is 86920635, type is text, value_range is 
+2018-12-02 18:54:32,437 check_required_field.py[line:643] INFO []
+2018-12-02 18:54:32,437 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 18:54:32,437 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=M5Nug5TVO4qbVJnoUuFLIZaws8D6WD_951TNYbfdz9ZN8n0LF-FD!962196520!1543747376341 for 221.226.253.51/>]>
+2018-12-02 18:55:44,493 check_required_field.py[line:647] INFO start to check username C1084_LR
+2018-12-02 18:55:44,493 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 18:55:44,493 check_required_field.py[line:46] INFO the post params is {u'jsu': u'C1084_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 18:55:44,493 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 18:55:45,957 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 18:55:45,959 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 18:55:45,959 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=PvJuhMeFwmoL5beuOUTVrV4JQUxIWCyfxoNkLOxpUGMZFfnTN8No!962196520!1543747454853 for 221.226.253.51/>]>
+2018-12-02 18:55:46,207 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 18:55:46,207 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'C1084', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u56fd\u571f\u8d44\u6e90\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 18:55:46,207 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=PvJuhMeFwmoL5beuOUTVrV4JQUxIWCyfxoNkLOxpUGMZFfnTN8No!962196520!1543747454853 for 221.226.253.51/>]>
+2018-12-02 19:39:32,477 check_required_field.py[line:647] INFO start to check username C1084_LR
+2018-12-02 19:39:32,479 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 19:39:32,479 check_required_field.py[line:46] INFO the post params is {u'jsu': u'C1084_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 19:39:32,480 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 19:39:33,938 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 19:39:33,938 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 19:39:33,940 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=xQZurOEV0bWOp3OIG0XdZCsNCjoDnHBw1Dixx9PV-XXMoXaRf3LZ!962196520!1543750082837 for 221.226.253.51/>]>
+2018-12-02 19:39:34,180 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 19:39:34,180 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'C1084', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u56fd\u571f\u8d44\u6e90\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 19:39:34,180 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=xQZurOEV0bWOp3OIG0XdZCsNCjoDnHBw1Dixx9PV-XXMoXaRf3LZ!962196520!1543750082837 for 221.226.253.51/>]>
+2018-12-02 19:39:36,290 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:39:36,290 check_required_field.py[line:46] INFO the post params is {u'idt': u'8306b4b4db984090a64f7c29cbf1950e'}
+2018-12-02 19:39:36,292 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=xQZurOEV0bWOp3OIG0XdZCsNCjoDnHBw1Dixx9PV-XXMoXaRf3LZ!962196520!1543750082837 for 221.226.253.51/>]>
+2018-12-02 19:39:36,533 check_required_field.py[line:564] INFO 检查服务名称[测绘地理信息宣传]
+2018-12-02 19:39:36,533 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:39:36,535 check_required_field.py[line:105] INFO 服务内容 is 宣传测绘重大工程开展情况；宣传测绘成果为经济社会建设提供服务保障情况；宣传测绘统一监管、测绘科技创新和人才队伍建设等情况。, type is text, value_range is 
+2018-12-02 19:39:36,535 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:39:36,535 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:39:36,536 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:39:36,536 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:39:36,536 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:39:36,536 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国测绘法》, type is text, value_range is 
+2018-12-02 19:39:36,536 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:39:36,536 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'8306b4b4db984090a64f7c29cbf1950e', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:39:36,536 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=xQZurOEV0bWOp3OIG0XdZCsNCjoDnHBw1Dixx9PV-XXMoXaRf3LZ!962196520!1543750082837 for 221.226.253.51/>]>
+2018-12-02 19:39:36,819 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:39:36,819 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ba9b5cd87a654776b6ba7e2ab4f756cf', u'idtlog': u'a1257cd06fa54951b8adea830d225236'}
+2018-12-02 19:39:36,819 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=xQZurOEV0bWOp3OIG0XdZCsNCjoDnHBw1Dixx9PV-XXMoXaRf3LZ!962196520!1543750082837 for 221.226.253.51/>]>
+2018-12-02 19:39:38,072 check_required_field.py[line:616] INFO 检查业务信息[测绘地理信息宣传]
+2018-12-02 19:39:38,072 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:39:38,073 check_required_field.py[line:105] INFO 办理地点 is 江苏省丹阳市丹桂路, type is text, value_range is 
+2018-12-02 19:39:38,073 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:39:38,073 check_required_field.py[line:105] INFO 工作时间 is 工作日上午9:00-11:30，下午14：00-18:00, type is text, value_range is 
+2018-12-02 19:39:38,075 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:39:38,075 check_required_field.py[line:105] INFO 经办机构（处室） is 测管科, type is text, value_range is 
+2018-12-02 19:39:38,075 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:39:38,075 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:39:38,075 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:39:38,075 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 19:39:38,076 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:39:38,076 check_required_field.py[line:105] INFO 业务名称 is 测绘地理信息宣传, type is text, value_range is 
+2018-12-02 19:39:38,078 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:39:38,078 check_required_field.py[line:105] INFO 承办机构 is 丹阳市国土资源局, type is text, value_range is 
+2018-12-02 19:39:38,078 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:39:38,078 check_required_field.py[line:105] INFO 监督投诉方式 is 80759300, type is text, value_range is 
+2018-12-02 19:39:38,078 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:39:38,079 check_required_field.py[line:105] INFO 咨询方式 is 86920635, type is text, value_range is 
+2018-12-02 19:39:38,079 check_required_field.py[line:643] INFO []
+2018-12-02 19:39:38,079 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 19:39:38,081 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=xQZurOEV0bWOp3OIG0XdZCsNCjoDnHBw1Dixx9PV-XXMoXaRf3LZ!962196520!1543750082837 for 221.226.253.51/>]>
+2018-12-02 19:42:15,545 check_required_field.py[line:647] INFO start to check username C1084_LR
+2018-12-02 19:42:15,551 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 19:42:15,556 check_required_field.py[line:46] INFO the post params is {u'jsu': u'C1084_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 19:42:15,559 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 19:42:22,750 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 19:42:22,750 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 19:42:22,752 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=wh1ur15UZQo2yg7zEzEy3G4SrvF9ahe_vZgeZz3p1Fvwgh7HaO0o!962196520!1543750245972 for 221.226.253.51/>]>
+2018-12-02 19:42:23,394 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 19:42:23,395 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'C1084', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u56fd\u571f\u8d44\u6e90\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 19:42:23,398 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=wh1ur15UZQo2yg7zEzEy3G4SrvF9ahe_vZgeZz3p1Fvwgh7HaO0o!962196520!1543750245972 for 221.226.253.51/>]>
+2018-12-02 19:42:25,694 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:42:25,694 check_required_field.py[line:46] INFO the post params is {u'idt': u'8306b4b4db984090a64f7c29cbf1950e'}
+2018-12-02 19:42:25,694 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=wh1ur15UZQo2yg7zEzEy3G4SrvF9ahe_vZgeZz3p1Fvwgh7HaO0o!962196520!1543750245972 for 221.226.253.51/>]>
+2018-12-02 19:42:26,496 check_required_field.py[line:564] INFO 检查服务名称[测绘地理信息宣传]
+2018-12-02 19:42:26,499 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:42:26,500 check_required_field.py[line:105] INFO 服务内容 is 宣传测绘重大工程开展情况；宣传测绘成果为经济社会建设提供服务保障情况；宣传测绘统一监管、测绘科技创新和人才队伍建设等情况。, type is text, value_range is 
+2018-12-02 19:42:26,503 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:42:26,506 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:42:26,509 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:42:26,510 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:42:26,513 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:42:26,513 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国测绘法》, type is text, value_range is 
+2018-12-02 19:42:26,513 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:42:26,515 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'8306b4b4db984090a64f7c29cbf1950e', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:42:26,516 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=wh1ur15UZQo2yg7zEzEy3G4SrvF9ahe_vZgeZz3p1Fvwgh7HaO0o!962196520!1543750245972 for 221.226.253.51/>]>
+2018-12-02 19:42:27,621 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:42:27,621 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ba9b5cd87a654776b6ba7e2ab4f756cf', u'idtlog': u'a1257cd06fa54951b8adea830d225236'}
+2018-12-02 19:42:27,621 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=wh1ur15UZQo2yg7zEzEy3G4SrvF9ahe_vZgeZz3p1Fvwgh7HaO0o!962196520!1543750245972 for 221.226.253.51/>]>
+2018-12-02 19:42:29,540 check_required_field.py[line:616] INFO 检查业务信息[测绘地理信息宣传]
+2018-12-02 19:42:29,542 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:42:29,545 check_required_field.py[line:105] INFO 办理地点 is 江苏省丹阳市丹桂路, type is text, value_range is 
+2018-12-02 19:42:29,546 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:42:29,549 check_required_field.py[line:105] INFO 工作时间 is 工作日上午9:00-11:30，下午14：00-18:00, type is text, value_range is 
+2018-12-02 19:42:29,549 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:42:29,552 check_required_field.py[line:105] INFO 经办机构（处室） is 测管科, type is text, value_range is 
+2018-12-02 19:42:29,553 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:42:29,555 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:42:29,555 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:42:29,558 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 19:42:29,559 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:42:29,559 check_required_field.py[line:105] INFO 业务名称 is 测绘地理信息宣传, type is text, value_range is 
+2018-12-02 19:42:29,559 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:42:29,559 check_required_field.py[line:105] INFO 承办机构 is 丹阳市国土资源局, type is text, value_range is 
+2018-12-02 19:42:29,559 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:42:29,561 check_required_field.py[line:105] INFO 监督投诉方式 is 80759300, type is text, value_range is 
+2018-12-02 19:42:29,562 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:42:29,562 check_required_field.py[line:105] INFO 咨询方式 is 86920635, type is text, value_range is 
+2018-12-02 19:42:29,563 check_required_field.py[line:643] INFO []
+2018-12-02 19:42:29,563 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 19:42:29,565 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=wh1ur15UZQo2yg7zEzEy3G4SrvF9ahe_vZgeZz3p1Fvwgh7HaO0o!962196520!1543750245972 for 221.226.253.51/>]>
+2018-12-02 19:48:12,993 check_required_field.py[line:647] INFO start to check username C1084_LR
+2018-12-02 19:48:12,996 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 19:48:13,006 check_required_field.py[line:46] INFO the post params is {u'jsu': u'C1084_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 19:48:13,013 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 19:48:18,575 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 19:48:18,578 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 19:48:18,581 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=SOlutNLdBKNbn0RtNOyOb7jxLr8WUfGr8MaEy4kj0qOyPtY_GP6S!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:19,096 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 19:48:19,098 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'C1084', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u56fd\u571f\u8d44\u6e90\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 19:48:19,101 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=SOlutNLdBKNbn0RtNOyOb7jxLr8WUfGr8MaEy4kj0qOyPtY_GP6S!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:21,322 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:48:21,323 check_required_field.py[line:46] INFO the post params is {u'idt': u'8306b4b4db984090a64f7c29cbf1950e'}
+2018-12-02 19:48:21,326 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=SOlutNLdBKNbn0RtNOyOb7jxLr8WUfGr8MaEy4kj0qOyPtY_GP6S!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:21,615 check_required_field.py[line:564] INFO 检查服务名称[测绘地理信息宣传]
+2018-12-02 19:48:21,615 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:48:21,615 check_required_field.py[line:105] INFO 服务内容 is 宣传测绘重大工程开展情况；宣传测绘成果为经济社会建设提供服务保障情况；宣传测绘统一监管、测绘科技创新和人才队伍建设等情况。, type is text, value_range is 
+2018-12-02 19:48:21,615 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:48:21,615 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:48:21,615 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:48:21,615 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:48:21,617 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:48:21,617 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国测绘法》, type is text, value_range is 
+2018-12-02 19:48:21,617 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:48:21,617 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'8306b4b4db984090a64f7c29cbf1950e', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:48:21,617 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=SOlutNLdBKNbn0RtNOyOb7jxLr8WUfGr8MaEy4kj0qOyPtY_GP6S!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:21,943 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:48:21,943 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ba9b5cd87a654776b6ba7e2ab4f756cf', u'idtlog': u'a1257cd06fa54951b8adea830d225236'}
+2018-12-02 19:48:21,944 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=SOlutNLdBKNbn0RtNOyOb7jxLr8WUfGr8MaEy4kj0qOyPtY_GP6S!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:23,355 check_required_field.py[line:616] INFO 检查业务信息[测绘地理信息宣传]
+2018-12-02 19:48:23,355 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:48:23,358 check_required_field.py[line:105] INFO 办理地点 is 江苏省丹阳市丹桂路, type is text, value_range is 
+2018-12-02 19:48:23,358 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:48:23,358 check_required_field.py[line:105] INFO 工作时间 is 工作日上午9:00-11:30，下午14：00-18:00, type is text, value_range is 
+2018-12-02 19:48:23,359 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:48:23,361 check_required_field.py[line:105] INFO 经办机构（处室） is 测管科, type is text, value_range is 
+2018-12-02 19:48:23,362 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:48:23,364 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:48:23,365 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:48:23,365 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 19:48:23,367 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:48:23,368 check_required_field.py[line:105] INFO 业务名称 is 测绘地理信息宣传, type is text, value_range is 
+2018-12-02 19:48:23,369 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:48:23,371 check_required_field.py[line:105] INFO 承办机构 is 丹阳市国土资源局, type is text, value_range is 
+2018-12-02 19:48:23,371 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:48:23,372 check_required_field.py[line:105] INFO 监督投诉方式 is 80759300, type is text, value_range is 
+2018-12-02 19:48:23,372 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:48:23,375 check_required_field.py[line:105] INFO 咨询方式 is 86920635, type is text, value_range is 
+2018-12-02 19:48:23,375 check_required_field.py[line:643] INFO []
+2018-12-02 19:48:23,377 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 19:48:23,377 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=SOlutNLdBKNbn0RtNOyOb7jxLr8WUfGr8MaEy4kj0qOyPtY_GP6S!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 21:27:01,375 check_required_field.py[line:647] INFO start to check username C1084_LR
+2018-12-02 21:27:01,384 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 21:27:01,394 check_required_field.py[line:46] INFO the post params is {u'jsu': u'C1084_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 21:27:01,414 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 21:27:07,145 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 21:27:07,148 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 21:27:07,150 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=gM1vD0jiIZxLd8Kgz2WBQWS02-ID-FkpxzsmZnl90o2k8OAahh_2!962196520!1543756531938 for 221.226.253.51/>]>
+2018-12-02 21:27:07,585 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 21:27:07,585 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'C1084', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u56fd\u571f\u8d44\u6e90\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 21:27:07,585 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=gM1vD0jiIZxLd8Kgz2WBQWS02-ID-FkpxzsmZnl90o2k8OAahh_2!962196520!1543756531938 for 221.226.253.51/>]>
+2018-12-02 21:27:10,029 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 21:27:10,029 check_required_field.py[line:46] INFO the post params is {u'idt': u'8306b4b4db984090a64f7c29cbf1950e'}
+2018-12-02 21:27:10,030 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=gM1vD0jiIZxLd8Kgz2WBQWS02-ID-FkpxzsmZnl90o2k8OAahh_2!962196520!1543756531938 for 221.226.253.51/>]>
+2018-12-02 21:27:10,403 check_required_field.py[line:564] INFO 检查服务名称[测绘地理信息宣传]
+2018-12-02 21:27:10,407 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 21:27:10,431 check_required_field.py[line:105] INFO 服务内容 is 宣传测绘重大工程开展情况；宣传测绘成果为经济社会建设提供服务保障情况；宣传测绘统一监管、测绘科技创新和人才队伍建设等情况。, type is text, value_range is 
+2018-12-02 21:27:10,431 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 21:27:10,431 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 21:27:10,433 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 21:27:10,433 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 21:27:10,433 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 21:27:10,433 check_required_field.py[line:105] INFO 服务依据 is 《中华人民共和国测绘法》, type is text, value_range is 
+2018-12-02 21:27:10,433 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 21:27:10,434 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'8306b4b4db984090a64f7c29cbf1950e', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 21:27:10,434 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=gM1vD0jiIZxLd8Kgz2WBQWS02-ID-FkpxzsmZnl90o2k8OAahh_2!962196520!1543756531938 for 221.226.253.51/>]>
+2018-12-02 21:27:10,823 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 21:27:10,823 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ba9b5cd87a654776b6ba7e2ab4f756cf', u'idtlog': u'a1257cd06fa54951b8adea830d225236'}
+2018-12-02 21:27:10,823 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=gM1vD0jiIZxLd8Kgz2WBQWS02-ID-FkpxzsmZnl90o2k8OAahh_2!962196520!1543756531938 for 221.226.253.51/>]>
+2018-12-02 21:27:12,401 check_required_field.py[line:616] INFO 检查业务信息[测绘地理信息宣传]
+2018-12-02 21:27:12,403 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 21:27:12,403 check_required_field.py[line:105] INFO 办理地点 is 江苏省丹阳市丹桂路, type is text, value_range is 
+2018-12-02 21:27:12,403 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 21:27:12,403 check_required_field.py[line:105] INFO 工作时间 is 工作日上午9:00-11:30，下午14：00-18:00, type is text, value_range is 
+2018-12-02 21:27:12,403 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 21:27:12,404 check_required_field.py[line:105] INFO 经办机构（处室） is 测管科, type is text, value_range is 
+2018-12-02 21:27:12,404 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 21:27:12,404 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 21:27:12,404 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 21:27:12,404 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 21:27:12,404 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 21:27:12,404 check_required_field.py[line:105] INFO 业务名称 is 测绘地理信息宣传, type is text, value_range is 
+2018-12-02 21:27:12,404 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 21:27:12,405 check_required_field.py[line:105] INFO 承办机构 is 丹阳市国土资源局, type is text, value_range is 
+2018-12-02 21:27:12,405 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 21:27:12,405 check_required_field.py[line:105] INFO 监督投诉方式 is 80759300, type is text, value_range is 
+2018-12-02 21:27:12,405 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 21:27:12,407 check_required_field.py[line:105] INFO 咨询方式 is 86920635, type is text, value_range is 
+2018-12-02 21:27:12,407 check_required_field.py[line:643] INFO []
+2018-12-02 21:27:12,407 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 21:27:12,407 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=gM1vD0jiIZxLd8Kgz2WBQWS02-ID-FkpxzsmZnl90o2k8OAahh_2!962196520!1543756531938 for 221.226.253.51/>]>

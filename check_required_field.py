@@ -5,16 +5,17 @@ import hashlib
 import json
 import jsonpath
 from openpyxl import Workbook
+import threading
 
-logging.basicConfig(level=logging.DEBUG,
-                    format=u'%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
-                    datefmt=u'%a, %d %b %Y %H:%M:%S',
-                    filename=u'log.log',
-                    filemode=u'a+')
-console = logging.StreamHandler()
-console.setLevel(logging.INFO)
-
-logging.getLogger().addHandler(console)
+# logging.basicConfig(level=logging.INFO,
+#                     format=u'%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
+#                     datefmt=u'%a, %d %b %Y %H:%M:%S',
+#                     filename=u'log.log',
+#                     filemode=u'a+')
+# console = logging.StreamHandler()
+# console.setLevel(logging.ERROR)
+#
+# logging.getLogger().addHandler(console)
 
 
 class HttpClient:
@@ -29,6 +30,7 @@ class HttpClient:
             conf:配置文件
         '''
         self.session = requests.session()
+        self.logger = logging.getLogger(threading.currentThread().getName())
         # self.session.headers['Content-type'] = 'application/x-www-form-urlencoded;charset=UTF-8'
         # requests.packages.urllib3.disable_warnings()
 
@@ -40,15 +42,15 @@ class HttpClient:
             params:http请求的内容
         Returns:http请求返回的内容
         '''
-        logging.info(u'the post url is %s' % url)
-        logging.info(u'the post params is %s' % params)
-        logging.info(u'the cookies is %s' % self.session.cookies)
+        self.logger.info(u'the post url is %s' % url)
+        self.logger.info(u'the post params is %s' % params)
+        self.logger.info(u'the cookies is %s' % self.session.cookies)
         if use_json:
             response = self.session.post(url, json=params)
         else:
             response = self.session.post(url, data=params)
         content = response.content.decode(u'utf-8')
-        logging.debug(u'return content is %s ' % content)
+        self.logger.debug(u'return content is %s ' % content)
         return content
 
     def httpGet(self, url):
@@ -58,11 +60,11 @@ class HttpClient:
             url:http请求的url
         Returns:http请求返回的内容
         '''
-        logging.info(u'the get url is ' + url)
-        logging.info(u'the cookies is %s' % self.session.cookies)
+        self.logger.info(u'the get url is ' + url)
+        self.logger.info(u'the cookies is %s' % self.session.cookies)
         response = self.session.get(url)
         content = response.content.decode(u'utf-8')
-        logging.debug(u'the return content is ' + content)
+        self.logger.debug(u'the return content is ' + content)
         return content
 
     def closeSession(self):
@@ -80,6 +82,7 @@ class RequireItem:
         :param input_type: text, radio, checkbox
         :param range_of_values:
         '''
+        self.logger = logging.getLogger(threading.currentThread().getName())
         self.name = name
         self.path = path
         self.input_type = input_type
@@ -93,12 +96,12 @@ class RequireItem:
         :param data_json:
         :return:
         '''
-        logging.info(u'检查[%s]' % self.name)
+        self.logger.info(u'检查[%s]' % self.name)
         actual_data = jsonpath.jsonpath(data_json, self.path)
         if actual_data is None or actual_data is False or len(actual_data) == 0:
             return False
         actual_data = actual_data[0]
-        logging.info(u'%s is %s, type is %s, value_range is %s' % (
+        self.logger.info(u'%s is %s, type is %s, value_range is %s' % (
         self.name, actual_data, self.input_type, self.range_of_values))
         if actual_data is None or len(actual_data.strip()) == 0:
             return False
@@ -120,6 +123,8 @@ class HttpManager:
     def __init__(self, ip, port):
         self.base_url = u'http://%s:%s' % (ip, port)
         self.http_client = HttpClient()
+        self.logger = logging.getLogger(threading.currentThread().getName())
+
 
     def login(self, username, password):
         '''
@@ -137,7 +142,7 @@ class HttpManager:
         login_url = self.base_url + u'/onlineGovQl/j_spring_security_check'
         content = self.http_client.httpPost(login_url, data)
         if u'onlineGovQl/starshine/login.jsp' in content:
-            logging.error(u'login %s fail' % username)
+            self.logger.error(u'login %s fail' % username)
             return False
         return True
 
@@ -276,10 +281,10 @@ class HttpManager:
                   u'B[TRANSACT_DEP]': u'', u'B[YE_FILENUM]': u''}
         content = self.http_client.httpPost(xzqlsx_url, params)
         result_json = json.loads(content)
-        logging.info(u'total count is %s' % result_json[u'total'])
-        logging.info(u'total items is %s' % len(result_json[u'items']))
+        self.logger.info(u'total count is %s' % result_json[u'total'])
+        self.logger.info(u'total items is %s' % len(result_json[u'items']))
         for item in result_json[u'items']:
-            logging.info(u'权利名称 is %s' % item[u'QL_NAME'])
+            self.logger.info(u'权利名称 is %s' % item[u'QL_NAME'])
             if item[u'isParent'] != u'true':
                 continue
             errors = []
@@ -407,7 +412,7 @@ class HttpManager:
                 ywxx_detail_url = self.base_url + u'/onlineGovQl/QlywConController.do?findServiseData=true'
                 content = self.http_client.httpPost(ywxx_detail_url, params)
                 ywxx_detail_json = json.loads(content)[u'bean'][u'data'][0]
-                logging.info(u'检查业务信息[%s]' % ywxx_detail_json[u'YW_NAME'])
+                self.logger.info(u'检查业务信息[%s]' % ywxx_detail_json[u'YW_NAME'])
                 for key, require_item in ywxx_map.iteritems():
                     if not require_item.verify(ywxx_detail_json):
                         errors.append(u'业务名称[%s]的[%s]不正确' % (ywxx_detail_json[u'YW_NAME'], require_item.name))
@@ -430,7 +435,7 @@ class HttpManager:
             if errors:
                 error_item = {u'name': item[u'QL_NAME'], u'id': item[u'DEPT_QL_REG_NO'], u'errors': errors}
                 error_list.append(error_item)
-        logging.info(error_list)
+        self.logger.info(error_list)
         return error_list
 
     def kzxx_check(self):
@@ -464,11 +469,11 @@ class HttpManager:
                   u'pageStart': u'1', u'limit': u'-1', u'iSortCol': u'', u'sSortDir': u''}
         content = self.http_client.httpPost(kzxx_url, params)
         result_json = json.loads(content)
-        logging.info(u'total count is %s' % result_json[u'total'])
-        logging.info(u'total items is %s' % len(result_json[u'items']))
+        self.logger.info(u'total count is %s' % result_json[u'total'])
+        self.logger.info(u'total items is %s' % len(result_json[u'items']))
         for item in result_json[u'items']:
             errors = []
-            logging.info(u'检查权利名称[%s]的业务名称[%s]' % (item[u'QL_NAME'], item[u'YW_NAME']))
+            self.logger.info(u'检查权利名称[%s]的业务名称[%s]' % (item[u'QL_NAME'], item[u'YW_NAME']))
             for key, require_item in kzxx_map.iteritems():
                 if not require_item.verify(item):
                     errors.append(u'%s 不正确' % require_item.name)
@@ -476,7 +481,7 @@ class HttpManager:
                 error_item = {u'name': u'权利名称[%s]的业务名称[%s]' % (item[u'QL_NAME'], item[u'YW_NAME']),
                               u'id': item[u'IDDEPT_YW_INF'], u'errors': errors}
                 error_list.append(error_item)
-        logging.info(error_list)
+        self.logger.info(error_list)
         return error_list
 
     def ggfw_check(self):
@@ -556,7 +561,7 @@ class HttpManager:
             params = {u'idt': ggfw_item[u'IDDEPT_QL_INF']}
             content = self.http_client.httpPost(ggfw_detail_url, params)
             ggfw_detail_json = json.loads(content)[u'items'][0]
-            logging.info(u'检查服务名称[%s]' % ggfw_detail_json[u'QL_NAME'])
+            self.logger.info(u'检查服务名称[%s]' % ggfw_detail_json[u'QL_NAME'])
             for key, require_item in ggfw_map.iteritems():
                 if not require_item.verify(ggfw_detail_json):
                     errors.append(u'%s 不正确' % require_item.name)
@@ -608,7 +613,7 @@ class HttpManager:
                 params = {u'idt': ywxx[u'IDDEPT_YW_INF'], u'idtlog': ywxx[u'IDDEPT_YW_INFOLD'], u'showTable': u'XK'}
                 content = self.http_client.httpPost(ywxx_detail_url, params)
                 ywxx_detail_json = json.loads(content)[u'bean'][u'data'][0]
-                logging.info(u'检查业务信息[%s]' % ywxx_detail_json[u'YW_NAME'])
+                self.logger.info(u'检查业务信息[%s]' % ywxx_detail_json[u'YW_NAME'])
                 for key, require_item in ywxx_map.iteritems():
                     if not require_item.verify(ywxx_detail_json):
                         errors.append(u'业务名称[%s]的[%s]不正确' % (ywxx_detail_json[u'YW_NAME'], require_item.name))
@@ -635,19 +640,28 @@ class HttpManager:
             if errors:
                 error_item = {u'name': ggfw_item[u'QL_NAME'], u'id': ggfw_item[u'DEPT_QL_REG_NO'], u'errors': errors}
                 error_list.append(error_item)
-        logging.info(error_list)
+        self.logger.info(error_list)
         return error_list
 
-    def check(self, username, password):
-        logging.info(u'start to check username %s' % username)
+    def check(self, username, password, check_type):
+        self.logger.info(u'start to check username %s' % username)
         if not self.login(username, password):
-            return
+            return 2
         self.get_user_info()
-        xzql_error_list = self.xzqlsx_check()
-        kzxx_error_list = self.kzxx_check()
-        ggfw_error_list = self.ggfw_check()
+        if check_type == 1:
+            xzql_error_list = self.xzqlsx_check()
+            kzxx_error_list = self.kzxx_check()
+            ggfw_error_list = []
+        elif check_type == 2:
+            ggfw_error_list = self.ggfw_check()
+            xzql_error_list = []
+            kzxx_error_list = []
+        else:
+            xzql_error_list = self.xzqlsx_check()
+            kzxx_error_list = self.kzxx_check()
+            ggfw_error_list = self.ggfw_check()
         self.login_out()
-        if xzql_error_list or kzxx_error_list:
+        if xzql_error_list or kzxx_error_list or ggfw_error_list:
             wb = Workbook()
             if xzql_error_list:
                 ws = wb.create_sheet(u'行政权利事项')
@@ -667,16 +681,30 @@ class HttpManager:
                 for error in ggfw_error_list:
                     error_message = u'\r\n'.join(error[u'errors'])
                     ws.append([error[u'name'], error[u'id'], error_message])
-            wb.save(u'%s.xlsx' % username)
-
+            if check_type == 1:
+                wb.save(u'results/%s行政权利.xlsx' % username)
+                return 1
+            elif check_type == 2:
+                wb.save(u'results/%s公共服务.xlsx' % username)
+                return 1
+            else:
+                wb.save(u'results/%s.xlsx' % username)
+                return 1
+        return 0
 
 if __name__ == u'__main__':
+    logger = logging.getLogger(threading.currentThread().getName())
+    file_handler = logging.FileHandler(u'logs/%s.log' % threading.currentThread().getName())
+    formatter = logging.Formatter(u'%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s')
+    file_handler.setFormatter(formatter)
+    logger.addHandler(file_handler)
+    logger.setLevel(logging.INFO)
     http_manager = HttpManager(u'221.226.253.51', u'5065')
     with open(u'username.txt') as fd:
         lines = fd.readlines()
     for line in lines:
         line = line.strip()
         username, password = line.split(u',')
-        http_manager.check(username, password)
+        http_manager.check(username, password, 2)
 
 

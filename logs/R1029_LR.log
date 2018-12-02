@@ -1,0 +1,39 @@
+2018-12-02 16:30:12,828 check_required_field.py[line:647] INFO start to check username R1029_LR
+2018-12-02 16:30:12,828 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 16:30:12,828 check_required_field.py[line:46] INFO the post params is {u'jsu': u'R1029_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 16:30:12,828 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 16:30:14,236 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 16:30:14,236 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 16:30:14,236 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=g3Vt_4uNvDZR3PvYNeIU5GYJZoOzJTC1DDrXIFDl-GPxhhZjRscf!962196520!1543738723213 for 221.226.253.51/>]>
+2018-12-02 16:30:14,424 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 16:30:14,426 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'R1029', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u9521\u5c71\u533a\u57ce\u5e02\u7ba1\u7406\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 16:30:14,428 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=g3Vt_4uNvDZR3PvYNeIU5GYJZoOzJTC1DDrXIFDl-GPxhhZjRscf!962196520!1543738723213 for 221.226.253.51/>]>
+2018-12-02 16:30:16,411 check_required_field.py[line:643] INFO []
+2018-12-02 16:30:16,413 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 16:30:16,414 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=g3Vt_4uNvDZR3PvYNeIU5GYJZoOzJTC1DDrXIFDl-GPxhhZjRscf!962196520!1543738723213 for 221.226.253.51/>]>
+2018-12-02 16:43:31,421 check_required_field.py[line:647] INFO start to check username R1029_LR
+2018-12-02 16:43:31,421 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 16:43:31,421 check_required_field.py[line:46] INFO the post params is {u'jsu': u'R1029_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 16:43:31,421 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 16:43:34,785 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 16:43:34,785 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 16:43:34,786 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=XB1uC7sSPplgisp4GBxjJp9fdujx1eeS3ECwgUJIbw6Yde05kgzK!962196520!1543739521810 for 221.226.253.51/>]>
+2018-12-02 16:43:35,255 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 16:43:35,256 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'R1029', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u9521\u5c71\u533a\u57ce\u5e02\u7ba1\u7406\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 16:43:35,256 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=XB1uC7sSPplgisp4GBxjJp9fdujx1eeS3ECwgUJIbw6Yde05kgzK!962196520!1543739521810 for 221.226.253.51/>]>
+2018-12-02 16:43:37,523 check_required_field.py[line:643] INFO []
+2018-12-02 16:43:37,525 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 16:43:37,528 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=XB1uC7sSPplgisp4GBxjJp9fdujx1eeS3ECwgUJIbw6Yde05kgzK!962196520!1543739521810 for 221.226.253.51/>]>
+2018-12-02 19:42:29,661 check_required_field.py[line:647] INFO start to check username R1029_LR
+2018-12-02 19:42:29,661 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 19:42:29,661 check_required_field.py[line:46] INFO the post params is {u'jsu': u'R1029_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 19:42:29,661 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 19:42:32,219 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 19:42:32,220 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 19:42:32,220 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cAJur5WOLCwUyKjP4hamqOHyeZ9umr-P_jkRIQ8fbkIKjEXkteMh!962196520!1543750260110 for 221.226.253.51/>]>
+2018-12-02 19:42:32,658 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 19:42:32,660 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'R1029', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u9521\u5c71\u533a\u57ce\u5e02\u7ba1\u7406\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 19:42:32,660 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cAJur5WOLCwUyKjP4hamqOHyeZ9umr-P_jkRIQ8fbkIKjEXkteMh!962196520!1543750260110 for 221.226.253.51/>]>
+2018-12-02 19:42:34,783 check_required_field.py[line:643] INFO []
+2018-12-02 19:42:34,783 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 19:42:34,783 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cAJur5WOLCwUyKjP4hamqOHyeZ9umr-P_jkRIQ8fbkIKjEXkteMh!962196520!1543750260110 for 221.226.253.51/>]>

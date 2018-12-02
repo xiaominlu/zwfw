@@ -1,0 +1,35 @@
+2018-12-02 16:30:04,846 check_required_field.py[line:647] INFO start to check username CCC1083_LR
+2018-12-02 16:30:04,851 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 16:30:04,859 check_required_field.py[line:46] INFO the post params is {u'jsu': u'CCC1083_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 16:30:04,865 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 16:30:05,822 check_required_field.py[line:145] ERROR login CCC1083_LR fail
+2018-12-02 16:43:15,801 check_required_field.py[line:647] INFO start to check username CCC1083_LR
+2018-12-02 16:43:15,805 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 16:43:15,813 check_required_field.py[line:46] INFO the post params is {u'jsu': u'CCC1083_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 16:43:15,821 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 16:43:19,634 check_required_field.py[line:145] ERROR login CCC1083_LR fail
+2018-12-02 18:54:32,545 check_required_field.py[line:647] INFO start to check username CCC1083_LR
+2018-12-02 18:54:32,545 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 18:54:32,545 check_required_field.py[line:46] INFO the post params is {u'jsu': u'CCC1083_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 18:54:32,545 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 18:54:32,861 check_required_field.py[line:145] ERROR login CCC1083_LR fail
+2018-12-02 19:39:38,194 check_required_field.py[line:647] INFO start to check username CCC1083_LR
+2018-12-02 19:39:38,194 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 19:39:38,194 check_required_field.py[line:46] INFO the post params is {u'jsu': u'CCC1083_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 19:39:38,194 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 19:39:38,512 check_required_field.py[line:145] ERROR login CCC1083_LR fail
+2018-12-02 19:42:15,552 check_required_field.py[line:647] INFO start to check username CCC1083_LR
+2018-12-02 19:42:15,558 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 19:42:15,559 check_required_field.py[line:46] INFO the post params is {u'jsu': u'CCC1083_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 19:42:15,562 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 19:42:17,713 check_required_field.py[line:145] ERROR login CCC1083_LR fail
+2018-12-02 19:48:12,996 check_required_field.py[line:647] INFO start to check username CCC1083_LR
+2018-12-02 19:48:13,003 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 19:48:13,010 check_required_field.py[line:46] INFO the post params is {u'jsu': u'CCC1083_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 19:48:13,017 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 19:48:17,930 check_required_field.py[line:145] ERROR login CCC1083_LR fail
+2018-12-02 21:27:01,381 check_required_field.py[line:647] INFO start to check username CCC1083_LR
+2018-12-02 21:27:01,391 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 21:27:01,414 check_required_field.py[line:46] INFO the post params is {u'jsu': u'CCC1083_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 21:27:01,426 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 21:27:06,714 check_required_field.py[line:145] ERROR login CCC1083_LR fail

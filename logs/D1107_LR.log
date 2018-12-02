@@ -1,0 +1,1036 @@
+2018-12-02 16:30:04,851 check_required_field.py[line:647] INFO start to check username D1107_LR
+2018-12-02 16:30:04,858 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 16:30:04,864 check_required_field.py[line:46] INFO the post params is {u'jsu': u'D1107_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 16:30:04,867 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 16:30:08,332 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 16:30:08,332 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 16:30:08,332 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=m9pt_2y0JCFJc-W97oLi800S7GUt63dJeMiCe0Vx4IynBAjJMcfP!962196520!1543738715316 for 221.226.253.51/>]>
+2018-12-02 16:30:08,542 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 16:30:08,542 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'D1107', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u7269\u4ef7\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 16:30:08,543 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=m9pt_2y0JCFJc-W97oLi800S7GUt63dJeMiCe0Vx4IynBAjJMcfP!962196520!1543738715316 for 221.226.253.51/>]>
+2018-12-02 16:30:10,979 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:30:10,980 check_required_field.py[line:46] INFO the post params is {u'idt': u'8c7c68ff89d84732a6558f36a66141f0'}
+2018-12-02 16:30:10,982 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=m9pt_2y0JCFJc-W97oLi800S7GUt63dJeMiCe0Vx4IynBAjJMcfP!962196520!1543738715316 for 221.226.253.51/>]>
+2018-12-02 16:30:11,270 check_required_field.py[line:564] INFO 检查服务名称[受理日常价格政策咨询]
+2018-12-02 16:30:11,272 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:30:11,272 check_required_field.py[line:105] INFO 服务内容 is 政策咨询, type is text, value_range is 
+2018-12-02 16:30:11,272 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:30:11,272 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:30:11,272 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:30:11,272 check_required_field.py[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 16:30:11,273 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:30:11,273 check_required_field.py[line:105] INFO 服务依据 is 价格和收费法律、法规和其他规范性文件, type is text, value_range is 
+2018-12-02 16:30:11,273 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:30:11,273 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'8c7c68ff89d84732a6558f36a66141f0', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:30:11,273 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=m9pt_2y0JCFJc-W97oLi800S7GUt63dJeMiCe0Vx4IynBAjJMcfP!962196520!1543738715316 for 221.226.253.51/>]>
+2018-12-02 16:30:11,559 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:30:11,561 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'2b1e1208d9444f43bad0b62a7b087424', u'idtlog': u'c4993251c6bd4f5e88e25b2ac32478b9'}
+2018-12-02 16:30:11,561 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=m9pt_2y0JCFJc-W97oLi800S7GUt63dJeMiCe0Vx4IynBAjJMcfP!962196520!1543738715316 for 221.226.253.51/>]>
+2018-12-02 16:30:12,691 check_required_field.py[line:616] INFO 检查业务信息[受理日常价格政策咨询]
+2018-12-02 16:30:12,693 check_required_field.py[line:99] INFO 检查[办件类型]
+2018-12-02 16:30:12,694 check_required_field.py[line:105] INFO 办件类型 is 承诺件, type is radio, value_range is 承诺件,即办件
+2018-12-02 16:30:12,694 check_required_field.py[line:99] INFO 检查[办理依据]
+2018-12-02 16:30:12,696 check_required_field.py[line:105] INFO 办理依据 is 价格和收费法律、法规和其他规范性文件, type is text, value_range is 
+2018-12-02 16:30:12,696 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:30:12,696 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 16:30:12,696 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:30:12,696 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市价格举报中心, type is text, value_range is 
+2018-12-02 16:30:12,696 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:30:12,697 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86055519, type is text, value_range is 
+2018-12-02 16:30:12,697 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:30:12,697 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 16:30:12,697 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:30:12,697 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 16:30:12,697 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:30:12,697 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:30:12,697 check_required_field.py[line:99] INFO 检查[是否收费]
+2018-12-02 16:30:12,697 check_required_field.py[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 16:30:12,697 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:30:12,697 check_required_field.py[line:105] INFO 咨询方式 is 0511-12358, type is text, value_range is 
+2018-12-02 16:30:12,697 check_required_field.py[line:99] INFO 检查[在线办理网址]
+2018-12-02 16:30:12,697 check_required_field.py[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 16:30:12,697 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:30:12,697 check_required_field.py[line:105] INFO 业务名称 is 受理日常价格政策咨询, type is text, value_range is 
+2018-12-02 16:30:12,697 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:30:12,698 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 16:30:12,698 check_required_field.py[line:99] INFO 检查[到现场次数]
+2018-12-02 16:30:12,698 check_required_field.py[line:105] INFO 到现场次数 is 0, type is radio, value_range is 0,1,2,99
+2018-12-02 16:30:12,698 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:30:12,698 check_required_field.py[line:46] INFO the post params is {u'idt': u'48482fbe620d4877a0afcd5cd8789d6b'}
+2018-12-02 16:30:12,698 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=m9pt_2y0JCFJc-W97oLi800S7GUt63dJeMiCe0Vx4IynBAjJMcfP!962196520!1543738715316 for 221.226.253.51/>]>
+2018-12-02 16:30:13,095 check_required_field.py[line:564] INFO 检查服务名称[价格培训]
+2018-12-02 16:30:13,095 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:30:13,096 check_required_field.py[line:105] INFO 服务内容 is 根据价格管理工作需要，适时开展价格培训。重在对行政相对人开展价格业务方面的培训，为宣传价格法律法规政策，加强和规范价格监管服务。, type is text, value_range is 
+2018-12-02 16:30:13,096 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:30:13,096 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:30:13,096 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:30:13,096 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:30:13,098 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:30:13,098 check_required_field.py[line:105] INFO 服务依据 is 《江苏省价格条例》（江苏省人大常委会公告第39号）“第二章  经营者的价格行为第二十条　行业组织应当遵守价格法律、法规，加强价格自律，接受价格主管部门的工作指导，建立行业价格行为规范以及自我约束机制，督促行业组织成员诚信经营。”“第五章　价格服务第四十三条　价格主管部门应当建立健全价格服务制度，完善价格新闻发布机制，宣传价格法律、法规、政策，指导经营者和行业组织规范价格行为，引导经营者合理定价和消费者理性消费。”, type is text, value_range is 
+2018-12-02 16:30:13,098 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:30:13,098 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'48482fbe620d4877a0afcd5cd8789d6b', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:30:13,098 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=m9pt_2y0JCFJc-W97oLi800S7GUt63dJeMiCe0Vx4IynBAjJMcfP!962196520!1543738715316 for 221.226.253.51/>]>
+2018-12-02 16:30:13,437 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:30:13,437 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'a783e53c907d41648c7c1c82aa17c362', u'idtlog': u'85e68de32fd14d0d9c9305c3ee735c9d'}
+2018-12-02 16:30:13,438 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=m9pt_2y0JCFJc-W97oLi800S7GUt63dJeMiCe0Vx4IynBAjJMcfP!962196520!1543738715316 for 221.226.253.51/>]>
+2018-12-02 16:30:14,413 check_required_field.py[line:616] INFO 检查业务信息[价格培训]
+2018-12-02 16:30:14,414 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:30:14,415 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 16:30:14,417 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:30:14,420 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 16:30:14,421 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:30:14,424 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市物价局综合科, type is text, value_range is 
+2018-12-02 16:30:14,426 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:30:14,430 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:30:14,431 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:30:14,434 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:30:14,437 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:30:14,440 check_required_field.py[line:105] INFO 业务名称 is 价格培训, type is text, value_range is 
+2018-12-02 16:30:14,443 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:30:14,446 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 16:30:14,447 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:30:14,450 check_required_field.py[line:105] INFO 监督投诉方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 16:30:14,453 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:30:14,456 check_required_field.py[line:105] INFO 咨询方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 16:30:14,460 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:30:14,463 check_required_field.py[line:46] INFO the post params is {u'idt': u'c5349ebc58b7424bae4eea7842d501dd'}
+2018-12-02 16:30:14,466 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=m9pt_2y0JCFJc-W97oLi800S7GUt63dJeMiCe0Vx4IynBAjJMcfP!962196520!1543738715316 for 221.226.253.51/>]>
+2018-12-02 16:30:14,642 check_required_field.py[line:564] INFO 检查服务名称[价格宣传活动]
+2018-12-02 16:30:14,642 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:30:14,642 check_required_field.py[line:105] INFO 服务内容 is 采取新闻发布会、通气会、政务微博、组织专访等方式，通过传统媒体和新兴媒体平台，对价格调控、管理、监督、服务等方面的法律法规、政策措施和实施效果等进行宣传。, type is text, value_range is 
+2018-12-02 16:30:14,642 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:30:14,644 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:30:14,644 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:30:14,644 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:30:14,644 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:30:14,644 check_required_field.py[line:105] INFO 服务依据 is 中共江苏省委宣传部 江苏省人民政府新闻办公室印发《< 关于建立健全信息发布和政策解读机制的实施意见>细则》的通知（苏宣发〔2016〕11号）二、推进信息发布平台建设2、……，每年召开新闻发布会不少于6场。, type is text, value_range is 
+2018-12-02 16:30:14,644 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:30:14,644 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'c5349ebc58b7424bae4eea7842d501dd', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:30:14,644 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=m9pt_2y0JCFJc-W97oLi800S7GUt63dJeMiCe0Vx4IynBAjJMcfP!962196520!1543738715316 for 221.226.253.51/>]>
+2018-12-02 16:30:14,854 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:30:14,855 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'3e5b447a7ad14389a629037d61712ae4', u'idtlog': u'5500a34dcb084746ac30dd8dcc55d3fa'}
+2018-12-02 16:30:14,858 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=m9pt_2y0JCFJc-W97oLi800S7GUt63dJeMiCe0Vx4IynBAjJMcfP!962196520!1543738715316 for 221.226.253.51/>]>
+2018-12-02 16:30:15,901 check_required_field.py[line:616] INFO 检查业务信息[价格宣传活动]
+2018-12-02 16:30:15,901 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:30:15,901 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 16:30:15,901 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:30:15,901 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 16:30:15,901 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:30:15,901 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市物价局综合科, type is text, value_range is 
+2018-12-02 16:30:15,901 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:30:15,901 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:30:15,901 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:30:15,901 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:30:15,901 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:30:15,901 check_required_field.py[line:105] INFO 业务名称 is 价格宣传活动, type is text, value_range is 
+2018-12-02 16:30:15,901 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:30:15,901 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 16:30:15,903 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:30:15,903 check_required_field.py[line:105] INFO 监督投诉方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 16:30:15,903 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:30:15,903 check_required_field.py[line:105] INFO 咨询方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 16:30:15,903 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:30:15,903 check_required_field.py[line:46] INFO the post params is {u'idt': u'7a62995ec9ea4c76846424253b4f08de'}
+2018-12-02 16:30:15,903 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=m9pt_2y0JCFJc-W97oLi800S7GUt63dJeMiCe0Vx4IynBAjJMcfP!962196520!1543738715316 for 221.226.253.51/>]>
+2018-12-02 16:30:16,131 check_required_field.py[line:564] INFO 检查服务名称[主副食品价格信息公布]
+2018-12-02 16:30:16,132 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:30:16,134 check_required_field.py[line:105] INFO 服务内容 is 及时发布粮油肉蛋菜等居民生活必需品价格, type is text, value_range is 
+2018-12-02 16:30:16,135 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:30:16,137 check_required_field.py[line:105] INFO 服务领域 is 16, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:30:16,138 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:30:16,138 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:30:16,138 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:30:16,138 check_required_field.py[line:105] INFO 服务依据 is 《江苏省价格条例》（江苏省人大常委会公告第39号）、《价格监测规定》（国家发展改革委2003年第1号令）、《江苏省价格监测预警管理办法》（江苏省人民政府2008年第39号令）, type is text, value_range is 
+2018-12-02 16:30:16,138 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:30:16,138 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'7a62995ec9ea4c76846424253b4f08de', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:30:16,138 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=m9pt_2y0JCFJc-W97oLi800S7GUt63dJeMiCe0Vx4IynBAjJMcfP!962196520!1543738715316 for 221.226.253.51/>]>
+2018-12-02 16:30:16,405 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:30:16,407 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ac968aa56356445398f7bd281f71a56d', u'idtlog': u'6600d8c58873407aae1711e6696ef874'}
+2018-12-02 16:30:16,407 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=m9pt_2y0JCFJc-W97oLi800S7GUt63dJeMiCe0Vx4IynBAjJMcfP!962196520!1543738715316 for 221.226.253.51/>]>
+2018-12-02 16:30:17,555 check_required_field.py[line:616] INFO 检查业务信息[主副食品价格信息公布]
+2018-12-02 16:30:17,558 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:30:17,562 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路88号行政审批中心, type is text, value_range is 
+2018-12-02 16:30:17,563 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:30:17,565 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午13:30-17:30；冬季：上午8:30-11:30，下午14:30-17:30。, type is text, value_range is 
+2018-12-02 16:30:17,568 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:30:17,569 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市价格监测中心, type is text, value_range is 
+2018-12-02 16:30:17,569 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:30:17,571 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:30:17,572 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:30:17,572 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:30:17,573 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:30:17,573 check_required_field.py[line:105] INFO 业务名称 is 主副食品价格信息公布, type is text, value_range is 
+2018-12-02 16:30:17,575 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:30:17,575 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 16:30:17,576 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:30:17,578 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86055502, type is text, value_range is 
+2018-12-02 16:30:17,578 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:30:17,578 check_required_field.py[line:105] INFO 咨询方式 is 0511-86055502, type is text, value_range is 
+2018-12-02 16:30:17,579 check_required_field.py[line:643] INFO []
+2018-12-02 16:30:17,579 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 16:30:17,581 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=m9pt_2y0JCFJc-W97oLi800S7GUt63dJeMiCe0Vx4IynBAjJMcfP!962196520!1543738715316 for 221.226.253.51/>]>
+2018-12-02 16:43:15,811 check_required_field.py[line:647] INFO start to check username D1107_LR
+2018-12-02 16:43:15,819 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 16:43:15,823 check_required_field.py[line:46] INFO the post params is {u'jsu': u'D1107_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 16:43:15,832 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 16:43:24,395 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 16:43:24,401 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 16:43:24,405 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RMhuC351niVVI82Ih8z_6u5HsoEBGOS9P9L1eoP2tnZ30pkmsJla!962196520!1543739506293 for 221.226.253.51/>]>
+2018-12-02 16:43:25,007 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 16:43:25,009 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'D1107', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u7269\u4ef7\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 16:43:25,012 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RMhuC351niVVI82Ih8z_6u5HsoEBGOS9P9L1eoP2tnZ30pkmsJla!962196520!1543739506293 for 221.226.253.51/>]>
+2018-12-02 16:43:28,252 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:43:28,252 check_required_field.py[line:46] INFO the post params is {u'idt': u'8c7c68ff89d84732a6558f36a66141f0'}
+2018-12-02 16:43:28,253 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RMhuC351niVVI82Ih8z_6u5HsoEBGOS9P9L1eoP2tnZ30pkmsJla!962196520!1543739506293 for 221.226.253.51/>]>
+2018-12-02 16:43:29,466 check_required_field.py[line:564] INFO 检查服务名称[受理日常价格政策咨询]
+2018-12-02 16:43:29,467 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:43:29,467 check_required_field.py[line:105] INFO 服务内容 is 政策咨询, type is text, value_range is 
+2018-12-02 16:43:29,467 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:43:29,467 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:43:29,467 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:43:29,467 check_required_field.py[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 16:43:29,469 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:43:29,469 check_required_field.py[line:105] INFO 服务依据 is 价格和收费法律、法规和其他规范性文件, type is text, value_range is 
+2018-12-02 16:43:29,469 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:43:29,470 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'8c7c68ff89d84732a6558f36a66141f0', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:43:29,470 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RMhuC351niVVI82Ih8z_6u5HsoEBGOS9P9L1eoP2tnZ30pkmsJla!962196520!1543739506293 for 221.226.253.51/>]>
+2018-12-02 16:43:31,107 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:43:31,108 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'2b1e1208d9444f43bad0b62a7b087424', u'idtlog': u'c4993251c6bd4f5e88e25b2ac32478b9'}
+2018-12-02 16:43:31,108 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RMhuC351niVVI82Ih8z_6u5HsoEBGOS9P9L1eoP2tnZ30pkmsJla!962196520!1543739506293 for 221.226.253.51/>]>
+2018-12-02 16:43:33,213 check_required_field.py[line:616] INFO 检查业务信息[受理日常价格政策咨询]
+2018-12-02 16:43:33,213 check_required_field.py[line:99] INFO 检查[办件类型]
+2018-12-02 16:43:33,214 check_required_field.py[line:105] INFO 办件类型 is 承诺件, type is radio, value_range is 承诺件,即办件
+2018-12-02 16:43:33,214 check_required_field.py[line:99] INFO 检查[办理依据]
+2018-12-02 16:43:33,214 check_required_field.py[line:105] INFO 办理依据 is 价格和收费法律、法规和其他规范性文件, type is text, value_range is 
+2018-12-02 16:43:33,216 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:43:33,217 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 16:43:33,217 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:43:33,217 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市价格举报中心, type is text, value_range is 
+2018-12-02 16:43:33,217 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:43:33,219 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86055519, type is text, value_range is 
+2018-12-02 16:43:33,219 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:43:33,219 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 16:43:33,219 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:43:33,220 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 16:43:33,220 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:43:33,220 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:43:33,220 check_required_field.py[line:99] INFO 检查[是否收费]
+2018-12-02 16:43:33,220 check_required_field.py[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 16:43:33,220 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:43:33,221 check_required_field.py[line:105] INFO 咨询方式 is 0511-12358, type is text, value_range is 
+2018-12-02 16:43:33,221 check_required_field.py[line:99] INFO 检查[在线办理网址]
+2018-12-02 16:43:33,221 check_required_field.py[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 16:43:33,223 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:43:33,223 check_required_field.py[line:105] INFO 业务名称 is 受理日常价格政策咨询, type is text, value_range is 
+2018-12-02 16:43:33,223 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:43:33,223 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 16:43:33,223 check_required_field.py[line:99] INFO 检查[到现场次数]
+2018-12-02 16:43:33,223 check_required_field.py[line:105] INFO 到现场次数 is 0, type is radio, value_range is 0,1,2,99
+2018-12-02 16:43:33,224 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:43:33,224 check_required_field.py[line:46] INFO the post params is {u'idt': u'48482fbe620d4877a0afcd5cd8789d6b'}
+2018-12-02 16:43:33,224 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RMhuC351niVVI82Ih8z_6u5HsoEBGOS9P9L1eoP2tnZ30pkmsJla!962196520!1543739506293 for 221.226.253.51/>]>
+2018-12-02 16:43:33,786 check_required_field.py[line:564] INFO 检查服务名称[价格培训]
+2018-12-02 16:43:33,788 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:43:33,789 check_required_field.py[line:105] INFO 服务内容 is 根据价格管理工作需要，适时开展价格培训。重在对行政相对人开展价格业务方面的培训，为宣传价格法律法规政策，加强和规范价格监管服务。, type is text, value_range is 
+2018-12-02 16:43:33,789 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:43:33,792 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:43:33,793 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:43:33,796 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:43:33,798 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:43:33,799 check_required_field.py[line:105] INFO 服务依据 is 《江苏省价格条例》（江苏省人大常委会公告第39号）“第二章  经营者的价格行为第二十条　行业组织应当遵守价格法律、法规，加强价格自律，接受价格主管部门的工作指导，建立行业价格行为规范以及自我约束机制，督促行业组织成员诚信经营。”“第五章　价格服务第四十三条　价格主管部门应当建立健全价格服务制度，完善价格新闻发布机制，宣传价格法律、法规、政策，指导经营者和行业组织规范价格行为，引导经营者合理定价和消费者理性消费。”, type is text, value_range is 
+2018-12-02 16:43:33,801 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:43:33,802 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'48482fbe620d4877a0afcd5cd8789d6b', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:43:33,805 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RMhuC351niVVI82Ih8z_6u5HsoEBGOS9P9L1eoP2tnZ30pkmsJla!962196520!1543739506293 for 221.226.253.51/>]>
+2018-12-02 16:43:34,312 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:43:34,312 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'a783e53c907d41648c7c1c82aa17c362', u'idtlog': u'85e68de32fd14d0d9c9305c3ee735c9d'}
+2018-12-02 16:43:34,313 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RMhuC351niVVI82Ih8z_6u5HsoEBGOS9P9L1eoP2tnZ30pkmsJla!962196520!1543739506293 for 221.226.253.51/>]>
+2018-12-02 16:43:36,316 check_required_field.py[line:616] INFO 检查业务信息[价格培训]
+2018-12-02 16:43:36,318 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:43:36,318 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 16:43:36,318 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:43:36,319 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 16:43:36,319 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:43:36,319 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市物价局综合科, type is text, value_range is 
+2018-12-02 16:43:36,319 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:43:36,319 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:43:36,319 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:43:36,319 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:43:36,319 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:43:36,321 check_required_field.py[line:105] INFO 业务名称 is 价格培训, type is text, value_range is 
+2018-12-02 16:43:36,321 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:43:36,321 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 16:43:36,321 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:43:36,322 check_required_field.py[line:105] INFO 监督投诉方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 16:43:36,322 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:43:36,322 check_required_field.py[line:105] INFO 咨询方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 16:43:36,322 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:43:36,322 check_required_field.py[line:46] INFO the post params is {u'idt': u'c5349ebc58b7424bae4eea7842d501dd'}
+2018-12-02 16:43:36,322 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RMhuC351niVVI82Ih8z_6u5HsoEBGOS9P9L1eoP2tnZ30pkmsJla!962196520!1543739506293 for 221.226.253.51/>]>
+2018-12-02 16:43:37,338 check_required_field.py[line:564] INFO 检查服务名称[价格宣传活动]
+2018-12-02 16:43:37,341 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:43:37,342 check_required_field.py[line:105] INFO 服务内容 is 采取新闻发布会、通气会、政务微博、组织专访等方式，通过传统媒体和新兴媒体平台，对价格调控、管理、监督、服务等方面的法律法规、政策措施和实施效果等进行宣传。, type is text, value_range is 
+2018-12-02 16:43:37,344 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:43:37,344 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:43:37,345 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:43:37,346 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:43:37,348 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:43:37,351 check_required_field.py[line:105] INFO 服务依据 is 中共江苏省委宣传部 江苏省人民政府新闻办公室印发《< 关于建立健全信息发布和政策解读机制的实施意见>细则》的通知（苏宣发〔2016〕11号）二、推进信息发布平台建设2、……，每年召开新闻发布会不少于6场。, type is text, value_range is 
+2018-12-02 16:43:37,352 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:43:37,354 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'c5349ebc58b7424bae4eea7842d501dd', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:43:37,355 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RMhuC351niVVI82Ih8z_6u5HsoEBGOS9P9L1eoP2tnZ30pkmsJla!962196520!1543739506293 for 221.226.253.51/>]>
+2018-12-02 16:43:38,147 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:43:38,147 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'3e5b447a7ad14389a629037d61712ae4', u'idtlog': u'5500a34dcb084746ac30dd8dcc55d3fa'}
+2018-12-02 16:43:38,148 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RMhuC351niVVI82Ih8z_6u5HsoEBGOS9P9L1eoP2tnZ30pkmsJla!962196520!1543739506293 for 221.226.253.51/>]>
+2018-12-02 16:43:40,589 check_required_field.py[line:616] INFO 检查业务信息[价格宣传活动]
+2018-12-02 16:43:40,591 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:43:40,591 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 16:43:40,592 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:43:40,592 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 16:43:40,592 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:43:40,592 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市物价局综合科, type is text, value_range is 
+2018-12-02 16:43:40,592 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:43:40,594 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:43:40,594 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:43:40,595 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:43:40,595 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:43:40,595 check_required_field.py[line:105] INFO 业务名称 is 价格宣传活动, type is text, value_range is 
+2018-12-02 16:43:40,595 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:43:40,595 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 16:43:40,595 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:43:40,596 check_required_field.py[line:105] INFO 监督投诉方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 16:43:40,596 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:43:40,596 check_required_field.py[line:105] INFO 咨询方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 16:43:40,598 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 16:43:40,598 check_required_field.py[line:46] INFO the post params is {u'idt': u'7a62995ec9ea4c76846424253b4f08de'}
+2018-12-02 16:43:40,598 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RMhuC351niVVI82Ih8z_6u5HsoEBGOS9P9L1eoP2tnZ30pkmsJla!962196520!1543739506293 for 221.226.253.51/>]>
+2018-12-02 16:43:41,283 check_required_field.py[line:564] INFO 检查服务名称[主副食品价格信息公布]
+2018-12-02 16:43:41,283 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 16:43:41,285 check_required_field.py[line:105] INFO 服务内容 is 及时发布粮油肉蛋菜等居民生活必需品价格, type is text, value_range is 
+2018-12-02 16:43:41,285 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 16:43:41,285 check_required_field.py[line:105] INFO 服务领域 is 16, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 16:43:41,286 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 16:43:41,286 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 16:43:41,286 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 16:43:41,286 check_required_field.py[line:105] INFO 服务依据 is 《江苏省价格条例》（江苏省人大常委会公告第39号）、《价格监测规定》（国家发展改革委2003年第1号令）、《江苏省价格监测预警管理办法》（江苏省人民政府2008年第39号令）, type is text, value_range is 
+2018-12-02 16:43:41,286 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 16:43:41,286 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'7a62995ec9ea4c76846424253b4f08de', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 16:43:41,288 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RMhuC351niVVI82Ih8z_6u5HsoEBGOS9P9L1eoP2tnZ30pkmsJla!962196520!1543739506293 for 221.226.253.51/>]>
+2018-12-02 16:43:42,009 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 16:43:42,010 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ac968aa56356445398f7bd281f71a56d', u'idtlog': u'6600d8c58873407aae1711e6696ef874'}
+2018-12-02 16:43:42,010 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RMhuC351niVVI82Ih8z_6u5HsoEBGOS9P9L1eoP2tnZ30pkmsJla!962196520!1543739506293 for 221.226.253.51/>]>
+2018-12-02 16:43:43,762 check_required_field.py[line:616] INFO 检查业务信息[主副食品价格信息公布]
+2018-12-02 16:43:43,762 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 16:43:43,763 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路88号行政审批中心, type is text, value_range is 
+2018-12-02 16:43:43,763 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 16:43:43,763 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午13:30-17:30；冬季：上午8:30-11:30，下午14:30-17:30。, type is text, value_range is 
+2018-12-02 16:43:43,763 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 16:43:43,763 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市价格监测中心, type is text, value_range is 
+2018-12-02 16:43:43,763 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 16:43:43,763 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 16:43:43,763 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 16:43:43,763 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 16:43:43,765 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 16:43:43,765 check_required_field.py[line:105] INFO 业务名称 is 主副食品价格信息公布, type is text, value_range is 
+2018-12-02 16:43:43,765 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 16:43:43,765 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 16:43:43,765 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 16:43:43,765 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86055502, type is text, value_range is 
+2018-12-02 16:43:43,766 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 16:43:43,766 check_required_field.py[line:105] INFO 咨询方式 is 0511-86055502, type is text, value_range is 
+2018-12-02 16:43:43,766 check_required_field.py[line:643] INFO []
+2018-12-02 16:43:43,766 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 16:43:43,766 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=RMhuC351niVVI82Ih8z_6u5HsoEBGOS9P9L1eoP2tnZ30pkmsJla!962196520!1543739506293 for 221.226.253.51/>]>
+2018-12-02 18:54:40,716 check_required_field.py[line:647] INFO start to check username D1107_LR
+2018-12-02 18:54:40,716 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 18:54:40,717 check_required_field.py[line:46] INFO the post params is {u'jsu': u'D1107_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 18:54:40,717 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 18:54:42,309 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 18:54:42,309 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 18:54:42,309 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=31Zug85pL3cTq8k7K-YV5AGTnI7Z6ZMVUN2yBbs3TZvBmRQrc84E!962196520!1543747391081 for 221.226.253.51/>]>
+2018-12-02 18:54:42,762 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 18:54:42,763 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'D1107', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u7269\u4ef7\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 18:54:42,763 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=31Zug85pL3cTq8k7K-YV5AGTnI7Z6ZMVUN2yBbs3TZvBmRQrc84E!962196520!1543747391081 for 221.226.253.51/>]>
+2018-12-02 19:39:46,285 check_required_field.py[line:647] INFO start to check username D1107_LR
+2018-12-02 19:39:46,286 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 19:39:46,286 check_required_field.py[line:46] INFO the post params is {u'jsu': u'D1107_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 19:39:46,286 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 19:39:47,592 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 19:39:47,592 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 19:39:47,592 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZHlurRcZeI6ZsdAn2EZtB_nky3XIZRo7fdd65MuPOiKXamAJowye!962196520!1543750096665 for 221.226.253.51/>]>
+2018-12-02 19:39:47,858 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 19:39:47,858 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'D1107', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u7269\u4ef7\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 19:39:47,858 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZHlurRcZeI6ZsdAn2EZtB_nky3XIZRo7fdd65MuPOiKXamAJowye!962196520!1543750096665 for 221.226.253.51/>]>
+2018-12-02 19:39:50,259 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:39:50,259 check_required_field.py[line:46] INFO the post params is {u'idt': u'8c7c68ff89d84732a6558f36a66141f0'}
+2018-12-02 19:39:50,259 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZHlurRcZeI6ZsdAn2EZtB_nky3XIZRo7fdd65MuPOiKXamAJowye!962196520!1543750096665 for 221.226.253.51/>]>
+2018-12-02 19:39:50,499 check_required_field.py[line:564] INFO 检查服务名称[受理日常价格政策咨询]
+2018-12-02 19:39:50,499 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:39:50,499 check_required_field.py[line:105] INFO 服务内容 is 政策咨询, type is text, value_range is 
+2018-12-02 19:39:50,500 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:39:50,500 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:39:50,500 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:39:50,500 check_required_field.py[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 19:39:50,500 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:39:50,500 check_required_field.py[line:105] INFO 服务依据 is 价格和收费法律、法规和其他规范性文件, type is text, value_range is 
+2018-12-02 19:39:50,500 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:39:50,500 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'8c7c68ff89d84732a6558f36a66141f0', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:39:50,502 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZHlurRcZeI6ZsdAn2EZtB_nky3XIZRo7fdd65MuPOiKXamAJowye!962196520!1543750096665 for 221.226.253.51/>]>
+2018-12-02 19:39:50,798 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:39:50,799 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'2b1e1208d9444f43bad0b62a7b087424', u'idtlog': u'c4993251c6bd4f5e88e25b2ac32478b9'}
+2018-12-02 19:39:50,799 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZHlurRcZeI6ZsdAn2EZtB_nky3XIZRo7fdd65MuPOiKXamAJowye!962196520!1543750096665 for 221.226.253.51/>]>
+2018-12-02 19:39:52,161 check_required_field.py[line:616] INFO 检查业务信息[受理日常价格政策咨询]
+2018-12-02 19:39:52,163 check_required_field.py[line:99] INFO 检查[办件类型]
+2018-12-02 19:39:52,163 check_required_field.py[line:105] INFO 办件类型 is 承诺件, type is radio, value_range is 承诺件,即办件
+2018-12-02 19:39:52,163 check_required_field.py[line:99] INFO 检查[办理依据]
+2018-12-02 19:39:52,164 check_required_field.py[line:105] INFO 办理依据 is 价格和收费法律、法规和其他规范性文件, type is text, value_range is 
+2018-12-02 19:39:52,164 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:39:52,164 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 19:39:52,164 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:39:52,164 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市价格举报中心, type is text, value_range is 
+2018-12-02 19:39:52,165 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:39:52,165 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86055519, type is text, value_range is 
+2018-12-02 19:39:52,165 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:39:52,167 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 19:39:52,167 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:39:52,167 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 19:39:52,167 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:39:52,167 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:39:52,168 check_required_field.py[line:99] INFO 检查[是否收费]
+2018-12-02 19:39:52,168 check_required_field.py[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 19:39:52,168 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:39:52,170 check_required_field.py[line:105] INFO 咨询方式 is 0511-12358, type is text, value_range is 
+2018-12-02 19:39:52,170 check_required_field.py[line:99] INFO 检查[在线办理网址]
+2018-12-02 19:39:52,170 check_required_field.py[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 19:39:52,171 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:39:52,171 check_required_field.py[line:105] INFO 业务名称 is 受理日常价格政策咨询, type is text, value_range is 
+2018-12-02 19:39:52,171 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:39:52,171 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 19:39:52,171 check_required_field.py[line:99] INFO 检查[到现场次数]
+2018-12-02 19:39:52,173 check_required_field.py[line:105] INFO 到现场次数 is 0, type is radio, value_range is 0,1,2,99
+2018-12-02 19:39:52,173 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:39:52,173 check_required_field.py[line:46] INFO the post params is {u'idt': u'48482fbe620d4877a0afcd5cd8789d6b'}
+2018-12-02 19:39:52,174 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZHlurRcZeI6ZsdAn2EZtB_nky3XIZRo7fdd65MuPOiKXamAJowye!962196520!1543750096665 for 221.226.253.51/>]>
+2018-12-02 19:39:52,418 check_required_field.py[line:564] INFO 检查服务名称[价格培训]
+2018-12-02 19:39:52,418 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:39:52,420 check_required_field.py[line:105] INFO 服务内容 is 根据价格管理工作需要，适时开展价格培训。重在对行政相对人开展价格业务方面的培训，为宣传价格法律法规政策，加强和规范价格监管服务。, type is text, value_range is 
+2018-12-02 19:39:52,420 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:39:52,420 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:39:52,421 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:39:52,421 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:39:52,421 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:39:52,421 check_required_field.py[line:105] INFO 服务依据 is 《江苏省价格条例》（江苏省人大常委会公告第39号）“第二章  经营者的价格行为第二十条　行业组织应当遵守价格法律、法规，加强价格自律，接受价格主管部门的工作指导，建立行业价格行为规范以及自我约束机制，督促行业组织成员诚信经营。”“第五章　价格服务第四十三条　价格主管部门应当建立健全价格服务制度，完善价格新闻发布机制，宣传价格法律、法规、政策，指导经营者和行业组织规范价格行为，引导经营者合理定价和消费者理性消费。”, type is text, value_range is 
+2018-12-02 19:39:52,421 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:39:52,421 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'48482fbe620d4877a0afcd5cd8789d6b', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:39:52,423 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZHlurRcZeI6ZsdAn2EZtB_nky3XIZRo7fdd65MuPOiKXamAJowye!962196520!1543750096665 for 221.226.253.51/>]>
+2018-12-02 19:39:52,778 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:39:52,779 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'a783e53c907d41648c7c1c82aa17c362', u'idtlog': u'85e68de32fd14d0d9c9305c3ee735c9d'}
+2018-12-02 19:39:52,779 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZHlurRcZeI6ZsdAn2EZtB_nky3XIZRo7fdd65MuPOiKXamAJowye!962196520!1543750096665 for 221.226.253.51/>]>
+2018-12-02 19:39:54,029 check_required_field.py[line:616] INFO 检查业务信息[价格培训]
+2018-12-02 19:39:54,029 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:39:54,029 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 19:39:54,030 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:39:54,030 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 19:39:54,030 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:39:54,032 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市物价局综合科, type is text, value_range is 
+2018-12-02 19:39:54,032 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:39:54,032 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:39:54,032 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:39:54,032 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:39:54,032 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:39:54,033 check_required_field.py[line:105] INFO 业务名称 is 价格培训, type is text, value_range is 
+2018-12-02 19:39:54,033 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:39:54,033 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 19:39:54,035 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:39:54,035 check_required_field.py[line:105] INFO 监督投诉方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 19:39:54,035 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:39:54,036 check_required_field.py[line:105] INFO 咨询方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 19:39:54,036 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:39:54,036 check_required_field.py[line:46] INFO the post params is {u'idt': u'c5349ebc58b7424bae4eea7842d501dd'}
+2018-12-02 19:39:54,036 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZHlurRcZeI6ZsdAn2EZtB_nky3XIZRo7fdd65MuPOiKXamAJowye!962196520!1543750096665 for 221.226.253.51/>]>
+2018-12-02 19:39:54,267 check_required_field.py[line:564] INFO 检查服务名称[价格宣传活动]
+2018-12-02 19:39:54,269 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:39:54,269 check_required_field.py[line:105] INFO 服务内容 is 采取新闻发布会、通气会、政务微博、组织专访等方式，通过传统媒体和新兴媒体平台，对价格调控、管理、监督、服务等方面的法律法规、政策措施和实施效果等进行宣传。, type is text, value_range is 
+2018-12-02 19:39:54,269 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:39:54,269 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:39:54,269 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:39:54,270 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:39:54,270 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:39:54,270 check_required_field.py[line:105] INFO 服务依据 is 中共江苏省委宣传部 江苏省人民政府新闻办公室印发《< 关于建立健全信息发布和政策解读机制的实施意见>细则》的通知（苏宣发〔2016〕11号）二、推进信息发布平台建设2、……，每年召开新闻发布会不少于6场。, type is text, value_range is 
+2018-12-02 19:39:54,272 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:39:54,272 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'c5349ebc58b7424bae4eea7842d501dd', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:39:54,272 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZHlurRcZeI6ZsdAn2EZtB_nky3XIZRo7fdd65MuPOiKXamAJowye!962196520!1543750096665 for 221.226.253.51/>]>
+2018-12-02 19:39:54,563 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:39:54,565 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'3e5b447a7ad14389a629037d61712ae4', u'idtlog': u'5500a34dcb084746ac30dd8dcc55d3fa'}
+2018-12-02 19:39:54,565 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZHlurRcZeI6ZsdAn2EZtB_nky3XIZRo7fdd65MuPOiKXamAJowye!962196520!1543750096665 for 221.226.253.51/>]>
+2018-12-02 19:39:55,852 check_required_field.py[line:616] INFO 检查业务信息[价格宣传活动]
+2018-12-02 19:39:55,852 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:39:55,854 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 19:39:55,854 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:39:55,854 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 19:39:55,855 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:39:55,855 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市物价局综合科, type is text, value_range is 
+2018-12-02 19:39:55,855 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:39:55,855 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:39:55,855 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:39:55,855 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:39:55,857 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:39:55,857 check_required_field.py[line:105] INFO 业务名称 is 价格宣传活动, type is text, value_range is 
+2018-12-02 19:39:55,857 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:39:55,858 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 19:39:55,858 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:39:55,858 check_required_field.py[line:105] INFO 监督投诉方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 19:39:55,858 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:39:55,858 check_required_field.py[line:105] INFO 咨询方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 19:39:55,858 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:39:55,858 check_required_field.py[line:46] INFO the post params is {u'idt': u'7a62995ec9ea4c76846424253b4f08de'}
+2018-12-02 19:39:55,859 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZHlurRcZeI6ZsdAn2EZtB_nky3XIZRo7fdd65MuPOiKXamAJowye!962196520!1543750096665 for 221.226.253.51/>]>
+2018-12-02 19:39:56,108 check_required_field.py[line:564] INFO 检查服务名称[主副食品价格信息公布]
+2018-12-02 19:39:56,108 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:39:56,108 check_required_field.py[line:105] INFO 服务内容 is 及时发布粮油肉蛋菜等居民生活必需品价格, type is text, value_range is 
+2018-12-02 19:39:56,108 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:39:56,109 check_required_field.py[line:105] INFO 服务领域 is 16, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:39:56,109 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:39:56,109 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:39:56,109 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:39:56,109 check_required_field.py[line:105] INFO 服务依据 is 《江苏省价格条例》（江苏省人大常委会公告第39号）、《价格监测规定》（国家发展改革委2003年第1号令）、《江苏省价格监测预警管理办法》（江苏省人民政府2008年第39号令）, type is text, value_range is 
+2018-12-02 19:39:56,111 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:39:56,111 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'7a62995ec9ea4c76846424253b4f08de', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:39:56,111 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZHlurRcZeI6ZsdAn2EZtB_nky3XIZRo7fdd65MuPOiKXamAJowye!962196520!1543750096665 for 221.226.253.51/>]>
+2018-12-02 19:39:56,437 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:39:56,438 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ac968aa56356445398f7bd281f71a56d', u'idtlog': u'6600d8c58873407aae1711e6696ef874'}
+2018-12-02 19:39:56,438 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZHlurRcZeI6ZsdAn2EZtB_nky3XIZRo7fdd65MuPOiKXamAJowye!962196520!1543750096665 for 221.226.253.51/>]>
+2018-12-02 19:39:57,769 check_required_field.py[line:616] INFO 检查业务信息[主副食品价格信息公布]
+2018-12-02 19:39:57,769 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:39:57,769 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路88号行政审批中心, type is text, value_range is 
+2018-12-02 19:39:57,769 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:39:57,769 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午13:30-17:30；冬季：上午8:30-11:30，下午14:30-17:30。, type is text, value_range is 
+2018-12-02 19:39:57,769 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:39:57,769 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市价格监测中心, type is text, value_range is 
+2018-12-02 19:39:57,769 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:39:57,769 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:39:57,769 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:39:57,769 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:39:57,769 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:39:57,770 check_required_field.py[line:105] INFO 业务名称 is 主副食品价格信息公布, type is text, value_range is 
+2018-12-02 19:39:57,770 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:39:57,770 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 19:39:57,770 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:39:57,770 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86055502, type is text, value_range is 
+2018-12-02 19:39:57,770 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:39:57,770 check_required_field.py[line:105] INFO 咨询方式 is 0511-86055502, type is text, value_range is 
+2018-12-02 19:39:57,770 check_required_field.py[line:643] INFO []
+2018-12-02 19:39:57,772 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 19:39:57,772 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ZHlurRcZeI6ZsdAn2EZtB_nky3XIZRo7fdd65MuPOiKXamAJowye!962196520!1543750096665 for 221.226.253.51/>]>
+2018-12-02 19:42:15,562 check_required_field.py[line:647] INFO start to check username D1107_LR
+2018-12-02 19:42:15,563 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 19:42:15,566 check_required_field.py[line:46] INFO the post params is {u'jsu': u'D1107_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 19:42:15,571 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 19:42:22,628 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 19:42:22,628 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 19:42:22,630 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=lT9ur15g5SipuPKqO0cWFss1hYTBJ1So_WqhMGaILpQeJbPDPCaQ!962196520!1543750245984 for 221.226.253.51/>]>
+2018-12-02 19:42:23,122 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 19:42:23,124 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'D1107', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u7269\u4ef7\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 19:42:23,125 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=lT9ur15g5SipuPKqO0cWFss1hYTBJ1So_WqhMGaILpQeJbPDPCaQ!962196520!1543750245984 for 221.226.253.51/>]>
+2018-12-02 19:42:26,038 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:42:26,039 check_required_field.py[line:46] INFO the post params is {u'idt': u'8c7c68ff89d84732a6558f36a66141f0'}
+2018-12-02 19:42:26,042 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=lT9ur15g5SipuPKqO0cWFss1hYTBJ1So_WqhMGaILpQeJbPDPCaQ!962196520!1543750245984 for 221.226.253.51/>]>
+2018-12-02 19:42:26,946 check_required_field.py[line:564] INFO 检查服务名称[受理日常价格政策咨询]
+2018-12-02 19:42:26,947 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:42:26,950 check_required_field.py[line:105] INFO 服务内容 is 政策咨询, type is text, value_range is 
+2018-12-02 19:42:26,953 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:42:26,956 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:42:26,957 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:42:26,959 check_required_field.py[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 19:42:26,960 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:42:26,960 check_required_field.py[line:105] INFO 服务依据 is 价格和收费法律、法规和其他规范性文件, type is text, value_range is 
+2018-12-02 19:42:26,960 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:42:26,961 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'8c7c68ff89d84732a6558f36a66141f0', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:42:26,963 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=lT9ur15g5SipuPKqO0cWFss1hYTBJ1So_WqhMGaILpQeJbPDPCaQ!962196520!1543750245984 for 221.226.253.51/>]>
+2018-12-02 19:42:27,864 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:42:27,865 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'2b1e1208d9444f43bad0b62a7b087424', u'idtlog': u'c4993251c6bd4f5e88e25b2ac32478b9'}
+2018-12-02 19:42:27,865 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=lT9ur15g5SipuPKqO0cWFss1hYTBJ1So_WqhMGaILpQeJbPDPCaQ!962196520!1543750245984 for 221.226.253.51/>]>
+2018-12-02 19:42:29,822 check_required_field.py[line:616] INFO 检查业务信息[受理日常价格政策咨询]
+2018-12-02 19:42:29,822 check_required_field.py[line:99] INFO 检查[办件类型]
+2018-12-02 19:42:29,825 check_required_field.py[line:105] INFO 办件类型 is 承诺件, type is radio, value_range is 承诺件,即办件
+2018-12-02 19:42:29,825 check_required_field.py[line:99] INFO 检查[办理依据]
+2018-12-02 19:42:29,828 check_required_field.py[line:105] INFO 办理依据 is 价格和收费法律、法规和其他规范性文件, type is text, value_range is 
+2018-12-02 19:42:29,828 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:42:29,829 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 19:42:29,831 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:42:29,832 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市价格举报中心, type is text, value_range is 
+2018-12-02 19:42:29,832 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:42:29,835 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86055519, type is text, value_range is 
+2018-12-02 19:42:29,835 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:42:29,835 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 19:42:29,835 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:42:29,836 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 19:42:29,836 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:42:29,836 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:42:29,836 check_required_field.py[line:99] INFO 检查[是否收费]
+2018-12-02 19:42:29,836 check_required_field.py[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 19:42:29,838 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:42:29,838 check_required_field.py[line:105] INFO 咨询方式 is 0511-12358, type is text, value_range is 
+2018-12-02 19:42:29,838 check_required_field.py[line:99] INFO 检查[在线办理网址]
+2018-12-02 19:42:29,838 check_required_field.py[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 19:42:29,838 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:42:29,838 check_required_field.py[line:105] INFO 业务名称 is 受理日常价格政策咨询, type is text, value_range is 
+2018-12-02 19:42:29,838 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:42:29,838 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 19:42:29,838 check_required_field.py[line:99] INFO 检查[到现场次数]
+2018-12-02 19:42:29,838 check_required_field.py[line:105] INFO 到现场次数 is 0, type is radio, value_range is 0,1,2,99
+2018-12-02 19:42:29,838 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:42:29,838 check_required_field.py[line:46] INFO the post params is {u'idt': u'48482fbe620d4877a0afcd5cd8789d6b'}
+2018-12-02 19:42:29,838 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=lT9ur15g5SipuPKqO0cWFss1hYTBJ1So_WqhMGaILpQeJbPDPCaQ!962196520!1543750245984 for 221.226.253.51/>]>
+2018-12-02 19:42:30,533 check_required_field.py[line:564] INFO 检查服务名称[价格培训]
+2018-12-02 19:42:30,535 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:42:30,536 check_required_field.py[line:105] INFO 服务内容 is 根据价格管理工作需要，适时开展价格培训。重在对行政相对人开展价格业务方面的培训，为宣传价格法律法规政策，加强和规范价格监管服务。, type is text, value_range is 
+2018-12-02 19:42:30,536 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:42:30,536 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:42:30,536 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:42:30,539 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:42:30,539 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:42:30,542 check_required_field.py[line:105] INFO 服务依据 is 《江苏省价格条例》（江苏省人大常委会公告第39号）“第二章  经营者的价格行为第二十条　行业组织应当遵守价格法律、法规，加强价格自律，接受价格主管部门的工作指导，建立行业价格行为规范以及自我约束机制，督促行业组织成员诚信经营。”“第五章　价格服务第四十三条　价格主管部门应当建立健全价格服务制度，完善价格新闻发布机制，宣传价格法律、法规、政策，指导经营者和行业组织规范价格行为，引导经营者合理定价和消费者理性消费。”, type is text, value_range is 
+2018-12-02 19:42:30,542 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:42:30,542 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'48482fbe620d4877a0afcd5cd8789d6b', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:42:30,543 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=lT9ur15g5SipuPKqO0cWFss1hYTBJ1So_WqhMGaILpQeJbPDPCaQ!962196520!1543750245984 for 221.226.253.51/>]>
+2018-12-02 19:42:31,207 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:42:31,210 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'a783e53c907d41648c7c1c82aa17c362', u'idtlog': u'85e68de32fd14d0d9c9305c3ee735c9d'}
+2018-12-02 19:42:31,213 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=lT9ur15g5SipuPKqO0cWFss1hYTBJ1So_WqhMGaILpQeJbPDPCaQ!962196520!1543750245984 for 221.226.253.51/>]>
+2018-12-02 19:42:32,809 check_required_field.py[line:616] INFO 检查业务信息[价格培训]
+2018-12-02 19:42:32,812 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:42:32,815 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 19:42:32,815 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:42:32,819 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 19:42:32,819 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:42:32,822 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市物价局综合科, type is text, value_range is 
+2018-12-02 19:42:32,825 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:42:32,826 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:42:32,828 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:42:32,829 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:42:32,829 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:42:32,831 check_required_field.py[line:105] INFO 业务名称 is 价格培训, type is text, value_range is 
+2018-12-02 19:42:32,832 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:42:32,834 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 19:42:32,835 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:42:32,836 check_required_field.py[line:105] INFO 监督投诉方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 19:42:32,838 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:42:32,839 check_required_field.py[line:105] INFO 咨询方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 19:42:32,841 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:42:32,842 check_required_field.py[line:46] INFO the post params is {u'idt': u'c5349ebc58b7424bae4eea7842d501dd'}
+2018-12-02 19:42:32,844 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=lT9ur15g5SipuPKqO0cWFss1hYTBJ1So_WqhMGaILpQeJbPDPCaQ!962196520!1543750245984 for 221.226.253.51/>]>
+2018-12-02 19:42:33,275 check_required_field.py[line:564] INFO 检查服务名称[价格宣传活动]
+2018-12-02 19:42:33,278 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:42:33,280 check_required_field.py[line:105] INFO 服务内容 is 采取新闻发布会、通气会、政务微博、组织专访等方式，通过传统媒体和新兴媒体平台，对价格调控、管理、监督、服务等方面的法律法规、政策措施和实施效果等进行宣传。, type is text, value_range is 
+2018-12-02 19:42:33,282 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:42:33,286 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:42:33,289 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:42:33,292 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:42:33,293 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:42:33,296 check_required_field.py[line:105] INFO 服务依据 is 中共江苏省委宣传部 江苏省人民政府新闻办公室印发《< 关于建立健全信息发布和政策解读机制的实施意见>细则》的通知（苏宣发〔2016〕11号）二、推进信息发布平台建设2、……，每年召开新闻发布会不少于6场。, type is text, value_range is 
+2018-12-02 19:42:33,299 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:42:33,301 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'c5349ebc58b7424bae4eea7842d501dd', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:42:33,303 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=lT9ur15g5SipuPKqO0cWFss1hYTBJ1So_WqhMGaILpQeJbPDPCaQ!962196520!1543750245984 for 221.226.253.51/>]>
+2018-12-02 19:42:33,980 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:42:33,983 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'3e5b447a7ad14389a629037d61712ae4', u'idtlog': u'5500a34dcb084746ac30dd8dcc55d3fa'}
+2018-12-02 19:42:33,984 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=lT9ur15g5SipuPKqO0cWFss1hYTBJ1So_WqhMGaILpQeJbPDPCaQ!962196520!1543750245984 for 221.226.253.51/>]>
+2018-12-02 19:42:35,691 check_required_field.py[line:616] INFO 检查业务信息[价格宣传活动]
+2018-12-02 19:42:35,693 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:42:35,693 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 19:42:35,693 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:42:35,693 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 19:42:35,693 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:42:35,693 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市物价局综合科, type is text, value_range is 
+2018-12-02 19:42:35,693 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:42:35,693 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:42:35,693 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:42:35,693 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:42:35,693 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:42:35,693 check_required_field.py[line:105] INFO 业务名称 is 价格宣传活动, type is text, value_range is 
+2018-12-02 19:42:35,693 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:42:35,694 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 19:42:35,694 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:42:35,694 check_required_field.py[line:105] INFO 监督投诉方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 19:42:35,694 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:42:35,694 check_required_field.py[line:105] INFO 咨询方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 19:42:35,694 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:42:35,694 check_required_field.py[line:46] INFO the post params is {u'idt': u'7a62995ec9ea4c76846424253b4f08de'}
+2018-12-02 19:42:35,694 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=lT9ur15g5SipuPKqO0cWFss1hYTBJ1So_WqhMGaILpQeJbPDPCaQ!962196520!1543750245984 for 221.226.253.51/>]>
+2018-12-02 19:42:36,246 check_required_field.py[line:564] INFO 检查服务名称[主副食品价格信息公布]
+2018-12-02 19:42:36,249 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:42:36,252 check_required_field.py[line:105] INFO 服务内容 is 及时发布粮油肉蛋菜等居民生活必需品价格, type is text, value_range is 
+2018-12-02 19:42:36,255 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:42:36,259 check_required_field.py[line:105] INFO 服务领域 is 16, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:42:36,260 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:42:36,263 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:42:36,265 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:42:36,266 check_required_field.py[line:105] INFO 服务依据 is 《江苏省价格条例》（江苏省人大常委会公告第39号）、《价格监测规定》（国家发展改革委2003年第1号令）、《江苏省价格监测预警管理办法》（江苏省人民政府2008年第39号令）, type is text, value_range is 
+2018-12-02 19:42:36,267 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:42:36,269 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'7a62995ec9ea4c76846424253b4f08de', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:42:36,269 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=lT9ur15g5SipuPKqO0cWFss1hYTBJ1So_WqhMGaILpQeJbPDPCaQ!962196520!1543750245984 for 221.226.253.51/>]>
+2018-12-02 19:42:36,834 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:42:36,835 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ac968aa56356445398f7bd281f71a56d', u'idtlog': u'6600d8c58873407aae1711e6696ef874'}
+2018-12-02 19:42:36,835 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=lT9ur15g5SipuPKqO0cWFss1hYTBJ1So_WqhMGaILpQeJbPDPCaQ!962196520!1543750245984 for 221.226.253.51/>]>
+2018-12-02 19:42:38,589 check_required_field.py[line:616] INFO 检查业务信息[主副食品价格信息公布]
+2018-12-02 19:42:38,592 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:42:38,596 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路88号行政审批中心, type is text, value_range is 
+2018-12-02 19:42:38,598 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:42:38,601 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午13:30-17:30；冬季：上午8:30-11:30，下午14:30-17:30。, type is text, value_range is 
+2018-12-02 19:42:38,605 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:42:38,605 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市价格监测中心, type is text, value_range is 
+2018-12-02 19:42:38,607 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:42:38,608 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:42:38,609 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:42:38,611 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:42:38,614 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:42:38,615 check_required_field.py[line:105] INFO 业务名称 is 主副食品价格信息公布, type is text, value_range is 
+2018-12-02 19:42:38,617 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:42:38,618 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 19:42:38,618 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:42:38,618 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86055502, type is text, value_range is 
+2018-12-02 19:42:38,618 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:42:38,618 check_required_field.py[line:105] INFO 咨询方式 is 0511-86055502, type is text, value_range is 
+2018-12-02 19:42:38,618 check_required_field.py[line:643] INFO []
+2018-12-02 19:42:38,619 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 19:42:38,619 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=lT9ur15g5SipuPKqO0cWFss1hYTBJ1So_WqhMGaILpQeJbPDPCaQ!962196520!1543750245984 for 221.226.253.51/>]>
+2018-12-02 19:48:13,009 check_required_field.py[line:647] INFO start to check username D1107_LR
+2018-12-02 19:48:13,016 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 19:48:13,023 check_required_field.py[line:46] INFO the post params is {u'jsu': u'D1107_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 19:48:13,029 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 19:48:18,125 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 19:48:18,125 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 19:48:18,125 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=pjtutNLdLs5vMILtUPxnvsxlDj64bDVEIenrAAgaaOBvO5LRbpSR!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:18,584 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 19:48:18,585 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'D1107', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u7269\u4ef7\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 19:48:18,586 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=pjtutNLdLs5vMILtUPxnvsxlDj64bDVEIenrAAgaaOBvO5LRbpSR!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:21,240 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:48:21,240 check_required_field.py[line:46] INFO the post params is {u'idt': u'8c7c68ff89d84732a6558f36a66141f0'}
+2018-12-02 19:48:21,240 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=pjtutNLdLs5vMILtUPxnvsxlDj64bDVEIenrAAgaaOBvO5LRbpSR!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:21,502 check_required_field.py[line:564] INFO 检查服务名称[受理日常价格政策咨询]
+2018-12-02 19:48:21,505 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:48:21,513 check_required_field.py[line:105] INFO 服务内容 is 政策咨询, type is text, value_range is 
+2018-12-02 19:48:21,513 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:48:21,513 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:48:21,513 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:48:21,513 check_required_field.py[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 19:48:21,515 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:48:21,515 check_required_field.py[line:105] INFO 服务依据 is 价格和收费法律、法规和其他规范性文件, type is text, value_range is 
+2018-12-02 19:48:21,515 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:48:21,515 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'8c7c68ff89d84732a6558f36a66141f0', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:48:21,516 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=pjtutNLdLs5vMILtUPxnvsxlDj64bDVEIenrAAgaaOBvO5LRbpSR!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:21,859 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:48:21,859 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'2b1e1208d9444f43bad0b62a7b087424', u'idtlog': u'c4993251c6bd4f5e88e25b2ac32478b9'}
+2018-12-02 19:48:21,861 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=pjtutNLdLs5vMILtUPxnvsxlDj64bDVEIenrAAgaaOBvO5LRbpSR!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:23,344 check_required_field.py[line:616] INFO 检查业务信息[受理日常价格政策咨询]
+2018-12-02 19:48:23,345 check_required_field.py[line:99] INFO 检查[办件类型]
+2018-12-02 19:48:23,346 check_required_field.py[line:105] INFO 办件类型 is 承诺件, type is radio, value_range is 承诺件,即办件
+2018-12-02 19:48:23,348 check_required_field.py[line:99] INFO 检查[办理依据]
+2018-12-02 19:48:23,351 check_required_field.py[line:105] INFO 办理依据 is 价格和收费法律、法规和其他规范性文件, type is text, value_range is 
+2018-12-02 19:48:23,351 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:48:23,354 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 19:48:23,355 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:48:23,357 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市价格举报中心, type is text, value_range is 
+2018-12-02 19:48:23,357 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:48:23,358 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86055519, type is text, value_range is 
+2018-12-02 19:48:23,358 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:48:23,361 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 19:48:23,361 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:48:23,362 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 19:48:23,364 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:48:23,365 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:48:23,365 check_required_field.py[line:99] INFO 检查[是否收费]
+2018-12-02 19:48:23,368 check_required_field.py[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 19:48:23,368 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:48:23,371 check_required_field.py[line:105] INFO 咨询方式 is 0511-12358, type is text, value_range is 
+2018-12-02 19:48:23,371 check_required_field.py[line:99] INFO 检查[在线办理网址]
+2018-12-02 19:48:23,372 check_required_field.py[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 19:48:23,372 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:48:23,375 check_required_field.py[line:105] INFO 业务名称 is 受理日常价格政策咨询, type is text, value_range is 
+2018-12-02 19:48:23,375 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:48:23,377 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 19:48:23,378 check_required_field.py[line:99] INFO 检查[到现场次数]
+2018-12-02 19:48:23,378 check_required_field.py[line:105] INFO 到现场次数 is 0, type is radio, value_range is 0,1,2,99
+2018-12-02 19:48:23,380 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:48:23,380 check_required_field.py[line:46] INFO the post params is {u'idt': u'48482fbe620d4877a0afcd5cd8789d6b'}
+2018-12-02 19:48:23,381 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=pjtutNLdLs5vMILtUPxnvsxlDj64bDVEIenrAAgaaOBvO5LRbpSR!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:23,638 check_required_field.py[line:564] INFO 检查服务名称[价格培训]
+2018-12-02 19:48:23,638 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:48:23,638 check_required_field.py[line:105] INFO 服务内容 is 根据价格管理工作需要，适时开展价格培训。重在对行政相对人开展价格业务方面的培训，为宣传价格法律法规政策，加强和规范价格监管服务。, type is text, value_range is 
+2018-12-02 19:48:23,638 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:48:23,638 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:48:23,640 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:48:23,640 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:48:23,640 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:48:23,640 check_required_field.py[line:105] INFO 服务依据 is 《江苏省价格条例》（江苏省人大常委会公告第39号）“第二章  经营者的价格行为第二十条　行业组织应当遵守价格法律、法规，加强价格自律，接受价格主管部门的工作指导，建立行业价格行为规范以及自我约束机制，督促行业组织成员诚信经营。”“第五章　价格服务第四十三条　价格主管部门应当建立健全价格服务制度，完善价格新闻发布机制，宣传价格法律、法规、政策，指导经营者和行业组织规范价格行为，引导经营者合理定价和消费者理性消费。”, type is text, value_range is 
+2018-12-02 19:48:23,640 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:48:23,640 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'48482fbe620d4877a0afcd5cd8789d6b', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:48:23,641 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=pjtutNLdLs5vMILtUPxnvsxlDj64bDVEIenrAAgaaOBvO5LRbpSR!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:23,957 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:48:23,957 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'a783e53c907d41648c7c1c82aa17c362', u'idtlog': u'85e68de32fd14d0d9c9305c3ee735c9d'}
+2018-12-02 19:48:23,959 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=pjtutNLdLs5vMILtUPxnvsxlDj64bDVEIenrAAgaaOBvO5LRbpSR!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:25,280 check_required_field.py[line:616] INFO 检查业务信息[价格培训]
+2018-12-02 19:48:25,280 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:48:25,282 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 19:48:25,282 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:48:25,282 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 19:48:25,282 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:48:25,282 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市物价局综合科, type is text, value_range is 
+2018-12-02 19:48:25,282 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:48:25,282 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:48:25,282 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:48:25,283 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:48:25,283 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:48:25,285 check_required_field.py[line:105] INFO 业务名称 is 价格培训, type is text, value_range is 
+2018-12-02 19:48:25,285 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:48:25,285 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 19:48:25,285 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:48:25,285 check_required_field.py[line:105] INFO 监督投诉方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 19:48:25,286 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:48:25,286 check_required_field.py[line:105] INFO 咨询方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 19:48:25,286 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:48:25,286 check_required_field.py[line:46] INFO the post params is {u'idt': u'c5349ebc58b7424bae4eea7842d501dd'}
+2018-12-02 19:48:25,286 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=pjtutNLdLs5vMILtUPxnvsxlDj64bDVEIenrAAgaaOBvO5LRbpSR!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:25,538 check_required_field.py[line:564] INFO 检查服务名称[价格宣传活动]
+2018-12-02 19:48:25,538 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:48:25,538 check_required_field.py[line:105] INFO 服务内容 is 采取新闻发布会、通气会、政务微博、组织专访等方式，通过传统媒体和新兴媒体平台，对价格调控、管理、监督、服务等方面的法律法规、政策措施和实施效果等进行宣传。, type is text, value_range is 
+2018-12-02 19:48:25,538 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:48:25,539 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:48:25,539 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:48:25,539 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:48:25,539 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:48:25,539 check_required_field.py[line:105] INFO 服务依据 is 中共江苏省委宣传部 江苏省人民政府新闻办公室印发《< 关于建立健全信息发布和政策解读机制的实施意见>细则》的通知（苏宣发〔2016〕11号）二、推进信息发布平台建设2、……，每年召开新闻发布会不少于6场。, type is text, value_range is 
+2018-12-02 19:48:25,539 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:48:25,539 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'c5349ebc58b7424bae4eea7842d501dd', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:48:25,539 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=pjtutNLdLs5vMILtUPxnvsxlDj64bDVEIenrAAgaaOBvO5LRbpSR!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:25,848 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:48:25,848 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'3e5b447a7ad14389a629037d61712ae4', u'idtlog': u'5500a34dcb084746ac30dd8dcc55d3fa'}
+2018-12-02 19:48:25,848 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=pjtutNLdLs5vMILtUPxnvsxlDj64bDVEIenrAAgaaOBvO5LRbpSR!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:27,158 check_required_field.py[line:616] INFO 检查业务信息[价格宣传活动]
+2018-12-02 19:48:27,160 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:48:27,160 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 19:48:27,160 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:48:27,160 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 19:48:27,160 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:48:27,160 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市物价局综合科, type is text, value_range is 
+2018-12-02 19:48:27,160 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:48:27,160 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:48:27,160 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:48:27,160 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:48:27,161 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:48:27,161 check_required_field.py[line:105] INFO 业务名称 is 价格宣传活动, type is text, value_range is 
+2018-12-02 19:48:27,161 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:48:27,161 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 19:48:27,161 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:48:27,161 check_required_field.py[line:105] INFO 监督投诉方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 19:48:27,161 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:48:27,161 check_required_field.py[line:105] INFO 咨询方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 19:48:27,161 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 19:48:27,161 check_required_field.py[line:46] INFO the post params is {u'idt': u'7a62995ec9ea4c76846424253b4f08de'}
+2018-12-02 19:48:27,161 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=pjtutNLdLs5vMILtUPxnvsxlDj64bDVEIenrAAgaaOBvO5LRbpSR!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:27,407 check_required_field.py[line:564] INFO 检查服务名称[主副食品价格信息公布]
+2018-12-02 19:48:27,407 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 19:48:27,407 check_required_field.py[line:105] INFO 服务内容 is 及时发布粮油肉蛋菜等居民生活必需品价格, type is text, value_range is 
+2018-12-02 19:48:27,407 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 19:48:27,407 check_required_field.py[line:105] INFO 服务领域 is 16, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 19:48:27,407 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 19:48:27,408 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 19:48:27,408 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 19:48:27,408 check_required_field.py[line:105] INFO 服务依据 is 《江苏省价格条例》（江苏省人大常委会公告第39号）、《价格监测规定》（国家发展改革委2003年第1号令）、《江苏省价格监测预警管理办法》（江苏省人民政府2008年第39号令）, type is text, value_range is 
+2018-12-02 19:48:27,408 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 19:48:27,408 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'7a62995ec9ea4c76846424253b4f08de', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 19:48:27,408 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=pjtutNLdLs5vMILtUPxnvsxlDj64bDVEIenrAAgaaOBvO5LRbpSR!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:27,704 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 19:48:27,704 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ac968aa56356445398f7bd281f71a56d', u'idtlog': u'6600d8c58873407aae1711e6696ef874'}
+2018-12-02 19:48:27,704 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=pjtutNLdLs5vMILtUPxnvsxlDj64bDVEIenrAAgaaOBvO5LRbpSR!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 19:48:28,990 check_required_field.py[line:616] INFO 检查业务信息[主副食品价格信息公布]
+2018-12-02 19:48:28,990 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 19:48:28,990 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路88号行政审批中心, type is text, value_range is 
+2018-12-02 19:48:28,990 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 19:48:28,990 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午13:30-17:30；冬季：上午8:30-11:30，下午14:30-17:30。, type is text, value_range is 
+2018-12-02 19:48:28,990 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 19:48:28,992 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市价格监测中心, type is text, value_range is 
+2018-12-02 19:48:28,992 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 19:48:28,992 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 19:48:28,992 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 19:48:28,993 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 19:48:28,993 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 19:48:28,993 check_required_field.py[line:105] INFO 业务名称 is 主副食品价格信息公布, type is text, value_range is 
+2018-12-02 19:48:28,993 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 19:48:28,993 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 19:48:28,993 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 19:48:28,993 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86055502, type is text, value_range is 
+2018-12-02 19:48:28,993 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 19:48:28,994 check_required_field.py[line:105] INFO 咨询方式 is 0511-86055502, type is text, value_range is 
+2018-12-02 19:48:28,994 check_required_field.py[line:643] INFO []
+2018-12-02 19:48:28,994 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 19:48:28,996 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=pjtutNLdLs5vMILtUPxnvsxlDj64bDVEIenrAAgaaOBvO5LRbpSR!962196520!1543750603485 for 221.226.253.51/>]>
+2018-12-02 21:27:01,414 check_required_field.py[line:647] INFO start to check username D1107_LR
+2018-12-02 21:27:01,427 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 21:27:01,440 check_required_field.py[line:46] INFO the post params is {u'jsu': u'D1107_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 21:27:01,454 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 21:27:06,855 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 21:27:06,855 check_required_field.py[line:46] INFO the post params is {}
+2018-12-02 21:27:06,857 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ktBvD0jpE6JRbqFu9v0Kb0dF0IZUrQNFkA0Gp5hJrWcYuvYWhxBI!962196520!1543756531945 for 221.226.253.51/>]>
+2018-12-02 21:27:07,398 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 21:27:07,400 check_required_field.py[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'D1107', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u7269\u4ef7\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 21:27:07,401 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ktBvD0jpE6JRbqFu9v0Kb0dF0IZUrQNFkA0Gp5hJrWcYuvYWhxBI!962196520!1543756531945 for 221.226.253.51/>]>
+2018-12-02 21:27:10,191 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 21:27:10,193 check_required_field.py[line:46] INFO the post params is {u'idt': u'8c7c68ff89d84732a6558f36a66141f0'}
+2018-12-02 21:27:10,194 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ktBvD0jpE6JRbqFu9v0Kb0dF0IZUrQNFkA0Gp5hJrWcYuvYWhxBI!962196520!1543756531945 for 221.226.253.51/>]>
+2018-12-02 21:27:10,461 check_required_field.py[line:564] INFO 检查服务名称[受理日常价格政策咨询]
+2018-12-02 21:27:10,461 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 21:27:10,461 check_required_field.py[line:105] INFO 服务内容 is 政策咨询, type is text, value_range is 
+2018-12-02 21:27:10,463 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 21:27:10,463 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 21:27:10,463 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 21:27:10,463 check_required_field.py[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 21:27:10,463 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 21:27:10,463 check_required_field.py[line:105] INFO 服务依据 is 价格和收费法律、法规和其他规范性文件, type is text, value_range is 
+2018-12-02 21:27:10,463 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 21:27:10,463 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'8c7c68ff89d84732a6558f36a66141f0', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 21:27:10,463 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ktBvD0jpE6JRbqFu9v0Kb0dF0IZUrQNFkA0Gp5hJrWcYuvYWhxBI!962196520!1543756531945 for 221.226.253.51/>]>
+2018-12-02 21:27:10,831 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 21:27:10,831 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'2b1e1208d9444f43bad0b62a7b087424', u'idtlog': u'c4993251c6bd4f5e88e25b2ac32478b9'}
+2018-12-02 21:27:10,831 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ktBvD0jpE6JRbqFu9v0Kb0dF0IZUrQNFkA0Gp5hJrWcYuvYWhxBI!962196520!1543756531945 for 221.226.253.51/>]>
+2018-12-02 21:27:12,510 check_required_field.py[line:616] INFO 检查业务信息[受理日常价格政策咨询]
+2018-12-02 21:27:12,512 check_required_field.py[line:99] INFO 检查[办件类型]
+2018-12-02 21:27:12,513 check_required_field.py[line:105] INFO 办件类型 is 承诺件, type is radio, value_range is 承诺件,即办件
+2018-12-02 21:27:12,515 check_required_field.py[line:99] INFO 检查[办理依据]
+2018-12-02 21:27:12,516 check_required_field.py[line:105] INFO 办理依据 is 价格和收费法律、法规和其他规范性文件, type is text, value_range is 
+2018-12-02 21:27:12,516 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 21:27:12,517 check_required_field.py[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 21:27:12,519 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 21:27:12,520 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市价格举报中心, type is text, value_range is 
+2018-12-02 21:27:12,523 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 21:27:12,523 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86055519, type is text, value_range is 
+2018-12-02 21:27:12,525 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 21:27:12,526 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 21:27:12,526 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 21:27:12,529 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 21:27:12,530 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 21:27:12,532 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 21:27:12,535 check_required_field.py[line:99] INFO 检查[是否收费]
+2018-12-02 21:27:12,536 check_required_field.py[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 21:27:12,539 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 21:27:12,540 check_required_field.py[line:105] INFO 咨询方式 is 0511-12358, type is text, value_range is 
+2018-12-02 21:27:12,542 check_required_field.py[line:99] INFO 检查[在线办理网址]
+2018-12-02 21:27:12,545 check_required_field.py[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 21:27:12,546 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 21:27:12,549 check_required_field.py[line:105] INFO 业务名称 is 受理日常价格政策咨询, type is text, value_range is 
+2018-12-02 21:27:12,552 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 21:27:12,552 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 21:27:12,552 check_required_field.py[line:99] INFO 检查[到现场次数]
+2018-12-02 21:27:12,553 check_required_field.py[line:105] INFO 到现场次数 is 0, type is radio, value_range is 0,1,2,99
+2018-12-02 21:27:12,553 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 21:27:12,553 check_required_field.py[line:46] INFO the post params is {u'idt': u'48482fbe620d4877a0afcd5cd8789d6b'}
+2018-12-02 21:27:12,553 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ktBvD0jpE6JRbqFu9v0Kb0dF0IZUrQNFkA0Gp5hJrWcYuvYWhxBI!962196520!1543756531945 for 221.226.253.51/>]>
+2018-12-02 21:27:12,869 check_required_field.py[line:564] INFO 检查服务名称[价格培训]
+2018-12-02 21:27:12,869 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 21:27:12,869 check_required_field.py[line:105] INFO 服务内容 is 根据价格管理工作需要，适时开展价格培训。重在对行政相对人开展价格业务方面的培训，为宣传价格法律法规政策，加强和规范价格监管服务。, type is text, value_range is 
+2018-12-02 21:27:12,869 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 21:27:12,869 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 21:27:12,869 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 21:27:12,869 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 21:27:12,871 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 21:27:12,871 check_required_field.py[line:105] INFO 服务依据 is 《江苏省价格条例》（江苏省人大常委会公告第39号）“第二章  经营者的价格行为第二十条　行业组织应当遵守价格法律、法规，加强价格自律，接受价格主管部门的工作指导，建立行业价格行为规范以及自我约束机制，督促行业组织成员诚信经营。”“第五章　价格服务第四十三条　价格主管部门应当建立健全价格服务制度，完善价格新闻发布机制，宣传价格法律、法规、政策，指导经营者和行业组织规范价格行为，引导经营者合理定价和消费者理性消费。”, type is text, value_range is 
+2018-12-02 21:27:12,871 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 21:27:12,871 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'48482fbe620d4877a0afcd5cd8789d6b', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 21:27:12,871 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ktBvD0jpE6JRbqFu9v0Kb0dF0IZUrQNFkA0Gp5hJrWcYuvYWhxBI!962196520!1543756531945 for 221.226.253.51/>]>
+2018-12-02 21:27:13,244 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 21:27:13,244 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'a783e53c907d41648c7c1c82aa17c362', u'idtlog': u'85e68de32fd14d0d9c9305c3ee735c9d'}
+2018-12-02 21:27:13,244 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ktBvD0jpE6JRbqFu9v0Kb0dF0IZUrQNFkA0Gp5hJrWcYuvYWhxBI!962196520!1543756531945 for 221.226.253.51/>]>
+2018-12-02 21:27:14,723 check_required_field.py[line:616] INFO 检查业务信息[价格培训]
+2018-12-02 21:27:14,724 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 21:27:14,726 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 21:27:14,727 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 21:27:14,730 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 21:27:14,730 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 21:27:14,733 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市物价局综合科, type is text, value_range is 
+2018-12-02 21:27:14,734 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 21:27:14,736 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 21:27:14,736 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 21:27:14,737 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 21:27:14,739 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 21:27:14,740 check_required_field.py[line:105] INFO 业务名称 is 价格培训, type is text, value_range is 
+2018-12-02 21:27:14,740 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 21:27:14,743 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 21:27:14,743 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 21:27:14,743 check_required_field.py[line:105] INFO 监督投诉方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 21:27:14,744 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 21:27:14,746 check_required_field.py[line:105] INFO 咨询方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 21:27:14,746 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 21:27:14,746 check_required_field.py[line:46] INFO the post params is {u'idt': u'c5349ebc58b7424bae4eea7842d501dd'}
+2018-12-02 21:27:14,747 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ktBvD0jpE6JRbqFu9v0Kb0dF0IZUrQNFkA0Gp5hJrWcYuvYWhxBI!962196520!1543756531945 for 221.226.253.51/>]>
+2018-12-02 21:27:15,015 check_required_field.py[line:564] INFO 检查服务名称[价格宣传活动]
+2018-12-02 21:27:15,016 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 21:27:15,016 check_required_field.py[line:105] INFO 服务内容 is 采取新闻发布会、通气会、政务微博、组织专访等方式，通过传统媒体和新兴媒体平台，对价格调控、管理、监督、服务等方面的法律法规、政策措施和实施效果等进行宣传。, type is text, value_range is 
+2018-12-02 21:27:15,016 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 21:27:15,016 check_required_field.py[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 21:27:15,016 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 21:27:15,016 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 21:27:15,016 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 21:27:15,016 check_required_field.py[line:105] INFO 服务依据 is 中共江苏省委宣传部 江苏省人民政府新闻办公室印发《< 关于建立健全信息发布和政策解读机制的实施意见>细则》的通知（苏宣发〔2016〕11号）二、推进信息发布平台建设2、……，每年召开新闻发布会不少于6场。, type is text, value_range is 
+2018-12-02 21:27:15,017 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 21:27:15,017 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'c5349ebc58b7424bae4eea7842d501dd', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 21:27:15,017 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ktBvD0jpE6JRbqFu9v0Kb0dF0IZUrQNFkA0Gp5hJrWcYuvYWhxBI!962196520!1543756531945 for 221.226.253.51/>]>
+2018-12-02 21:27:15,368 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 21:27:15,369 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'3e5b447a7ad14389a629037d61712ae4', u'idtlog': u'5500a34dcb084746ac30dd8dcc55d3fa'}
+2018-12-02 21:27:15,369 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ktBvD0jpE6JRbqFu9v0Kb0dF0IZUrQNFkA0Gp5hJrWcYuvYWhxBI!962196520!1543756531945 for 221.226.253.51/>]>
+2018-12-02 21:27:16,852 check_required_field.py[line:616] INFO 检查业务信息[价格宣传活动]
+2018-12-02 21:27:16,852 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 21:27:16,852 check_required_field.py[line:105] INFO 办理地点 is 丹阳市兰陵路8号, type is text, value_range is 
+2018-12-02 21:27:16,854 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 21:27:16,854 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午14:00-18:00；冬季：上午8:30-11:30，下午15:00-18:00。, type is text, value_range is 
+2018-12-02 21:27:16,854 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 21:27:16,854 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市物价局综合科, type is text, value_range is 
+2018-12-02 21:27:16,854 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 21:27:16,855 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 21:27:16,855 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 21:27:16,855 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 21:27:16,855 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 21:27:16,855 check_required_field.py[line:105] INFO 业务名称 is 价格宣传活动, type is text, value_range is 
+2018-12-02 21:27:16,855 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 21:27:16,855 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 21:27:16,855 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 21:27:16,857 check_required_field.py[line:105] INFO 监督投诉方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 21:27:16,857 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 21:27:16,857 check_required_field.py[line:105] INFO 咨询方式 is 0511－86058887, type is text, value_range is 
+2018-12-02 21:27:16,858 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 21:27:16,858 check_required_field.py[line:46] INFO the post params is {u'idt': u'7a62995ec9ea4c76846424253b4f08de'}
+2018-12-02 21:27:16,858 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ktBvD0jpE6JRbqFu9v0Kb0dF0IZUrQNFkA0Gp5hJrWcYuvYWhxBI!962196520!1543756531945 for 221.226.253.51/>]>
+2018-12-02 21:27:17,134 check_required_field.py[line:564] INFO 检查服务名称[主副食品价格信息公布]
+2018-12-02 21:27:17,134 check_required_field.py[line:99] INFO 检查[服务内容]
+2018-12-02 21:27:17,134 check_required_field.py[line:105] INFO 服务内容 is 及时发布粮油肉蛋菜等居民生活必需品价格, type is text, value_range is 
+2018-12-02 21:27:17,134 check_required_field.py[line:99] INFO 检查[服务领域]
+2018-12-02 21:27:17,134 check_required_field.py[line:105] INFO 服务领域 is 16, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 21:27:17,135 check_required_field.py[line:99] INFO 检查[服务方式]
+2018-12-02 21:27:17,135 check_required_field.py[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 21:27:17,135 check_required_field.py[line:99] INFO 检查[服务依据]
+2018-12-02 21:27:17,137 check_required_field.py[line:105] INFO 服务依据 is 《江苏省价格条例》（江苏省人大常委会公告第39号）、《价格监测规定》（国家发展改革委2003年第1号令）、《江苏省价格监测预警管理办法》（江苏省人民政府2008年第39号令）, type is text, value_range is 
+2018-12-02 21:27:17,137 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 21:27:17,137 check_required_field.py[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'7a62995ec9ea4c76846424253b4f08de', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 21:27:17,138 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ktBvD0jpE6JRbqFu9v0Kb0dF0IZUrQNFkA0Gp5hJrWcYuvYWhxBI!962196520!1543756531945 for 221.226.253.51/>]>
+2018-12-02 21:27:17,499 check_required_field.py[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 21:27:17,499 check_required_field.py[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ac968aa56356445398f7bd281f71a56d', u'idtlog': u'6600d8c58873407aae1711e6696ef874'}
+2018-12-02 21:27:17,499 check_required_field.py[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ktBvD0jpE6JRbqFu9v0Kb0dF0IZUrQNFkA0Gp5hJrWcYuvYWhxBI!962196520!1543756531945 for 221.226.253.51/>]>
+2018-12-02 21:27:18,944 check_required_field.py[line:616] INFO 检查业务信息[主副食品价格信息公布]
+2018-12-02 21:27:18,946 check_required_field.py[line:99] INFO 检查[办理地点]
+2018-12-02 21:27:18,946 check_required_field.py[line:105] INFO 办理地点 is 丹阳市开发区兰陵路88号行政审批中心, type is text, value_range is 
+2018-12-02 21:27:18,946 check_required_field.py[line:99] INFO 检查[工作时间]
+2018-12-02 21:27:18,946 check_required_field.py[line:105] INFO 工作时间 is 夏季：上午8:30-11:30，下午13:30-17:30；冬季：上午8:30-11:30，下午14:30-17:30。, type is text, value_range is 
+2018-12-02 21:27:18,947 check_required_field.py[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 21:27:18,947 check_required_field.py[line:105] INFO 经办机构（处室） is 丹阳市价格监测中心, type is text, value_range is 
+2018-12-02 21:27:18,947 check_required_field.py[line:99] INFO 检查[数量限制]
+2018-12-02 21:27:18,947 check_required_field.py[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 21:27:18,947 check_required_field.py[line:99] INFO 检查[服务对象]
+2018-12-02 21:27:18,947 check_required_field.py[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 21:27:18,947 check_required_field.py[line:99] INFO 检查[业务名称]
+2018-12-02 21:27:18,947 check_required_field.py[line:105] INFO 业务名称 is 主副食品价格信息公布, type is text, value_range is 
+2018-12-02 21:27:18,947 check_required_field.py[line:99] INFO 检查[承办机构]
+2018-12-02 21:27:18,948 check_required_field.py[line:105] INFO 承办机构 is 丹阳市物价局, type is text, value_range is 
+2018-12-02 21:27:18,948 check_required_field.py[line:99] INFO 检查[监督投诉方式]
+2018-12-02 21:27:18,948 check_required_field.py[line:105] INFO 监督投诉方式 is 0511-86055502, type is text, value_range is 
+2018-12-02 21:27:18,948 check_required_field.py[line:99] INFO 检查[咨询方式]
+2018-12-02 21:27:18,948 check_required_field.py[line:105] INFO 咨询方式 is 0511-86055502, type is text, value_range is 
+2018-12-02 21:27:18,950 check_required_field.py[line:643] INFO []
+2018-12-02 21:27:18,950 check_required_field.py[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 21:27:18,950 check_required_field.py[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=ktBvD0jpE6JRbqFu9v0Kb0dF0IZUrQNFkA0Gp5hJrWcYuvYWhxBI!962196520!1543756531945 for 221.226.253.51/>]>
