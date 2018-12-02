@@ -1,0 +1,674 @@
+2018-12-02 22:21:42,362 check_required_field.pyc[line:647] INFO start to check username SF1031_LR
+2018-12-02 22:21:42,365 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 22:21:42,367 check_required_field.pyc[line:46] INFO the post params is {u'jsu': u'SF1031_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 22:21:42,368 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 22:21:47,608 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 22:21:47,618 check_required_field.pyc[line:46] INFO the post params is {}
+2018-12-02 22:21:47,618 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:21:48,403 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 22:21:48,403 check_required_field.pyc[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'SF1031', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u53f8\u6cd5\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 22:21:48,403 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:21:53,676 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:21:53,677 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'513ce69386b0497782a8caae28304d9a'}
+2018-12-02 22:21:53,677 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:21:54,269 check_required_field.pyc[line:564] INFO 检查服务名称[法律法规案例检索服务]
+2018-12-02 22:21:54,270 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:21:54,270 check_required_field.pyc[line:105] INFO 服务内容 is 建立“法律知识库”“法律案例库”，提供线上线下法律法规查询和典型案例索引服务。, type is text, value_range is 
+2018-12-02 22:21:54,270 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:21:54,272 check_required_field.pyc[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:21:54,272 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:21:54,272 check_required_field.pyc[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 22:21:54,273 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:21:54,273 check_required_field.pyc[line:105] INFO 服务依据 is 《江苏省法制宣传教育条例》;全国、省人大决议和“七五”普法规划。, type is text, value_range is 
+2018-12-02 22:21:54,273 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:21:54,273 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'513ce69386b0497782a8caae28304d9a', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:21:54,273 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:21:55,296 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:21:55,299 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'440ea7c941ae4cae94f85cb6371d7039', u'idtlog': u'962e7cbc76c04acbb6212a76ee90e81b'}
+2018-12-02 22:21:55,302 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:21:57,243 check_required_field.pyc[line:616] INFO 检查业务信息[法律法规案例检索服务]
+2018-12-02 22:21:57,243 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:21:57,243 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市云阳路36号, type is text, value_range is 
+2018-12-02 22:21:57,244 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:21:57,244 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00, type is text, value_range is 
+2018-12-02 22:21:57,246 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:21:57,249 check_required_field.pyc[line:105] INFO 经办机构（处室） is 宣教科, type is text, value_range is 
+2018-12-02 22:21:57,250 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:21:57,253 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:21:57,255 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:21:57,256 check_required_field.pyc[line:105] INFO 服务对象 is 1,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:21:57,259 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:21:57,259 check_required_field.pyc[line:105] INFO 业务名称 is 法律法规案例检索服务, type is text, value_range is 
+2018-12-02 22:21:57,259 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:21:57,259 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市司法局, type is text, value_range is 
+2018-12-02 22:21:57,259 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:21:57,260 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86519771, type is text, value_range is 
+2018-12-02 22:21:57,260 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:21:57,260 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86519707, type is text, value_range is 
+2018-12-02 22:21:57,260 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:21:57,262 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'565f673ebdc94739840139551dcc1583'}
+2018-12-02 22:21:57,262 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:21:58,565 check_required_field.pyc[line:564] INFO 检查服务名称[法律服务机构、人员信用信息查询服务]
+2018-12-02 22:21:58,565 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:21:58,565 check_required_field.pyc[line:105] INFO 服务内容 is 免费网上查询律师事务所、律师，公证处、公证员，基层法律服务所、法律服务工作者,司法鉴定机构、司法鉴定人等法律服务机构和人员的基本信息、执业信息、诚信信息等内容。, type is text, value_range is 
+2018-12-02 22:21:58,565 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:21:58,566 check_required_field.pyc[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:21:58,568 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:21:58,571 check_required_field.pyc[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 22:21:58,572 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:21:58,575 check_required_field.pyc[line:105] INFO 服务依据 is 国家和省有关加强信用体系建设的意见, type is text, value_range is 
+2018-12-02 22:21:58,576 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:21:58,578 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'565f673ebdc94739840139551dcc1583', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:21:58,579 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:00,250 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:00,255 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ec74f83fe05b4ab9bbb10ad604eb98c7', u'idtlog': u'51b9edca02c94b6aabedf334b72ac625'}
+2018-12-02 22:22:00,259 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:02,447 check_required_field.pyc[line:616] INFO 检查业务信息[法律服务机构、人员信用信息查询服务]
+2018-12-02 22:22:02,447 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:02,447 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市云阳路36号, type is text, value_range is 
+2018-12-02 22:22:02,448 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:02,448 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00, type is text, value_range is 
+2018-12-02 22:22:02,448 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:02,450 check_required_field.pyc[line:105] INFO 经办机构（处室） is 办公室, type is text, value_range is 
+2018-12-02 22:22:02,450 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:02,450 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:02,450 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:02,450 check_required_field.pyc[line:105] INFO 服务对象 is 1,3,2, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:02,450 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:02,451 check_required_field.pyc[line:105] INFO 业务名称 is 法律服务机构、人员信用信息查询服务, type is text, value_range is 
+2018-12-02 22:22:02,451 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:02,451 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市司法局, type is text, value_range is 
+2018-12-02 22:22:02,453 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:02,453 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86520013, type is text, value_range is 
+2018-12-02 22:22:02,453 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:02,453 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86523162, type is text, value_range is 
+2018-12-02 22:22:02,453 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:02,453 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'f062ed48ddc142d7a589c0d1dc91342d'}
+2018-12-02 22:22:02,453 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:04,865 check_required_field.pyc[line:564] INFO 检查服务名称[法律知识普及服务]
+2018-12-02 22:22:04,865 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:04,865 check_required_field.pyc[line:105] INFO 服务内容 is 一月一次发布与群众密切相关的法律法规，适时发布动态法律资讯；编印并免费发放普法资料；公开普法讲师团信息，提供协调联系师资服务。, type is text, value_range is 
+2018-12-02 22:22:04,867 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:04,867 check_required_field.pyc[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:04,867 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:04,867 check_required_field.pyc[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 22:22:04,867 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:04,867 check_required_field.pyc[line:105] INFO 服务依据 is 江苏省法制宣传教育条例》;全国、省人大决议和“七五”普法规划。, type is text, value_range is 
+2018-12-02 22:22:04,867 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:04,868 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'f062ed48ddc142d7a589c0d1dc91342d', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:04,868 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:06,979 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:06,980 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'ad06ce50063f4806abb336c465e3630c', u'idtlog': u'3511cc8974e94491859337d1169d739d'}
+2018-12-02 22:22:06,982 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:09,240 check_required_field.pyc[line:616] INFO 检查业务信息[法律知识普及服务]
+2018-12-02 22:22:09,240 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:09,242 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市云阳路36号, type is text, value_range is 
+2018-12-02 22:22:09,242 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:09,242 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00, type is text, value_range is 
+2018-12-02 22:22:09,243 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:09,244 check_required_field.pyc[line:105] INFO 经办机构（处室） is 宣教科, type is text, value_range is 
+2018-12-02 22:22:09,246 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:09,250 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:09,250 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:09,253 check_required_field.pyc[line:105] INFO 服务对象 is 1,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:09,255 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:09,256 check_required_field.pyc[line:105] INFO 业务名称 is 法律知识普及服务, type is text, value_range is 
+2018-12-02 22:22:09,256 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:09,256 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市司法局, type is text, value_range is 
+2018-12-02 22:22:09,256 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:09,256 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86519771, type is text, value_range is 
+2018-12-02 22:22:09,256 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:09,257 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86519707, type is text, value_range is 
+2018-12-02 22:22:09,257 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:09,257 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'0a7e35fd668f4cf6ad9a3427862bbe76'}
+2018-12-02 22:22:09,257 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:09,813 check_required_field.pyc[line:564] INFO 检查服务名称[推广法治文化服务]
+2018-12-02 22:22:09,815 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:09,815 check_required_field.pyc[line:105] INFO 服务内容 is 1、免费开放法治文化公园、法治宣传教育中心等法治文化阵地;2、在线发布各类法治文化作品，提供作品分类检索。, type is text, value_range is 
+2018-12-02 22:22:09,815 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:09,815 check_required_field.pyc[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:09,815 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:09,816 check_required_field.pyc[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 22:22:09,816 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:09,816 check_required_field.pyc[line:105] INFO 服务依据 is 《江苏省法制宣传教育条例》;全国、省人大决议和“七五”普法规划。, type is text, value_range is 
+2018-12-02 22:22:09,818 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:09,818 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'0a7e35fd668f4cf6ad9a3427862bbe76', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:09,818 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:10,483 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:10,486 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'dc27473ad1274998826ebfd1556985f7', u'idtlog': u'13f895591d7941d19a7ef9c3ca898ceb'}
+2018-12-02 22:22:10,489 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:12,338 check_required_field.pyc[line:616] INFO 检查业务信息[推广法治文化服务]
+2018-12-02 22:22:12,338 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:12,338 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市云阳路36号, type is text, value_range is 
+2018-12-02 22:22:12,338 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:12,339 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00, type is text, value_range is 
+2018-12-02 22:22:12,339 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:12,341 check_required_field.pyc[line:105] INFO 经办机构（处室） is 宣教科, type is text, value_range is 
+2018-12-02 22:22:12,341 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:12,341 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:12,341 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:12,342 check_required_field.pyc[line:105] INFO 服务对象 is 1,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:12,342 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:12,342 check_required_field.pyc[line:105] INFO 业务名称 is 推广法治文化服务, type is text, value_range is 
+2018-12-02 22:22:12,342 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:12,342 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市司法局, type is text, value_range is 
+2018-12-02 22:22:12,342 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:12,344 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86519771, type is text, value_range is 
+2018-12-02 22:22:12,344 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:12,344 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86519707, type is text, value_range is 
+2018-12-02 22:22:12,345 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:12,345 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'329f08ba57184f409a5d18e0a2737289'}
+2018-12-02 22:22:12,345 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:13,282 check_required_field.pyc[line:564] INFO 检查服务名称[村（社区）法律顾问服务]
+2018-12-02 22:22:13,282 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:13,282 check_required_field.pyc[line:105] INFO 服务内容 is 村（社区）法律顾问每个月到村（社区）服务1天（累计不少于8小时），每季度到村举办一次法治讲座，对可能影响社会和谐稳定或涉及群众重大利益的事情，法律顾问应及时提供法律意见。, type is text, value_range is 
+2018-12-02 22:22:13,282 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:13,283 check_required_field.pyc[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:13,283 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:13,285 check_required_field.pyc[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 22:22:13,286 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:13,289 check_required_field.pyc[line:105] INFO 服务依据 is 省司法厅、省民政厅《关于在全省开展一村（社区）一法律顾问工作的意见》；《省司法厅关于进一步规范村（社区）法律顾问工作的意见》, type is text, value_range is 
+2018-12-02 22:22:13,290 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:13,292 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'329f08ba57184f409a5d18e0a2737289', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:13,293 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:13,809 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:13,809 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'd594035942054d75a457bb26027e2e5f', u'idtlog': u'31b1c6720fc34ac39e3e967c94007068'}
+2018-12-02 22:22:13,809 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:15,461 check_required_field.pyc[line:616] INFO 检查业务信息[村（社区）法律顾问服务]
+2018-12-02 22:22:15,461 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:15,463 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市云阳路36号, type is text, value_range is 
+2018-12-02 22:22:15,463 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:15,463 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00, type is text, value_range is 
+2018-12-02 22:22:15,463 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:15,463 check_required_field.pyc[line:105] INFO 经办机构（处室） is 公律科, type is text, value_range is 
+2018-12-02 22:22:15,463 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:15,464 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:15,464 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:15,464 check_required_field.pyc[line:105] INFO 服务对象 is 1,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:15,466 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:15,466 check_required_field.pyc[line:105] INFO 业务名称 is 村（社区）法律顾问服务, type is text, value_range is 
+2018-12-02 22:22:15,466 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:15,466 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市司法局, type is text, value_range is 
+2018-12-02 22:22:15,467 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:15,467 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86519771, type is text, value_range is 
+2018-12-02 22:22:15,467 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:15,467 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86508192, type is text, value_range is 
+2018-12-02 22:22:15,467 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:15,467 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'808ae31f76cc4a21986499c659645e93'}
+2018-12-02 22:22:15,467 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:15,891 check_required_field.pyc[line:564] INFO 检查服务名称[律师参与信访接待服务]
+2018-12-02 22:22:15,891 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:15,892 check_required_field.pyc[line:105] INFO 服务内容 is 律师依据相关规定，在各地公安、法院、检察院等单位信访场所对信访当事人提供免费法律咨询服务和其他法律事务服务。, type is text, value_range is 
+2018-12-02 22:22:15,892 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:15,894 check_required_field.pyc[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:15,894 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:15,894 check_required_field.pyc[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:15,894 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:15,894 check_required_field.pyc[line:105] INFO 服务依据 is 省司法厅、省高院《关于律师参与涉诉信访化解和代理申诉案件工作的若干意见（试行）》（苏高法[2016]75号）；省司法厅、省检察院《关于律师参与涉法涉诉信访化解和代理控告、申诉、国家赔偿案件的额实施办法（试行）》（苏检会[2016]8号）；省司法厅、省公安厅《关于律师参与公安机关信访事项化解工作的实施办法（试行）》（苏公通[2016]326号）。, type is text, value_range is 
+2018-12-02 22:22:15,895 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:15,898 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'808ae31f76cc4a21986499c659645e93', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:15,900 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:16,338 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:16,341 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'8149a7dad4ee4b14b3703bbe6628f85c', u'idtlog': u'ebc7d965549d4693883bb8e831bca4d3'}
+2018-12-02 22:22:16,342 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:18,098 check_required_field.pyc[line:616] INFO 检查业务信息[律师参与信访接待服务]
+2018-12-02 22:22:18,098 check_required_field.pyc[line:99] INFO 检查[办件类型]
+2018-12-02 22:22:18,098 check_required_field.pyc[line:105] INFO 办件类型 is 承诺件, type is radio, value_range is 承诺件,即办件
+2018-12-02 22:22:18,098 check_required_field.pyc[line:99] INFO 检查[办理依据]
+2018-12-02 22:22:18,098 check_required_field.pyc[line:105] INFO 办理依据 is 省司法厅、省高院《关于律师参与涉诉信访化解和代理申诉案件工作的若干意见（试行）》（苏高法[2016]75号）；省司法厅、省检察院《关于律师参与涉法涉诉信访化解和代理控告、申诉、国家赔偿案件的额实施办法（试行）》（苏检会[2016]8号）；省司法厅、省公安厅《关于律师参与公安机关信访事项化解工作的实施办法（试行）》（苏公通[2016]326号）。, type is text, value_range is 
+2018-12-02 22:22:18,098 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:18,099 check_required_field.pyc[line:105] INFO 服务对象 is 1,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:18,099 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:18,099 check_required_field.pyc[line:105] INFO 经办机构（处室） is 公律科, type is text, value_range is 
+2018-12-02 22:22:18,099 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:18,101 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86519771, type is text, value_range is 
+2018-12-02 22:22:18,101 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:18,101 check_required_field.pyc[line:105] INFO 办理地点 is 信访局, type is text, value_range is 
+2018-12-02 22:22:18,101 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:18,101 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00, type is text, value_range is 
+2018-12-02 22:22:18,101 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:18,101 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:18,101 check_required_field.pyc[line:99] INFO 检查[是否收费]
+2018-12-02 22:22:18,101 check_required_field.pyc[line:105] INFO 是否收费 is 1, type is radio, value_range is 0,1
+2018-12-02 22:22:18,101 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:18,102 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86508192, type is text, value_range is 
+2018-12-02 22:22:18,102 check_required_field.pyc[line:99] INFO 检查[在线办理网址]
+2018-12-02 22:22:18,102 check_required_field.pyc[line:105] INFO 在线办理网址 is 登录http://sft.jiangsu.gov.cn/查询, type is text, value_range is 
+2018-12-02 22:22:18,102 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:18,102 check_required_field.pyc[line:105] INFO 业务名称 is 律师参与信访接待服务, type is text, value_range is 
+2018-12-02 22:22:18,104 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:18,104 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市司法局, type is text, value_range is 
+2018-12-02 22:22:18,104 check_required_field.pyc[line:99] INFO 检查[到现场次数]
+2018-12-02 22:22:18,104 check_required_field.pyc[line:105] INFO 到现场次数 is 0, type is radio, value_range is 0,1,2,99
+2018-12-02 22:22:18,105 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:18,105 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'93612f47bdc540618954539d41459d8a'}
+2018-12-02 22:22:18,105 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:19,693 check_required_field.pyc[line:564] INFO 检查服务名称[12348公共法律服务]
+2018-12-02 22:22:19,696 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:19,698 check_required_field.pyc[line:105] INFO 服务内容 is 12348热线提供“7天×24小时”法律咨询服务，12348江苏法网提供线上法律咨询和各类法律服务指引。, type is text, value_range is 
+2018-12-02 22:22:19,701 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:19,704 check_required_field.pyc[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:19,707 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:19,710 check_required_field.pyc[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 22:22:19,713 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:19,717 check_required_field.pyc[line:105] INFO 服务依据 is 省政府办公厅关于印发省政府部门公共服务事项清单的通知, type is text, value_range is 
+2018-12-02 22:22:19,720 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:19,721 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'93612f47bdc540618954539d41459d8a', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:19,724 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:20,253 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:20,253 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'0f47e4e0a6ef4c9684730b2041317bb0', u'idtlog': u'df81ad9346284df38156916baaab67e5'}
+2018-12-02 22:22:20,253 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:21,974 check_required_field.pyc[line:616] INFO 检查业务信息[12348公共法律服务]
+2018-12-02 22:22:21,974 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:21,976 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市云阳路32号, type is text, value_range is 
+2018-12-02 22:22:21,976 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:21,976 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00, type is text, value_range is 
+2018-12-02 22:22:21,977 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:21,977 check_required_field.pyc[line:105] INFO 经办机构（处室） is 法律援助中心, type is text, value_range is 
+2018-12-02 22:22:21,979 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:21,979 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:21,979 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:21,980 check_required_field.pyc[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:21,980 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:21,980 check_required_field.pyc[line:105] INFO 业务名称 is 12348公共法律服务, type is text, value_range is 
+2018-12-02 22:22:21,980 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:21,986 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市司法局, type is text, value_range is 
+2018-12-02 22:22:21,987 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:21,990 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86519771, type is text, value_range is 
+2018-12-02 22:22:21,992 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:21,993 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86500148, type is text, value_range is 
+2018-12-02 22:22:21,993 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:21,996 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'1a33dfe6f34840338f7ff1698a7c80f8'}
+2018-12-02 22:22:21,997 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:22,339 check_required_field.pyc[line:564] INFO 检查服务名称[通知类法律援助]
+2018-12-02 22:22:22,341 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:22,341 check_required_field.pyc[line:105] INFO 服务内容 is 1、通过来访、来电、来信、网络为群众提供法律咨询解答服务；2、受理审查公民的法律援助申请，对符合经济困难标准和法律援助事项范围的案件，指派律师等法律服务人员提供法律服务；3、根据公安机关、人民检察院、人民法院通知，指派律师为刑事案件犯罪嫌疑人、被告人提供法律服务。4、在人民法院、看守所驻值班律师，为没有辩护的犯罪嫌疑人、刑事被告人提供法律帮助。, type is text, value_range is 
+2018-12-02 22:22:22,341 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:22,342 check_required_field.pyc[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:22,342 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:22,342 check_required_field.pyc[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:22,342 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:22,342 check_required_field.pyc[line:105] INFO 服务依据 is 《法律援助条例》《江苏省法律援助条例》《最高人民法院 最高人民检察院 公安部 国家安全部 司法部<关于开展法律援助值班律师工作的意见>》（司发通［2017］84号）, type is text, value_range is 
+2018-12-02 22:22:22,342 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:22,344 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'1a33dfe6f34840338f7ff1698a7c80f8', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:22,344 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:22,796 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:22,798 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'778bf3993f97439f85b5eb3f64e3a3cd', u'idtlog': u'fcd5d506bacf457bbc109830c7b731aa'}
+2018-12-02 22:22:22,798 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:24,530 check_required_field.pyc[line:616] INFO 检查业务信息[通知类法律援助]
+2018-12-02 22:22:24,532 check_required_field.pyc[line:99] INFO 检查[办件类型]
+2018-12-02 22:22:24,532 check_required_field.pyc[line:105] INFO 办件类型 is 承诺件, type is radio, value_range is 承诺件,即办件
+2018-12-02 22:22:24,532 check_required_field.pyc[line:99] INFO 检查[办理依据]
+2018-12-02 22:22:24,532 check_required_field.pyc[line:105] INFO 办理依据 is 《法律援助条例》《江苏省法律援助条例》《最高人民法院 最高人民检察院 公安部 国家安全部 司法部<关于开展法律援助值班律师工作的意见>》（司发通［2017］84号）, type is text, value_range is 
+2018-12-02 22:22:24,532 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:24,533 check_required_field.pyc[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:24,533 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:24,533 check_required_field.pyc[line:105] INFO 经办机构（处室） is 法律援助中心, type is text, value_range is 
+2018-12-02 22:22:24,535 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:24,535 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86519771, type is text, value_range is 
+2018-12-02 22:22:24,535 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:24,536 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市云阳路36号, type is text, value_range is 
+2018-12-02 22:22:24,536 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:24,536 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00, type is text, value_range is 
+2018-12-02 22:22:24,536 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:24,536 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:24,536 check_required_field.pyc[line:99] INFO 检查[是否收费]
+2018-12-02 22:22:24,538 check_required_field.pyc[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 22:22:24,538 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:24,538 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86500148, type is text, value_range is 
+2018-12-02 22:22:24,538 check_required_field.pyc[line:99] INFO 检查[在线办理网址]
+2018-12-02 22:22:24,539 check_required_field.pyc[line:105] INFO 在线办理网址 is 登录http://sft.jiangsu.gov.cn/查询, type is text, value_range is 
+2018-12-02 22:22:24,539 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:24,539 check_required_field.pyc[line:105] INFO 业务名称 is 通知类法律援助, type is text, value_range is 
+2018-12-02 22:22:24,539 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:24,539 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市司法局, type is text, value_range is 
+2018-12-02 22:22:24,539 check_required_field.pyc[line:99] INFO 检查[到现场次数]
+2018-12-02 22:22:24,540 check_required_field.pyc[line:105] INFO 到现场次数 is 0, type is radio, value_range is 0,1,2,99
+2018-12-02 22:22:24,540 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:24,540 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'7bec44362bfa44fc8acb03a6f1c98697'}
+2018-12-02 22:22:24,542 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:24,990 check_required_field.pyc[line:564] INFO 检查服务名称[法律帮助]
+2018-12-02 22:22:24,990 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:24,992 check_required_field.pyc[line:105] INFO 服务内容 is 1、通过来访、来电、来信、网络为群众提供法律咨询解答服务；2、受理审查公民的法律援助申请，对符合经济困难标准和法律援助事项范围的案件，指派律师等法律服务人员提供法律服务；3、根据公安机关、人民检察院、人民法院通知，指派律师为刑事案件犯罪嫌疑人、被告人提供法律服务。4、在人民法院、看守所驻值班律师，为没有辩护的犯罪嫌疑人、刑事被告人提供法律帮助。, type is text, value_range is 
+2018-12-02 22:22:24,992 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:24,993 check_required_field.pyc[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:24,993 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:24,993 check_required_field.pyc[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:24,993 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:24,993 check_required_field.pyc[line:105] INFO 服务依据 is 《法律援助条例》《江苏省法律援助条例》《最高人民法院 最高人民检察院 公安部 国家安全部 司法部<关于开展法律援助值班律师工作的意见>》（司发通［2017］84号）, type is text, value_range is 
+2018-12-02 22:22:24,993 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:24,994 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'7bec44362bfa44fc8acb03a6f1c98697', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:24,994 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:25,448 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:25,450 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'dbb5bf8961904ed6a9b11c127dcd6652', u'idtlog': u'16294be59e554767977ee23816b63264'}
+2018-12-02 22:22:25,450 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:27,140 check_required_field.pyc[line:616] INFO 检查业务信息[法律帮助]
+2018-12-02 22:22:27,141 check_required_field.pyc[line:99] INFO 检查[办件类型]
+2018-12-02 22:22:27,141 check_required_field.pyc[line:105] INFO 办件类型 is 即办件, type is radio, value_range is 承诺件,即办件
+2018-12-02 22:22:27,141 check_required_field.pyc[line:99] INFO 检查[办理依据]
+2018-12-02 22:22:27,141 check_required_field.pyc[line:105] INFO 办理依据 is 《法律援助条例》《江苏省法律援助条例》《最高人民法院 最高人民检察院 公安部 国家安全部 司法部<关于开展法律援助值班律师工作的意见>》（司发通［2017］84号）, type is text, value_range is 
+2018-12-02 22:22:27,142 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:27,142 check_required_field.pyc[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:27,142 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:27,144 check_required_field.pyc[line:105] INFO 经办机构（处室） is 法律援助中心, type is text, value_range is 
+2018-12-02 22:22:27,144 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:27,144 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86519771, type is text, value_range is 
+2018-12-02 22:22:27,144 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:27,144 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市云阳路36号, type is text, value_range is 
+2018-12-02 22:22:27,144 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:27,144 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00, type is text, value_range is 
+2018-12-02 22:22:27,145 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:27,148 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:27,148 check_required_field.pyc[line:99] INFO 检查[是否收费]
+2018-12-02 22:22:27,148 check_required_field.pyc[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 22:22:27,148 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:27,148 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86500148, type is text, value_range is 
+2018-12-02 22:22:27,148 check_required_field.pyc[line:99] INFO 检查[在线办理网址]
+2018-12-02 22:22:27,150 check_required_field.pyc[line:105] INFO 在线办理网址 is 登录http://sft.jiangsu.gov.cn/查询, type is text, value_range is 
+2018-12-02 22:22:27,150 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:27,150 check_required_field.pyc[line:105] INFO 业务名称 is 法律帮助, type is text, value_range is 
+2018-12-02 22:22:27,151 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:27,151 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市司法局, type is text, value_range is 
+2018-12-02 22:22:27,151 check_required_field.pyc[line:99] INFO 检查[到现场次数]
+2018-12-02 22:22:27,151 check_required_field.pyc[line:105] INFO 到现场次数 is 0, type is radio, value_range is 0,1,2,99
+2018-12-02 22:22:27,151 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:27,151 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'7ead42d35bbd4b5db79508ea0d731151'}
+2018-12-02 22:22:27,151 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:27,533 check_required_field.pyc[line:564] INFO 检查服务名称[公证服务]
+2018-12-02 22:22:27,533 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:27,533 check_required_field.pyc[line:105] INFO 服务内容 is 依当事人申请，依照法定程序对民事法律行为、有法律意义的事实和文书的真实性、合法性予以证明。, type is text, value_range is 
+2018-12-02 22:22:27,535 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:27,535 check_required_field.pyc[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:27,535 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:27,536 check_required_field.pyc[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:27,536 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:27,536 check_required_field.pyc[line:105] INFO 服务依据 is 《公证法》《江苏公证条例》, type is text, value_range is 
+2018-12-02 22:22:27,536 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:27,536 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'7ead42d35bbd4b5db79508ea0d731151', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:27,538 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:27,960 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:27,961 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'9076120772f947e9ab083b7d78d2289e', u'idtlog': u'3e80ae7af97f43398fd53c8750262e23'}
+2018-12-02 22:22:27,961 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:29,696 check_required_field.pyc[line:616] INFO 检查业务信息[公证服务]
+2018-12-02 22:22:29,696 check_required_field.pyc[line:99] INFO 检查[办件类型]
+2018-12-02 22:22:29,697 check_required_field.pyc[line:105] INFO 办件类型 is 承诺件, type is radio, value_range is 承诺件,即办件
+2018-12-02 22:22:29,697 check_required_field.pyc[line:99] INFO 检查[办理依据]
+2018-12-02 22:22:29,697 check_required_field.pyc[line:105] INFO 办理依据 is 《公证法》《江苏公证条例》, type is text, value_range is 
+2018-12-02 22:22:29,697 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:29,697 check_required_field.pyc[line:105] INFO 服务对象 is 1,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:29,697 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:29,698 check_required_field.pyc[line:105] INFO 经办机构（处室） is 公证处, type is text, value_range is 
+2018-12-02 22:22:29,698 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:29,721 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86519771, type is text, value_range is 
+2018-12-02 22:22:29,723 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:29,723 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市云阳路36号, type is text, value_range is 
+2018-12-02 22:22:29,723 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:29,723 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00, type is text, value_range is 
+2018-12-02 22:22:29,723 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:29,723 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:29,723 check_required_field.pyc[line:99] INFO 检查[是否收费]
+2018-12-02 22:22:29,723 check_required_field.pyc[line:105] INFO 是否收费 is 1, type is radio, value_range is 0,1
+2018-12-02 22:22:29,723 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:29,723 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86523071, type is text, value_range is 
+2018-12-02 22:22:29,724 check_required_field.pyc[line:99] INFO 检查[在线办理网址]
+2018-12-02 22:22:29,724 check_required_field.pyc[line:105] INFO 在线办理网址 is 登录http://sft.jiangsu.gov.cn/查询, type is text, value_range is 
+2018-12-02 22:22:29,724 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:29,724 check_required_field.pyc[line:105] INFO 业务名称 is 公证服务, type is text, value_range is 
+2018-12-02 22:22:29,724 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:29,724 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市司法局, type is text, value_range is 
+2018-12-02 22:22:29,726 check_required_field.pyc[line:99] INFO 检查[到现场次数]
+2018-12-02 22:22:29,726 check_required_field.pyc[line:105] INFO 到现场次数 is 1, type is radio, value_range is 0,1,2,99
+2018-12-02 22:22:29,726 check_required_field.pyc[line:99] INFO 检查[见面法律依据]
+2018-12-02 22:22:29,726 check_required_field.pyc[line:105] INFO 见面法律依据 is 1.《中华人民共和国公证法》第二条　公证是公证机构根据自然人、法人或者其他组织的申请，依照法定程序对民事法律行为、有法律意义的事实和文书的真实性、合法性予以证明的活动。
+2.《江苏省公证条例》第二条 公证是公证机构根据自然人、法人或者其他组织的申请，依照法定程序对民事法律行为、有法律意义的事实和文书的真实性、合法性予以证明的活动。, type is text, value_range is 
+2018-12-02 22:22:29,726 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:29,726 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'ed8076d9ee2a4567971cc5148fb337a7'}
+2018-12-02 22:22:29,726 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:30,068 check_required_field.pyc[line:564] INFO 检查服务名称[特定对象公证减免费服务]
+2018-12-02 22:22:30,069 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:30,069 check_required_field.pyc[line:105] INFO 服务内容 is 省内居民首次办理遗嘱公证，年满80周岁的免收公证费，年满70周岁的公证费减半；低保人员、农村“五保”人员、无固定生活来源的重度残疾人办理公证，以及申办救济金、低保、给付赡养费和抚养费等公证事项的减免公证费。, type is text, value_range is 
+2018-12-02 22:22:30,069 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:30,069 check_required_field.pyc[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:30,069 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:30,069 check_required_field.pyc[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:30,071 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:30,071 check_required_field.pyc[line:105] INFO 服务依据 is 《公证法》《江苏公证条例》, type is text, value_range is 
+2018-12-02 22:22:30,071 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:30,072 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'ed8076d9ee2a4567971cc5148fb337a7', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:30,072 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:30,440 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:30,440 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'564925940786460b885fa9afdf89b5e5', u'idtlog': u'f80307e36631491e9c9b95fd2c49659c'}
+2018-12-02 22:22:30,441 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:33,956 check_required_field.pyc[line:616] INFO 检查业务信息[特定对象公证减免费服务]
+2018-12-02 22:22:33,956 check_required_field.pyc[line:99] INFO 检查[办件类型]
+2018-12-02 22:22:33,957 check_required_field.pyc[line:105] INFO 办件类型 is 承诺件, type is radio, value_range is 承诺件,即办件
+2018-12-02 22:22:33,957 check_required_field.pyc[line:99] INFO 检查[办理依据]
+2018-12-02 22:22:33,957 check_required_field.pyc[line:105] INFO 办理依据 is 《公证法》《江苏公证条例》, type is text, value_range is 
+2018-12-02 22:22:33,957 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:33,957 check_required_field.pyc[line:105] INFO 服务对象 is 1,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:33,957 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:33,959 check_required_field.pyc[line:105] INFO 经办机构（处室） is 公证处, type is text, value_range is 
+2018-12-02 22:22:33,959 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:33,959 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86519771, type is text, value_range is 
+2018-12-02 22:22:33,960 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:33,960 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市云阳路36号, type is text, value_range is 
+2018-12-02 22:22:33,960 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:33,960 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00, type is text, value_range is 
+2018-12-02 22:22:33,960 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:33,960 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:33,961 check_required_field.pyc[line:99] INFO 检查[是否收费]
+2018-12-02 22:22:33,961 check_required_field.pyc[line:105] INFO 是否收费 is 1, type is radio, value_range is 0,1
+2018-12-02 22:22:33,961 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:33,963 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86523071, type is text, value_range is 
+2018-12-02 22:22:33,963 check_required_field.pyc[line:99] INFO 检查[在线办理网址]
+2018-12-02 22:22:33,963 check_required_field.pyc[line:105] INFO 在线办理网址 is 登录http://sft.jiangsu.gov.cn/查询, type is text, value_range is 
+2018-12-02 22:22:33,963 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:33,963 check_required_field.pyc[line:105] INFO 业务名称 is 特定对象公证减免费服务, type is text, value_range is 
+2018-12-02 22:22:33,963 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:33,963 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市司法局, type is text, value_range is 
+2018-12-02 22:22:33,964 check_required_field.pyc[line:99] INFO 检查[到现场次数]
+2018-12-02 22:22:33,964 check_required_field.pyc[line:105] INFO 到现场次数 is 1, type is radio, value_range is 0,1,2,99
+2018-12-02 22:22:33,964 check_required_field.pyc[line:99] INFO 检查[见面法律依据]
+2018-12-02 22:22:33,966 check_required_field.pyc[line:105] INFO 见面法律依据 is 《江苏省公证服务标准(试行)》第三十二条：公证机构应当对年满70周岁的老年人办理遗嘱、遗赠扶养协议公证，减免收费。对年满80周岁的老年人办理遗嘱、遗赠扶养协议公证，免收公证费 。第三十三条 公证机构应当积极为符合法律援助条件的当事人提供法律援助，减免相关公证费 。3.《省司法厅关于认真落实司法行政聚焦富民15项举措的通知》减免办理公证费用：省内居民首次办理遗嘱公证，年满80周岁的免收公证费用，年满70周岁的公证费用减半；低保人员、农村“五保”人员、无固定生活来源的重度残疾人办理公证，以及申办救济金、低保、给付赡养费和抚养费等公证事项的减免公证费用。, type is text, value_range is 
+2018-12-02 22:22:33,966 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:33,966 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'bfe6df137fe547909fd1db558c64f62c'}
+2018-12-02 22:22:33,967 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:34,405 check_required_field.pyc[line:564] INFO 检查服务名称[人民调解服务（申请调解）]
+2018-12-02 22:22:34,407 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:34,407 check_required_field.pyc[line:105] INFO 服务内容 is 排查和调解民间纠纷, type is text, value_range is 
+2018-12-02 22:22:34,407 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:34,407 check_required_field.pyc[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:34,407 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:34,407 check_required_field.pyc[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:34,408 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:34,408 check_required_field.pyc[line:105] INFO 服务依据 is 《人民调解法》《江苏省人民调解条例》, type is text, value_range is 
+2018-12-02 22:22:34,408 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:34,410 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'bfe6df137fe547909fd1db558c64f62c', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:34,410 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:34,815 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:34,815 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'8921713584b54f0abdcdcfb23efc0ac7', u'idtlog': u'43cce1a83591437b96dac4ca77b527da'}
+2018-12-02 22:22:34,815 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:36,380 check_required_field.pyc[line:616] INFO 检查业务信息[人民调解服务（申请调解）]
+2018-12-02 22:22:36,380 check_required_field.pyc[line:99] INFO 检查[办件类型]
+2018-12-02 22:22:36,381 check_required_field.pyc[line:105] INFO 办件类型 is 即办件, type is radio, value_range is 承诺件,即办件
+2018-12-02 22:22:36,381 check_required_field.pyc[line:99] INFO 检查[办理依据]
+2018-12-02 22:22:36,381 check_required_field.pyc[line:105] INFO 办理依据 is 《人民调解法》《江苏省人民调解条例》, type is text, value_range is 
+2018-12-02 22:22:36,381 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:36,381 check_required_field.pyc[line:105] INFO 服务对象 is 1,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:36,381 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:36,382 check_required_field.pyc[line:105] INFO 经办机构（处室） is 基层科、调处中心, type is text, value_range is 
+2018-12-02 22:22:36,382 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:36,382 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86519771, type is text, value_range is 
+2018-12-02 22:22:36,384 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:36,384 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市云阳路32号, type is text, value_range is 
+2018-12-02 22:22:36,384 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:36,384 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00, type is text, value_range is 
+2018-12-02 22:22:36,384 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:36,384 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:36,385 check_required_field.pyc[line:99] INFO 检查[是否收费]
+2018-12-02 22:22:36,385 check_required_field.pyc[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 22:22:36,385 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:36,387 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86523163，86500373, type is text, value_range is 
+2018-12-02 22:22:36,387 check_required_field.pyc[line:99] INFO 检查[在线办理网址]
+2018-12-02 22:22:36,387 check_required_field.pyc[line:105] INFO 在线办理网址 is 登录http://sft.jiangsu.gov.cn/查询, type is text, value_range is 
+2018-12-02 22:22:36,387 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:36,388 check_required_field.pyc[line:105] INFO 业务名称 is 人民调解服务（申请调解）, type is text, value_range is 
+2018-12-02 22:22:36,388 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:36,388 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市司法局, type is text, value_range is 
+2018-12-02 22:22:36,388 check_required_field.pyc[line:99] INFO 检查[到现场次数]
+2018-12-02 22:22:36,388 check_required_field.pyc[line:105] INFO 到现场次数 is 1, type is radio, value_range is 0,1,2,99
+2018-12-02 22:22:36,388 check_required_field.pyc[line:99] INFO 检查[见面法律依据]
+2018-12-02 22:22:36,390 check_required_field.pyc[line:105] INFO 见面法律依据 is 1.《人民调解法》，第一章第二条 本法所称人民调解，是指人民调解委员会通过说服、疏导等方法，促使当事人在平等协商基础上自愿达成调解协议，解决民间纠纷的活动；, type is text, value_range is 
+2018-12-02 22:22:36,390 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:36,390 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'bd170698fac34be8a37aae1267d3bacf'}
+2018-12-02 22:22:36,391 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:36,707 check_required_field.pyc[line:564] INFO 检查服务名称[人民调解服务（委托调解）]
+2018-12-02 22:22:36,709 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:36,710 check_required_field.pyc[line:105] INFO 服务内容 is 排查和调解民间纠纷, type is text, value_range is 
+2018-12-02 22:22:36,711 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:36,713 check_required_field.pyc[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:36,714 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:36,717 check_required_field.pyc[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:36,717 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:36,719 check_required_field.pyc[line:105] INFO 服务依据 is 《人民调解法》《江苏省人民调解条例》, type is text, value_range is 
+2018-12-02 22:22:36,719 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:36,719 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'bd170698fac34be8a37aae1267d3bacf', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:36,720 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:37,111 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:37,111 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'c66d96c90d5f4bdd83963c41cec3bb29', u'idtlog': u'e31e96f40879438cb4d2fa944e2f805b'}
+2018-12-02 22:22:37,111 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:38,709 check_required_field.pyc[line:616] INFO 检查业务信息[人民调解服务（委托调解）]
+2018-12-02 22:22:38,709 check_required_field.pyc[line:99] INFO 检查[办件类型]
+2018-12-02 22:22:38,709 check_required_field.pyc[line:105] INFO 办件类型 is 即办件, type is radio, value_range is 承诺件,即办件
+2018-12-02 22:22:38,709 check_required_field.pyc[line:99] INFO 检查[办理依据]
+2018-12-02 22:22:38,710 check_required_field.pyc[line:105] INFO 办理依据 is 《人民调解法》《江苏省人民调解条例》, type is text, value_range is 
+2018-12-02 22:22:38,710 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:38,710 check_required_field.pyc[line:105] INFO 服务对象 is 1,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:38,710 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:38,710 check_required_field.pyc[line:105] INFO 经办机构（处室） is 基层科、调处中心, type is text, value_range is 
+2018-12-02 22:22:38,710 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:38,710 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86519771, type is text, value_range is 
+2018-12-02 22:22:38,710 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:38,710 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市云阳路32号, type is text, value_range is 
+2018-12-02 22:22:38,710 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:38,710 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00, type is text, value_range is 
+2018-12-02 22:22:38,710 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:38,711 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:38,711 check_required_field.pyc[line:99] INFO 检查[是否收费]
+2018-12-02 22:22:38,711 check_required_field.pyc[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 22:22:38,711 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:38,711 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86523163，86500373, type is text, value_range is 
+2018-12-02 22:22:38,711 check_required_field.pyc[line:99] INFO 检查[在线办理网址]
+2018-12-02 22:22:38,713 check_required_field.pyc[line:105] INFO 在线办理网址 is 登录http://sft.jiangsu.gov.cn/查询, type is text, value_range is 
+2018-12-02 22:22:38,713 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:38,713 check_required_field.pyc[line:105] INFO 业务名称 is 人民调解服务（委托调解）, type is text, value_range is 
+2018-12-02 22:22:38,713 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:38,713 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市司法局, type is text, value_range is 
+2018-12-02 22:22:38,713 check_required_field.pyc[line:99] INFO 检查[到现场次数]
+2018-12-02 22:22:38,713 check_required_field.pyc[line:105] INFO 到现场次数 is 1, type is radio, value_range is 0,1,2,99
+2018-12-02 22:22:38,713 check_required_field.pyc[line:99] INFO 检查[见面法律依据]
+2018-12-02 22:22:38,713 check_required_field.pyc[line:105] INFO 见面法律依据 is 1.《人民调解法》，第一章第二条 本法所称人民调解，是指人民调解委员会通过说服、疏导等方法，促使当事人在平等协商基础上自愿达成调解协议，解决民间纠纷的活动；
+第四章第十七条　当事人可以向人民调解委员会申请调解；人民调解委员会也可以主动调解。当事人一方明确拒绝调解的，不得调解。
+2.《江苏省人民调解条例》（2015年7月31日江苏省第十二届人民代表大会常务委员会第十七次会议通过），第一章第三条 人民调解委员会调解公民、法人和其他组织之间具有民事权利义务内容的纠纷，以及其他依法可以调解的民间纠纷；
+第三章第二十二条第二款 基层人民法院、人民检察院对已经受理或者办理的适合通过人民调解方式解决的案件，在征得当事人同意后，也可以委托人民调解委员会进行调解。, type is text, value_range is 
+2018-12-02 22:22:38,713 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:38,713 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'4bcd844921044c348d4e37dba1f5ef45'}
+2018-12-02 22:22:38,713 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:39,026 check_required_field.pyc[line:564] INFO 检查服务名称[刑释人员安置帮教服务]
+2018-12-02 22:22:39,026 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:39,026 check_required_field.pyc[line:105] INFO 服务内容 is 为符合条件的刑释人员在安置帮教中心（基地）提供3-6个月的过渡性住宿；为刑释人员提供教育培训、心理咨询辅导、政策法律咨询、协调困难救助等服务。, type is text, value_range is 
+2018-12-02 22:22:39,028 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:39,028 check_required_field.pyc[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:39,029 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:39,029 check_required_field.pyc[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:39,029 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:39,029 check_required_field.pyc[line:105] INFO 服务依据 is 国家和省关于刑释人员安置帮教的相关文件, type is text, value_range is 
+2018-12-02 22:22:39,029 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:39,029 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'4bcd844921044c348d4e37dba1f5ef45', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:39,030 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:39,459 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:39,459 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'6a45f9f67f264a1eb54e1bec3cbbe67e', u'idtlog': u'bfbddeb9e19a4d5385ce1f7e6cb0f350'}
+2018-12-02 22:22:39,460 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:41,088 check_required_field.pyc[line:616] INFO 检查业务信息[刑释人员安置帮教服务]
+2018-12-02 22:22:41,089 check_required_field.pyc[line:99] INFO 检查[办件类型]
+2018-12-02 22:22:41,089 check_required_field.pyc[line:105] INFO 办件类型 is 即办件, type is radio, value_range is 承诺件,即办件
+2018-12-02 22:22:41,091 check_required_field.pyc[line:99] INFO 检查[办理依据]
+2018-12-02 22:22:41,092 check_required_field.pyc[line:105] INFO 办理依据 is 国家和省关于刑释人员安置帮教的相关文件, type is text, value_range is 
+2018-12-02 22:22:41,092 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:41,092 check_required_field.pyc[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:41,092 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:41,092 check_required_field.pyc[line:105] INFO 经办机构（处室） is 社区矫正科, type is text, value_range is 
+2018-12-02 22:22:41,092 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:41,094 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86519771, type is text, value_range is 
+2018-12-02 22:22:41,094 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:41,095 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市云阳路36号, type is text, value_range is 
+2018-12-02 22:22:41,095 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:41,095 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00, type is text, value_range is 
+2018-12-02 22:22:41,095 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:41,095 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:41,095 check_required_field.pyc[line:99] INFO 检查[是否收费]
+2018-12-02 22:22:41,096 check_required_field.pyc[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 22:22:41,096 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:41,096 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86568070, type is text, value_range is 
+2018-12-02 22:22:41,096 check_required_field.pyc[line:99] INFO 检查[在线办理网址]
+2018-12-02 22:22:41,098 check_required_field.pyc[line:105] INFO 在线办理网址 is 登录http://sft.jiangsu.gov.cn/查询, type is text, value_range is 
+2018-12-02 22:22:41,098 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:41,098 check_required_field.pyc[line:105] INFO 业务名称 is 刑释人员安置帮教服务, type is text, value_range is 
+2018-12-02 22:22:41,098 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:41,098 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市司法局, type is text, value_range is 
+2018-12-02 22:22:41,098 check_required_field.pyc[line:99] INFO 检查[到现场次数]
+2018-12-02 22:22:41,099 check_required_field.pyc[line:105] INFO 到现场次数 is 1, type is radio, value_range is 0,1,2,99
+2018-12-02 22:22:41,099 check_required_field.pyc[line:99] INFO 检查[见面法律依据]
+2018-12-02 22:22:41,099 check_required_field.pyc[line:105] INFO 见面法律依据 is 1.《关于加强刑满释放人员救助管理工作的意见》（司发[2015]8号）（十六）加强对刑满释放人员的跟踪帮教。2.《江苏省综治委特殊人群服务管理工作领导小组 江苏省司法厅 关于进一步加强刑满释放人员安置帮教和解除强制隔离戒毒人员后续照管工作的意见》（苏综特〔2015〕1号）3.《省司法厅关于加强刑满释放人员重点对象精准帮扶工作的指导意见》（苏司办〔2016〕45号）, type is text, value_range is 
+2018-12-02 22:22:41,101 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:41,101 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'5e1687ef058c49349da5e435776b4b58'}
+2018-12-02 22:22:41,101 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:41,428 check_required_field.pyc[line:564] INFO 检查服务名称[远程亲情视频会见服务]
+2018-12-02 22:22:41,430 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:41,430 check_required_field.pyc[line:105] INFO 服务内容 is 在县级司法行政机关设立联通省内监狱的远程视频会见室，服刑人员直系亲属因路途遥远、行动不便、经济困难等原因而探视不便的，符合条件的提供视频会见服务。, type is text, value_range is 
+2018-12-02 22:22:41,430 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:41,430 check_required_field.pyc[line:105] INFO 服务领域 is 9, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:41,430 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:41,430 check_required_field.pyc[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:41,430 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:41,430 check_required_field.pyc[line:105] INFO 服务依据 is 司法部《罪犯通信会见规定》；省司法厅《江苏省监狱服刑人员远程帮教会见管理暂行办法(试行)》, type is text, value_range is 
+2018-12-02 22:22:41,430 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:41,430 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'5e1687ef058c49349da5e435776b4b58', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:41,430 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:41,835 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:41,835 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'7c92b824c6be40ddb9fdabbb8fa0572c', u'idtlog': u'b50208a5ee7d489ca8cb1f1c05ccedaf'}
+2018-12-02 22:22:41,835 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>
+2018-12-02 22:22:43,528 check_required_field.pyc[line:616] INFO 检查业务信息[远程亲情视频会见服务]
+2018-12-02 22:22:43,528 check_required_field.pyc[line:99] INFO 检查[办件类型]
+2018-12-02 22:22:43,528 check_required_field.pyc[line:105] INFO 办件类型 is 即办件, type is radio, value_range is 承诺件,即办件
+2018-12-02 22:22:43,529 check_required_field.pyc[line:99] INFO 检查[办理依据]
+2018-12-02 22:22:43,529 check_required_field.pyc[line:105] INFO 办理依据 is 司法部《罪犯通信会见规定》；省司法厅《江苏省监狱服刑人员远程帮教会见管理暂行办法(试行)》, type is text, value_range is 
+2018-12-02 22:22:43,529 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:43,529 check_required_field.pyc[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:43,529 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:43,529 check_required_field.pyc[line:105] INFO 经办机构（处室） is 社区矫正科, type is text, value_range is 
+2018-12-02 22:22:43,530 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:43,530 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86519771, type is text, value_range is 
+2018-12-02 22:22:43,530 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:43,532 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市云阳路36号, type is text, value_range is 
+2018-12-02 22:22:43,532 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:43,532 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00, type is text, value_range is 
+2018-12-02 22:22:43,532 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:43,532 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:43,532 check_required_field.pyc[line:99] INFO 检查[是否收费]
+2018-12-02 22:22:43,533 check_required_field.pyc[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 22:22:43,533 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:43,533 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86568070, type is text, value_range is 
+2018-12-02 22:22:43,533 check_required_field.pyc[line:99] INFO 检查[在线办理网址]
+2018-12-02 22:22:43,535 check_required_field.pyc[line:105] INFO 在线办理网址 is 登录http://sft.jiangsu.gov.cn/查询, type is text, value_range is 
+2018-12-02 22:22:43,535 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:43,535 check_required_field.pyc[line:105] INFO 业务名称 is 远程亲情视频会见服务, type is text, value_range is 
+2018-12-02 22:22:43,536 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:43,536 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市司法局, type is text, value_range is 
+2018-12-02 22:22:43,536 check_required_field.pyc[line:99] INFO 检查[到现场次数]
+2018-12-02 22:22:43,536 check_required_field.pyc[line:105] INFO 到现场次数 is 1, type is radio, value_range is 0,1,2,99
+2018-12-02 22:22:43,536 check_required_field.pyc[line:99] INFO 检查[见面法律依据]
+2018-12-02 22:22:43,536 check_required_field.pyc[line:105] INFO 见面法律依据 is 《江苏省服刑人员远程帮教会见管理办法（试行）》, type is text, value_range is 
+2018-12-02 22:22:43,538 check_required_field.pyc[line:643] INFO []
+2018-12-02 22:22:43,538 check_required_field.pyc[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 22:22:43,538 check_required_field.pyc[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=cGpvQWH8I50xtKxHDp6j8N_nV3T0NzamA1SjxoJHx_OCvcbYjg1M!962196520!1543759815164 for 221.226.253.51/>]>

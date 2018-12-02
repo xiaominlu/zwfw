@@ -24,15 +24,17 @@ import py2exe
 from glob import glob
 import sys
 sys.path.append(r'D:\Python27\Microsoft.VC90.CRT')
+options = {'py2exe':{'dist_dir': 'dist_ggfw'}}
 data_files = [('Microsoft.VC90.CRT', glob(r'D:\Python27\Microsoft.VC90.CRT\*.*'))]
 setup(
     # The first three parameters are not required, if at least a
     # 'version' is given, then a versioninfo resource is built from
     # them and added to the executables.
-	data_files=data_files,
+    options = options,
+    data_files = data_files,
     version = '0.0.1',
-    description = u'行政权力事项检查',
-    name = 'xzql_check',
+    description = u'公共服务检查',
+    name = 'ggfw_check',
     # targets to build
-    windows = ['gui_main_xzql.py'],
+    windows = ['gui_main_ggfw.py'],
     )

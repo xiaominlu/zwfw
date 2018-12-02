@@ -1,0 +1,50 @@
+2018-12-02 22:21:46,565 check_required_field.pyc[line:647] INFO start to check username TY1105_LR
+2018-12-02 22:21:46,565 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 22:21:46,565 check_required_field.pyc[line:46] INFO the post params is {u'jsu': u'TY1105_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 22:21:46,565 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 22:21:52,982 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 22:21:52,982 check_required_field.pyc[line:46] INFO the post params is {}
+2018-12-02 22:21:52,982 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=Ln5vQWo9jAtcu6vD0bTqQZiuVkmmb9iGb-Sil0SMN7R4Dx-DGLJ0!962196520!1543759817277 for 221.226.253.51/>]>
+2018-12-02 22:21:54,048 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 22:21:54,048 check_required_field.pyc[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'TY1105', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u4f53\u80b2\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 22:21:54,048 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=Ln5vQWo9jAtcu6vD0bTqQZiuVkmmb9iGb-Sil0SMN7R4Dx-DGLJ0!962196520!1543759817277 for 221.226.253.51/>]>
+2018-12-02 22:21:56,686 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:21:56,687 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'b1a7039b05eb43da960f5220c174db60'}
+2018-12-02 22:21:56,687 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=Ln5vQWo9jAtcu6vD0bTqQZiuVkmmb9iGb-Sil0SMN7R4Dx-DGLJ0!962196520!1543759817277 for 221.226.253.51/>]>
+2018-12-02 22:21:57,286 check_required_field.pyc[line:564] INFO 检查服务名称[社会体育指导员公益培训]
+2018-12-02 22:21:57,288 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:21:57,290 check_required_field.pyc[line:105] INFO 服务内容 is 为我省社会体育指导员提供公益培训, type is text, value_range is 
+2018-12-02 22:21:57,292 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:21:57,293 check_required_field.pyc[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:21:57,296 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:21:57,298 check_required_field.pyc[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 22:21:57,299 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:21:57,302 check_required_field.pyc[line:105] INFO 服务依据 is 社会体育指导员管理办法, type is text, value_range is 
+2018-12-02 22:21:57,303 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:21:57,305 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'b1a7039b05eb43da960f5220c174db60', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:21:57,306 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=Ln5vQWo9jAtcu6vD0bTqQZiuVkmmb9iGb-Sil0SMN7R4Dx-DGLJ0!962196520!1543759817277 for 221.226.253.51/>]>
+2018-12-02 22:21:58,611 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:21:58,614 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'0e1690014e2643e09c905156f32d6566', u'idtlog': u'61dee17975394dcfba2c172634242589'}
+2018-12-02 22:21:58,615 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=Ln5vQWo9jAtcu6vD0bTqQZiuVkmmb9iGb-Sil0SMN7R4Dx-DGLJ0!962196520!1543759817277 for 221.226.253.51/>]>
+2018-12-02 22:22:01,276 check_required_field.pyc[line:616] INFO 检查业务信息[社会体育指导员公益培训]
+2018-12-02 22:22:01,276 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:01,276 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市中山路6号, type is text, value_range is 
+2018-12-02 22:22:01,276 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:01,278 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00,法定节假日除外., type is text, value_range is 
+2018-12-02 22:22:01,278 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:01,278 check_required_field.pyc[line:105] INFO 经办机构（处室） is 丹阳市体育局群体科, type is text, value_range is 
+2018-12-02 22:22:01,279 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:01,279 check_required_field.pyc[line:105] INFO 数量限制 is 2, type is radio, value_range is 1,2
+2018-12-02 22:22:01,279 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:01,280 check_required_field.pyc[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:01,285 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:01,288 check_required_field.pyc[line:105] INFO 业务名称 is 社会体育指导员公益培训, type is text, value_range is 
+2018-12-02 22:22:01,289 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:01,292 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市体育局, type is text, value_range is 
+2018-12-02 22:22:01,293 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:01,298 check_required_field.pyc[line:105] INFO 监督投诉方式 is 丹阳市体育局,0511-86523282, type is text, value_range is 
+2018-12-02 22:22:01,299 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:01,305 check_required_field.pyc[line:105] INFO 咨询方式 is 丹阳市体育局群体科,0511-86578962, type is text, value_range is 
+2018-12-02 22:22:01,308 check_required_field.pyc[line:643] INFO []
+2018-12-02 22:22:01,311 check_required_field.pyc[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 22:22:01,315 check_required_field.pyc[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=Ln5vQWo9jAtcu6vD0bTqQZiuVkmmb9iGb-Sil0SMN7R4Dx-DGLJ0!962196520!1543759817277 for 221.226.253.51/>]>

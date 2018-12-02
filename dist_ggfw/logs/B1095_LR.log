@@ -1,0 +1,201 @@
+2018-12-02 22:21:19,006 check_required_field.pyc[line:647] INFO start to check username B1095_LR
+2018-12-02 22:21:19,012 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 22:21:19,019 check_required_field.pyc[line:46] INFO the post params is {u'jsu': u'B1095_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 22:21:19,028 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 22:21:33,733 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 22:21:33,734 check_required_field.pyc[line:46] INFO the post params is {}
+2018-12-02 22:21:33,736 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:34,187 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 22:21:34,188 check_required_field.pyc[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'B1095', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u6c11\u9632\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 22:21:34,190 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:37,293 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:21:37,293 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'ef3ef2d85dc34dce8884e75d6ec256c9'}
+2018-12-02 22:21:37,295 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:38,045 check_required_field.pyc[line:564] INFO 检查服务名称[人防工程标识标注]
+2018-12-02 22:21:38,046 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:21:38,046 check_required_field.pyc[line:105] INFO 服务内容 is 对人防工程的位置、应急疏散路线等进行标识标注，引导群众熟悉并正确使用人防工程, type is text, value_range is 
+2018-12-02 22:21:38,046 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:21:38,046 check_required_field.pyc[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:21:38,046 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:21:38,046 check_required_field.pyc[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 22:21:38,048 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:21:38,048 check_required_field.pyc[line:105] INFO 服务依据 is 《关于进一步加强人防工程维护管理工作的意见（试行）》（苏防〔2012〕74号），第三章 深化防护工程体系标识标注工作 (三)加大宣传，强化使用。要充分运用电视、电台、报纸和网络等媒体平台，向社会公众宣传标识标牌安装的目的、意义和重要作用。强化标识标牌功能价值的发掘使用，坚持以用促管。各级民防(人防)部门要结合标识标注工作，在城市商业繁华、人员密集等地区，有针对性地开展疏散掩蔽演练，检验并优化标识标牌设置方式，帮助民众了解熟悉疏散路线和避险场所，激发民众对标识标牌的自觉保护意识，让标识标牌更好地融入城市建设，成为提高城市品位的重要元素。, type is text, value_range is 
+2018-12-02 22:21:38,049 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:21:38,049 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'ef3ef2d85dc34dce8884e75d6ec256c9', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:21:38,049 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:38,746 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:21:38,747 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'bf1faf5da15c41c8ad7e0f587f2bffa5', u'idtlog': u'4e5c994d573c4129a211ae286e8e012d'}
+2018-12-02 22:21:38,750 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:40,325 check_required_field.pyc[line:616] INFO 检查业务信息[人防工程标识标注]
+2018-12-02 22:21:40,326 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:21:40,328 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市兰陵路8号市民防局6楼, type is text, value_range is 
+2018-12-02 22:21:40,329 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:21:40,331 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午13:30-17:30（法定节假日除外）, type is text, value_range is 
+2018-12-02 22:21:40,332 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:21:40,332 check_required_field.pyc[line:105] INFO 经办机构（处室） is 工程管理科, type is text, value_range is 
+2018-12-02 22:21:40,334 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:21:40,335 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:21:40,335 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:21:40,336 check_required_field.pyc[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:21:40,338 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:21:40,338 check_required_field.pyc[line:105] INFO 业务名称 is 人防工程标识标注, type is text, value_range is 
+2018-12-02 22:21:40,339 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:21:40,341 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市民防局, type is text, value_range is 
+2018-12-02 22:21:40,342 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:21:40,344 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86162602, type is text, value_range is 
+2018-12-02 22:21:40,344 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:21:40,345 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86162612、86969011, type is text, value_range is 
+2018-12-02 22:21:40,346 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:21:40,348 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'b98f735adb924ba3b598ec15b6891dc4'}
+2018-12-02 22:21:40,349 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:41,214 check_required_field.pyc[line:564] INFO 检查服务名称[结合防灾减灾日、科普宣传周、法制宣传周等开展民防宣传教育活动]
+2018-12-02 22:21:41,217 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:21:41,219 check_required_field.pyc[line:105] INFO 服务内容 is 组织全省民防部门开展民防宣传教育活动，宣传人防法律法规，普及防空防灾知识，提升应急防护技能和水平, type is text, value_range is 
+2018-12-02 22:21:41,220 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:21:41,223 check_required_field.pyc[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:21:41,226 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:21:41,227 check_required_field.pyc[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 22:21:41,230 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:21:41,232 check_required_field.pyc[line:105] INFO 服务依据 is 《中华人民共和国人民防空法》第四十五条：国家开展人民防空教育，使公民增强国防观念，掌握人民防空的基本知识和技能。 第四十六条 国家人民防空主管部门负责组织制定人民防空教育计划，规定教育内容。 在校学生的人民防空教育，由各级教育主管部门和人民防空主管部门组织实施。 国家机关、社会团体、企业事业组织人员的人民防空教育，由所在单位组织实施；其他人员的人民防空教育，由城乡基层人民政府组织实施。
+《江苏省实施<中华人民共和国人民防空法>办法》第二十八条：县级以上地方人民政府应当开展人民防空和防灾、救灾宣传教育，并将其纳入国防教育计划和普法教育规划。在校学生的人民防空和防灾、救灾知识教育，由人防和教育主管部门组织实施。教育主管部门应当将人民防空和防灾、救灾知识教育纳入教育计划，开展形式多样的教育教学活动。人防主管部门应当协助培训教员，并提供专用器材和教材。国家机关、社会团体、企业事业单位人员的人民防空教育，由所在单位组织实施；其他人员的人民防空教育，由基层人民政府组织实施。人防主管部门应当加强对人民防空和防灾、救灾教育的指导和检查。, type is text, value_range is 
+2018-12-02 22:21:41,233 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:21:41,236 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'b98f735adb924ba3b598ec15b6891dc4', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:21:41,237 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:41,677 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:21:41,677 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'cc5d3b7ed74a4937b2e3cbf63d48ed52', u'idtlog': u'45e0a3d1064c4d969388b1aceb889268'}
+2018-12-02 22:21:41,677 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:43,832 check_required_field.pyc[line:616] INFO 检查业务信息[结合防灾减灾日、科普宣传周、法制宣传周等开展民防宣传教育活动]
+2018-12-02 22:21:43,832 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:21:43,832 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市兰陵路8号市民防局6楼, type is text, value_range is 
+2018-12-02 22:21:43,834 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:21:43,834 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午13:30-17:30，法定节假日除外, type is text, value_range is 
+2018-12-02 22:21:43,834 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:21:43,835 check_required_field.pyc[line:105] INFO 经办机构（处室） is 法规宣教科, type is text, value_range is 
+2018-12-02 22:21:43,835 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:21:43,835 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:21:43,835 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:21:43,835 check_required_field.pyc[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:21:43,835 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:21:43,836 check_required_field.pyc[line:105] INFO 业务名称 is 结合防灾减灾日、科普宣传周、法制宣传周等开展民防宣传教育活动, type is text, value_range is 
+2018-12-02 22:21:43,836 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:21:43,836 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市民防局, type is text, value_range is 
+2018-12-02 22:21:43,838 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:21:43,838 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86162602, type is text, value_range is 
+2018-12-02 22:21:43,838 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:21:43,838 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86503248、86162623, type is text, value_range is 
+2018-12-02 22:21:43,838 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:21:43,838 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'bbb3804fe978421187cd0597a615dfcf'}
+2018-12-02 22:21:43,839 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:45,719 check_required_field.pyc[line:564] INFO 检查服务名称[开展民防知识教育]
+2018-12-02 22:21:45,720 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:21:45,720 check_required_field.pyc[line:105] INFO 服务内容 is 面向中小学校和社区开展民防知识教育活动，组织中小学民防知识教育师资培训和社区民防志愿者队伍培训, type is text, value_range is 
+2018-12-02 22:21:45,720 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:21:45,720 check_required_field.pyc[line:105] INFO 服务领域 is 8, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:21:45,720 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:21:45,720 check_required_field.pyc[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 22:21:45,721 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:21:45,721 check_required_field.pyc[line:105] INFO 服务依据 is 《中华人民共和国人民防空法》第四十五条：国家开展人民防空教育，使公民增强国防观念，掌握人民防空的基本知识和技能。 第四十六条 国家人民防空主管部门负责组织制定人民防空教育计划，规定教育内容。 在校学生的人民防空教育，由各级教育主管部门和人民防空主管部门组织实施。 国家机关、社会团体、企业事业组织人员的人民防空教育，由所在单位组织实施；其他人员的人民防空教育，由城乡基层人民政府组织实施。
+《江苏省实施<中华人民共和国人民防空法>办法》第二十八条：县级以上地方人民政府应当开展人民防空和防灾、救灾宣传教育，并将其纳入国防教育计划和普法教育规划。在校学生的人民防空和防灾、救灾知识教育，由人防和教育主管部门组织实施。教育主管部门应当将人民防空和防灾、救灾知识教育纳入教育计划，开展形式多样的教育教学活动。人防主管部门应当协助培训教员，并提供专用器材和教材。国家机关、社会团体、企业事业单位人员的人民防空教育，由所在单位组织实施；其他人员的人民防空教育，由基层人民政府组织实施。人防主管部门应当加强对人民防空和防灾、救灾教育的指导和检查。, type is text, value_range is 
+2018-12-02 22:21:45,723 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:21:45,723 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'bbb3804fe978421187cd0597a615dfcf', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:21:45,723 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:47,532 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:21:47,536 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'6cef94a378364497856f6384d722ae54', u'idtlog': u'3d028dfb3a804578abc130140dfdd129'}
+2018-12-02 22:21:47,542 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:49,920 check_required_field.pyc[line:616] INFO 检查业务信息[开展民防知识教育]
+2018-12-02 22:21:49,920 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:21:49,921 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市兰陵路8号市民防局6楼, type is text, value_range is 
+2018-12-02 22:21:49,921 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:21:49,924 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午13:30-17:30，法定节假日除外, type is text, value_range is 
+2018-12-02 22:21:49,926 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:21:49,928 check_required_field.pyc[line:105] INFO 经办机构（处室） is 应急指挥科, type is text, value_range is 
+2018-12-02 22:21:49,930 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:21:49,933 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:21:49,934 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:21:49,937 check_required_field.pyc[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:21:49,938 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:21:49,940 check_required_field.pyc[line:105] INFO 业务名称 is 开展民防知识教育, type is text, value_range is 
+2018-12-02 22:21:49,943 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:21:49,943 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市民防局, type is text, value_range is 
+2018-12-02 22:21:49,944 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:21:49,946 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86162602, type is text, value_range is 
+2018-12-02 22:21:49,947 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:21:49,948 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86503248、86162610, type is text, value_range is 
+2018-12-02 22:21:49,950 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:21:49,950 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'e4a5dd8f57b54f15bfdcfca83aefccc7'}
+2018-12-02 22:21:49,951 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:51,197 check_required_field.pyc[line:564] INFO 检查服务名称[人防工程安全检查]
+2018-12-02 22:21:51,197 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:21:51,197 check_required_field.pyc[line:105] INFO 服务内容 is 对人防工程平时使用和维护管理情况进行检查，对人防工程安全状况进行评估, type is text, value_range is 
+2018-12-02 22:21:51,198 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:21:51,200 check_required_field.pyc[line:105] INFO 服务领域 is 7, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:21:51,201 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:21:51,204 check_required_field.pyc[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 22:21:51,206 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:21:51,209 check_required_field.pyc[line:105] INFO 服务依据 is 1、《江苏省实施<中华人民共和国人民防空法>办法》第十七条　人民防空工程的平时维护管理实行分类负责。公用的人民防空工程，由人防主管部门负责；单位修建或者使用的人民防空工程，按照国家规定由单位负责；个人投资建设的人民防空工程由投资者负责。人民防空工程的平时维护管理应当执行国家和省有关规定，落实维护管理资金，使其保持良好使用状态。第三十四条 人防主管部门在对人防工程进行监督检查时，发现人防工程维护管理不当影响防护效能的，应当责令人防工程维护管理责任人限期修复，可以对个人并处一千元以上五千元以下的罚款，对单位并处一万元以上五万元以下的罚款。
+2、《国务院办公厅关于加强安全生产监管执法的通知》（国办发〔2015〕20号）第二部分 依法落实安全生产责任。（四）建立完善安全监管责任制。全面建立“党政同责、一岗双责、齐抓共管”的安全生产责任体系，落实属地监管责任。负有安全生产监督管理职责的部门要加强对有关行业领域的监督管理，形成综合监管和行业监管合力，提高监管效能，切实做到管行业必须管安全、管业务必须管安全、管生产经营必须管安全。加强安全生产目标责任考核，各级安全生产监督管理部门要定期向同级组织部门报送安全生产情况，将其纳入领导干部政绩业绩考核内容，严格落实安全生产“一票否决”制度。, type is text, value_range is 
+2018-12-02 22:21:51,210 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:21:51,211 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'e4a5dd8f57b54f15bfdcfca83aefccc7', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:21:51,213 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:52,276 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:21:52,276 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'5e2e4b2f16e24f27827de6dda01d5167', u'idtlog': u'f418eceafd8145a48fdaabfea51384bc'}
+2018-12-02 22:21:52,276 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:54,128 check_required_field.pyc[line:616] INFO 检查业务信息[人防工程安全检查]
+2018-12-02 22:21:54,130 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:21:54,130 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市兰陵路8号市民防局6楼, type is text, value_range is 
+2018-12-02 22:21:54,130 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:21:54,132 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午13:30-17:30（法定节假日除外）, type is text, value_range is 
+2018-12-02 22:21:54,134 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:21:54,138 check_required_field.pyc[line:105] INFO 经办机构（处室） is 工程管理科, type is text, value_range is 
+2018-12-02 22:21:54,141 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:21:54,144 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:21:54,148 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:21:54,151 check_required_field.pyc[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:21:54,154 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:21:54,157 check_required_field.pyc[line:105] INFO 业务名称 is 人防工程安全检查, type is text, value_range is 
+2018-12-02 22:21:54,161 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:21:54,164 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市民防局, type is text, value_range is 
+2018-12-02 22:21:54,167 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:21:54,171 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86162602, type is text, value_range is 
+2018-12-02 22:21:54,174 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:21:54,177 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86162612、86969011, type is text, value_range is 
+2018-12-02 22:21:54,180 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:21:54,184 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'db92705f071343cbaeff02d92aff3d3b'}
+2018-12-02 22:21:54,186 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:55,065 check_required_field.pyc[line:564] INFO 检查服务名称[人防警报试鸣日宣传咨询服务活动]
+2018-12-02 22:21:55,065 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:21:55,065 check_required_field.pyc[line:105] INFO 服务内容 is 开展人防警报鸣放，组织开展人员疏散掩蔽训练、演练，开展防空袭相关知识宣传, type is text, value_range is 
+2018-12-02 22:21:55,066 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:21:55,069 check_required_field.pyc[line:105] INFO 服务领域 is 23, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:21:55,071 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:21:55,073 check_required_field.pyc[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 22:21:55,075 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:21:55,076 check_required_field.pyc[line:105] INFO 服务依据 is 《中华人民共和国人民防空法》第三十五条 县级以上地方各级人民政府根据需要可以组织试鸣防空警报；并在试鸣的五日以前发布公告。, type is text, value_range is 
+2018-12-02 22:21:55,078 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:21:55,079 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'db92705f071343cbaeff02d92aff3d3b', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:21:55,079 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:55,875 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:21:55,877 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'0dfa242a890d42c6ac3fb5c09730d526', u'idtlog': u'8b4d0a07abde4096a12a2bcef04f2ec4'}
+2018-12-02 22:21:55,877 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>
+2018-12-02 22:21:58,404 check_required_field.pyc[line:616] INFO 检查业务信息[人防警报试鸣日宣传咨询服务活动]
+2018-12-02 22:21:58,404 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:21:58,404 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市兰陵路8号市民防局6楼, type is text, value_range is 
+2018-12-02 22:21:58,404 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:21:58,404 check_required_field.pyc[line:105] INFO 工作时间 is 每年9月18日, type is text, value_range is 
+2018-12-02 22:21:58,405 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:21:58,405 check_required_field.pyc[line:105] INFO 经办机构（处室） is 822管理所, type is text, value_range is 
+2018-12-02 22:21:58,407 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:21:58,407 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:21:58,407 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:21:58,407 check_required_field.pyc[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:21:58,407 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:21:58,408 check_required_field.pyc[line:105] INFO 业务名称 is 人防警报试鸣日宣传咨询服务活动, type is text, value_range is 
+2018-12-02 22:21:58,408 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:21:58,408 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市民防局, type is text, value_range is 
+2018-12-02 22:21:58,410 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:21:58,411 check_required_field.pyc[line:105] INFO 监督投诉方式 is 0511-86162602, type is text, value_range is 
+2018-12-02 22:21:58,411 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:21:58,411 check_required_field.pyc[line:105] INFO 咨询方式 is 0511-86162633, type is text, value_range is 
+2018-12-02 22:21:58,413 check_required_field.pyc[line:643] INFO []
+2018-12-02 22:21:58,413 check_required_field.pyc[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 22:21:58,414 check_required_field.pyc[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=QlpvQP4id8FZnw8EqEnCtByuCbQ2DXq6E94dMsGPLXGazSUxvqrf!962196520!1543759789602 for 221.226.253.51/>]>

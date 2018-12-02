@@ -1,0 +1,5 @@
+2018-12-02 22:21:19,036 check_required_field.pyc[line:647] INFO start to check username CCC1083_LR
+2018-12-02 22:21:19,049 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 22:21:19,061 check_required_field.pyc[line:46] INFO the post params is {u'jsu': u'CCC1083_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 22:21:19,078 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 22:21:21,161 check_required_field.pyc[line:145] ERROR login CCC1083_LR fail

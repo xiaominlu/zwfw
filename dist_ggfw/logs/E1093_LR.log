@@ -1,0 +1,332 @@
+2018-12-02 22:21:19,049 check_required_field.pyc[line:647] INFO start to check username E1093_LR
+2018-12-02 22:21:19,059 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 22:21:19,076 check_required_field.pyc[line:46] INFO the post params is {u'jsu': u'E1093_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 22:21:19,088 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 22:21:32,257 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 22:21:32,259 check_required_field.pyc[line:46] INFO the post params is {}
+2018-12-02 22:21:32,259 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:33,012 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 22:21:33,013 check_required_field.pyc[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'E1093', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u65cf\u5b97\u6559\u4e8b\u52a1\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 22:21:33,013 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:36,387 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:21:36,387 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'0d0348df43174efdb1d79ac987e547a6'}
+2018-12-02 22:21:36,387 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:37,204 check_required_field.pyc[line:564] INFO 检查服务名称[民族宗教政策法规咨询]
+2018-12-02 22:21:37,206 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:21:37,206 check_required_field.pyc[line:105] INFO 服务内容 is 提供民族宗教政策法规咨询服务。, type is text, value_range is 
+2018-12-02 22:21:37,206 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:21:37,207 check_required_field.pyc[line:105] INFO 服务领域 is 13, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:21:37,210 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:21:37,213 check_required_field.pyc[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 22:21:37,214 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:21:37,217 check_required_field.pyc[line:105] INFO 服务依据 is 无, type is text, value_range is 
+2018-12-02 22:21:37,219 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:21:37,220 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'0d0348df43174efdb1d79ac987e547a6', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:21:37,221 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:38,101 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:21:38,101 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'b52721409158419b95ab6deb63444ca7', u'idtlog': u'236d6f0b269847a88a3f9db1b203f5ae'}
+2018-12-02 22:21:38,101 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:39,740 check_required_field.pyc[line:616] INFO 检查业务信息[民族宗教政策法规咨询]
+2018-12-02 22:21:39,742 check_required_field.pyc[line:99] INFO 检查[办件类型]
+2018-12-02 22:21:39,743 check_required_field.pyc[line:105] INFO 办件类型 is 即办件, type is radio, value_range is 承诺件,即办件
+2018-12-02 22:21:39,743 check_required_field.pyc[line:99] INFO 检查[办理依据]
+2018-12-02 22:21:39,743 check_required_field.pyc[line:105] INFO 办理依据 is 无, type is text, value_range is 
+2018-12-02 22:21:39,746 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:21:39,749 check_required_field.pyc[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 22:21:39,750 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:21:39,753 check_required_field.pyc[line:105] INFO 经办机构（处室） is 民族科、宗教科, type is text, value_range is 
+2018-12-02 22:21:39,755 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:21:39,757 check_required_field.pyc[line:105] INFO 监督投诉方式 is 051186922280, type is text, value_range is 
+2018-12-02 22:21:39,759 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:21:39,762 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市兰陵路8号行政中心, type is text, value_range is 
+2018-12-02 22:21:39,763 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:21:39,765 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00；, type is text, value_range is 
+2018-12-02 22:21:39,765 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:21:39,766 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:21:39,767 check_required_field.pyc[line:99] INFO 检查[是否收费]
+2018-12-02 22:21:39,769 check_required_field.pyc[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 22:21:39,770 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:21:39,772 check_required_field.pyc[line:105] INFO 咨询方式 is 051186565711, type is text, value_range is 
+2018-12-02 22:21:39,773 check_required_field.pyc[line:99] INFO 检查[在线办理网址]
+2018-12-02 22:21:39,773 check_required_field.pyc[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 22:21:39,775 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:21:39,776 check_required_field.pyc[line:105] INFO 业务名称 is 民族宗教政策法规咨询, type is text, value_range is 
+2018-12-02 22:21:39,776 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:21:39,778 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市族宗教事务局, type is text, value_range is 
+2018-12-02 22:21:39,778 check_required_field.pyc[line:99] INFO 检查[到现场次数]
+2018-12-02 22:21:39,778 check_required_field.pyc[line:105] INFO 到现场次数 is 0, type is radio, value_range is 0,1,2,99
+2018-12-02 22:21:39,778 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:21:39,779 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'964f587f99dc4d5cb25f7449b2f7641f'}
+2018-12-02 22:21:39,779 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:40,819 check_required_field.pyc[line:564] INFO 检查服务名称[宗教教职人员认定备案情况的咨询]
+2018-12-02 22:21:40,819 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:21:40,822 check_required_field.pyc[line:105] INFO 服务内容 is 将在我市认定备案的宗教教职人员基本情况向社会公开并提供查询服务。, type is text, value_range is 
+2018-12-02 22:21:40,825 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:21:40,828 check_required_field.pyc[line:105] INFO 服务领域 is 13, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:21:40,829 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:21:40,831 check_required_field.pyc[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 22:21:40,831 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:21:40,832 check_required_field.pyc[line:105] INFO 服务依据 is 无, type is text, value_range is 
+2018-12-02 22:21:40,832 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:21:40,832 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'964f587f99dc4d5cb25f7449b2f7641f', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:21:40,832 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:41,523 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:21:41,526 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'bff1f83e6eed48be9a3dab26c3696ee1', u'idtlog': u'407940ae8f3747f4820a6e74a398959d'}
+2018-12-02 22:21:41,528 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:45,092 check_required_field.pyc[line:616] INFO 检查业务信息[宗教教职人员认定备案情况的咨询]
+2018-12-02 22:21:45,092 check_required_field.pyc[line:99] INFO 检查[办件类型]
+2018-12-02 22:21:45,094 check_required_field.pyc[line:105] INFO 办件类型 is 即办件, type is radio, value_range is 承诺件,即办件
+2018-12-02 22:21:45,094 check_required_field.pyc[line:99] INFO 检查[办理依据]
+2018-12-02 22:21:45,094 check_required_field.pyc[line:105] INFO 办理依据 is 无, type is text, value_range is 
+2018-12-02 22:21:45,095 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:21:45,095 check_required_field.pyc[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 22:21:45,095 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:21:45,095 check_required_field.pyc[line:105] INFO 经办机构（处室） is 宗教科, type is text, value_range is 
+2018-12-02 22:21:45,095 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:21:45,095 check_required_field.pyc[line:105] INFO 监督投诉方式 is 051186922280, type is text, value_range is 
+2018-12-02 22:21:45,096 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:21:45,096 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市兰陵路8号行政中心。, type is text, value_range is 
+2018-12-02 22:21:45,096 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:21:45,098 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00。, type is text, value_range is 
+2018-12-02 22:21:45,098 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:21:45,098 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:21:45,098 check_required_field.pyc[line:99] INFO 检查[是否收费]
+2018-12-02 22:21:45,098 check_required_field.pyc[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 22:21:45,098 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:21:45,099 check_required_field.pyc[line:105] INFO 咨询方式 is 051186565711, type is text, value_range is 
+2018-12-02 22:21:45,099 check_required_field.pyc[line:99] INFO 检查[在线办理网址]
+2018-12-02 22:21:45,099 check_required_field.pyc[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 22:21:45,101 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:21:45,101 check_required_field.pyc[line:105] INFO 业务名称 is 宗教教职人员认定备案情况的咨询, type is text, value_range is 
+2018-12-02 22:21:45,101 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:21:45,101 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市族宗教事务局, type is text, value_range is 
+2018-12-02 22:21:45,101 check_required_field.pyc[line:99] INFO 检查[到现场次数]
+2018-12-02 22:21:45,101 check_required_field.pyc[line:105] INFO 到现场次数 is 0, type is radio, value_range is 0,1,2,99
+2018-12-02 22:21:45,101 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:21:45,102 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'b1e6fe6188784290a5a7117c0a4122fc'}
+2018-12-02 22:21:45,102 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:47,551 check_required_field.pyc[line:564] INFO 检查服务名称[宗教活动场所基本情况的咨询]
+2018-12-02 22:21:47,558 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:21:47,565 check_required_field.pyc[line:105] INFO 服务内容 is 将我市宗教活动场所的基本情况向社会公开并提供查询服务。, type is text, value_range is 
+2018-12-02 22:21:47,569 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:21:47,575 check_required_field.pyc[line:105] INFO 服务领域 is 13, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:21:47,579 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:21:47,584 check_required_field.pyc[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 22:21:47,588 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:21:47,592 check_required_field.pyc[line:105] INFO 服务依据 is 无, type is text, value_range is 
+2018-12-02 22:21:47,594 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:21:47,595 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'b1e6fe6188784290a5a7117c0a4122fc', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:21:47,598 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:48,388 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:21:48,390 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'6b1ba6067f1b4cdfbf8bbede0c8468e2', u'idtlog': u'75b5e96e4f644db2a86b15a8d02b18a8'}
+2018-12-02 22:21:48,390 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:50,654 check_required_field.pyc[line:616] INFO 检查业务信息[宗教活动场所基本情况的咨询]
+2018-12-02 22:21:50,654 check_required_field.pyc[line:99] INFO 检查[办件类型]
+2018-12-02 22:21:50,654 check_required_field.pyc[line:105] INFO 办件类型 is 即办件, type is radio, value_range is 承诺件,即办件
+2018-12-02 22:21:50,654 check_required_field.pyc[line:99] INFO 检查[办理依据]
+2018-12-02 22:21:50,655 check_required_field.pyc[line:105] INFO 办理依据 is 无, type is text, value_range is 
+2018-12-02 22:21:50,655 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:21:50,657 check_required_field.pyc[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 22:21:50,657 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:21:50,657 check_required_field.pyc[line:105] INFO 经办机构（处室） is 宗教科, type is text, value_range is 
+2018-12-02 22:21:50,657 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:21:50,657 check_required_field.pyc[line:105] INFO 监督投诉方式 is 051186922280, type is text, value_range is 
+2018-12-02 22:21:50,658 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:21:50,658 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市兰陵路8号行政中心。, type is text, value_range is 
+2018-12-02 22:21:50,658 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:21:50,660 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-18:00。, type is text, value_range is 
+2018-12-02 22:21:50,660 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:21:50,660 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:21:50,661 check_required_field.pyc[line:99] INFO 检查[是否收费]
+2018-12-02 22:21:50,664 check_required_field.pyc[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 22:21:50,667 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:21:50,670 check_required_field.pyc[line:105] INFO 咨询方式 is 051186565711, type is text, value_range is 
+2018-12-02 22:21:50,671 check_required_field.pyc[line:99] INFO 检查[在线办理网址]
+2018-12-02 22:21:50,674 check_required_field.pyc[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 22:21:50,676 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:21:50,680 check_required_field.pyc[line:105] INFO 业务名称 is 宗教活动场所基本情况的咨询, type is text, value_range is 
+2018-12-02 22:21:50,684 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:21:50,690 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市族宗教事务局, type is text, value_range is 
+2018-12-02 22:21:50,694 check_required_field.pyc[line:99] INFO 检查[到现场次数]
+2018-12-02 22:21:50,698 check_required_field.pyc[line:105] INFO 到现场次数 is 0, type is radio, value_range is 0,1,2,99
+2018-12-02 22:21:50,701 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:21:50,704 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'57946d219b754806941fb3385ae2f875'}
+2018-12-02 22:21:50,707 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:52,101 check_required_field.pyc[line:564] INFO 检查服务名称[公民民族成分更改咨询]
+2018-12-02 22:21:52,105 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:21:52,109 check_required_field.pyc[line:105] INFO 服务内容 is 提供公民民族成分更改相关政策的咨询服务。, type is text, value_range is 
+2018-12-02 22:21:52,114 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:21:52,117 check_required_field.pyc[line:105] INFO 服务领域 is 13, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:21:52,118 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:21:52,118 check_required_field.pyc[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 22:21:52,118 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:21:52,118 check_required_field.pyc[line:105] INFO 服务依据 is 《中国公民民族成份登记管理办法》（国家民委 公安部令第2号）第十四条 各级民族事务部门与公安部门应当建立公民民族成份登记的协商联络和监督检查机制。, type is text, value_range is 
+2018-12-02 22:21:52,118 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:21:52,119 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'57946d219b754806941fb3385ae2f875', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:21:52,119 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:53,071 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:21:53,071 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'eccebb7eb9c840ebbb58dcf9a2f3e4b6', u'idtlog': u'67e22e5d01c845a9b3ef1f2c9de8be61'}
+2018-12-02 22:21:53,071 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:55,273 check_required_field.pyc[line:616] INFO 检查业务信息[公民民族成分更改咨询]
+2018-12-02 22:21:55,273 check_required_field.pyc[line:99] INFO 检查[办件类型]
+2018-12-02 22:21:55,275 check_required_field.pyc[line:105] INFO 办件类型 is 即办件, type is radio, value_range is 承诺件,即办件
+2018-12-02 22:21:55,275 check_required_field.pyc[line:99] INFO 检查[办理依据]
+2018-12-02 22:21:55,275 check_required_field.pyc[line:105] INFO 办理依据 is 《中国公民民族成份登记管理办法》（国家民委 公安部令第2号）第十四条 各级民族事务部门与公安部门应当建立公民民族成份登记的协商联络和监督检查机制。, type is text, value_range is 
+2018-12-02 22:21:55,276 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:21:55,276 check_required_field.pyc[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 22:21:55,276 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:21:55,276 check_required_field.pyc[line:105] INFO 经办机构（处室） is 民族科, type is text, value_range is 
+2018-12-02 22:21:55,276 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:21:55,276 check_required_field.pyc[line:105] INFO 监督投诉方式 is 051186922280, type is text, value_range is 
+2018-12-02 22:21:55,278 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:21:55,278 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市兰陵路8号行政中心。, type is text, value_range is 
+2018-12-02 22:21:55,278 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:21:55,279 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:30，下午14:00-17:00。, type is text, value_range is 
+2018-12-02 22:21:55,282 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:21:55,283 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:21:55,286 check_required_field.pyc[line:99] INFO 检查[是否收费]
+2018-12-02 22:21:55,289 check_required_field.pyc[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 22:21:55,290 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:21:55,293 check_required_field.pyc[line:105] INFO 咨询方式 is 051186565711, type is text, value_range is 
+2018-12-02 22:21:55,298 check_required_field.pyc[line:99] INFO 检查[在线办理网址]
+2018-12-02 22:21:55,301 check_required_field.pyc[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 22:21:55,302 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:21:55,305 check_required_field.pyc[line:105] INFO 业务名称 is 公民民族成分更改咨询, type is text, value_range is 
+2018-12-02 22:21:55,309 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:21:55,312 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市族宗教事务局, type is text, value_range is 
+2018-12-02 22:21:55,315 check_required_field.pyc[line:99] INFO 检查[到现场次数]
+2018-12-02 22:21:55,319 check_required_field.pyc[line:105] INFO 到现场次数 is 0, type is radio, value_range is 0,1,2,99
+2018-12-02 22:21:55,322 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:21:55,325 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'117731ce065f45bcb148dace8935c2ea'}
+2018-12-02 22:21:55,328 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:56,036 check_required_field.pyc[line:564] INFO 检查服务名称[清真食品生产经营咨询]
+2018-12-02 22:21:56,038 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:21:56,038 check_required_field.pyc[line:105] INFO 服务内容 is 提供清真食品生产经营方面相关政策的咨询服务。, type is text, value_range is 
+2018-12-02 22:21:56,038 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:21:56,039 check_required_field.pyc[line:105] INFO 服务领域 is 13, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:21:56,039 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:21:56,039 check_required_field.pyc[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 22:21:56,039 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:21:56,039 check_required_field.pyc[line:105] INFO 服务依据 is 《江苏省清真食品监督保护条例》（2005年12月1日江苏省第十届人民代表大会常务委员会第十九次会议通过）第四条 任何单位和个人应当尊重少数民族的清真饮食习俗。地方各级人民政府应当加强尊重少数民族清真饮食习俗的宣传、教育。, type is text, value_range is 
+2018-12-02 22:21:56,039 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:21:56,040 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'117731ce065f45bcb148dace8935c2ea', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:21:56,040 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:56,740 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:21:56,740 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'231c166acba3445cbda1fa86451392fb', u'idtlog': u'faa26722cf544349b65a6eab2bde9cb3'}
+2018-12-02 22:21:56,740 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:21:58,980 check_required_field.pyc[line:616] INFO 检查业务信息[清真食品生产经营咨询]
+2018-12-02 22:21:58,980 check_required_field.pyc[line:99] INFO 检查[办件类型]
+2018-12-02 22:21:58,980 check_required_field.pyc[line:105] INFO 办件类型 is 即办件, type is radio, value_range is 承诺件,即办件
+2018-12-02 22:21:58,980 check_required_field.pyc[line:99] INFO 检查[办理依据]
+2018-12-02 22:21:58,982 check_required_field.pyc[line:105] INFO 办理依据 is 《江苏省清真食品监督保护条例》（2005年12月1日江苏省第十届人民代表大会常务委员会第十九次会议通过）第四条 任何单位和个人应当尊重少数民族的清真饮食习俗。地方各级人民政府应当加强尊重少数民族清真饮食习俗的宣传、教育。, type is text, value_range is 
+2018-12-02 22:21:58,982 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:21:58,982 check_required_field.pyc[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 22:21:58,983 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:21:58,983 check_required_field.pyc[line:105] INFO 经办机构（处室） is 民族科, type is text, value_range is 
+2018-12-02 22:21:58,983 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:21:58,983 check_required_field.pyc[line:105] INFO 监督投诉方式 is 051186922280, type is text, value_range is 
+2018-12-02 22:21:58,983 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:21:58,983 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市兰陵路8号行政中心。, type is text, value_range is 
+2018-12-02 22:21:58,984 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:21:58,984 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-13:00，下午14:00-17:00。, type is text, value_range is 
+2018-12-02 22:21:58,984 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:21:58,986 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:21:58,986 check_required_field.pyc[line:99] INFO 检查[是否收费]
+2018-12-02 22:21:58,986 check_required_field.pyc[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 22:21:58,987 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:21:58,987 check_required_field.pyc[line:105] INFO 咨询方式 is 051186565711, type is text, value_range is 
+2018-12-02 22:21:58,987 check_required_field.pyc[line:99] INFO 检查[在线办理网址]
+2018-12-02 22:21:58,989 check_required_field.pyc[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 22:21:58,989 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:21:58,989 check_required_field.pyc[line:105] INFO 业务名称 is 清真食品生产经营咨询, type is text, value_range is 
+2018-12-02 22:21:58,989 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:21:58,990 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市族宗教事务局, type is text, value_range is 
+2018-12-02 22:21:58,990 check_required_field.pyc[line:99] INFO 检查[到现场次数]
+2018-12-02 22:21:58,990 check_required_field.pyc[line:105] INFO 到现场次数 is 0, type is radio, value_range is 0,1,2,99
+2018-12-02 22:21:58,990 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:21:58,990 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'77d81f92211e468fbdadccde523ad291'}
+2018-12-02 22:21:58,992 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:22:00,252 check_required_field.pyc[line:564] INFO 检查服务名称[对宗教界人士开展培训]
+2018-12-02 22:22:00,256 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:00,262 check_required_field.pyc[line:105] INFO 服务内容 is 对宗教界人士开展宗教知识、法律法规、政策和国情方面的教育培训。, type is text, value_range is 
+2018-12-02 22:22:00,267 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:00,273 check_required_field.pyc[line:105] INFO 服务领域 is 13, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:00,279 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:00,286 check_required_field.pyc[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 22:22:00,292 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:00,299 check_required_field.pyc[line:105] INFO 服务依据 is 《关于我国社会主义时期宗教问题的基本观点和基本政策》（中发〔1982〕19号）：三、……在新的历史时期中，党和政府对宗教的工作的基本任务，就是要坚定地贯彻执行宗教信仰自由的政策，巩固和扩大各民族宗教界的爱国政治联盟，加强对他们的爱国主义和社会主义教育，调动他们的积极因素，为建设现代化的社会主义强国，为完成祖国统一大业，为反对霸权主义、维护世界和平而共同奋斗。……, type is text, value_range is 
+2018-12-02 22:22:00,303 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:00,309 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'77d81f92211e468fbdadccde523ad291', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:00,313 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:22:01,321 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:01,322 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'c57a4e5cc00447d080ab403453adb888', u'idtlog': u'2f14675cbd7d4924b139127411654a62'}
+2018-12-02 22:22:01,325 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:22:04,986 check_required_field.pyc[line:616] INFO 检查业务信息[对宗教界人士开展培训]
+2018-12-02 22:22:04,986 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:04,986 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市兰陵路8号行政中心。, type is text, value_range is 
+2018-12-02 22:22:04,986 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:04,987 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-13:00，下午14:00-18:00。, type is text, value_range is 
+2018-12-02 22:22:04,987 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:04,989 check_required_field.pyc[line:105] INFO 经办机构（处室） is 宗教科, type is text, value_range is 
+2018-12-02 22:22:04,990 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:04,990 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:04,990 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:04,990 check_required_field.pyc[line:105] INFO 服务对象 is 2, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:04,990 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:04,992 check_required_field.pyc[line:105] INFO 业务名称 is 对宗教界人士开展培训, type is text, value_range is 
+2018-12-02 22:22:04,992 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:04,992 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市族宗教事务局, type is text, value_range is 
+2018-12-02 22:22:04,992 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:04,993 check_required_field.pyc[line:105] INFO 监督投诉方式 is 051186922280, type is text, value_range is 
+2018-12-02 22:22:04,993 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:04,993 check_required_field.pyc[line:105] INFO 咨询方式 is 051186565711, type is text, value_range is 
+2018-12-02 22:22:04,993 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:04,993 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'd23a421a2ac94dc694e121ee5bcfbf9f'}
+2018-12-02 22:22:04,993 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:22:06,963 check_required_field.pyc[line:564] INFO 检查服务名称[支持宗教界开展公益慈善事业]
+2018-12-02 22:22:06,963 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:06,964 check_required_field.pyc[line:105] INFO 服务内容 is 协调政府相关部门为宗教界开展公益慈善等社会服务事项提供便利。, type is text, value_range is 
+2018-12-02 22:22:06,964 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:06,964 check_required_field.pyc[line:105] INFO 服务领域 is 13, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:06,966 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:06,966 check_required_field.pyc[line:105] INFO 服务方式 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:06,966 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:06,967 check_required_field.pyc[line:105] INFO 服务依据 is 《关于鼓励和规范宗教界从事公益慈善活动的意见》（国宗发〔2012〕6号）：七、有关部门要根据中央的要求，各负其责、加强协调，充分发挥职能作用，在各自的职责范围内依法做好指导、协调、支持和管理工作，确保鼓励和规范宗教界从事公益慈善活动的各项政策措施有效落实。, type is text, value_range is 
+2018-12-02 22:22:06,969 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:06,970 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'd23a421a2ac94dc694e121ee5bcfbf9f', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:06,973 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:22:07,917 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:07,917 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'd1289c69ada84bd196f3c98477014009', u'idtlog': u'618d85c4270646ddba77677b9bc45a7b'}
+2018-12-02 22:22:07,917 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>
+2018-12-02 22:22:10,236 check_required_field.pyc[line:616] INFO 检查业务信息[支持宗教界开展公益慈善事业]
+2018-12-02 22:22:10,236 check_required_field.pyc[line:99] INFO 检查[办件类型]
+2018-12-02 22:22:10,237 check_required_field.pyc[line:105] INFO 办件类型 is 承诺件, type is radio, value_range is 承诺件,即办件
+2018-12-02 22:22:10,237 check_required_field.pyc[line:99] INFO 检查[办理依据]
+2018-12-02 22:22:10,237 check_required_field.pyc[line:105] INFO 办理依据 is 《关于鼓励和规范宗教界从事公益慈善活动的意见》（国宗发〔2012〕6号）：七、有关部门要根据中央的要求，各负其责、加强协调，充分发挥职能作用，在各自的职责范围内依法做好指导、协调、支持和管理工作，确保鼓励和规范宗教界从事公益慈善活动的各项政策措施有效落实。, type is text, value_range is 
+2018-12-02 22:22:10,239 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:10,240 check_required_field.pyc[line:105] INFO 服务对象 is 1, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:10,242 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:10,244 check_required_field.pyc[line:105] INFO 经办机构（处室） is 宗教科, type is text, value_range is 
+2018-12-02 22:22:10,247 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:10,252 check_required_field.pyc[line:105] INFO 监督投诉方式 is 051186922280, type is text, value_range is 
+2018-12-02 22:22:10,255 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:10,259 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市兰陵路8号行政中心。, type is text, value_range is 
+2018-12-02 22:22:10,262 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:10,263 check_required_field.pyc[line:105] INFO 工作时间 is 上午8:30-11:00，下午13:00-17:00。, type is text, value_range is 
+2018-12-02 22:22:10,266 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:10,266 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:10,267 check_required_field.pyc[line:99] INFO 检查[是否收费]
+2018-12-02 22:22:10,270 check_required_field.pyc[line:105] INFO 是否收费 is 0, type is radio, value_range is 0,1
+2018-12-02 22:22:10,272 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:10,273 check_required_field.pyc[line:105] INFO 咨询方式 is 051186565711, type is text, value_range is 
+2018-12-02 22:22:10,273 check_required_field.pyc[line:99] INFO 检查[在线办理网址]
+2018-12-02 22:22:10,273 check_required_field.pyc[line:105] INFO 在线办理网址 is 无, type is text, value_range is 
+2018-12-02 22:22:10,275 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:10,275 check_required_field.pyc[line:105] INFO 业务名称 is 支持宗教界开展公益慈善事业, type is text, value_range is 
+2018-12-02 22:22:10,275 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:10,276 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市族宗教事务局, type is text, value_range is 
+2018-12-02 22:22:10,276 check_required_field.pyc[line:99] INFO 检查[到现场次数]
+2018-12-02 22:22:10,276 check_required_field.pyc[line:105] INFO 到现场次数 is 0, type is radio, value_range is 0,1,2,99
+2018-12-02 22:22:10,276 check_required_field.pyc[line:643] INFO []
+2018-12-02 22:22:10,276 check_required_field.pyc[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 22:22:10,276 check_required_field.pyc[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=eJtvQP4zCjGVzQ8e5__AgTMNaJeWuSIvNjTUhtOJSij7YxVWgt7X!962196520!1543759789619 for 221.226.253.51/>]>

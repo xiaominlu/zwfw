@@ -1,0 +1,132 @@
+2018-12-02 22:22:06,931 check_required_field.pyc[line:647] INFO start to check username ZJDY1010_LR
+2018-12-02 22:22:06,933 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_check
+2018-12-02 22:22:06,934 check_required_field.pyc[line:46] INFO the post params is {u'jsu': u'ZJDY1010_LR', u'jsp': 'e10adc3949ba59abbe56e057f20f883e', u'jOrgNo': u''}
+2018-12-02 22:22:06,934 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[]>
+2018-12-02 22:22:12,746 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/UserController.do?findAdmin=true
+2018-12-02 22:22:12,746 check_required_field.pyc[line:46] INFO the post params is {}
+2018-12-02 22:22:12,746 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=_pdvQb0D9H9_sD28EHVTHcVHXxD2D0OH62VuWa1gQ2Kr44JJhlJT!962196520!1543759838467 for 221.226.253.51/>]>
+2018-12-02 22:22:13,510 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlywMain=true
+2018-12-02 22:22:13,510 check_required_field.pyc[line:46] INFO the post params is {u'B[YW_OPERATE][id]': u'', u'B[YW_OPERATE][text]': u'', u'B[YE_NAME]': u'', u'B[DEPT_YW_NUM]': u'', u'G_FW_RANGE[id]': u'', u'QL_DEPT[id]': u'ZJDY1010', u'B[YE_FILENUM]': u'', u'G_FW_MODE[text]': u'', u'IF_AUDIT_TRANSFER[text]': u'\u5168\u90e8', u'QL_CODE': u'', u'QL_NAME': u'', u'G_FW_RANGE[text]': u'', u'NUM': u'', u'limit': u'-1', u'IF_AUDIT_TRANSFER[id]': u'all', u'QL_SHORT_NAME': u'', u'QL_DEPT[text]': u'\u4e39\u9633\u5e02\u6c14\u8c61\u5c40', u'pageStart': u'1', u'QL_REG_NO': u'', u'B[TRANSACT_DEP]': u'', u'G_FW_MODE[id]': u''}
+2018-12-02 22:22:13,512 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=_pdvQb0D9H9_sD28EHVTHcVHXxD2D0OH62VuWa1gQ2Kr44JJhlJT!962196520!1543759838467 for 221.226.253.51/>]>
+2018-12-02 22:22:16,288 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:16,288 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'43605e046df1428fb63c6d76f2ee4d97'}
+2018-12-02 22:22:16,289 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=_pdvQb0D9H9_sD28EHVTHcVHXxD2D0OH62VuWa1gQ2Kr44JJhlJT!962196520!1543759838467 for 221.226.253.51/>]>
+2018-12-02 22:22:16,723 check_required_field.pyc[line:564] INFO 检查服务名称[公众气象预报和灾害性天气警报]
+2018-12-02 22:22:16,723 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:16,724 check_required_field.pyc[line:105] INFO 服务内容 is 通过广播、电视、报纸、气象网站、微信、微博及手机客户端统一发布公众气象预报、灾害性天气警报、气象灾害预警信号及防御指南。重大气象灾害发生时，通过广播、电视、手机短信及有关公共媒体等“绿色通道”快速发布重大气象灾害预警信号。
+制作发布江苏沿海及相关海域海洋气象预报，通过广播、电视、大功率电台等开展海洋气象预报预警服务。, type is text, value_range is 
+2018-12-02 22:22:16,724 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:16,724 check_required_field.pyc[line:105] INFO 服务领域 is 5, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:16,726 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:16,726 check_required_field.pyc[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 22:22:16,726 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:16,726 check_required_field.pyc[line:105] INFO 服务依据 is 《中华人民共和国气象法》
+第二十二条第二款　各级气象主管机构所属的气象台站应当按照职责向社会发布公众气象预报和灾害性天气警报，并根据天气变化情况及时补充或者订正。其他任何组织或者个人不得向社会发布公众气象预报和灾害性天气警报。
+《气象灾害预警信号发布与传播办法》
+第八条　各级气象主管机构所属的气象台站应当及时发布预警信号，并根据天气变化情况，及时更新或者解除预警信号，同时通报本级人民政府及有关部门、防灾减灾机构。
+当同时出现或者预报可能出现多种气象灾害时，可以按照相对应的标准同时发布多种预警信号。, type is text, value_range is 
+2018-12-02 22:22:16,726 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:16,727 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'43605e046df1428fb63c6d76f2ee4d97', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:16,727 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=_pdvQb0D9H9_sD28EHVTHcVHXxD2D0OH62VuWa1gQ2Kr44JJhlJT!962196520!1543759838467 for 221.226.253.51/>]>
+2018-12-02 22:22:17,127 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:17,128 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'40a3c554d0974316aafb34159370568c', u'idtlog': u'd591e111ace14be59e5e3a0dca016e2d'}
+2018-12-02 22:22:17,128 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=_pdvQb0D9H9_sD28EHVTHcVHXxD2D0OH62VuWa1gQ2Kr44JJhlJT!962196520!1543759838467 for 221.226.253.51/>]>
+2018-12-02 22:22:18,744 check_required_field.pyc[line:616] INFO 检查业务信息[公众气象预报和灾害性天气警报]
+2018-12-02 22:22:18,744 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:18,746 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市开发区普善社区前杨村西, type is text, value_range is 
+2018-12-02 22:22:18,746 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:18,746 check_required_field.pyc[line:105] INFO 工作时间 is 周一至周五夏季：上午8:30-11:30，下午15:00-18:00；冬季：上午8:30-11:30，下午14:00-17:00。, type is text, value_range is 
+2018-12-02 22:22:18,746 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:18,746 check_required_field.pyc[line:105] INFO 经办机构（处室） is 丹阳市气象台, type is text, value_range is 
+2018-12-02 22:22:18,746 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:18,747 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:18,747 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:18,747 check_required_field.pyc[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:18,747 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:18,749 check_required_field.pyc[line:105] INFO 业务名称 is 公众气象预报和灾害性天气警报, type is text, value_range is 
+2018-12-02 22:22:18,749 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:18,749 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市气象局, type is text, value_range is 
+2018-12-02 22:22:18,750 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:18,750 check_required_field.pyc[line:105] INFO 监督投诉方式 is 051186522018, type is text, value_range is 
+2018-12-02 22:22:18,750 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:18,750 check_required_field.pyc[line:105] INFO 咨询方式 is 051186534290, type is text, value_range is 
+2018-12-02 22:22:18,750 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:18,752 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'7cec3f8afd1a45fba1e7324c8ad3e6ce'}
+2018-12-02 22:22:18,752 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=_pdvQb0D9H9_sD28EHVTHcVHXxD2D0OH62VuWa1gQ2Kr44JJhlJT!962196520!1543759838467 for 221.226.253.51/>]>
+2018-12-02 22:22:19,095 check_required_field.pyc[line:564] INFO 检查服务名称[专业气象服务]
+2018-12-02 22:22:19,095 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:19,096 check_required_field.pyc[line:105] INFO 服务内容 is 通过气象网站向社会公众提供农业气象监测信息、气象为农服务产品、农业气象防灾减灾知识、农业气象灾害评估产品，为农民和涉农人员提供农业气象监测、预报、预警及评估信息。向农业管理部门、农技部门提供农业气象旬报、月报、年报等为农气象服务产品，开展作物关键发育期气象服务，作物产量气象预报，农业干旱监测预报，农业气象病虫害预测预报，农业气象灾害监测预警，生态质量气象评价，特色农业气象服务，农用天气预报，夏收夏种气象服务，秋收秋种气象服务。
+开展大气污染气象条件等级预报、雾霾预警预报，与环保部门联合开展空气质量预报；开展森林火险气象预报服务，发布森林火险气象等级预报，通过广播、电视、报纸及网站、微信、微博发布相关监测预报信息。, type is text, value_range is 
+2018-12-02 22:22:19,096 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:19,098 check_required_field.pyc[line:105] INFO 服务领域 is 5, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:19,101 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:19,104 check_required_field.pyc[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 22:22:19,105 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:19,108 check_required_field.pyc[line:105] INFO 服务依据 is 《中华人民共和国气象法》
+第二十三条  各级气象主管机构所属的气象台站应当根据需要，发布农业气象预报、城市环境气象预报、火险气象等级预报等专业气象预报，并配合军事气象部门进行国防建设所需的气象服务工作。, type is text, value_range is 
+2018-12-02 22:22:19,109 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:19,111 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'7cec3f8afd1a45fba1e7324c8ad3e6ce', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:19,115 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=_pdvQb0D9H9_sD28EHVTHcVHXxD2D0OH62VuWa1gQ2Kr44JJhlJT!962196520!1543759838467 for 221.226.253.51/>]>
+2018-12-02 22:22:19,694 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:19,697 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'fbb4dfa78b344927a115ec95a183209e', u'idtlog': u'f5e33cc6364a42f3883479fef3edcbf6'}
+2018-12-02 22:22:19,700 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=_pdvQb0D9H9_sD28EHVTHcVHXxD2D0OH62VuWa1gQ2Kr44JJhlJT!962196520!1543759838467 for 221.226.253.51/>]>
+2018-12-02 22:22:21,335 check_required_field.pyc[line:616] INFO 检查业务信息[专业气象服务]
+2018-12-02 22:22:21,335 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:21,335 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市开发区普善社区前杨村西, type is text, value_range is 
+2018-12-02 22:22:21,335 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:21,336 check_required_field.pyc[line:105] INFO 工作时间 is 周一到周五夏季：上午8:30-11:30，下午15:00-18:00；冬季：上午8:30-11:30，下午14:00-17:00。, type is text, value_range is 
+2018-12-02 22:22:21,336 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:21,336 check_required_field.pyc[line:105] INFO 经办机构（处室） is 丹阳市气象台, type is text, value_range is 
+2018-12-02 22:22:21,338 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:21,338 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:21,338 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:21,338 check_required_field.pyc[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:21,338 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:21,339 check_required_field.pyc[line:105] INFO 业务名称 is 专业气象服务, type is text, value_range is 
+2018-12-02 22:22:21,339 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:21,339 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市气象局, type is text, value_range is 
+2018-12-02 22:22:21,341 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:21,341 check_required_field.pyc[line:105] INFO 监督投诉方式 is 051186522018, type is text, value_range is 
+2018-12-02 22:22:21,341 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:21,342 check_required_field.pyc[line:105] INFO 咨询方式 is 051186534290, type is text, value_range is 
+2018-12-02 22:22:21,342 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlMain=true
+2018-12-02 22:22:21,342 check_required_field.pyc[line:46] INFO the post params is {u'idt': u'9d1b1bbc57494417b64a3bb85d13332e'}
+2018-12-02 22:22:21,342 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=_pdvQb0D9H9_sD28EHVTHcVHXxD2D0OH62VuWa1gQ2Kr44JJhlJT!962196520!1543759838467 for 221.226.253.51/>]>
+2018-12-02 22:22:21,871 check_required_field.pyc[line:564] INFO 检查服务名称[气象科普服务]
+2018-12-02 22:22:21,871 check_required_field.pyc[line:99] INFO 检查[服务内容]
+2018-12-02 22:22:21,872 check_required_field.pyc[line:105] INFO 服务内容 is “3·23”世界气象日、“5·12”防灾减灾日、“12﹒4”宪法日气象防灾减灾知识、天气气候常识、应对气候变化宣传等。, type is text, value_range is 
+2018-12-02 22:22:21,872 check_required_field.pyc[line:99] INFO 检查[服务领域]
+2018-12-02 22:22:21,875 check_required_field.pyc[line:105] INFO 服务领域 is 5, type is radio, value_range is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99
+2018-12-02 22:22:21,877 check_required_field.pyc[line:99] INFO 检查[服务方式]
+2018-12-02 22:22:21,880 check_required_field.pyc[line:105] INFO 服务方式 is 2, type is radio, value_range is 1,2
+2018-12-02 22:22:21,881 check_required_field.pyc[line:99] INFO 检查[服务依据]
+2018-12-02 22:22:21,884 check_required_field.pyc[line:105] INFO 服务依据 is 《中华人民共和国气象法》
+第七条  国家鼓励和支持气象科学技术研究、气象科学知识普及，培养气象人才，推广先进的气象科学技术，保护气象科技成果，加强国际气象合作与交流，发展气象信息产业，提高气象工作水平。, type is text, value_range is 
+2018-12-02 22:22:21,885 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findQlyw=true&start=aoData["iDisplayStart"]
+2018-12-02 22:22:21,887 check_required_field.pyc[line:46] INFO the post params is {u'sSortDir': u'', u'idt': u'9d1b1bbc57494417b64a3bb85d13332e', u'sEcho': u'1', u'limit': u'-1', u'iSortCol': u'', u'pageStart': u'1'}
+2018-12-02 22:22:21,888 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=_pdvQb0D9H9_sD28EHVTHcVHXxD2D0OH62VuWa1gQ2Kr44JJhlJT!962196520!1543759838467 for 221.226.253.51/>]>
+2018-12-02 22:22:22,319 check_required_field.pyc[line:45] INFO the post url is http://221.226.253.51:5065/onlineGovQl/PubServiceYwController.do?findServiseData=true
+2018-12-02 22:22:22,319 check_required_field.pyc[line:46] INFO the post params is {u'showTable': u'XK', u'idt': u'f94b8fafc5b84b309d0fc6a3362938bd', u'idtlog': u'3bfbe1db722442e882b8b2f1ce3d5f57'}
+2018-12-02 22:22:22,319 check_required_field.pyc[line:47] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=_pdvQb0D9H9_sD28EHVTHcVHXxD2D0OH62VuWa1gQ2Kr44JJhlJT!962196520!1543759838467 for 221.226.253.51/>]>
+2018-12-02 22:22:23,994 check_required_field.pyc[line:616] INFO 检查业务信息[气象科普服务]
+2018-12-02 22:22:23,994 check_required_field.pyc[line:99] INFO 检查[办理地点]
+2018-12-02 22:22:23,996 check_required_field.pyc[line:105] INFO 办理地点 is 丹阳市开发区普善社区前杨村西, type is text, value_range is 
+2018-12-02 22:22:23,996 check_required_field.pyc[line:99] INFO 检查[工作时间]
+2018-12-02 22:22:23,996 check_required_field.pyc[line:105] INFO 工作时间 is 周一到周五夏季：上午8:30-11:30，下午15:00-18:00；冬季：上午8:30-11:30，下午14:00-17:00。, type is text, value_range is 
+2018-12-02 22:22:23,996 check_required_field.pyc[line:99] INFO 检查[经办机构（处室）]
+2018-12-02 22:22:23,996 check_required_field.pyc[line:105] INFO 经办机构（处室） is 丹阳市气象台, type is text, value_range is 
+2018-12-02 22:22:23,997 check_required_field.pyc[line:99] INFO 检查[数量限制]
+2018-12-02 22:22:23,997 check_required_field.pyc[line:105] INFO 数量限制 is 1, type is radio, value_range is 1,2
+2018-12-02 22:22:23,997 check_required_field.pyc[line:99] INFO 检查[服务对象]
+2018-12-02 22:22:23,999 check_required_field.pyc[line:105] INFO 服务对象 is 1,2,3, type is checkbox, value_range is 1,2,3
+2018-12-02 22:22:23,999 check_required_field.pyc[line:99] INFO 检查[业务名称]
+2018-12-02 22:22:23,999 check_required_field.pyc[line:105] INFO 业务名称 is 气象科普服务, type is text, value_range is 
+2018-12-02 22:22:24,000 check_required_field.pyc[line:99] INFO 检查[承办机构]
+2018-12-02 22:22:24,000 check_required_field.pyc[line:105] INFO 承办机构 is 丹阳市气象局, type is text, value_range is 
+2018-12-02 22:22:24,000 check_required_field.pyc[line:99] INFO 检查[监督投诉方式]
+2018-12-02 22:22:24,000 check_required_field.pyc[line:105] INFO 监督投诉方式 is 051186522018, type is text, value_range is 
+2018-12-02 22:22:24,000 check_required_field.pyc[line:99] INFO 检查[咨询方式]
+2018-12-02 22:22:24,002 check_required_field.pyc[line:105] INFO 咨询方式 is 051186534290, type is text, value_range is 
+2018-12-02 22:22:24,002 check_required_field.pyc[line:643] INFO []
+2018-12-02 22:22:24,003 check_required_field.pyc[line:63] INFO the get url is http://221.226.253.51:5065/onlineGovQl/j_spring_security_logout
+2018-12-02 22:22:24,003 check_required_field.pyc[line:64] INFO the cookies is <RequestsCookieJar[<Cookie JSESSIONID_WORKSPACE=_pdvQb0D9H9_sD28EHVTHcVHXxD2D0OH62VuWa1gQ2Kr44JJhlJT!962196520!1543759838467 for 221.226.253.51/>]>
