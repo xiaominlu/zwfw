@@ -85,7 +85,8 @@ class MainFrame(wx.Frame):
 
     def __open_file(self, event):
         filesFilter = "txt (*.txt)|*.txt||"
-        fileDialog = wx.FileDialog(self, message=u'选择文件', defaultDir=os.getcwd(), wildcard=filesFilter, style=wx.FD_OPEN)
+        fileDialog = wx.FileDialog(self, message=u'选择文件', defaultDir=os.getcwdu(), wildcard=filesFilter,
+                                   style=wx.FD_OPEN)
         dialogResult = fileDialog.ShowModal()
         if dialogResult != wx.ID_OK:
             return

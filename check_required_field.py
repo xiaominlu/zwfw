@@ -7,6 +7,7 @@ import jsonpath
 from openpyxl import Workbook
 import threading
 
+
 # logging.basicConfig(level=logging.INFO,
 #                     format=u'%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
 #                     datefmt=u'%a, %d %b %Y %H:%M:%S',
@@ -102,7 +103,7 @@ class RequireItem:
             return False
         actual_data = actual_data[0]
         self.logger.info(u'%s is %s, type is %s, value_range is %s' % (
-        self.name, actual_data, self.input_type, self.range_of_values))
+            self.name, actual_data, self.input_type, self.range_of_values))
         if actual_data is None or len(actual_data.strip()) == 0:
             return False
         actual_data = actual_data.strip()
@@ -124,7 +125,6 @@ class HttpManager:
         self.base_url = u'http://%s:%s' % (ip, port)
         self.http_client = HttpClient()
         self.logger = logging.getLogger(threading.currentThread().getName())
-
 
     def login(self, username, password):
         '''
@@ -323,6 +323,8 @@ class HttpManager:
                             u'LIMIT_NUM': RequireItem(u'数量限制', u'$.LIMIT_NUM.id', u'radio', u'1,2'),
                             u'YW_QL_OBJECT': RequireItem(u'行政相对人性质', u'$.YW_QL_OBJECT', u'checkbox', u'1,2,3'),
                             u'IF_PROJECT_EXAM': RequireItem(u'是否涉及投资项目审批', u'$.IF_PROJECT_EXAM.id', u'radio', u'0,1'),
+                            u'SPECIALPROCEDURE': RequireItem(u'特别程序', u'$.SPECIALPROCEDURE', u'text', u''),
+                            u'HANDLETYPE': RequireItem(u'办理形式', u'$.HANDLETYPE', u'checkbox', u'1,2,3'),
                             u'TRANSACT_URL': RequireItem(u'网上办理链接', u'$.TRANSACT_URL', u'text', u''),
                             u'TRANSACT_ADDR': RequireItem(u'办公地址', u'$.TRANSACT_ADDR', u'text', u''),
                             u'TRANSACT_TIME': RequireItem(u'办公时间', u'$.TRANSACT_TIME', u'text', u''),
@@ -332,13 +334,15 @@ class HttpManager:
                             u'SUPERVISE_TEL': RequireItem(u'监督投诉渠道', u'$.SUPERVISE_TEL', u'text', u'')
                             }
                 ywxx_material_map = {u'DOCUMENT_NAME': RequireItem(u'材料名称', u'$.DOCUMENT_NAME', u'text', u''),
-                                     u'IF_NEED': RequireItem(u'材料是否必须', u'$.IF_NEED', u'radio', u'true,false'),
-                                     u'IF_EC_PAGE': RequireItem(u'是否需要电子版', u'$.IF_EC_PAGE', u'radio', u'0,1')}
+                                     u'IF_NEED': RequireItem(u'材料必要性', u'$.IF_NEED', u'radio', u'true,false,3,fasle')}
                 ywxx_question_map = {u'QUESTION': RequireItem(u'常见问题', u'$.QUESTION', u'text', u''),
                                      u'ANSWER': RequireItem(u'常见问题回答', u'$.ANSWER', u'text', u'')}
                 ywxx_charge_map = {u'CHARGEITEM_NAME': RequireItem(u'收费项目', u'$.CHARGEITEM_NAME', u'text', u''),
                                    u'CHARGEITEM_LAW': RequireItem(u'收费依据', u'$.CHARGEITEM_LAW', u'text', u''),
                                    u'CHARGEITEM_STAND': RequireItem(u'收费标准', u'$.CHARGEITEM_STAND', u'text', u'')}
+                ywxx_flow_chart_map = {u'fileName': RequireItem(u'流程图', u'$.fileName', u'text', u'')}
+                ywxx_result_sample_map = {
+                    u'RESULTTYPE': RequireItem(u'审批结果类型', u'$.RESULTTYPE', u'checkbox', u'10,20,30,99')}
                 ywxx_standard_map = {}
             elif item[u'QL_KIND'] == u'2':
                 ywxx_map = {u'YW_NAME': RequireItem(u'业务名称', u'$.YW_NAME', u'text', u''),
@@ -356,6 +360,8 @@ class HttpManager:
                 ywxx_question_map = {u'QUESTION': RequireItem(u'常见问题', u'$.QUESTION', u'text', u''),
                                      u'ANSWER': RequireItem(u'常见问题回答', u'$.ANSWER', u'text', u'')}
                 ywxx_charge_map = {}
+                ywxx_flow_chart_map = {u'fileName': RequireItem(u'流程图', u'$.fileName', u'text', u'')}
+                ywxx_result_sample_map = {}
                 ywxx_standard_map = {u'STA_ILLEGALITY': RequireItem(u'违法程度', u'$.STA_ILLEGALITY', u'text', u''),
                                      u'STA_PUBLISHCLASS': RequireItem(u'处罚种类', u'$.STA_PUBLISHCLASS', u'text', u''),
                                      u'STA_PUBLISHLAW': RequireItem(u'处罚措施', u'$.STA_PUBLISHLAW', u'text', u'')}
@@ -374,6 +380,8 @@ class HttpManager:
                 ywxx_material_map = {}
                 ywxx_question_map = {u'QUESTION': RequireItem(u'常见问题', u'$.QUESTION', u'text', u''),
                                      u'ANSWER': RequireItem(u'常见问题回答', u'$.ANSWER', u'text', u'')}
+                ywxx_flow_chart_map = {}
+                ywxx_result_sample_map = {}
                 ywxx_charge_map = {}
                 ywxx_standard_map = {}
             elif item[u'QL_KIND'] in [u'4', u'5', u'6', u'7', u'8', u'10']:
@@ -398,13 +406,14 @@ class HttpManager:
                             u'SUPERVISE_TEL': RequireItem(u'监督投诉渠道', u'$.SUPERVISE_TEL', u'text', u'')
                             }
                 ywxx_material_map = {u'DOCUMENT_NAME': RequireItem(u'材料名称', u'$.DOCUMENT_NAME', u'text', u''),
-                                     u'IF_NEED': RequireItem(u'材料是否必须', u'$.IF_NEED', u'radio', u'true,false'),
-                                     u'IF_EC_PAGE': RequireItem(u'是否需要电子版', u'$.IF_EC_PAGE', u'radio', u'0,1')}
+                                     u'IF_NEED': RequireItem(u'材料必要性', u'$.IF_NEED', u'radio', u'true,false,3,fasle')}
                 ywxx_question_map = {u'QUESTION': RequireItem(u'常见问题', u'$.QUESTION', u'text', u''),
                                      u'ANSWER': RequireItem(u'常见问题回答', u'$.ANSWER', u'text', u'')}
                 ywxx_charge_map = {u'CHARGEITEM_NAME': RequireItem(u'收费项目', u'$.CHARGEITEM_NAME', u'text', u''),
                                    u'CHARGEITEM_LAW': RequireItem(u'收费依据', u'$.CHARGEITEM_LAW', u'text', u''),
                                    u'CHARGEITEM_STAND': RequireItem(u'收费标准', u'$.CHARGEITEM_STAND', u'text', u'')}
+                ywxx_flow_chart_map = {}
+                ywxx_result_sample_map = {}
                 ywxx_standard_map = {}
 
             for ywxx in ywxxs_json[u'items']:
@@ -419,19 +428,34 @@ class HttpManager:
                 for material_item in ywxx_detail_json[u'material']:
                     for key, require_item in ywxx_material_map.iteritems():
                         if not require_item.verify(material_item):
-                            errors.append(u'第[%s]条材料的[%s]不正确' % (material_item[u'ORD'], require_item.name))
+                            errors.append(u'业务名称的[%s]的第[%s]条材料的[%s]不正确' % (ywxx_detail_json[u'YW_NAME'],
+                                                                           material_item[u'ORD'], require_item.name))
                 for question_item in ywxx_detail_json[u'network_BN_QUESTION_BY_ANSWER']:
                     for key, require_item in ywxx_question_map.iteritems():
                         if not require_item.verify(question_item):
-                            errors.append(u'第[%s]条常见问题的[%s]不正确' % (question_item[u'ORD'], require_item.name))
+                            errors.append(u'业务名称[%s]的第[%s]条常见问题的[%s]不正确' % (ywxx_detail_json[u'YW_NAME'],
+                                                                            question_item[u'ORD'], require_item.name))
                 for charge_item in ywxx_detail_json[u'network_BN_CHARGEITEM_INF']:
                     for key, require_item in ywxx_charge_map.iteritems():
                         if not require_item.verify(charge_item):
-                            errors.append(u'第[%s]条收费项目的[%s]不正确' % (charge_item[u'ORD'], require_item.name))
+                            errors.append(u'业务名称[%s]的第[%s]条收费项目的[%s]不正确' % (ywxx_detail_json[u'YW_NAME'], charge_item[
+                                u'ORD'], require_item.name))
                 for standard_item in ywxx_detail_json[u'network_BN_STANDARD_INF']:
                     for key, require_item in ywxx_standard_map.iteritems():
                         if not require_item.verify(standard_item):
-                            errors.append(u'第[%s]条自由裁量标准的[%s]不正确' % (standard_item[u'ORD'], require_item.name))
+                            errors.append(u'业务名称[%s]的第[%s]条自由裁量标准的[%s]不正确' % (ywxx_detail_json[
+                                                                                  u'YW_NAME'], standard_item[u'ORD'],
+                                                                              require_item.name))
+                for flow_chart_item in ywxx_detail_json[u'pro_flow_chart']:
+                    for key, require_item in ywxx_flow_chart_map.iteritems():
+                        if not require_item.verify(flow_chart_item):
+                            errors.append(u'业务名称[%s]的申请材料目录或流程图下的[%s]不正确' % (ywxx_detail_json[
+                                                                       u'YW_NAME'], require_item.name))
+                for result_sample_item in ywxx_detail_json[u'result_sample']:
+                    for key, require_item in ywxx_result_sample_map.iteritems():
+                        if not require_item.verify(result_sample_item):
+                            errors.append(u'业务名称[%s]的申请材料目录下的[%s]不正确' % (ywxx_detail_json[
+                                                                       u'YW_NAME'], require_item.name))
             if errors:
                 error_item = {u'name': item[u'QL_NAME'], u'id': item[u'DEPT_QL_REG_NO'], u'errors': errors}
                 error_list.append(error_item)
@@ -599,8 +623,7 @@ class HttpManager:
                             u'LINK_TEL': RequireItem(u'咨询方式', u'$.LINK_TEL', u'text', u''),
                             u'SUPERVISE_TEL': RequireItem(u'监督投诉方式', u'$.SUPERVISE_TEL', u'text', u'')}
                 ywxx_material_map = {u'DOCUMENT_NAME': RequireItem(u'材料名称', u'$.DOCUMENT_NAME', u'text', u''),
-                                     u'IF_NEED': RequireItem(u'材料是否必须', u'$.IF_NEED', u'radio', u'true,false'),
-                                     u'IF_EC_PAGE': RequireItem(u'是否需要电子版', u'$.IF_EC_PAGE', u'radio', u'0,1')}
+                                     u'IF_NEED': RequireItem(u'材料必要性', u'$.IF_NEED', u'radio', u'true,false,3,fasle')}
                 ywxx_question_map = {u'QUESTION': RequireItem(u'常见问题', u'$.QUESTION', u'text', u''),
                                      u'ANSWER': RequireItem(u'常见问题回答', u'$.ANSWER', u'text', u'')}
                 ywxx_charge_map = {u'CHARGEITEM_NAME': RequireItem(u'收费项目', u'$.CHARGEITEM_NAME', u'text', u''),
@@ -692,6 +715,7 @@ class HttpManager:
                 return 1
         return 0
 
+
 if __name__ == u'__main__':
     logger = logging.getLogger(threading.currentThread().getName())
     file_handler = logging.FileHandler(u'logs/%s.log' % threading.currentThread().getName())
@@ -700,11 +724,9 @@ if __name__ == u'__main__':
     logger.addHandler(file_handler)
     logger.setLevel(logging.INFO)
     http_manager = HttpManager(u'221.226.253.51', u'5065')
-    with open(u'username.txt') as fd:
-        lines = fd.readlines()
-    for line in lines:
-        line = line.strip()
-        username, password = line.split(u',')
-        http_manager.check(username, password, 2)
-
-
+    # with open(u'username.txt') as fd:
+    #     lines = fd.readlines()
+    # for line in lines:
+    #     line = line.strip()
+    #     username, password = line.split(u',')
+    http_manager.check(u'A1096_LR', u'123456', 1)
